@@ -92,7 +92,7 @@ brew install mason
 とコマンドを実行しましょう。
 以下の画像のようにヘルプが現れたら、無事Mason のインストールは完了です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.03.48.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.03.48.png" alt="" width="300">
 
 ### Mason での初めてのコード生成
 
@@ -107,11 +107,11 @@ mason init
 
 すると以下の画像のようにMasonで使用するファイルが自動生成されます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.05.49.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.05.49.png" alt="" width="300">
 
 mason.yaml を見ると、hello というファイルが登録されていることがわかります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/20220624_mason_init-1024x709.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/20220624_mason_init-1024x709.png" alt="" width="300">
 
 続いて、以下のコマンドで、
 mason.yaml に登録されているテンプレート(bricks)をすべて取得します。
@@ -134,7 +134,7 @@ mason make hello
 
 すると、以下の画像のようにフォルダ内にHELLO.md が自動生成されます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.19.27.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.19.27.png" alt="" width="300">
 
 `mason make <<テンプレートの名前>> -o <<フォルダのパス>>`
 
@@ -147,7 +147,7 @@ mason make hello
 
 テンプレートを保存するフォルダとしてbricksフォルダを新規作成し、ターミナルで移動します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.38.29.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.38.29.png" alt="" width="300">
 
 以下のコマンドを打ち、my_stateless_widget という名前のテンプレートを作成します。
 
@@ -159,7 +159,7 @@ mason new ~ のコマンドが、新規テンプレート作成のコマンド�
 
 すると、以下の画像のようにファイルが追加されます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-19.01.16.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-19.01.16.png" alt="" width="300">
 
 重要なファイルだけ解説します。
 
@@ -168,7 +168,7 @@ mason new ~ のコマンドが、新規テンプレート作成のコマンド�
 
 早速brick.yaml を見てみましょう。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/20220624_mason_brick_yaml-992x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/20220624_mason_brick_yaml-992x1024.png" alt="" width="300">
 
 ポイントは23行目 ~ 28行目のvars です。
 
@@ -225,7 +225,7 @@ mason add -g my_stateless_widget --path my_stateless_widget
 任意のフォルダで、`mason make my_stateless_widget` を実行してみて下さい。
 名前の入力後、入力された名前の`StatelessWidget`が生成されれば成功です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-20.24.36-1024x745.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-20.24.36-1024x745.png" alt="" width="300">
 
 以上が基本的な使い方となります！
 
@@ -256,7 +256,7 @@ mason_sample という単語が使われているファイルを検索します�
 検索して出てきたファイルに対し、
 適宜シンタックスを使いながらmason_sampleという単語を`{{name}}`に書き換えていきます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-20.45.29-1024x716.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-20.45.29-1024x716.png" alt="" width="300">
 
 gitignore されるファイルは対応不要です。
 
@@ -286,12 +286,12 @@ mason make my_flutter_template
 
 入力が終わると、、、
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-22.22.23-1024x932.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-22.22.23-1024x932.png" alt="" width="300">
 
 ファイルが生成されました！
 `flutter pub get` をすれば、自由にFlutterプロジェクトとして扱えます！
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-22.18.05-1024x852.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-22.18.05-1024x852.png" alt="" width="300">
 
 今回作成したテンプレートはこの章で紹介した、`mason add ~ `のコマンドを実行すれば、
 誰でも実行可能となります。

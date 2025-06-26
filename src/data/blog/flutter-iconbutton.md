@@ -91,7 +91,7 @@ Material 3では標準とcontainedの2種類のボタンが存在します。
 
 下記画像で、一番上が標準、下3つがcontainedです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/スクリーンショット-2022-09-07-8.38.00.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/09/スクリーンショット-2022-09-07-8.38.00.png" alt="" width="300">
 
 containedの`IconButton`を実装するために設定するのが、
 `style`プロパティです。

@@ -32,7 +32,7 @@ VS code の拡張機能である、**[Flutter Riverpod Snippets](https://marketp
 Visual Studio Code のExtensions の検索バーにて、
 **"Flutter Riverpod Snippets"**を検索します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-13-17.14.55-1024x562.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-13-17.14.55-1024x562.png" alt="" width="300">
 
 検索して出てきたFlutter Riverpod Snippetsを選択します。
 

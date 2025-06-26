@@ -21,7 +21,7 @@ Flutter大学にどんな知見が集まっているかわかる記事となっ�
 
 ## Flutter大学の共同勉強会って？
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg" alt="" width="300">
 
 Flutter大学の共同勉強会について解説します。
 
@@ -64,7 +64,7 @@ https://flutteruniv.com/
 
 ## 4月の勉強会の紹介
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg" alt="" width="300">
 
 4月は全3回の勉強会が開催されました。
 
@@ -122,7 +122,7 @@ MetaMaskと連携したアプリケーションの作成方法についても実
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg" alt="" width="300">
 
 本記事では2022年4月に行われた全3回の共同勉強会の概要をそれぞれお伝えしました。
 

@@ -213,7 +213,7 @@ https://blog.flutteruniv.com/flutter-build-environment-m2/
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg" alt="" width="300">
 
 本記事ではFlutterニュースとして、
 2022年8月第1週に話題になったFlutter関連の情報や、

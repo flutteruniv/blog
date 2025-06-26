@@ -24,7 +24,7 @@ Flutter大学の生の声が聞ける記事となっています、ぜひ読ん�
 
 ## 共同開発 とは
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg" alt="" width="300">
 
 Flutter大学の共同開発について解説します。
 
@@ -73,7 +73,7 @@ Flutter大学メンバーはこのプレゼンを見て投票を行い、
 
 ## 第7期共同開発について
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg" alt="" width="300">
 
 少しでもあなたに共同開発についてイメージを掴んでもらうため、
 現在最終発表に向けてラストスパートをかけている第7期の共同開発について、
@@ -130,7 +130,7 @@ https://www.youtube.com/channel/UCReuARgZI-BFjioA8KBpjsw/featured
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting4-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting4-1024x683.jpeg" alt="" width="300">
 
 本記事では、Flutter大学の重要なコンテンツである、共同開発について解説しました。
 

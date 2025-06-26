@@ -30,7 +30,7 @@ Flutterで検索すると出てくる Flutter大学とは  、一体何なんだ
 
 ## Flutter大学とは ？
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg" alt="" width="300">
 
 Flutter大学とは、**Flutterエンジニアに特化した学習コミュニティ**です。
 
@@ -82,7 +82,7 @@ Flutterを勉強する人のための、オンラインの学習コミュニテ�
 
 ## Flutter大学のコンテンツ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg" alt="" width="300">
 
 Flutter大学には効率良く学習するため、一緒に学習していることを実感するために、
 様々なコンテンツが用意されています。
@@ -212,7 +212,7 @@ Flutter大学でコミュニケーションを始めるきっかけとなる、�
 
 料金プランと、利用できるコンテンツは以下のようになっています。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/スクリーンショット-2022-09-06-19.11.27-1024x815.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/09/スクリーンショット-2022-09-06-19.11.27-1024x815.png" alt="" width="300">
 
 イメージとしてはトレーニングジムが近いと思います。
 それぞれのプランを見ていきます。
@@ -243,7 +243,7 @@ Flutter大学の雰囲気を味わってみたい、という方向けのプラ�
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg" alt="" width="300">
 
 本記事では、Flutterエンジニアに特化した学習コミュニティ、Flutter大学について解説しました。
 用意されている様々なコンテンツについて、詳しく解説していきました。

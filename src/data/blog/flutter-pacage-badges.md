@@ -19,7 +19,7 @@ Stackでやってもいいけれど、面倒だわ！
 上記のような疑問や悩みに答えてくれるパッケージこそが badgesです。
 以下のようなUIが簡単に作成可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27.png" alt="" width="300">
 
 基本的な使い方から、詳細設定まで解説します。
 本記事さえ読めばbadgesを使いこなせること、間違いなしです！
@@ -34,7 +34,7 @@ badgesパッケージの基本的な使い方を紹介します。
 
 以下の画像のようなUIを作成してみましょう。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27-1.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27-1.png" alt="" width="300">
 
 ### パッケージのインストール
 
@@ -76,7 +76,7 @@ Badge(
 ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27-2.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27-2.png" alt="" width="300">
 
 基本的な使い方は以上となります。
 とても簡単に実装できますね。
@@ -108,7 +108,7 @@ badgesパッケージを使う利点は豊富な詳細設定にあります。
 
 左下に配置した例 ：
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.05.02.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.05.02.png" alt="" width="300">
 
 ```
 Badge(
@@ -125,7 +125,7 @@ Badge(
 また、`alignment` プロパティにて、
 `Badge` Widgetの親Widgetに対する子Widgetの位置を調整することが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.11.58.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.11.58.png" alt="" width="300">
 
 ```
 Container(
@@ -170,7 +170,7 @@ Container(
 
 バッジ色を青色、角丸の長方形、枠線付きの例：
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.48.36.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.48.36.png" alt="" width="300">
 
 ```
 Badge(
@@ -191,7 +191,7 @@ Badge(
 
 バッジ色を青色から赤色のグラデーション、長方形の例：
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.19.59.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.19.59.png" alt="" width="300">
 
 ```
 Badge(
@@ -214,7 +214,7 @@ Badge(
 
 余白0を設定した例
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.36.02.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.36.02.png" alt="" width="300">
 
 ```
 Badge(
@@ -262,7 +262,7 @@ https://pub.dev/packages/badges
 
 `elevation` `0`の例：
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.07.03.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.07.03.png" alt="" width="300">
 
 #### バッジのタップ判定
 

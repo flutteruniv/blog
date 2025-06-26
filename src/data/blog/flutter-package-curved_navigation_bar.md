@@ -179,7 +179,7 @@ CurvedNavigationBar(
       ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-21-18.11.39.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-21-18.11.39.png" alt="" width="300">
 
 ### 高さの設定
 

@@ -32,7 +32,7 @@ Skeleton テンプレートについて、徹底解説します。
 Skeletonテンプレートとは、Flutter v2.5によって追加されたFlutterのテンプレートです。
 リストビューとアイテムの詳細ページ、設定ページが用意されています。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_スクリーンショット1.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_スクリーンショット1.png" alt="" width="300">
 
 設定ページでテーマを選択することで、アプリ全体をダークモードにすることが可能です。
 
@@ -63,7 +63,7 @@ flutter create -t skeleton skeleton_sample
 
 Flutter関連部分は以下のようなフォルダ構成でテンプレートが作成されているはずです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/22020316_フォルダ構成-711x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/22020316_フォルダ構成-711x1024.png" alt="" width="300">
 
 最初はコマンドラインからのアプリ作成は慣れないかもしれませんが、
 慣れてしまえばとても簡単に作成できます。
@@ -184,7 +184,7 @@ onGenerateTitle: (BuildContext context) =>
 アプリをchromeで開いてみてください。
 chromeのタブ部分のアプリタイトルが「skeletonサンプル」と日本語に変わっていれば成功です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_日本語化-959x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_日本語化-959x1024.png" alt="" width="300">
 
 chromeの設定→詳細設定→言語で言語を英語に変えると、「skeleton_sample」と英語になるのが確認できます。
 

@@ -259,7 +259,7 @@ https://blog.flutteruniv.com/flutteruniversity-study-meeting-202203/
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg" alt="" width="300">
 
 本記事ではFlutterニュースとして、
 2022年4月第2週に話題になったFlutter関連の情報や、

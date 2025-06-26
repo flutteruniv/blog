@@ -306,7 +306,7 @@ NavigationRail(
           ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.03.12-824x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.03.12-824x1024.png" alt="" width="300">
 
 #### エレベーション
 
@@ -320,7 +320,7 @@ NavigationRail(
           ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.37.36-824x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.37.36-824x1024.png" alt="" width="300">
 
 `Row`で`Widget`を並べている場合は`Elevation`での影が反映されません。
 `Row`でなく`Stack`で重ねる、
@@ -339,7 +339,7 @@ NavigationRail(
           ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.57.13-870x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.57.13-870x1024.png" alt="" width="300">
 
 #### 表示位置
 
@@ -354,7 +354,7 @@ NavigationRail(
           ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.00.02-864x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.00.02-864x1024.png" alt="" width="300">
 
 #### アイコン上下へのWidget の追加
 
@@ -370,7 +370,7 @@ NavigationRail(
           ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.05.05-872x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.05.05-872x1024.png" alt="" width="300">
 
 #### インディケーターの表示、色の設定
 
@@ -387,7 +387,7 @@ NavigationRail(
           ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.11.07-876x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.11.07-876x1024.png" alt="" width="300">
 
 ### アイコンとラベル関連
 
@@ -404,7 +404,7 @@ NavigationRail(
           ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.13.58-864x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.13.58-864x1024.png" alt="" width="300">
 
 #### アイコン下へのラベルの表示
 
@@ -420,7 +420,7 @@ NavigationRail(
           ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.26.20-867x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.26.20-867x1024.png" alt="" width="300">
 
 #### アイコンとラベルのテーマ
 
@@ -440,7 +440,7 @@ NavigationRail(
           ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.32.32-866x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.32.32-866x1024.png" alt="" width="300">
 
 ## まとめ
 

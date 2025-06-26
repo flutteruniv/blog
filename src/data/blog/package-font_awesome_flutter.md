@@ -22,7 +22,7 @@ Material Icon にないアイコンを使用可能にするパッケージ、
 簡単に、様々なアイコンを実装可能です。
 例えば以下のようにTwitterのアイコンも実装できます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.42.57-508x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.42.57-508x1024.png" alt="" width="300">
 
 ぜひ本記事を読んで使い方を学んでみてください！
 
@@ -70,7 +70,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 FaIcon(FontAwesomeIcons.solidAddressBook),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.37.50.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.37.50.png" alt="" width="300">
 
 ### 色と大きさの設定
 
@@ -85,7 +85,7 @@ FaIcon(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.40.12.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.40.12.png" alt="" width="300">
 
 ## まとめ
 

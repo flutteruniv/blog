@@ -25,7 +25,7 @@ Flutter大学で毎月開催されている、個人開発発表会について�
 
 ## 個人開発発表会とは？
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting4-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting4-1024x683.jpeg" alt="" width="300">
 
 個人開発発表会とは、
 Flutter大学のメンバーが行っている個人開発について、

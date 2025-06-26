@@ -80,7 +80,7 @@ startプロジェクトの`main.dart` (DartPadの場合は表示されている�
 
 各`Widget`とUIの関係性は次の図の通りです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220401_architecture-964x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220401_architecture-964x1024.png" alt="" width="300">
 
 コードを見ると、
 `Game`が`Board`を呼び出し、`Board`が`GridView`で`Square`を9つ並べているのが分かると思います。
@@ -214,7 +214,7 @@ Mac端末でVScodeの場合は、赤線にカーソルを合わせ、"⌘ + . " 
 
 /
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220401_value-1024x534.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220401_value-1024x534.png" alt="" width="300">
 
 できましたでしょうか？
 
@@ -374,7 +374,7 @@ class _SquareState extends State {
 親Widget(`Board`)が９つのマス目の値の情報を状態として持ち、
 子Widget(`Square`)に渡して表示します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220401_squares-1024x753.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220401_squares-1024x753.png" alt="" width="300">
 
 親が9つのマス目の値の情報を持つことで、これを精査すれば勝敗を決めることができます。
 

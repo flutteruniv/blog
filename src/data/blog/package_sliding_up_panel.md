@@ -130,7 +130,7 @@ SlidingUpPanel(
       ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.25.15-511x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.25.15-511x1024.png" alt="" width="300">
 
 `collapsed`に何も設定しない場合、
 `pannel`に設定したウィジェットの最上部部分が表示されます。
@@ -155,7 +155,7 @@ SlidingUpPanel(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.33.48.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.33.48.png" alt="" width="300">
 
 ### 枠線
 
@@ -178,7 +178,7 @@ SlidingUpPanel(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.51.21-516x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.51.21-516x1024.png" alt="" width="300">
 
 また、`borderRadius`プロパティにて、パネルの角を角丸にすることが可能です。
 
@@ -197,7 +197,7 @@ SlidingUpPanel(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.53.20-510x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.53.20-510x1024.png" alt="" width="300">
 
 現状、border とborderRaidus の同時設定はできない模様です。
 
@@ -217,7 +217,7 @@ SlidingUpPanel(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.55.50-507x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.55.50-507x1024.png" alt="" width="300">
 
 他にもさまざまなカスタマイズが可能です！
 詳しくは、[こちら](https://pub.dev/packages/sliding_up_panel#custom-usage)をご確認ください。

@@ -15,7 +15,7 @@ Flutterを扱っている企業さんにインタビューし、日本のFlutter
 
 ## ストリクトシステムズ株式会社とは
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-03-17.37.39-1024x407.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-03-17.37.39-1024x407.png" alt="" width="300">
 
 ストリクトシステムズさんは2007年12月創業。現在は、東京と沖縄にオフィスがあり、受託開発を中心に行なっています。
 
@@ -23,9 +23,9 @@ Flutterを扱っている企業さんにインタビューし、日本のFlutter
 
 ## NativeScriptからFlutterへシフト
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/nativeScript.001-1024x576.jpeg)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/nativeScript.001-1024x576.jpeg" alt="" width="300">
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 本日はよろしくお願いします！
 
 ストリクトシステムズさんは、アプリ開発案件をたくさん行なっているんですか？
@@ -33,7 +33,7 @@ Flutterを扱っている企業さんにインタビューし、日本のFlutter
 ![松堂さん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)松堂さん
 もともとスマホアプリ開発はあまりやってなくて、2年ほど前から行うようになりました。Webのエンジニアが多かったため、最初はReact NativeやNativeScriptなどを検討し、結局NativeScriptでアプリ開発していました。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 **NativeScript！？**
 
 恥ずかしながら初めて聞きました！
@@ -43,7 +43,7 @@ Flutterを扱っている企業さんにインタビューし、日本のFlutter
 
 日本国内では使っている人が少ないのもあって情報が少ない状況で、エンジニア採用も困難でしたね。。それにNativeScriptはそれほど速度的パフォーマンスが良くないという課題もありました。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 たしかに、使っている人が少ない言語は採用が大変ですよね。。！
 
 **そこからどのようにFlutterにたどり着いたんですか？**
@@ -53,7 +53,7 @@ NativeScriptのバージョンアップタイミングで、別の技術も含�
 
 ****そのタイミングでエンジニアの**ナガサキさんがFlutter経験があったということもあり、Flutterで開発したところ、うまくいったのでFlutterを採用することになったという流れです。**
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 ナガサキさんファインプレーですね！
 
 ## どんなFlutterアプリを作っている？
@@ -62,7 +62,7 @@ NativeScriptのバージョンアップタイミングで、別の技術も含�
 
 次に、どんなFlutterアプリを開発しているのか聞いてみました。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 最近リリースしたFlutterアプリってありますか？
 
 ![松堂さん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)松堂さん
@@ -72,7 +72,7 @@ NativeScriptのバージョンアップタイミングで、別の技術も含�
 
 実は、この1年で**5本のFlutterアプリ**をリリースしました。改修等を含めると**8本以上**は保守しています。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 8本も！？
 
 どうしてそんなにたくさんのアプリを同時に開発できるんですか？
@@ -82,7 +82,7 @@ NativeScriptのバージョンアップタイミングで、別の技術も含�
 
 そこを、うまく共通化して再利用しています。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 なるほど！共通のウィジェットは使いまわして効率よく開発しているということですね！
 
 ## Flutterエンジニアは〇〇人
@@ -91,13 +91,13 @@ NativeScriptのバージョンアップタイミングで、別の技術も含�
 
 次に、エンジニア構成について聞いてみました。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 何系のエンジニアさんが多いんですか？
 
 ![松堂さん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)松堂さん
 代表の私がもともとサーバーサイドエンジニアということもあり、社内のほとんどのエンジニアがサーバーサイドエンジニアです。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 サーバーサイドの方が多いんですね！
 
 ちなみにFlutterエンジニアは何人いるんですか？
@@ -111,13 +111,13 @@ Flutterエンジニアは3人のチームです。少人数ではありますが
 
 次に、採用について聞いてみました。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 今ってFlutterエンジニアは募集されてますか？
 
 ![松堂さん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)松堂さん
 現状(2022年9月現在)積極的にFlutterエンジニア採用しているわけではなくて、しばらくは今の3人チームでやっていこうと思っています。ただ、今後案件が増えることもあると思うので、そのときは必要に応じて募集をかけていくつもりです！
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 ありがとうございます！
 
 ちなみに参考までにFlutterエンジニアを採用するならどのような人材に来てほしいですか？
@@ -125,7 +125,7 @@ Flutterエンジニアは3人のチームです。少人数ではありますが
 ![松堂さん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)松堂さん
 現状、業務委託で手伝ってくれているメンバーにiOS/Androidのネイティブに長けたエンジニアさんがいるのですが、その方みたいにネイティブ経験があると助かるなというのがあります。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 たしかにiOS/Androidのネイティブ経験があるとありがたいですよね。。！
 
 **Flutterエンジニアにネイティブ経験はマストですか？**
@@ -133,7 +133,7 @@ Flutterエンジニアは3人のチームです。少人数ではありますが
 ![松堂さん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)松堂さん
 いえ、まったくそんなことはなくて、Flutterが得意なだけでも全然助かります。Flutterの良いところってiOS/Androidのネイティブ知識があまりなくても開発が進めやすいところだと思うので。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 間違い無いですね！
 
 僕もFlutterが好きになった理由として、謎のビルドエラー等が他のクロスプラットフォーム言語より少なくて開発しやすいなと思ったのがあります。
@@ -153,7 +153,7 @@ Flutterエンジニアは3人のチームです。少人数ではありますが
 
 次にストリクトシステムズの働き方についても聞いてみました。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 勤務時間や働き方について教えてください！
 
 ![松堂さん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)松堂さん
@@ -163,7 +163,7 @@ Flutterエンジニアは3人のチームです。少人数ではありますが
 
 午前に用事がある日は午後から働くなど、柔軟に対応してもらっています。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 どこに住んでいる人が多いんですか？
 
 ![松堂さん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)松堂さん
@@ -173,7 +173,7 @@ Flutterエンジニアは3人のチームです。少人数ではありますが
 
 最近だと東京から群馬に移住した人がいますね。
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 イマドキですね！
 
 オフィスに通勤している人はいないんですか？
@@ -183,7 +183,7 @@ Flutterエンジニアは3人のチームです。少人数ではありますが
 
 っていうか仮にオフィスに全員が通勤しちゃったらキャパオーバーで入れないですね笑
 
-![kboy](https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg)kboy
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 なるほど。リモートが当たり前になってるんですね！
 
 全員揃って飲み会とかはやったりしないんですか？

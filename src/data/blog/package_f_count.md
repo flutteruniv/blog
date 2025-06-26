@@ -69,7 +69,7 @@ import 'package:f_count/f_count.dart';
 
 これにより、以下の画像のようなログが出力されます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-03-15.46.04.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-03-15.46.04.png" alt="" width="300">
 
 カウントはラベルごとに行われます。
 
@@ -81,7 +81,7 @@ import 'package:f_count/f_count.dart';
     return Scaffold(
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-03-15.49.01.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-03-15.49.01.png" alt="" width="300">
 
 基本的な使い方は以上です！
 

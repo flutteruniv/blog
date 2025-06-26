@@ -21,7 +21,7 @@ UIを構築するのに有用なパッケージ、[flutter_neumorphic](https://p
 
 以下のようなUI を実装することが簡単に可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.27.21.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.27.21.png" alt="" width="300">
 
 ぜひ本記事を読んで実装してみて下さい！
 
@@ -103,7 +103,7 @@ class MyWidget extends StatelessWidget {
 }
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.27.21.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.27.21.png" alt="" width="300">
 
 色や深さ、光の当たり方向は`style`に`NeumorphicStyle`を
 設定することによって調整することが可能です。
@@ -128,7 +128,7 @@ Neumorphic(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.41.41.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.41.41.png" alt="" width="300">
 
 #### 深さ
 
@@ -153,7 +153,7 @@ Neumorphic(
       ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.46.02.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.46.02.png" alt="" width="300">
 
 #### 光の方向
 
@@ -178,7 +178,7 @@ Neumorphic(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.48.43.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.48.43.png" alt="" width="300">
 
 ## おまけ ニューモーフィズムなWidgetの作り方
 
@@ -233,7 +233,7 @@ offsetで左上にずらし、whiteを設定しています。
 
 このコードで以下のような見た目となります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-18.11.57.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-18.11.57.png" alt="" width="300">
 
 以上が、パッケージに依存すること無くニューモーフィズムを実装する方法でした！
 

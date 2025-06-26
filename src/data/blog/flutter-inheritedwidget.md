@@ -56,7 +56,7 @@ Flutterのコードを書くことにある程度慣れてくると、
 Widget の build メソッドの中にWidgetを何度も追加して、
 Widgetの依存関係がどんどん深くなって行くかと思います。（以下の図）
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.09.06-793x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.09.06-793x1024.png" alt="" width="300">
 
 課題になるのは、最下層のWidget(水色)で最上部のWidgetが
 持つデータ(黄色)を参照したい時です。
@@ -107,7 +107,7 @@ class MyWidget extends StatelessWidget {
 
 可能であれば以下のように直接参照したいです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.27.50-853x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.27.50-853x1024.png" alt="" width="300">
 
 これを可能にするのが`Inherited Widget`です。
 
@@ -115,7 +115,7 @@ class MyWidget extends StatelessWidget {
 依存関係が`InheritedWidget`の下にある`Widget`ならどこからでも
 データを参照できるようになります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.37.42-884x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.37.42-884x1024.png" alt="" width="300">
 
 `InheritedWidget` はFlutterのSDK の中の`Widget`なので、
 特別にパッケージをインストール必要はありません。
@@ -814,7 +814,7 @@ Flutter Performance で+ボタンを押した時のリビルドの状況を見�
 `MyCounter.of(context).〜`で引数に使用した`context`は`Builder Widget` の`context`となるため、
 リビルドされる`Widget`を`Builder`以下に制限することができます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220706_builder-1024x664.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220706_builder-1024x664.png" alt="" width="300">
 
 #### `Floating Action Button` にて『`InheritedWidget`を監視しているものリスト』に
 登録されないようにする

@@ -17,11 +17,11 @@ Flutter大学では、Googleカレンダーに載っている予定がgeneralに
 
 朝のもくもく会の通知の様子は下図のような感じ。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-01-at-09.43.20@2x-1024x640.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-01-at-09.43.20@2x-1024x640.png" alt="" width="300">
 
 ここのリンクを押していただくと、以下のようなページに飛びます。（Flutter大学でログインしている場合）
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-01-at-09.46.17@2x-1024x553.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-01-at-09.46.17@2x-1024x553.png" alt="" width="300">
 
 以下が実際のリンクです。Flutter大学に入っている人のみ入会時に作ったアカウントでログインすることができます。
 
@@ -29,21 +29,21 @@ Flutter大学では、Googleカレンダーに載っている予定がgeneralに
 
 入室するボタンを押すと、timesに通知が飛び、**10FUT**がゲットできます。（[FUTについて](https://github.com/flutteruniv/docs/tree/master/fut)）
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-01-at-09.48.19@2x-1024x422.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-01-at-09.48.19@2x-1024x422.png" alt="" width="300">
 
 で、実際に入るのはgatherというバーチャル上のワークスペースです。
 
 まずは7時10分にGather上の左下のテーブルで、今日やることを宣言します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-07.11.24@2x-1024x642.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-07.11.24@2x-1024x642.png" alt="" width="300">
 
 そして7:10~8:00はみんなでもくもく。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/05/スクリーンショット-2023-04-03-7.21.29-1024x640.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/05/スクリーンショット-2023-04-03-7.21.29-1024x640.png" alt="" width="300">
 
 8:00になったらまた左下のテーブルに集まって、今日やったことを報告して終了です！（終わる時間にはちょっと増える）
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-08.01.07@2x-1024x570.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-08.01.07@2x-1024x570.png" alt="" width="300">
 
 ## 朝のもくもく会をはじめた理由
 
@@ -56,7 +56,7 @@ Flutter大学では、Googleカレンダーに載っている予定がgeneralに
 
 ## しかし起こった問題
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/05/スクリーンショット-2023-05-01-7.47.42-1024x702.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/05/スクリーンショット-2023-05-01-7.47.42-1024x702.png" alt="" width="300">
 
 Gatherというサービスの無料枠の上限は10人までなので、人気になりすぎてMAXを突破してしまいました。入りたいけど入れないという方が出てきてしまいましたw
 

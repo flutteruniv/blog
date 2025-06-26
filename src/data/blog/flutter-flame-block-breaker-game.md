@@ -82,7 +82,7 @@ flutter pub add flame
 
 libフォルダにて、以下のフォルダ構成で空のファイルを作成します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-16.48.37.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-16.48.37.png" alt="" width="300">
 
 #### constants.dart の準備
 
@@ -221,7 +221,7 @@ https://blog.flutteruniv.com/flutter-dart-extends/
 
 以下のように真っ黒の画面が表示されるはずです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-17.30.35.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-17.30.35.png" alt="" width="300">
 
 今回のチュートリアルではmacOSでの実行画像を表示します。
 
@@ -261,7 +261,7 @@ class Paddle extends RectangleComponent {
 `size`でサイズを設定します。
 `Vector2`は横方向(`x`方向)に第1引数、縦方向(`y`方向)に第2引数の大きさを持つ矢印を表しています。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-17.50.54.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-17.50.54.png" alt="" width="300">
 
 これをsizeに指定すると、横に第1引数分、縦に第2引数分の大きさを持つ長方形となります。
 
@@ -337,7 +337,7 @@ paddle
 paddleSizeはパドルの大きさなので、`size.x / 2 - paddleSize.x / 2`で以下の図のように、
 パドルの位置を横方向の中心に設定することとなります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-18.19.23.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-18.19.23.png" alt="" width="300">
 
 `position.y`の内容や以下で同じく出てくる配置の設定では
 一部を除いて解説を省略します。
@@ -350,7 +350,7 @@ paddleSizeはパドルの大きさなので、`size.x / 2 - paddleSize.x / 2`で
 ここまでできたらアプリを実行してみましょう。
 以下の画像のように中央にパドルが配置されるはずです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-18.33.23.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-18.33.23.png" alt="" width="300">
 
 表示されない場合はホットリスタートをお試しください。
 
@@ -443,7 +443,7 @@ class BlockBreaker extends FlameGame {
 
 以下の画像のように、中心にボールが表示されるはずです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-20.25.57.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-20.25.57.png" alt="" width="300">
 
 以上でボールの追加は完了となります！
 
@@ -591,7 +591,7 @@ final sizeX = (size.x -
         kBlocksRowCount;
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-23.39.57-1024x584.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-23.39.57-1024x584.png" alt="" width="300">
 
 ###### 縦方向
 
@@ -602,7 +602,7 @@ final sizeY = (size.y * kBlocksHeightRatio -
         kBlocksColumnCount;
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-23.50.57-1024x580.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-23.50.57-1024x580.png" alt="" width="300">
 
 ##### ブロックのリスト生成
 
@@ -625,7 +625,7 @@ final indexX = index % kBlocksRowCount;
 
 以下の図は3 x 2 のときの例となります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-14-0.15.04-1024x367.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-14-0.15.04-1024x367.png" alt="" width="300">
 
 ##### ブロックの横の位置と縦の位置
 
@@ -640,13 +640,13 @@ block.position
 以下は横の位置の設定の考え方の図となります。
 （縦の位置も同様の考え方となります。）
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-14-0.18.19-1024x341.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-14-0.18.19-1024x341.png" alt="" width="300">
 
 ここまでできたらアプリを再実行してみましょう。
 
 以下の画像のように、様々な色のブロックが整列して配置されるはずです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-14-0.20.47.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-14-0.20.47.png" alt="" width="300">
 
 上記画像含め以下で実行結果と画像でブロックの厚みが異なるかもしれませんが、
 作成に問題はありません。
@@ -742,7 +742,7 @@ final vx = kBallSpeed * cos(spawnAngle * kRad);
 このコードで、`kBallSpeed`の速さを持ち、特定の角度で進む物体の、
 横方向(x方向)と縦方向(y方向)の速さを設定しています。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-15-1.29.06-1024x597.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-15-1.29.06-1024x597.png" alt="" width="300">
 
 ここで、θはラジアンなので、`kRad`をかけてラジアンに変換しています。
 
@@ -2005,7 +2005,7 @@ flutter pub add flame_audio
 
 以下のように`assets/audio` フォルダに保存します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-15-18.32.41.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-15-18.32.41.png" alt="" width="300">
 
 次に`pubspec.yaml`にて以下のように`assets`の追加を行います。
 

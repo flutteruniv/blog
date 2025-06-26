@@ -47,14 +47,14 @@ https://zapp.run/
 
 UIは以下の画像のようになっています。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-13.49.03-1024x563.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-13.49.03-1024x563.png" alt="" width="300">
 
 UIは VS Code のような見た目をしています。
 画面右側に実行中のアプリが表示されるようになっています。
 
 画面左下の☀︎のアイコンをクリックすることにより、テーマの切り替えが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-13.52.51-1024x561.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-13.52.51-1024x561.png" alt="" width="300">
 
 ## 特徴
 
@@ -72,7 +72,7 @@ Zapp!はこの問題を解決します。
 Zapp! はアプリのコードのファイル分け、フォルダ分割が可能となっています。
 そのため一つ一つのコードを短く記述することが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-14.00.58-1024x661.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-14.00.58-1024x661.png" alt="" width="300">
 
 ### 多様なパッケージの利用が可能
 
@@ -87,7 +87,7 @@ Zapp!で作られるFlutter Projectにはpubspec.yaml ファイルが含まれ�
 flutter pub get することで、
 [Pub.dev](https://pub.dev/)のパッケージをインストールすることが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-14.25.34-1024x558.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-14.25.34-1024x558.png" alt="" width="300">
 
 ### 作成したコードの共有が容易
 

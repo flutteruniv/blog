@@ -29,7 +29,7 @@ Dart (Flutter) で頻出する、`List` についての解説記事です。
 
 以下は、 文字列(`String`) の`List`の例です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-19-17.31.14-1024x312.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-19-17.31.14-1024x312.png" alt="" width="300">
 
 この集合のポイントは、何番目かという数字(インデックス)が
 各要素に対応付けられていることです。

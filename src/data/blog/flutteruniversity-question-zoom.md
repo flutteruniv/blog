@@ -21,7 +21,7 @@ Flutter大学の質問Zoomについて、特徴を詳細に解説します。
 
 ## 質問Zoom とは
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg" alt="" width="300">
 
 質問Zoomとは、Flutter大学内で行われている質問相談会のことです。
 
@@ -88,7 +88,7 @@ https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting4-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting4-1024x683.jpeg" alt="" width="300">
 
 本記事では大学の質問Zoomについて、特徴を詳細に解説しました。
 

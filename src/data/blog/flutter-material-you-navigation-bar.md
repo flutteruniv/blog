@@ -45,7 +45,7 @@ Android ユーザーにとって違和感のないデザインが実現できま
 
 Material You のBottom Navigation Barの見た目は以下のようになります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-06-13.48.29.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-06-13.48.29.png" alt="" width="300">
 
 アイコンの周りをインディケーターで囲むことで、
 どのタブが選択されているかよりわかりやすい表現となっています。

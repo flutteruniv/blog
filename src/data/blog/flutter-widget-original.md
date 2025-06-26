@@ -34,7 +34,7 @@ Widgetを自作することでどのように解決できるのか述べてい�
 
 以下のようなUIを実装したコードがあります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/Simulator-Screen-Shot-iPhone-13-Pro-Max-2022-08-10-at-13.18.31-473x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/Simulator-Screen-Shot-iPhone-13-Pro-Max-2022-08-10-at-13.18.31-473x1024.png" alt="" width="300">
 
 ```dart
 import 'package:flutter/material.dart';
@@ -190,7 +190,7 @@ class MyWidget extends StatelessWidget {
 例えば色を変更するなど、片方を修正したらもう片方も修正しなければいけなくなるので、
 ちょっと面倒です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-10-13.36.16.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-10-13.36.16.png" alt="" width="300">
 
 以上が課題となります。
 
@@ -204,7 +204,7 @@ class MyWidget extends StatelessWidget {
 
 具体的には以下のように構成要素を自作Widget で分け別ファイルに保存します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-10-13.45.01.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-10-13.45.01.png" alt="" width="300">
 
 各コードは以下のようになります。
 

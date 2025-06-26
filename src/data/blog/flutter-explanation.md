@@ -195,7 +195,7 @@ iOSとAndroidのモバイルアプリ開発を例に時間のコストと雇う�
 
 #### 時間のコスト
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/スクリーンショット-2022-02-25-11.59.48-1024x731.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/02/スクリーンショット-2022-02-25-11.59.48-1024x731.png" alt="" width="300">
 
 この図はアプリ開発にかかる合計時間を表した図です。
 

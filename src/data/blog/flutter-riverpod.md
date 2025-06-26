@@ -39,7 +39,7 @@ Riverpodについて解説する前に、まず背景として解決したい問
 以下の図のように `main.dart`でインスタンス(Instance)を定義し、
 Widget ツリーの下層にインスタンスを受け渡して使用する方法です。
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-27-23.54.58-1024x600.png)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-27-23.54.58-1024x600.png" alt="" width="300">
 
 これだと、
 
@@ -63,7 +63,7 @@ Riverpod とは、上記のような状態管理に関する問題を解決す�
 このプロバイダを必要な時にViewで呼び出すことで、
 ツリーのどの位置でも値の呼び出し、参照を可能にします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-28-0.55.27-1024x578.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-28-0.55.27-1024x578.png" alt="" width="300">
 
 `main.dart`から値を受け渡していた時と比べて、
 ずっとシンプルにできていますよね。

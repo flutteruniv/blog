@@ -26,7 +26,7 @@ Flutter大学の共同開発の雰囲気が分かる記事となっています�
 
 ## Flutter大学 の 共同開発 とは？
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting4-1024x683.jpeg)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting4-1024x683.jpeg" alt="" width="300">
 
 Flutter大学の共同開発について解説します。
 
@@ -47,7 +47,7 @@ https://blog.flutteruniv.com/flutteruniversity-jointdevelopment-7/
 
 ## 第8期共同開発 インタビュー！
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg" alt="" width="300">
 
 少しでもあなたに共同開発についてイメージを掴んでもらうため、
 現在最終発表に向けてラストスパートをかけている第8期の共同開発について、

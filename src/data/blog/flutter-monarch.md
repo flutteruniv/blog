@@ -193,7 +193,7 @@ Monarch を実行したときに確認が可能となります。
 
 stories フォルダに main_stories.dartを用意します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-17.48.22.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-17.48.22.png" alt="" width="300">
 
 main_stories.dartに以下のようにWidget を返すメソッドを用意します。
 
@@ -223,7 +223,7 @@ monarch run
 実行した後、左側のコントロールパネル下半分に
 先程設定した*_stories.dart、storyが表示されるのでこれを選択します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-17.59.00-874x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-17.59.00-874x1024.png" alt="" width="300">
 
 おめでとうございます！
 Story に設定したWidgetが表示されました！
@@ -240,29 +240,29 @@ Monarch のコントロールパネルを設定することで確認できる項
 
 Device の項目にて実行する機種の変更ができます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.17.52-867x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.17.52-867x1024.png" alt="" width="300">
 
 iPadのようなタブレット端末も確認可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.17.17-1024x951.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.17.17-1024x951.png" alt="" width="300">
 
 #### テーマの変更
 
 Theme の項目で、Light Theme, Dark Theme の切り替えが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.27.07-868x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.27.07-868x1024.png" alt="" width="300">
 
 #### Locale の変更
 
 Locale の項目にて、地域設定（言語設定等）を変更することが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.29.45-864x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.29.45-864x1024.png" alt="" width="300">
 
 #### Text Scale の変更
 
 Text Scale Factor の項目にて 、テキストの大きさの基準値を変更することが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.32.15-864x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.32.15-864x1024.png" alt="" width="300">
 
 ## まとめ
 

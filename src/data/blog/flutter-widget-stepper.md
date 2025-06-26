@@ -203,7 +203,7 @@ CONTINUEとCANCELが表示されていたコントロール部分のWidgetを変
 以下の例は、CONTINUEのボタンを「次へ」のTextButtonに、
 CANCELのボタンを「戻る」のTextButtonに変更した例です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/controlsBuilder-509x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/controlsBuilder-509x1024.png" alt="" width="300">
 
 ```dart
 @override
@@ -249,7 +249,7 @@ CANCELのボタンを「戻る」のTextButtonに変更した例です。
 
 `type `プロパティを設定することで`Stepper`を水平方向に表示することができます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-18-11.31.46-782x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-18-11.31.46-782x1024.png" alt="" width="300">
 
 ```dart
 Stepper(
@@ -274,7 +274,7 @@ Stepのタイトルの下にサブタイトルを設定可能です。
 
 subtitleプロパティにWidgetを設定することで、タイトルの下に表示させることができます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/subtitle-501x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/subtitle-501x1024.png" alt="" width="300">
 
 ```dart
 Stepper(
@@ -298,7 +298,7 @@ Stepper(
 
 StepのStepStateを設定することでアイコンの変更が可能となります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/step_state-505x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/step_state-505x1024.png" alt="" width="300">
 
 ```dart
 Stepper(
@@ -351,7 +351,7 @@ Stepper(
 `Step`のプロパティである`isActive`を`true`にすることで、
 アイコンの色を`Theme`の`PrimaryColor`に変更可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-18-12.03.33-505x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-18-12.03.33-505x1024.png" alt="" width="300">
 
 ```dart
 Stepper(

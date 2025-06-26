@@ -23,7 +23,7 @@ Flutter で 5つ星評価などを行う評価バーを実装するのに役立�
 
 以下のようなUIを簡単に作成することが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.25.56-1.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.25.56-1.png" alt="" width="300">
 
 ぜひ読んでみてください！
 
@@ -69,7 +69,7 @@ RatingBar.builder(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-17.23.53.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-17.23.53.png" alt="" width="300">
 
 以上が基本的な使い方となります！
 
@@ -93,7 +93,7 @@ RatingBar.builder(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.17.18.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.17.18.png" alt="" width="300">
 
 #### 方向
 
@@ -109,7 +109,7 @@ RatingBar.builder(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.19.23.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.19.23.png" alt="" width="300">
 
 #### アイコンサイズとPadding
 
@@ -136,7 +136,7 @@ RatingBar.builder(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.25.56.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.25.56.png" alt="" width="300">
 
 #### 評価外の数を表すアイコンの色
 
@@ -152,7 +152,7 @@ RatingBar.builder(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.32.41.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.32.41.png" alt="" width="300">
 
 ### 動作のカスタマイズ
 
@@ -170,7 +170,7 @@ RatingBar.builder(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.43.55.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.43.55.png" alt="" width="300">
 
 #### 初期値の設定
 
@@ -193,7 +193,7 @@ RatingBar.builder(
 
 `glow:true`時の画像
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.36.04.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.36.04.png" alt="" width="300">
 
 また、`glowColor`プロパティにてエフェクトの色を設定可能です。
 `glowRadius`プロパティにてエフェクトの大きさを設定可能です。

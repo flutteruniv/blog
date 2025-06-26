@@ -95,7 +95,7 @@ Flutter SDK の導入を行っていきます。
 
 以下の赤枠のボタンをクリックし、ダウンロードフォルダにzipファイルをダウンロードします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-15.25.25-1024x435.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-15.25.25-1024x435.png" alt="" width="300">
 
 次に Flutter SDK を保存するフォルダを用意し、
 そのフォルダにターミナル(Mac の CLI )で移動します。
@@ -185,46 +185,46 @@ Android Studio を導入します。
 
 [こちらのページ](https://developer.android.com/studio?gclid=CjwKCAjw3K2XBhAzEiwAmmgrAkSDK8x_IGKI-1YURBC4iDOq4cWmU66H-GIV9IvDRZYh8UzXa2CIORoCxYUQAvD_BwE&gclsrc=aw.ds)を開き、以下の画像の赤枠のボタンをクリックします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-8.22.45-1024x524.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-8.22.45-1024x524.png" alt="" width="300">
 
 ライセンスの確認画面となるので、確認の上チェックボックスにチェックを入れ、
 以下の赤枠のボタンをクリックします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-8.23.11-1024x273.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-8.23.11-1024x273.png" alt="" width="300">
 
 ダウンロードしたdmg ファイルを開き、
 Android Studio のアイコンを Application フォルダにドラッグ＆ドロップします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.38.56-1024x637.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.38.56-1024x637.png" alt="" width="300">
 
 ドックからAndroid Studio を開きます。
 
 Android Studio の設定をインポートするか問われます。
 今回は引き継がないので下を選択します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.43.43.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.43.43.png" alt="" width="300">
 
 以下の画像のように利用に関するデータ収集に協力するか問われるので、
 NO (左のボタン)かYES(右のボタン)かを選択します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.44.56-1024x568.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.44.56-1024x568.png" alt="" width="300">
 
 以下の画像のように
 
 セットアップウィザードが開きます。
 Nextを選択します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.47.43-1024x771.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.47.43-1024x771.png" alt="" width="300">
 
 以下の画像のようにセットアップのタイプ選択を求められます。
 今回はStandardを選択し、Nextをクリックします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.49.31-1024x769.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.49.31-1024x769.png" alt="" width="300">
 
 以下の画像のようにテーマ選択画面となります。
 お好みのテーマを選択し、Nextをクリックします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.54.11-1024x774.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.54.11-1024x774.png" alt="" width="300">
 
 今までの設定の確認画面となるので、
 確認の上Nextをクリックします。
@@ -234,7 +234,7 @@ Nextを選択します。
 android-sdk-arm-dbt-licenseの方も選択して確認し、問題なければAcceptにチェックを入れます。
 全て完了の後、Finishをクリックします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.56.44-1024x769.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-16.56.44-1024x769.png" alt="" width="300">
 
 ダウンロードが開始され、完了後Finishを押してAndroid Studioの導入は完了となります。
 
@@ -248,20 +248,20 @@ macOS のApp StoreにてXcodeを検索しインストールします。
 
 Xcode を開こうとすると、ライセンス確認のダイアログが表示されます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-13.41.17.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-13.41.17.png" alt="" width="300">
 
 内容を確認の上、agreeを押すとパスワードの入力を求められるので、
 PCのログインパスワードを入力します。
 
 自動でXcodeが開かないので、ドックのアイコンをクリックすると、Rosettaをインストールするか問われるのでinstallを押下します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-13.45.04.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-13.45.04.png" alt="" width="300">
 
 またパスワード入力を求められるので、PCのログインパスワードを入力し、インストールします。
 
 再度ドックのアイコンをクリックすると下記画像が表示されます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-13.51.07-1024x592.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-13.51.07-1024x592.png" alt="" width="300">
 
 以上でXcodeの導入は無事完了となります！
 
@@ -273,7 +273,7 @@ flutterの設定が完了しているかチェックするコマンド、`flutte
 `flutter doctor -v`の実行結果は以下の通りです。
 （ターミナルで実行します。実行場所はどこでも構いません。）
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-17.10.56_-847x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-17.10.56_-847x1024.png" alt="" width="300">
 
 3つほどエラーが出ているので一つ一つ解説していきます。
 
@@ -284,7 +284,7 @@ flutterの設定が完了しているかチェックするコマンド、`flutte
 
 Android Studioを開き、左上のAndroidStudio → Preferencesを選択します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-17.24.08.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-17.24.08.png" alt="" width="300">
 
 Appearance & Behavior > System Settings > Android SDK
 を開きます。
@@ -292,7 +292,7 @@ SDK Toolsのタブを選択し、
  Android SDK Command-line Tools (latest)のチェックボックスにチェックを入れ、
 OKを押します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-17.28.01-1024x742.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-17.28.01-1024x742.png" alt="" width="300">
 
 容量に関する確認ダイアログが出るので確認の上OKを押下します。
 インストール後Finishを押して完了です。
@@ -403,7 +403,7 @@ open -a Simulator
 flutter run
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.03.15-503x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.03.15-503x1024.png" alt="" width="300">
 
 おめでとうございます！初めてのアプリが実行できました！
 
@@ -413,7 +413,7 @@ flutter create で作られるアプリは通称カウンターアプリと呼�
 シミュレータのアイコンから下の画像のように選択することで、
 起動するシミュレータの機種を変更することが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.06.00-1024x938.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.06.00-1024x938.png" alt="" width="300">
 
 #### Android の仮想端末での実行
 
@@ -430,17 +430,17 @@ cd my_app
 
 次にAndroid Studioを開き、More Actions > Virtual Device Manager を選択します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.09.43-1024x766.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.09.43-1024x766.png" alt="" width="300">
 
 エミュレータの一覧画面です。
 エミュレータの下矢印をクリック > Wipe Data を選択します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.20.05-1024x308.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.20.05-1024x308.png" alt="" width="300">
 
 次に横向き三角の実行ボタンを押し、エミュレータを起動します。
 （初回はマイクへの接続を求められるのでOKを押下します。）
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.21.58-1024x179.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.21.58-1024x179.png" alt="" width="300">
 
 ではいよいよアプリを実行してみましょう。
 ターミナルにて以下のコマンドを実行します。
@@ -449,7 +449,7 @@ cd my_app
 flutter run
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.24.29-565x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.24.29-565x1024.png" alt="" width="300">
 
 おめでとうございます！Androidでも初めてのアプリが実行できました！
 
@@ -465,14 +465,14 @@ Android Studio の場合のセットアップ方法を解説します。
 Android Studio の初期画面のPlugins を選択し、
 Flutter プラグインをインストールします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.57.58-1024x781.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-19.57.58-1024x781.png" alt="" width="300">
 
 いくつか確認のダイアログが出てくるので、確認の上ボタンを押し次へ進みます。
 
 インストール後Android Studioを再起動すると、
 以下のように初期画面が変わります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.00.54-1024x767.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.00.54-1024x767.png" alt="" width="300">
 
 New Flutter Project を選択すると、新しいFlutterプロジェクトを作成できます。
 
@@ -480,7 +480,7 @@ openを選択し、前の節で作成したmy_appのフォルダを選択してo
 
 以下の編集画面を開くことができます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.05.42-1024x595.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.05.42-1024x595.png" alt="" width="300">
 
 赤枠のボタンを押すことでエミュレータの選択画面を開くことができます。
 
@@ -506,7 +506,7 @@ unzip ~/Downloads/VSCode-darwin-universal.zip
 VSCode-darwin-universal.zipの部分は
 ダウンロードしたファイル名を入力して下さい。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.30.03-1024x501.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.30.03-1024x501.png" alt="" width="300">
 
 解凍してできたVisual Studio Code.appをアプリケーションフォルダに
 ドラッグ&ドロップします。
@@ -517,7 +517,7 @@ VSCode-darwin-universal.zipの部分は
 まずは以下の画像のようにテーマの設定です。
 右4つのテーマから好きなテーマを選択します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.32.16-1024x769.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.32.16-1024x769.png" alt="" width="300">
 
 その他のGet Started の内容は今回のセットアップの内容から外れるので省略します。
 時間のある時に確認を行って下さい。
@@ -526,14 +526,14 @@ VSCode-darwin-universal.zipの部分は
 拡張機能の選択、インストール画面となります。
 左上の検索バーで"Flutter"を検索し、Flutterの拡張機能を表示します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.46.43-1024x770.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.46.43-1024x770.png" alt="" width="300">
 
 Installを押下し、Flutterの拡張機能をインストールします。
 
 インストールが完了したら左上のFile > Openで先程作成したmy_appのフォルダを選択し
 開きましょう。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.57.38-1024x772.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-05-20.57.38-1024x772.png" alt="" width="300">
 
 画面右下の赤枠の部分をクリックすると、アプリを実行する端末の選択が表示されます。
 エミュレータを選択するとエミュレータを立ち上げることができます。

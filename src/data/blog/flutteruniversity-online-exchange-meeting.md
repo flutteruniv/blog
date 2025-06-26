@@ -28,7 +28,7 @@ Flutter大学のコミュニティのコンテンツである、
 
 ## オンライン交流会 とは？
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg" alt="" width="300">
 
 ### Flutter大学とは?
 
@@ -60,7 +60,7 @@ Flutterの話はもちろん、仕事の話だったり、プライベートの�
 
 ## オンライン交流会の良いポイント
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg" alt="" width="300">
 
 オンライン交流会に参加していて良いポイントを厳選して３つお伝えします。
 
@@ -112,7 +112,7 @@ Flutter大学内のさらに小さいコミュニティに参加することに�
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg" alt="" width="300">
 
 本記事では、Flutter大学のコミュニティのコンテンツである、
 オンライン交流会 について解説しました。

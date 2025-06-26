@@ -25,7 +25,7 @@ layout: "../../layouts/BlogPost.astro"
 `Column` や`Row` に`Spacer` ウィジェットを配置することで、
 子と画面の隙間を埋めるようにスペースが設定されます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-17-10.09.46-928x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-17-10.09.46-928x1024.png" alt="" width="300">
 
 ```dart
 class MyWidget extends StatelessWidget {
@@ -53,7 +53,7 @@ class MyWidget extends StatelessWidget {
 
 `Row`でも同様に子と画面の差分の隙間を`Spacer`が埋めます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-17-10.13.51-914x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-17-10.13.51-914x1024.png" alt="" width="300">
 
 ```dart
 class MyWidget extends StatelessWidget {
@@ -82,7 +82,7 @@ class MyWidget extends StatelessWidget {
 Spacerを2つ配置すると、1つの`Spacer`の大きさは、
 子と画面の間の隙間を2等分した大きさになります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-17-10.18.47.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-17-10.18.47.png" alt="" width="300">
 
 ```dart
 class MyWidget extends StatelessWidget {
@@ -111,7 +111,7 @@ class MyWidget extends StatelessWidget {
 
 これを利用することで、この両端に同じ大きさのスペースを`Spacer`で設定することができます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-17-10.20.53-924x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-17-10.20.53-924x1024.png" alt="" width="300">
 
 ```dart
 class MyWidget extends StatelessWidget {
@@ -150,7 +150,7 @@ class MyWidget extends StatelessWidget {
 何も設定しない場合 `flex : 1`のため、
 結果として隙間を1:2に分けていることがわかります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-17-10.37.27.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-17-10.37.27.png" alt="" width="300">
 
 ```dart
 class MyWidget extends StatelessWidget {

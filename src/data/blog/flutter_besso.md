@@ -13,7 +13,7 @@ ogImage: ""
 
 突然ですが、Flutter大学は**Flutter別荘**という古民家を所有しています。これです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/CleanShot-0004-10-31-at-20.23.27@2x-1-1024x581.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/CleanShot-0004-10-31-at-20.23.27@2x-1-1024x581.png" alt="" width="300">
 
 この記事では、Flutter別荘がどういった経緯で立ち上げられたのか、どんな生活をおくっているのか、どうやったら遊びに行けるのかについて紹介していきます。
 
@@ -57,31 +57,31 @@ Flutter別荘には2022年11月現在、5名の居住者がいて、共同生活
 
 鳥のさえずりが聞こえる静かな朝を迎えます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-10.51.52@2x-1024x505.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-10.51.52@2x-1024x505.png" alt="" width="300">
 
 午前から張り切ってFlutterの学習です。
 
 ひとつの部屋に集まり、互いを意識しながら切磋琢磨していきます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-10.57.26@2x-1024x577.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-10.57.26@2x-1024x577.png" alt="" width="300">
 
 お腹が空いたらご飯。みんなで仲良く食べます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.03.39@2x-1024x587.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.03.39@2x-1024x587.png" alt="" width="300">
 
 午後も学習をして、脳みそが疲れてきたら、筋トレです。
 
 肉体もしっかり鍛えていきます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.11.05@2x-1024x503.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.11.05@2x-1024x503.png" alt="" width="300">
 
 日が沈み始めるころにはテントサウナで疲れを癒します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.16.31@2x-1024x489.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.16.31@2x-1024x489.png" alt="" width="300">
 
 夜はBBQ。炭火を囲って団欒のひとときです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.28.18@2x-1024x506.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.28.18@2x-1024x506.png" alt="" width="300">
 
 こうしてFlutter別荘での一日が終わります。
 

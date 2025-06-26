@@ -17,7 +17,7 @@ layout: "../../layouts/BlogPost.astro"
 
 以下の画像のようなUIが、`Shimmer`パッケージを使うと、
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/スクリーンショット-2022-09-29-15.28.49-621x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/09/スクリーンショット-2022-09-29-15.28.49-621x1024.png" alt="" width="300">
 
 以下のGIFのようになります。
 

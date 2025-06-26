@@ -35,30 +35,30 @@ https://github.com/features/copilot
 
 上記ページを開き、Start my free trial をクリックします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.45.50-1024x830.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.45.50-1024x830.png" alt="" width="300">
 
 次の画面で注意事項を読み、
 月額プランか年額プランかを選択し、緑のボタンを押します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.51.26-701x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.51.26-701x1024.png" alt="" width="300">
 
 支払い情報の入力欄です。
 
 下記画面で、名前、住所を入力します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.52.59-971x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.52.59-971x1024.png" alt="" width="300">
 
 次の画面で支払い方法の選択と、必要情報を入力し、緑のボタンを押します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.11.21-878x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.11.21-878x1024.png" alt="" width="300">
 
 最後に確認画面となります。緑のボタンを押して完了です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.14.41_-1024x852.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.14.41_-1024x852.png" alt="" width="300">
 
 支払情報を入力した後、以下の設定画面となります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.22.34-1024x865.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.22.34-1024x865.png" alt="" width="300">
 
 - **Suggestions matching public code**
 
@@ -81,7 +81,7 @@ VS Code の画面左側のExtensions のアイコンから Extensionsを開き�
 
 出てきたGitHub Copilot のExtensionsを選択し、 installを押します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.44.38-1024x422.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.44.38-1024x422.png" alt="" width="300">
 
 VS Code で GitHubにサインインしていない場合は画面右下にサインインを促す
 ダイアログボックスが表示されます。
@@ -109,22 +109,22 @@ Counter クラスを作ってみた結果がこちらです。
 
 なんと、`Widget`もいけます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.41.57-1024x766.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.41.57-1024x766.png" alt="" width="300">
 
 ちょっと難しく、GitHubからデータを取ってくるメソッドも
 提案コードを用意してくれます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.45.10-1024x478.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.45.10-1024x478.png" alt="" width="300">
 
 レスポンスコードも用意してくれるのがありがたいですね。
 
 `StatefulWidget` は無理かな、と思っていたら、
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.54.42.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.54.42.png" alt="" width="300">
 
 Stateのコードを書くとなんと提案コードをここまで出してくれました。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.55.36-794x1024.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.55.36-794x1024.png" alt="" width="300">
 
 textThemeのdisplay1は既に使われていないので、エラーとなります。
 このように、提案されたコードが古くエラーが発生するので、

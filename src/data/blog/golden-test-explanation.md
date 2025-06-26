@@ -70,7 +70,7 @@ Golden Test について以下の内容を解説していきます。
 
 Golden Test はFlutterのテスト分類でいうと、Widget Testにあたります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-12.05.40-1024x475.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-12.05.40-1024x475.png" alt="" width="300">
 
 Flutterのテストの分類については以下の公式ドキュメントをご覧ください。
 [Testing Flutter apps](https://docs.flutter.dev/testing)
@@ -86,7 +86,7 @@ Golden Test は以下のようなテストです。
 
 以下の図をご覧ください。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-12.14.13-1024x502.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-12.14.13-1024x502.png" alt="" width="300">
 
 コードの修正がおき、修正したコードがUIに影響していないことを確かめたい、そんな例を考えます。
 
@@ -383,7 +383,7 @@ Goldenでレイアウトチェックすることにより、
 
 最後にエミュレータの代わりにGoldenを使ってレイアウトチェックする開発の流れを画像で紹介します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-14.26.50-1024x495.png)
+<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-14.26.50-1024x495.png" alt="" width="300">
 
 以上、エミュレータの代わりにGoldenを使ってレイアウトチェックすることで、
 開発体験を向上させることが可能となります。
