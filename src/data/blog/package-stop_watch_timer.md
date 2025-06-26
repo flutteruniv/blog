@@ -4,7 +4,7 @@ slug: "package-stop_watch_timer"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-11-06T14:30:24.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 **「Flutterでストップウォッチを実装したい！」**

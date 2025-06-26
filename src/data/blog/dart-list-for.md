@@ -4,7 +4,7 @@ slug: "dart-list-for"
 description: ""
 pubDatetime: "2022-12-07"
 author: "Aoi"
-tags: ["ウィジェット"]
+tags: ["Widget"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

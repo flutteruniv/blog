@@ -4,7 +4,7 @@ slug: "flutter-material-you-navigation-bar"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-05-06T10:00:00.000Z
-tags: ["ウィジェット"]
+tags: ["Widget"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

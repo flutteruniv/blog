@@ -4,7 +4,7 @@ slug: "package-flutter_animate"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-12-28T10:00:00.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 まずはこちらのGIFを御覧ください。

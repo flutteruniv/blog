@@ -4,7 +4,7 @@ slug: "flutter-package-shimmer"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-09-29T07:02:28.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 **テキストや画像にローディング効果を追加したい！**

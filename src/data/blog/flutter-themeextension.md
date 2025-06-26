@@ -4,7 +4,7 @@ slug: "flutter-themeextension"
 description: ""
 pubDatetime: "2022-05-04"
 author: "Aoi"
-tags: ["ウィジェット"]
+tags: ["Widget"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

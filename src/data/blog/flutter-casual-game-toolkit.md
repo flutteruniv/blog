@@ -4,7 +4,7 @@ slug: "flutter-casual-game-toolkit"
 description: ""
 pubDatetime: "2022-05-20"
 author: "Aoi"
-tags: ["パッケージ"]
+tags: ["Package"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

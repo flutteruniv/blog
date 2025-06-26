@@ -4,7 +4,7 @@ slug: "package-font_awesome_flutter"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-08-25T14:19:57.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

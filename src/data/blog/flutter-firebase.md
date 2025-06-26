@@ -4,7 +4,7 @@ slug: "flutter-firebase"
 description: ""
 pubDatetime: "2022-05-18"
 author: "Aoi"
-tags: ["パッケージ"]
+tags: ["Package"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

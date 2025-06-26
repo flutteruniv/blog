@@ -4,7 +4,7 @@ slug: "flutter-future-stream-difference"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-03-09T13:24:04.000Z
-tags: ["beginer"]
+tags: ["初心者向け"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

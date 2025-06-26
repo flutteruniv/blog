@@ -4,7 +4,7 @@ slug: "widget-spacer"
 description: ""
 pubDatetime: "2022-11-18"
 author: "Aoi"
-tags: ["ウィジェット"]
+tags: ["Widget"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

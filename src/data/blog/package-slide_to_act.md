@@ -4,7 +4,7 @@ slug: "package-slide_to_act"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-07-27T14:51:35.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

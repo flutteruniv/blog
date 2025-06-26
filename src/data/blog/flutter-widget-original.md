@@ -4,7 +4,7 @@ slug: "flutter-widget-original"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-08-10T10:00:00.000Z
-tags: ["beginer"]
+tags: ["初心者向け"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

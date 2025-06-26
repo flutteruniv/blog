@@ -7,7 +7,7 @@ author: Aoi
 slug: "dart-cascades"
 featured: false
 draft: false
-tags: ["Dart", "未カテゴリー", "Flutter"]
+tags: ["Dart", "Flutter"]
 ogImage: ""
 ---
 

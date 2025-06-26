@@ -4,7 +4,7 @@ slug: "package-flutter_neumorphic"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-07-01T10:00:00.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

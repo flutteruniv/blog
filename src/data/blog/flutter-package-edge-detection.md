@@ -4,7 +4,7 @@ slug: "flutter-package-edge-detection"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-04-22T10:00:00.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

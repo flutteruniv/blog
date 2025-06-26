@@ -4,7 +4,7 @@ slug: "bottomnavigationbar-hide"
 description: ""
 pubDatetime: "2022-07-23"
 author: "Aoi"
-tags: ["ウィジェット"]
+tags: ["Widget"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

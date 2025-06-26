@@ -4,7 +4,7 @@ slug: "package-glassmorphism"
 description: ""
 pubDatetime: "2022-10-28"
 author: "Aoi"
-tags: ["パッケージ"]
+tags: ["Package"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

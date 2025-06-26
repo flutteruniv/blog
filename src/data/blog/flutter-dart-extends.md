@@ -4,7 +4,7 @@ slug: "flutter-dart-extends"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-10-14T11:13:31.000Z
-tags: ["beginer"]
+tags: ["初心者向け"]
 ---
 
 **「 Flutter のコードの中で出てくる extends ってなんだろう？ 」**

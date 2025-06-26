@@ -4,7 +4,7 @@ slug: "dart-list-if"
 description: ""
 pubDatetime: "2022-12-27"
 author: "Aoi"
-tags: ["パッケージ"]
+tags: ["Package"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

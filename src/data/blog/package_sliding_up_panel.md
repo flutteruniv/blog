@@ -4,7 +4,7 @@ slug: "package_sliding_up_panel"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-10-12T10:00:00.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 **下からパネルが上がってくるような、スライドアップパネルを実装したい！**

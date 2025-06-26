@@ -4,7 +4,7 @@ slug: "flutter-package-liquid-swipe"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-04-08T10:00:00.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

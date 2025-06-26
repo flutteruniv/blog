@@ -4,7 +4,7 @@ slug: "google-io-2023"
 description: ""
 pubDatetime: "2023-05-11"
 author: "kboy"
-tags: ["パッケージ"]
+tags: ["Package"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

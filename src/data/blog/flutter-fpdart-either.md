@@ -4,7 +4,7 @@ slug: "flutter-fpdart-either"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-08-18T14:16:31.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

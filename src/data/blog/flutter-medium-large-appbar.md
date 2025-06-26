@@ -4,7 +4,7 @@ slug: "flutter-medium-large-appbar"
 description: ""
 pubDatetime: "2022-09-21"
 author: "Aoi"
-tags: ["パッケージ"]
+tags: ["Package"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

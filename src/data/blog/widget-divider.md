@@ -4,7 +4,7 @@ slug: "widget-divider"
 description: ""
 pubDatetime: "2022-11-24"
 author: "Aoi"
-tags: ["ウィジェット"]
+tags: ["Widget"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

@@ -4,7 +4,7 @@ slug: "flutter-pacage-badges"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-03-11T10:00:00.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 本記事では badges というパッケージの紹介を行います。

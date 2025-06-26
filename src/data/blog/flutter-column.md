@@ -4,7 +4,7 @@ slug: "flutter-column"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-06-10T14:31:47.000Z
-tags: ["beginer"]
+tags: ["初心者向け"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

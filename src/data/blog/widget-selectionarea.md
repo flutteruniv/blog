@@ -4,7 +4,7 @@ slug: "widget-selectionarea"
 description: ""
 pubDatetime: "2022-09-14"
 author: "Aoi"
-tags: ["ウィジェット"]
+tags: ["Widget"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

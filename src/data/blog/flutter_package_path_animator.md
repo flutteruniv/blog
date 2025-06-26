@@ -4,7 +4,7 @@ slug: "flutter_package_path_animator"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-04-15T10:00:00.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)

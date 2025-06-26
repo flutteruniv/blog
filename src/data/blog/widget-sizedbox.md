@@ -4,7 +4,7 @@ slug: "widget-sizedbox"
 description: ""
 pubDatetime: "2022-11-12"
 author: "Aoi"
-tags: ["ウィジェット"]
+tags: ["Widget"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

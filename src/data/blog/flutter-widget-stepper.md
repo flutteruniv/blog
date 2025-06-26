@@ -4,7 +4,7 @@ slug: "flutter-widget-stepper"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-03-18T10:00:00.000Z
-tags: ["ウィジェット"]
+tags: ["Widget"]
 ---
 
 本記事では `Stepper` `Widget`の紹介を行います。

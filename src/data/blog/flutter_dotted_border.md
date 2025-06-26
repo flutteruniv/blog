@@ -4,7 +4,7 @@ slug: "flutter_dotted_border"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-09-30T13:49:57.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 **点線の枠線を実装したい！**

@@ -4,7 +4,7 @@ slug: "flutter-university-summary-2022"
 description: ""
 pubDatetime: "2022-11-30"
 author: "Aoi"
-tags: ["パッケージ"]
+tags: ["Package"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

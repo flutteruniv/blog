@@ -4,7 +4,7 @@ slug: "flutter-navigationrail"
 description: ""
 pubDatetime: "2022-07-08"
 author: "Aoi"
-tags: ["ウィジェット"]
+tags: ["Widget"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

@@ -4,7 +4,7 @@ slug: "flutter-riverpod"
 description: ""
 pubDatetime: "2022-05-29"
 author: "Aoi"
-tags: ["ウィジェット"]
+tags: ["Widget"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

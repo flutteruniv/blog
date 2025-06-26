@@ -4,7 +4,7 @@ slug: "flutter-package-url_launcher"
 author: "Aoi"
 description: ""
 pubDatetime: 2023-01-04T10:00:00.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 **「アプリのボタンをタップしたら自分のHPに移動するようにしたい！」**

@@ -4,7 +4,7 @@ slug: "flutter-monarch"
 description: ""
 pubDatetime: "2022-06-22"
 author: "Aoi"
-tags: ["パッケージ"]
+tags: ["Package"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

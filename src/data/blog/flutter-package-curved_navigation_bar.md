@@ -4,7 +4,7 @@ slug: "flutter-package-curved_navigation_bar"
 description: ""
 pubDatetime: "2022-10-21"
 author: "Aoi"
-tags: ["パッケージ"]
+tags: ["Package"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

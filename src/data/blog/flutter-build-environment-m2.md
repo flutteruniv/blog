@@ -4,7 +4,7 @@ slug: "flutter-build-environment-m2"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-08-05T13:13:28.000Z
-tags: ["beginer"]
+tags: ["初心者向け"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

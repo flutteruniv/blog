@@ -4,7 +4,7 @@ slug: "flutter-news-20230417"
 description: ""
 pubDatetime: "2023-04-17"
 author: "kboy"
-tags: ["パッケージ"]
+tags: ["Package"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

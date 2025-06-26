@@ -14,7 +14,9 @@
       "Bash(say:*)",
       "Bash(git -C /Users/fujikawakei/app/blog status)",
       "Bash(git -C /Users/fujikawakei/app/blog diff HEAD~1 src/data/blog/flutter-news-20220314.md)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(python3:*)",
+      "Bash(echo)"
     ],
     "deny": []
   }

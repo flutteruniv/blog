@@ -4,7 +4,7 @@ slug: "flutter-animated_text_kit"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-07-20T11:31:11.000Z
-tags: ["パッケージ"]
+tags: ["Package"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
