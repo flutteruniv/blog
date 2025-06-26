@@ -3,7 +3,7 @@ title: "Flutter大学の Flutter修行プラン とは？"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-09-16T10:00:00.000Z
-categories: ["flutterunivesity"]
+tags: ["Flutter大学"]
 ---
 
 **「Flutter大学の Flutter修行プラン ってどんなプランなんだろう？」**

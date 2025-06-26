@@ -3,8 +3,7 @@ title: "【Flutterニュース】AIとFlutter、そして共同勉強会と新�
 description: ""
 pubDatetime: "2023-04-24"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

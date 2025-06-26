@@ -3,7 +3,7 @@ title: "【Flutter】 Drift の基本的な使い方解説"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-04-13T11:06:45.000Z
-categories: ["flutter"]
+tags: ["データベース"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

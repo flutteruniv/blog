@@ -3,8 +3,7 @@ title: "東京Flutterハッカソンのブログ記事まとめ"
 description: ""
 pubDatetime: "2023-10-30"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["イベント"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

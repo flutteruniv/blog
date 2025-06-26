@@ -3,7 +3,7 @@ title: "2023 年のFlutterニュースまとめ"
 author: "Aoi"
 description: ""
 pubDatetime: 2023-11-30T21:57:23.000Z
-categories: ["news"]
+tags: ["ニュース"]
 ---
 
 本記事は[Flutter Advent Calendar 2023](https://qiita.com/advent-calendar/2023/flutter) 1日目の記事です。

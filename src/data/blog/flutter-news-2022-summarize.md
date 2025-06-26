@@ -3,8 +3,7 @@ title: "2022 年のFlutterニュースまとめ"
 description: ""
 pubDatetime: "2022-11-30"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

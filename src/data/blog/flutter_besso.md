@@ -3,8 +3,7 @@ title: "【Flutter別荘】安心できる場所で挑戦しよう"
 description: ""
 pubDatetime: "2022-11-03"
 author: "konbu"
-tags:
-  - "Flutter"
+tags: ["Flutter大学"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

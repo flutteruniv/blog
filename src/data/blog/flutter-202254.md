@@ -3,7 +3,7 @@ title: "Flutter ニュース 【2022年5月第4週】"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-05-30T10:00:00.000Z
-categories: ["news"]
+tags: ["ニュース"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)

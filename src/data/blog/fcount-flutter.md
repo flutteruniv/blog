@@ -3,7 +3,7 @@ title: "【 f_count 】自動カウントするログ出力を使おう！【 Fl
 author: "Aoi"
 description: ""
 pubDatetime: 2022-08-03T10:00:00.000Z
-categories: ["package"]
+tags: ["パッケージ"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

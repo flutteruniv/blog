@@ -3,7 +3,7 @@ title: "【flutter_rating_bar】評価バーを実装しよう！【flutter】"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-08-19T10:00:00.000Z
-categories: ["package"]
+tags: ["パッケージ"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

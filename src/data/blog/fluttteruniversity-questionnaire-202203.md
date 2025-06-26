@@ -3,8 +3,7 @@ title: "Flutter大学の 評判 は？満足度調査結果をチラ見せ！"
 description: ""
 pubDatetime: "2022-04-02"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["Flutter大学"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

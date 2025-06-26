@@ -3,8 +3,7 @@ title: "スクロールしたら隠れるBottomNavigationBarを実装しよう�
 description: ""
 pubDatetime: "2022-07-23"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

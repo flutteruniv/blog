@@ -3,8 +3,7 @@ title: "【Flutter】TextFieldの文字色を変える方法"
 description: ""
 pubDatetime: "2023-03-13"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["UI/レイアウト"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

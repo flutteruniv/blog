@@ -3,8 +3,7 @@ title: "【Flutterニュース】Chompy終了、Dart 3.0.0リリース情報、�
 description: ""
 pubDatetime: "2023-04-17"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

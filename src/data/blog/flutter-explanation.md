@@ -3,8 +3,7 @@ title: "Flutter って何？ アプリ開発の常識を壊すスーパーツー
 description: ""
 pubDatetime: "2022-03-01"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

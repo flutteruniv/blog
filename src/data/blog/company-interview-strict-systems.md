@@ -3,8 +3,7 @@ title: "１年間で5つのFlutterアプリをリリース！？ストリクト�
 description: ""
 pubDatetime: "2022-10-18"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["企業インタビュー"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

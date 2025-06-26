@@ -3,8 +3,7 @@ title: "【Flutter】 BorderRadiusの使い方"
 description: ""
 pubDatetime: "2023-03-26"
 author: "shimano"
-tags:
-  - "Flutter"
+tags: ["UI/レイアウト"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

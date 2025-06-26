@@ -3,8 +3,7 @@ title: "Flutter修行プランの価格変更についてのお知らせ"
 description: ""
 pubDatetime: "2023-05-29"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["Flutter大学"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

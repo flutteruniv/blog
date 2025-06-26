@@ -3,8 +3,7 @@ title: "Flutter大学の コミュニティプラン とは？"
 description: ""
 pubDatetime: "2022-09-09"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["Flutter大学"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

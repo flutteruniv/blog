@@ -3,8 +3,7 @@ title: "【 glassmorphism 】ガラスのようなUIを実装しよう！【 Flu
 description: ""
 pubDatetime: "2022-10-28"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

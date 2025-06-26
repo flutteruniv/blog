@@ -3,8 +3,7 @@ title: "【Flutter】 無限スクロール の実装方法"
 description: ""
 pubDatetime: "2022-03-30"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

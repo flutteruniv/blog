@@ -3,8 +3,7 @@ title: "【Flutter】 余白 の付け方【padding,margin】"
 description: ""
 pubDatetime: "2022-06-08"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["UI/レイアウト"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

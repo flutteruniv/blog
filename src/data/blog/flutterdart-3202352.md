@@ -3,7 +3,7 @@ title: "【Flutterニュース】Dart 3がもうすぐ来るぞ【2023年5月2�
 author: "kboy"
 description: ""
 pubDatetime: 2023-05-01T23:48:59.000Z
-categories: ["news"]
+tags: ["ニュース"]
 ---
 
 ゴールデンウィークいかがお過ごしですか？Flutterを勉強している人もいるかもしれませんので、そんな方のために今日もFlutterニュースを書いていきたいと思います！

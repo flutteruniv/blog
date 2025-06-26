@@ -3,7 +3,7 @@ title: "【 sliding_up_panel 】スライドアップパネルの実装【Flutte
 author: "Aoi"
 description: ""
 pubDatetime: 2022-10-12T10:00:00.000Z
-categories: ["package"]
+tags: ["パッケージ"]
 ---
 
 **下からパネルが上がってくるような、スライドアップパネルを実装したい！**

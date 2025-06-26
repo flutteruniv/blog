@@ -3,7 +3,7 @@ title: "【 animated_text_kit 】アニメーション付きテキストを実�
 author: "Aoi"
 description: ""
 pubDatetime: 2022-07-20T11:31:11.000Z
-categories: ["package"]
+tags: ["パッケージ"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

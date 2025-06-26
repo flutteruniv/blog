@@ -3,8 +3,7 @@ title: "Flutter で ゲーム を作ろう!【Flutter Casual Game Toolkit】"
 description: ""
 pubDatetime: "2022-05-20"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

@@ -3,7 +3,7 @@ title: "【Flutter大学】 共同勉強会 まとめました！【2022年7月�
 author: "Aoi"
 description: ""
 pubDatetime: 2022-08-12T10:00:00.000Z
-categories: ["study_meeting"]
+tags: ["勉強会"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

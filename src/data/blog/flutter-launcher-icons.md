@@ -3,8 +3,7 @@ title: "【Flutter】アプリアイコンを変える"
 description: ""
 pubDatetime: "2023-03-15"
 author: "shimano"
-tags:
-  - "Flutter"
+tags: ["開発ツール"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

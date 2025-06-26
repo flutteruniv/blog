@@ -3,8 +3,7 @@ title: "Flutterエンジニアの人材紹介について"
 description: ""
 pubDatetime: "2024-09-05"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["ビジネス"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

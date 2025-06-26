@@ -3,8 +3,7 @@ title: "【 NavigationRail 】 サイドメニュー を実装しよう！【 Fl
 description: ""
 pubDatetime: "2022-07-08"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

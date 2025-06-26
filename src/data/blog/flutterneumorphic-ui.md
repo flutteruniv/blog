@@ -3,7 +3,7 @@ title: "【 flutter_neumorphic 】ニューモーフィズムでUIを実装し�
 author: "Aoi"
 description: ""
 pubDatetime: 2022-07-01T10:00:00.000Z
-categories: ["package"]
+tags: ["パッケージ"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

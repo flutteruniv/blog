@@ -3,7 +3,7 @@ title: "AI修行プラン - Flutter開発者のための次世代学習体験"
 author: "kboy"
 description: ""
 pubDatetime: 2025-06-22T06:46:16.000Z
-categories: ["flutterunivesity"]
+tags: ["Flutter大学"]
 ---
 
 2025年7月より**Flutter修行プランがAI修行プランに生まれ変わります。**FlutterをAIと共に学習できるプランとなります。

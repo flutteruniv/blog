@@ -3,7 +3,7 @@ title: "【 Placeholder 】場所取り用のウィジェットを使おう! 【
 author: "Aoi"
 description: ""
 pubDatetime: 2022-11-09T10:00:00.000Z
-categories: ["widget"]
+tags: ["ウィジェット"]
 ---
 
 **「後から画像を配置する場所を一時的に取っときたいんだけど、いい方法ないかな？」**

@@ -3,7 +3,7 @@ title: "【Flutter】 かわいい画面遷移を実装しよう 【 liquid_swip
 author: "Aoi"
 description: ""
 pubDatetime: 2022-04-08T10:00:00.000Z
-categories: ["package"]
+tags: ["パッケージ"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

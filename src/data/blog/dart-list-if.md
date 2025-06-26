@@ -3,8 +3,7 @@ title: "【 Dart 】 List の中で if 文を使おう！【 Flutter 】"
 description: ""
 pubDatetime: "2022-12-27"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

@@ -3,8 +3,7 @@ title: "Flutter チュートリアル ~ロジックの組み方を学ぼう~"
 description: ""
 pubDatetime: "2022-04-01"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

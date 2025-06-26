@@ -3,8 +3,7 @@ title: "朝7時から「もくもく会」を始めました"
 description: ""
 pubDatetime: "2023-05-01"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["Flutter大学"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

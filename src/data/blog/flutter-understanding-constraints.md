@@ -3,8 +3,7 @@ title: "【 Flutter 】constraints を理解しよう！【Understanding constra
 description: ""
 pubDatetime: "2022-12-29"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["UI/レイアウト"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

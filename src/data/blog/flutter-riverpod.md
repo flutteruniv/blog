@@ -3,8 +3,7 @@ title: "【2022年最新】Flutter × Riverpod の基本的な使い方解説！
 description: ""
 pubDatetime: "2022-05-29"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

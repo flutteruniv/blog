@@ -3,8 +3,7 @@ title: "【Flutter】 IconButton 使ってみた！【Material 3】"
 description: ""
 pubDatetime: "2022-09-07"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

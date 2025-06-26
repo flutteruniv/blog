@@ -3,7 +3,7 @@ title: "【Flutter】 Column の使い方"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-06-10T14:31:47.000Z
-categories: ["beginer"]
+tags: ["beginer"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

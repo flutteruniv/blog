@@ -3,8 +3,7 @@ title: "【 Spacer 】隙間を埋めるWidgetを使おう！【 Flutter 】"
 description: ""
 pubDatetime: "2022-11-18"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

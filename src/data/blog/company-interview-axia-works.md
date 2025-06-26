@@ -3,8 +3,7 @@ title: "未経験のFlutterエンジニアを積極採用！Axia Works合同会�
 description: ""
 pubDatetime: "2022-10-27"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["企業インタビュー"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

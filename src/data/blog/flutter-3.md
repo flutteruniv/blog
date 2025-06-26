@@ -3,7 +3,7 @@ title: "Flutter 3 での変化点の要約"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-05-12T04:47:53.000Z
-categories: ["news"]
+tags: ["ニュース"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)

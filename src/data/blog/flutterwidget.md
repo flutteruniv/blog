@@ -3,7 +3,7 @@ title: "【Flutter】Widgetを 自作 しよう！"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-08-10T10:00:00.000Z
-categories: ["beginer"]
+tags: ["beginer"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

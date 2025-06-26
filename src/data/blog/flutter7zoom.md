@@ -3,7 +3,7 @@ title: "Flutter大学の7人の質問zoom講師を紹介します！"
 author: "kboy"
 description: ""
 pubDatetime: 2023-07-07T06:12:54.000Z
-categories: ["flutterunivesity"]
+tags: ["Flutter大学"]
 ---
 
 Flutter大学には３つのプランがあり、最上位のFlutter修行プランですと、週７回zoomで質問することができます。

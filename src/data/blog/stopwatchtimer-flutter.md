@@ -3,7 +3,7 @@ title: "【 stop_watch_timer 】ストップウォッチを実装しよう【 Fl
 author: "Aoi"
 description: ""
 pubDatetime: 2022-11-06T14:30:24.000Z
-categories: ["package"]
+tags: ["パッケージ"]
 ---
 
 **「Flutterでストップウォッチを実装したい！」**

@@ -3,7 +3,7 @@ title: "【 Flutter大学 】第8期 共同開発 インタビュー！"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-06-29T10:00:00.000Z
-categories: ["%e5%85%b1%e5%90%8c%e9%96%8b%e7%99%ba"]
+tags: ["共同開発"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

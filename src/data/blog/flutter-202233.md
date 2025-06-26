@@ -3,7 +3,7 @@ title: "Flutterニュース 【2022年3月第3週】"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-03-21T10:00:00.000Z
-categories: ["news"]
+tags: ["ニュース"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)

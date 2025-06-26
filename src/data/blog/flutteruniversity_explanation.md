@@ -3,8 +3,7 @@ title: "Flutter大学とは ？ Flutterエンジニアに特化した学習コ�
 description: ""
 pubDatetime: "2022-03-05"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["Flutter大学"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

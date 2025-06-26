@@ -3,8 +3,7 @@ title: "【 SelectionArea 】文字を選択できるようにしよう！【Flu
 description: ""
 pubDatetime: "2022-09-14"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

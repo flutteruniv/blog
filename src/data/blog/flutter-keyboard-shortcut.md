@@ -3,8 +3,7 @@ title: "キーボードショートカット を実装しよう！【Flutter】"
 description: ""
 pubDatetime: "2022-11-17"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

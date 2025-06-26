@@ -3,8 +3,7 @@ title: "【 Monarch 】レイアウトチェックを楽にしよう【 Flutter 
 description: ""
 pubDatetime: "2022-06-22"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

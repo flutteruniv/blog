@@ -3,8 +3,7 @@ title: "【速報】 Google I/O 2023にてFlutter3.10のリリース発表。Dar
 description: ""
 pubDatetime: "2023-05-11"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

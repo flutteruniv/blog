@@ -3,8 +3,7 @@ title: "8月5日(土)にFlutter勉強会の札幌.dartを開催しました！"
 description: ""
 pubDatetime: "2023-08-08"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["Flutter大学"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

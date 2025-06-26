@@ -3,7 +3,7 @@ title: "【Dart】 再帰関数 って何？"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-05-27T10:00:00.000Z
-categories: ["dart"]
+tags: ["Dart"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

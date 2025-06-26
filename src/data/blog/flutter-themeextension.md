@@ -3,8 +3,7 @@ title: "【Flutter】2022年5月アップデート先取り紹介！【 ThemeExt
 description: ""
 pubDatetime: "2022-05-04"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

@@ -3,8 +3,7 @@ title: "【 curved_navigation_bar 】おしゃれなNavigation Bar を実装し�
 description: ""
 pubDatetime: "2022-10-21"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

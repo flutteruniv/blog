@@ -3,8 +3,7 @@ title: "【 Dart 】 List の使い方 【 Flutter 】"
 description: ""
 pubDatetime: "2022-10-20"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["Dart"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

@@ -3,7 +3,7 @@ title: "【Flutter】 Stepper 使い倒してみた！"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-03-18T10:00:00.000Z
-categories: ["widget"]
+tags: ["ウィジェット"]
 ---
 
 本記事では `Stepper` `Widget`の紹介を行います。

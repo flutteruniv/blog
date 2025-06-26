@@ -3,7 +3,7 @@ title: "【 dotted_border 】点線の枠線を実装しよう！【flutter】"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-09-30T13:49:57.000Z
-categories: ["package"]
+tags: ["パッケージ"]
 ---
 
 **点線の枠線を実装したい！**

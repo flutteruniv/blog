@@ -3,7 +3,7 @@ title: "2022 年のFlutter大学を振り返ろう！"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-12-30T10:00:00.000Z
-categories: ["flutterunivesity"]
+tags: ["Flutter大学"]
 ---
 
 **「2022年、Flutter大学ってどんな事してたんだろう？」**

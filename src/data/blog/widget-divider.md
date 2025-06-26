@@ -3,8 +3,7 @@ title: "【 Divider 】区切り線を実装しよう！【Flutter】"
 description: ""
 pubDatetime: "2022-11-24"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

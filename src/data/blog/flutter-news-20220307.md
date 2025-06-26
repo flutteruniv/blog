@@ -3,8 +3,7 @@ title: "Flutter ニュース【2022年3月第１週】"
 description: ""
 pubDatetime: "2022-03-07"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

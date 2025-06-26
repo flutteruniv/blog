@@ -3,8 +3,7 @@ title: "【 Icon 】アイコンを実装しよう！ 【 Flutter 】"
 description: ""
 pubDatetime: "2022-11-25"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

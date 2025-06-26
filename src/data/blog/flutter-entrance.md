@@ -3,8 +3,7 @@ title: "Flutter入門 ~ 環境構築から初心者向け学習方法まで ~ �
 description: ""
 pubDatetime: "2022-04-27"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

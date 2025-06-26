@@ -3,8 +3,7 @@ title: "テラコヤテックFlutterコース第一期が終わりました！"
 description: ""
 pubDatetime: "2024-06-08"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["Flutter大学"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

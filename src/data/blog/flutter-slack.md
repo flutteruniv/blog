@@ -3,7 +3,7 @@ title: "Flutter大学の活用法 〜 Slack 編〜"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-03-26T10:00:00.000Z
-categories: ["flutterunivesity"]
+tags: ["Flutter大学"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

@@ -3,7 +3,7 @@ title: "2022年3月Flutter大学福岡オフ会レポート"
 author: "kboy"
 description: ""
 pubDatetime: 2022-03-29T10:00:00.000Z
-categories: ["flutterunivesity"]
+tags: ["Flutter大学"]
 ---
 
 こんにちは。Flutter大学総長のkboyです。この週刊Flutter大学が始まってから約１ヶ月が経ちましたね。

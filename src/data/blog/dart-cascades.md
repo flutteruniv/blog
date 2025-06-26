@@ -3,8 +3,7 @@ title: "【 Dart 】カスケード演算子 \" .. \" とは?【 Flutter 】"
 description: ""
 pubDatetime: "2022-10-26"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["Dart"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

@@ -3,8 +3,7 @@ title: "【 Flutter 】おしゃれなフェードアウトアニメーション
 description: ""
 pubDatetime: "2022-06-15"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

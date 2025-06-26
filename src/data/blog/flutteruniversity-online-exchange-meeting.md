@@ -3,8 +3,7 @@ title: "【Flutter大学】 オンライン交流会 とは？ 多様な人と�
 description: ""
 pubDatetime: "2022-05-07"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["Flutter大学"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

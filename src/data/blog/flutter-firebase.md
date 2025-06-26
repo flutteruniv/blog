@@ -3,8 +3,7 @@ title: "【2022年最新】 Flutter × Firebase でアプリを作ろう！"
 description: ""
 pubDatetime: "2022-05-18"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

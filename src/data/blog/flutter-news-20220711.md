@@ -3,7 +3,7 @@ title: "Flutter ニュース 【2022年7月第2週】"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-07-11T10:00:00.000Z
-categories: ["news"]
+tags: ["ニュース"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)

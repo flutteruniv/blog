@@ -3,8 +3,7 @@ title: "SizedBox の使い方 【Flutter】"
 description: ""
 pubDatetime: "2022-11-12"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

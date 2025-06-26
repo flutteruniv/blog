@@ -3,7 +3,7 @@ title: "【 url_launcher 】アプリからWEBページを開こう！【 Flutte
 author: "Aoi"
 description: ""
 pubDatetime: 2023-01-04T10:00:00.000Z
-categories: ["package"]
+tags: ["パッケージ"]
 ---
 
 **「アプリのボタンをタップしたら自分のHPに移動するようにしたい！」**

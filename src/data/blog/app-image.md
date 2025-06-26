@@ -3,8 +3,7 @@ title: "【Flutter】アプリ内の画像を表示する"
 description: ""
 pubDatetime: "2023-03-24"
 author: "shimano"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

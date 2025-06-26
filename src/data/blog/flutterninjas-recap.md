@@ -3,8 +3,7 @@ title: "Recap of FlutterNinjas 【記事まとめ】"
 description: ""
 pubDatetime: "2024-07-08"
 author: "kboy"
-tags:
-  - "Flutter"
+tags: ["イベント"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

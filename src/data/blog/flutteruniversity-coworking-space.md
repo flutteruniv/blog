@@ -3,8 +3,7 @@ title: "【Flutter大学】オンライン作業部屋 とは？いつでも使�
 description: ""
 pubDatetime: "2022-05-21"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["Flutter大学"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

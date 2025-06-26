@@ -3,7 +3,7 @@ title: "Zapp! パブリックベータリリース！【Flutter】"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-08-27T06:12:13.000Z
-categories: ["flutter"]
+tags: ["開発ツール"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

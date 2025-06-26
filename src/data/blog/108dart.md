@@ -3,7 +3,7 @@ title: "10月8日に沖縄コザ.dartが行われました！"
 author: "kboy"
 description: ""
 pubDatetime: 2023-10-25T07:47:01.000Z
-categories: ["flutterunivesity", "study_meeting"]
+tags: ["Flutter大学", "勉強会"]
 ---
 
 2023年は3月の福岡.dartから始まり、大阪.dart、東京.dart、札幌.dartが行われていきました。そして今回行われたのが、沖縄コザ.dartです。

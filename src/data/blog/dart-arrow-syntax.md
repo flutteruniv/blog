@@ -3,8 +3,7 @@ title: "【Dart】 アロー構文 \" => \" とは？ 【Flutter】"
 description: ""
 pubDatetime: "2022-11-02"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["Dart"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

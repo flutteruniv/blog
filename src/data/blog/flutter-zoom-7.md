@@ -3,7 +3,7 @@ title: "【Flutter大学】 質問Zoom って何？週7回の質問相談会！"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-03-12T10:00:00.000Z
-categories: ["flutterunivesity"]
+tags: ["Flutter大学"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

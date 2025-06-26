@@ -3,8 +3,7 @@ title: "Flutter大学の新プラン 課題学習プラン とは？"
 description: ""
 pubDatetime: "2022-07-29"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["Flutter大学"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

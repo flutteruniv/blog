@@ -3,7 +3,7 @@ title: "【 slide_to_act 】スライドで決定するボタンを実装しよ�
 author: "Aoi"
 description: ""
 pubDatetime: 2022-07-27T14:51:35.000Z
-categories: ["package"]
+tags: ["パッケージ"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

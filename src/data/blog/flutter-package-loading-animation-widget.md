@@ -3,8 +3,7 @@ title: "【Flutter】一味違う ローディング を実装しよう！"
 description: ""
 pubDatetime: "2022-04-06"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["パッケージ"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

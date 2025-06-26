@@ -3,7 +3,7 @@ title: "Flutter ニュース 【2022年9月第2週】"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-09-12T10:00:00.000Z
-categories: ["news"]
+tags: ["ニュース"]
 ---
 
 **『Flutterの最新情報をキャッチアップしたい！』**

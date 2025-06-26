@@ -3,7 +3,7 @@ title: "【Flutter】 SnackBar を出す方法【ScaffoldMessenger】"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-03-25T10:00:00.000Z
-categories: ["flutter"]
+tags: ["ウィジェット"]
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)

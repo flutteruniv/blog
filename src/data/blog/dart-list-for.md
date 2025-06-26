@@ -3,8 +3,7 @@ title: "【 Dart 】 List の中で for 文を使おう！【 Flutter 】"
 description: ""
 pubDatetime: "2022-12-07"
 author: "Aoi"
-tags:
-  - "Flutter"
+tags: ["ウィジェット"]
 imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---

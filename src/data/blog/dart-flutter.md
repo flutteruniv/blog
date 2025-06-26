@@ -3,7 +3,7 @@ title: "【 Dart 】スプレッド演算子 ” ... ” とは?【 Flutter 】"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-12-23T10:00:00.000Z
-categories: ["dart"]
+tags: ["Dart"]
 ---
 
 **「コードの中で出てくる、” ... ”って一体何なんだろう？」**
