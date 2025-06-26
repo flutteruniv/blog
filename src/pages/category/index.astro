@@ -1,0 +1,104 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Main from "@/layouts/Main.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import { SITE } from "@/config";
+import { CATEGORIES, getCategoryPath } from "@/config/categories";
+import getUniqueCategories from "@/utils/getUniqueCategories";
+
+const posts = await getCollection("blog");
+
+// Get categories that have posts
+const categoriesWithPosts = getUniqueCategories(posts);
+const categoriesWithPostsSet = new Set(categoriesWithPosts.map(c => c.categoryKey));
+
+// Get root categories (no parent) that have posts
+const rootCategories = Object.entries(CATEGORIES)
+  .filter(([_, config]) => !config.parent)
+  .filter(([categoryKey, config]) => {
+    // Include if this category or any of its subcategories have posts
+    if (categoriesWithPostsSet.has(categoryKey)) return true;
+    
+    // Check if any subcategories have posts
+    return Object.entries(CATEGORIES).some(([subKey, subConfig]) => 
+      subConfig.parent === config.slug && categoriesWithPostsSet.has(subKey)
+    );
+  });
+
+// Get subcategories grouped by parent (only those with posts)
+const subcategoriesByParent: Record<string, Array<[string, any]>> = {};
+Object.entries(CATEGORIES).forEach(([key, config]) => {
+  if (config.parent && categoriesWithPostsSet.has(key)) {
+    if (!subcategoriesByParent[config.parent]) {
+      subcategoriesByParent[config.parent] = [];
+    }
+    subcategoriesByParent[config.parent].push([key, config]);
+  }
+});
+---
+
+<Layout title={`カテゴリー | ${SITE.title}`}>
+  <Header />
+  <Main pageTitle="カテゴリー" pageDesc="トピック別に整理された全てのコンテンツカテゴリー">
+    <div class="space-y-8">
+      {rootCategories.map(([categoryKey, config]) => {
+        const categoryData = categoriesWithPosts.find(c => c.categoryKey === categoryKey);
+        return (
+          <div class="border border-border rounded-lg p-6">
+            <h2 class="text-xl font-bold mb-2 flex justify-between items-center">
+              <a 
+                href={getCategoryPath(categoryKey)}
+                class="text-accent hover:underline"
+              >
+                {config.displayName}
+              </a>
+              {categoryData && (
+                <span class="text-sm bg-accent/10 text-accent px-3 py-1 rounded">
+                  {categoryData.count} posts
+                </span>
+              )}
+            </h2>
+          {config.description && (
+            <p class="text-sm text-foreground/75 mb-4">{config.description}</p>
+          )}
+          
+          {/* Show subcategories if they exist */}
+          {subcategoriesByParent[config.slug] && (
+            <div class="ml-4 space-y-2">
+              <h3 class="text-lg font-medium text-accent/80">Subcategories:</h3>
+              <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {subcategoriesByParent[config.slug].map(([subKey, subConfig]) => {
+                  const categoryData = categoriesWithPosts.find(c => c.categoryKey === subKey);
+                  return (
+                    <li>
+                      <a 
+                        href={getCategoryPath(subKey)}
+                        class="block p-2 rounded bg-muted/50 hover:bg-muted transition-colors"
+                      >
+                        <div class="font-medium flex justify-between items-center">
+                          <span>{subConfig.displayName}</span>
+                          {categoryData && (
+                            <span class="text-xs bg-accent/10 text-accent px-2 py-1 rounded">
+                              {categoryData.count}
+                            </span>
+                          )}
+                        </div>
+                        {subConfig.description && (
+                          <div class="text-xs text-foreground/60">{subConfig.description}</div>
+                        )}
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          )}
+        </div>
+        );
+      })}
+    </div>
+  </Main>
+  <Footer />
+</Layout>

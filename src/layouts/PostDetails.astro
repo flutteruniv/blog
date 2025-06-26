@@ -3,7 +3,8 @@ import { render, type CollectionEntry } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-import Tag from "@/components/Tag.astro";
+import Category from "@/components/Category.astro";
+import { getCategoryFromTag, getCategoryConfig } from "@/config/categories";
 import Datetime from "@/components/Datetime.astro";
 import EditPost from "@/components/EditPost.astro";
 import ShareLinks from "@/components/ShareLinks.astro";
@@ -122,7 +123,17 @@ const nextPost =
     <EditPost class="sm:hidden" {hideEditPost} {post} />
 
     <ul class="mt-4 mb-8 sm:my-8">
-      {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} />)}
+      {tags.map(tag => {
+        const categoryKey = getCategoryFromTag(tag);
+        const categoryConfig = categoryKey ? getCategoryConfig(categoryKey) : null;
+        
+        if (categoryConfig) {
+          return <Category categoryKey={categoryKey} displayName={categoryConfig.displayName} />;
+        } else {
+          // Fallback to original tag display if no category mapping found
+          return <Category categoryKey={`uncategorized`} displayName={tag} />;
+        }
+      })}
     </ul>
 
     {author && <AuthorBio authorName={author} />}

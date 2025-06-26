@@ -1,0 +1,92 @@
+---
+import { getCollection } from "astro:content";
+import type { GetStaticPathsOptions } from "astro";
+import Layout from "@/layouts/Layout.astro";
+import Main from "@/layouts/Main.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Card from "@/components/Card.astro";
+import Pagination from "@/components/Pagination.astro";
+import { SITE } from "@/config";
+import { CATEGORIES, TAG_TO_CATEGORY, getCategoryConfig, getCategoryDisplayPath } from "@/config/categories";
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  const posts = await getCollection("blog", ({ data }) => !data.draft);
+  
+  const paths: any[] = [];
+  
+  // Generate paths for subcategories only
+  Object.entries(CATEGORIES).forEach(([categoryKey, config]) => {
+    // Only handle subcategories (those with a parent)
+    if (!config.parent) return;
+    
+    const parentConfig = CATEGORIES[config.parent];
+    if (!parentConfig) return;
+    
+    // Find posts that belong to this category
+    const categoryPosts = posts.filter(post => {
+      return post.data.tags?.some(tag => {
+        const mappedCategory = TAG_TO_CATEGORY[tag];
+        return mappedCategory === categoryKey;
+      });
+    });
+    
+    if (categoryPosts.length > 0) {
+      // Generate paginated paths for subcategories
+      const paginatedPaths = paginate(categoryPosts, {
+        params: { 
+          parent: parentConfig.slug,
+          child: config.slug 
+        },
+        props: { 
+          categoryKey,
+          categoryConfig: config,
+          parentConfig,
+          categoryDisplayPath: getCategoryDisplayPath(categoryKey)
+        },
+        pageSize: SITE.postPerPage,
+      });
+      
+      paths.push(...paginatedPaths);
+    }
+  });
+  
+  return paths;
+}
+
+const { page, categoryKey, categoryConfig, parentConfig, categoryDisplayPath } = Astro.props;
+const { parent, child } = Astro.params;
+---
+
+<Layout title={`${categoryDisplayPath} | ${SITE.title}`}>
+  <Header />
+  <Main
+    pageTitle={["カテゴリー:", categoryDisplayPath]}
+    titleTransition={categoryKey}
+    pageDesc={categoryConfig.description || `${categoryDisplayPath}カテゴリーの全ての記事`}
+  >
+    <div class="mb-6">
+      <nav class="text-sm text-foreground/75">
+        <a href="/category/" class="hover:text-accent">カテゴリー</a>
+        <span class="mx-2">/</span>
+        <a href={`/category/${parent}/`} class="hover:text-accent">
+          {parentConfig.displayName}
+        </a>
+        <span class="mx-2">/</span>
+        <span class="text-accent font-medium">{categoryConfig.displayName}</span>
+      </nav>
+    </div>
+
+    <h1 slot="title" transition:name={categoryKey} class="text-2xl font-bold">
+      {categoryDisplayPath}
+    </h1>
+    
+    <ul class="mt-8">
+      {page.data.map(data => <Card {...data} />)}
+    </ul>
+  </Main>
+
+  <Pagination {page} />
+
+  <Footer noMarginTop={page.lastPage > 1} />
+</Layout>
