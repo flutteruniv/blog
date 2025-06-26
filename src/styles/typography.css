@@ -138,6 +138,25 @@
     .remark-link-card-plus__image {
       @apply object-cover h-full w-full m-0 rounded-r-lg;
     }
+
+    /* ===== Auto Embedded Content Styling ===== */
+    .youtube-embed-container {
+      @apply my-6 relative w-full;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      height: 0;
+    }
+
+    .youtube-embed-container iframe {
+      @apply absolute top-0 left-0 w-full h-full rounded-lg border border-border;
+    }
+
+    .twitter-embed-container {
+      @apply my-6 flex justify-center;
+    }
+
+    .twitter-embed-container .twitter-tweet {
+      @apply max-w-full mx-auto;
+    }
   }
 
   /* ===== Code Blocks & Syntax Highlighting ===== */
