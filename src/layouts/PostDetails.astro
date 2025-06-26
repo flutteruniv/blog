@@ -106,12 +106,7 @@ const nextPost =
       <EditPost {hideEditPost} {post} class="max-sm:hidden" />
       {
         author && (
-          <div class="flex items-center gap-2">
-            <span aria-hidden="true" class="max-sm:hidden">
-              |
-            </span>
-            <span class="text-sm font-medium text-accent">by {author}</span>
-          </div>
+          <span class="text-sm font-medium text-accent">by {author}</span>
         )
       }
     </div>
