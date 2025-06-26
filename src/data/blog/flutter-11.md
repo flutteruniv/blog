@@ -1,5 +1,6 @@
 ---
 title: "【Flutter大学】 個人開発発表会 とは？1人だけど1人じゃない個人開発！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-04-23T10:00:00.000Z
 categories: ["flutterunivesity"]

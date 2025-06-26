@@ -1,5 +1,6 @@
 ---
 title: "【 curved_navigation_bar 】おしゃれなNavigation Bar を実装しよう！【 Flutter 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-10-21T10:00:09.000Z
 categories: ["package"]

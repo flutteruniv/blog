@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 かわいい画面遷移を実装しよう 【 liquid_swipe 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-04-08T10:00:00.000Z
 categories: ["package"]

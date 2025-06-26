@@ -1,5 +1,6 @@
 ---
 title: "【Flutter/Dart】 finalとconst の違いって何？"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-05-25T10:00:00.000Z
 categories: ["beginer", "uncategorized"]

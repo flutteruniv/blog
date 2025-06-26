@@ -1,5 +1,6 @@
 ---
 title: "Dart 3 最新情報！ 〜 The road to Dart 3 の要約 〜"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-12-14T14:34:17.000Z
 categories: ["news"]

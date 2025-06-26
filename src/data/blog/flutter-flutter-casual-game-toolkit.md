@@ -1,5 +1,6 @@
 ---
 title: "Flutter で ゲーム を作ろう!【Flutter Casual Game Toolkit】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-05-20T10:00:00.000Z
 categories: ["flutter"]

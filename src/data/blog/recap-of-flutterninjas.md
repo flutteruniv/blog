@@ -1,5 +1,6 @@
 ---
 title: "Recap of FlutterNinjas 【記事まとめ】"
+author: "kboy"
 description: ""
 pubDatetime: 2024-07-08T22:39:39.000Z
 categories: ["study_meeting"]

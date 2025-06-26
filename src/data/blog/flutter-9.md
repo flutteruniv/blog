@@ -1,5 +1,6 @@
 ---
 title: "【 Flutter大学 】第9期 共同開発 インタビュー！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-09-23T10:00:00.000Z
 categories: ["%e5%85%b1%e5%90%8c%e9%96%8b%e7%99%ba"]

@@ -1,5 +1,6 @@
 ---
 title: "【 Flutter / Dart 】extends って何？"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-10-14T11:13:31.000Z
 categories: ["beginer"]

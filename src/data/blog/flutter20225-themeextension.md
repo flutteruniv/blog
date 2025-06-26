@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】2022年5月アップデート先取り紹介！【 ThemeExtension 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-05-04T10:00:00.000Z
 categories: ["flutter"]

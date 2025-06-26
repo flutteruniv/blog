@@ -1,5 +1,6 @@
 ---
-title: "【Dart】 アロー構文 \" => \" とは？ 【Flutter】"
+title: "【Dart】 アロー構文 => とは？ 【Flutter】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-11-02T10:00:00.000Z
 categories: ["dart"]

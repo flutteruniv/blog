@@ -1,5 +1,6 @@
 ---
 title: "【 Shimmer 】ローディング効果を追加しよう！【Flutter】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-09-29T07:02:28.000Z
 categories: ["package"]

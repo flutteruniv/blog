@@ -1,0 +1,66 @@
+---
+import { getAuthor, type Author } from "@/data/authors";
+
+export interface Props {
+  authorName: string;
+}
+
+const { authorName } = Astro.props;
+const author = getAuthor(authorName);
+
+// Fallback for unknown authors
+const defaultAuthor: Author = {
+  name: authorName,
+  bio: "Flutter大学のライター",
+  avatar: "/images/authors/default.jpg",
+  twitterHandle: "FlutterUniv",
+  website: "https://flutteruniv.com"
+};
+
+const authorData = author || defaultAuthor;
+---
+
+<div class="author-bio mt-8 p-6 bg-muted/30 rounded-lg border border-border">
+  <div class="flex items-start gap-4">
+    <!-- Author Avatar -->
+    <div class="flex-shrink-0">
+      <img 
+        src={authorData.avatar} 
+        alt={`${authorData.name}のプロフィール画像`}
+        class="w-16 h-16 rounded-full object-cover border-2 border-accent/20"
+        loading="lazy"
+        onerror="this.src='/images/authors/default.jpg'"
+      />
+    </div>
+    
+    <!-- Author Info -->
+    <div class="flex-1 min-w-0">
+      <h3 class="text-lg font-semibold text-foreground mb-2">
+        {authorData.name}
+      </h3>
+      <p class="text-sm text-foreground/80 leading-relaxed whitespace-pre-line mb-3">
+        {authorData.bio}
+      </p>
+      
+      <!-- Author Links -->
+      <div class="flex gap-3">
+        {authorData.twitterHandle && (
+          <a 
+            href={`https://x.com/${authorData.twitterHandle}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-1 text-xs bg-accent text-background px-3 py-1.5 rounded-full hover:bg-accent/90 transition-colors"
+          >
+            <span>X をフォロー</span>
+          </a>
+        )}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .author-bio {
+    background: linear-gradient(135deg, var(--color-muted) 0%, transparent 100%);
+  }
+</style>

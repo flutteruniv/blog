@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】splash画面の作成"
+author: "shimano"
 description: ""
 pubDatetime: 2023-03-16T16:41:48.000Z
 categories: ["flutter"]

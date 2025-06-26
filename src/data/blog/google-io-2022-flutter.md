@@ -1,5 +1,6 @@
 ---
 title: "【速報】 Google I/O 2022 Flutter 基調講演 まとめ！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-05-11T22:24:32.000Z
 categories: ["news"]

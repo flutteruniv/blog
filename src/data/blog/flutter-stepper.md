@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 Stepper 使い倒してみた！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-03-18T10:00:00.000Z
 categories: ["widget"]

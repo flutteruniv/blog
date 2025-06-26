@@ -1,5 +1,6 @@
 ---
 title: "Flutterニュース 【2022年3月第2週】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-03-14T10:00:00.000Z
 categories: ["news"]

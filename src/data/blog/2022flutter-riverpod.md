@@ -1,5 +1,6 @@
 ---
 title: "【2022年最新】Flutter × Riverpod の基本的な使い方解説！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-05-29T12:06:41.000Z
 categories: ["beginer"]

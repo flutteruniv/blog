@@ -1,5 +1,6 @@
 ---
 title: "【 M2 対応】 Flutter 環境構築"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-08-05T13:13:28.000Z
 categories: ["beginer"]

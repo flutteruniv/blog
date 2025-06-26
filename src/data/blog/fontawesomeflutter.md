@@ -1,5 +1,6 @@
 ---
 title: "【 font_awesome_flutter 】おしゃれなアイコンを実装しよう"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-08-25T14:19:57.000Z
 categories: ["package"]

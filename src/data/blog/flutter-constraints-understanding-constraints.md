@@ -1,5 +1,6 @@
 ---
 title: "【 Flutter 】constraints を理解しよう！【Understanding constraints の解説】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-12-29T10:00:00.000Z
 categories: ["flutter"]

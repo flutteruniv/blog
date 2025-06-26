@@ -1,5 +1,6 @@
 ---
 title: "スクロールしたら隠れるBottomNavigationBarを実装しよう【 Flutter 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-07-23T13:21:44.000Z
 categories: ["flutter"]

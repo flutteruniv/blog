@@ -1,5 +1,6 @@
 ---
 title: "Flutter Puzzle Hack 入賞作品レビュー！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-04-29T13:28:29.000Z
 categories: ["flutter"]

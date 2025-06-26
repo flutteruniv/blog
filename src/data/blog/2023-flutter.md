@@ -1,5 +1,6 @@
 ---
 title: "2023 年のFlutterニュースまとめ"
+author: "Aoi"
 description: ""
 pubDatetime: 2023-11-30T21:57:23.000Z
 categories: ["news"]

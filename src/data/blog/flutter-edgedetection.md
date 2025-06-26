@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】カメラで物を検出しよう！【 edge_detection 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-04-22T10:00:00.000Z
 categories: ["package"]

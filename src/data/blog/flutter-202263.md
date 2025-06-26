@@ -1,5 +1,6 @@
 ---
 title: "Flutter ニュース 【2022年6月第3週】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-06-20T10:00:00.000Z
 categories: ["news"]

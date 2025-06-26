@@ -1,5 +1,6 @@
 ---
 title: "【 Spacer 】隙間を埋めるWidgetを使おう！【 Flutter 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-11-18T10:00:00.000Z
 categories: ["widget"]

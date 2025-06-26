@@ -1,5 +1,6 @@
 ---
 title: "Flutter ニュース 【2022年7月第1週】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-07-04T10:00:00.000Z
 categories: ["news"]

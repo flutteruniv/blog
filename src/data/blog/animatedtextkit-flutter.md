@@ -1,5 +1,6 @@
 ---
 title: "【 animated_text_kit 】アニメーション付きテキストを実装しよう【 Flutter 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-07-20T11:31:11.000Z
 categories: ["package"]

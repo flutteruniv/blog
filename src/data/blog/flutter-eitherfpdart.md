@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 Either型を使ってみよう！【fpdart】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-08-18T14:16:31.000Z
 categories: ["package"]

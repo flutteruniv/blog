@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】線の軌跡をアニメーションしよう！【 path_animator 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-04-15T10:00:00.000Z
 categories: ["package"]

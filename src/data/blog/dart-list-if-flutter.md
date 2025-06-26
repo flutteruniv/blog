@@ -1,5 +1,6 @@
 ---
 title: "【 Dart 】 List の中で if 文を使おう！【 Flutter 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-12-27T10:00:00.000Z
 categories: ["dart"]

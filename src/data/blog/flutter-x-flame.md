@@ -1,5 +1,6 @@
 ---
 title: "【 Flutter x Flame 】ブロック崩しゲームを作ろう！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-10-15T11:55:15.000Z
 categories: ["flutter"]

@@ -1,5 +1,6 @@
 ---
 title: "【Flutte大学】 共同開発 とは？新しい技術のチャレンジの場！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-03-19T10:00:00.000Z
 categories: ["%e5%85%b1%e5%90%8c%e9%96%8b%e7%99%ba"]

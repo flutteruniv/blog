@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 badges 使い倒してみた！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-03-11T10:00:00.000Z
 categories: ["package"]

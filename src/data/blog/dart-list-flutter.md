@@ -1,5 +1,6 @@
 ---
 title: "【 Dart 】 List の使い方 【 Flutter 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-10-20T09:35:52.000Z
 categories: ["dart"]

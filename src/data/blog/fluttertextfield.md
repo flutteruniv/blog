@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】TextFieldの文字色を変える方法"
+author: "kboy"
 description: ""
 pubDatetime: 2023-03-13T22:39:30.000Z
 categories: ["flutter"]

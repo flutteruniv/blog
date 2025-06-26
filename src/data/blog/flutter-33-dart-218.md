@@ -1,5 +1,6 @@
 ---
 title: "Flutter 3.3 / Dart 2.18変化点の要約"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-08-31T05:30:47.000Z
 categories: ["news"]

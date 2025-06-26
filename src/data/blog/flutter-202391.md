@@ -1,5 +1,6 @@
 ---
 title: "Flutter ニュース 【2023年9月第1週】"
+author: "Aoi"
 description: ""
 pubDatetime: 2023-09-04T10:00:00.000Z
 categories: ["news"]

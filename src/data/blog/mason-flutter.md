@@ -1,5 +1,6 @@
 ---
 title: "【 Mason 】コード生成を自動化しよう！【 Flutter 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-06-24T13:40:26.000Z
 categories: ["flutter"]

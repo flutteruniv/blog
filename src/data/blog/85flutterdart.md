@@ -1,5 +1,6 @@
 ---
 title: "8月5日(土)にFlutter勉強会の札幌.dartを開催しました！"
+author: "kboy"
 description: ""
 pubDatetime: 2023-08-08T00:57:17.000Z
 categories: ["flutterunivesity", "study_meeting"]

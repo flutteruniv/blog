@@ -1,5 +1,6 @@
 ---
 title: "【 slide_to_act 】スライドで決定するボタンを実装しよう【flutter】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-07-27T14:51:35.000Z
 categories: ["package"]

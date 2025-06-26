@@ -1,5 +1,6 @@
 ---
 title: "Dart 2.17 での変化点の要約"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-05-14T13:25:15.000Z
 categories: ["news"]

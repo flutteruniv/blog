@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 Skeleton テンプレート徹底解説"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-03-16T10:00:00.000Z
 categories: ["beginer"]

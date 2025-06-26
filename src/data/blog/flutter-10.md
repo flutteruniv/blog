@@ -1,5 +1,6 @@
 ---
 title: "【 Flutter大学 】第10期 共同開発 のまとめ！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-12-25T10:00:00.000Z
 categories: ["%e5%85%b1%e5%90%8c%e9%96%8b%e7%99%ba"]

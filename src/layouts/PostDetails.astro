@@ -9,6 +9,7 @@ import EditPost from "@/components/EditPost.astro";
 import ShareLinks from "@/components/ShareLinks.astro";
 import BackButton from "@/components/BackButton.astro";
 import BackToTopButton from "@/components/BackToTopButton.astro";
+import AuthorBio from "@/components/AuthorBio.astro";
 import { getPath } from "@/utils/getPath";
 import { slugifyStr } from "@/utils/slugify";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
@@ -103,6 +104,16 @@ const nextPost =
       <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" />
       <span aria-hidden="true" class="max-sm:hidden">|</span>
       <EditPost {hideEditPost} {post} class="max-sm:hidden" />
+      {
+        author && (
+          <div class="flex items-center gap-2">
+            <span aria-hidden="true" class="max-sm:hidden">
+              |
+            </span>
+            <span class="text-sm font-medium text-accent">by {author}</span>
+          </div>
+        )
+      }
     </div>
     <article
       id="article"
@@ -118,6 +129,8 @@ const nextPost =
     <ul class="mt-4 mb-8 sm:my-8">
       {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} />)}
     </ul>
+
+    {author && <AuthorBio authorName={author} />}
 
     <BackToTopButton />
 

@@ -1,5 +1,6 @@
 ---
 title: "Flutter大学の YouTube チャンネルってどんな動画があるの？"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-04-16T10:00:00.000Z
 categories: ["flutterunivesity"]

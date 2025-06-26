@@ -1,5 +1,6 @@
 ---
 title: "未経験のFlutterエンジニアを積極採用！Axia Works合同会社にインタビュー"
+author: "kboy"
 description: ""
 pubDatetime: 2022-10-27T10:41:28.000Z
 categories: ["company"]

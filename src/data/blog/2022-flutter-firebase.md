@@ -1,5 +1,6 @@
 ---
 title: "【2022年最新】 Flutter × Firebase でアプリを作ろう！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-05-18T16:49:36.000Z
 categories: ["beginer"]

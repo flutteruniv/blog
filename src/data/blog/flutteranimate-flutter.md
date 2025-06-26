@@ -1,5 +1,6 @@
 ---
 title: "【 flutter_animate 】アニメーションを直感的に実装しよう！【 Flutter 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-12-28T10:00:00.000Z
 categories: ["package"]

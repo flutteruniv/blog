@@ -1,5 +1,6 @@
 ---
 title: "2022年3月Flutter大学福岡オフ会レポート"
+author: "kboy"
 description: ""
 pubDatetime: 2022-03-29T10:00:00.000Z
 categories: ["flutterunivesity"]

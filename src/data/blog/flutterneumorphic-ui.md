@@ -1,5 +1,6 @@
 ---
 title: "【 flutter_neumorphic 】ニューモーフィズムでUIを実装しよう"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-07-01T10:00:00.000Z
 categories: ["package"]

@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 FutureとStream の違いって何？"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-03-09T13:24:04.000Z
 categories: ["beginer"]

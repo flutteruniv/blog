@@ -1,5 +1,6 @@
 ---
 title: "10月8日に沖縄コザ.dartが行われました！"
+author: "kboy"
 description: ""
 pubDatetime: 2023-10-25T07:47:01.000Z
 categories: ["flutterunivesity", "study_meeting"]

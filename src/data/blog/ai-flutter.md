@@ -1,5 +1,6 @@
 ---
 title: "AI修行プラン - Flutter開発者のための次世代学習体験"
+author: "kboy"
 description: ""
 pubDatetime: 2025-06-22T06:46:16.000Z
 categories: ["flutterunivesity"]

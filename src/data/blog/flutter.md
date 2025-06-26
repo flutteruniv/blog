@@ -1,5 +1,6 @@
 ---
 title: "Flutterエンジニアの人材紹介について"
+author: "kboy"
 description: ""
 pubDatetime: 2024-09-05T03:20:16.000Z
 categories: ["flutterunivesity"]

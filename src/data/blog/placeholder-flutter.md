@@ -1,5 +1,6 @@
 ---
 title: "【 Placeholder 】場所取り用のウィジェットを使おう! 【 Flutter 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-11-09T10:00:00.000Z
 categories: ["widget"]

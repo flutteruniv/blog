@@ -1,5 +1,6 @@
 ---
 title: "【Flutter大学】 共同勉強会 まとめました！【2022年8月】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-09-02T10:00:00.000Z
 categories: ["study_meeting"]

@@ -1,5 +1,6 @@
 ---
 title: "優勝したらTシャツGET！中野でボーリング大会しました！"
+author: "kboy"
 description: ""
 pubDatetime: 2022-09-11T06:07:36.000Z
 categories: ["flutterunivesity"]

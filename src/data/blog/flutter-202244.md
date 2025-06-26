@@ -1,5 +1,6 @@
 ---
 title: "Flutter ニュース 【2022年4月第4週】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-04-25T10:00:00.000Z
 categories: ["news"]

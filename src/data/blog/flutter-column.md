@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 Column の使い方"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-06-10T14:31:47.000Z
 categories: ["beginer"]

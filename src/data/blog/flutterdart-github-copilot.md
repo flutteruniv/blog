@@ -1,5 +1,6 @@
 ---
 title: "Flutter/Dartで GitHub Copilot 使ってみた！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-07-15T10:00:00.000Z
 categories: ["flutter"]

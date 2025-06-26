@@ -1,5 +1,6 @@
 ---
 title: "Chromeの 拡張機能 をFlutterで作ろう！"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-03-23T10:00:00.000Z
 categories: ["flutter"]

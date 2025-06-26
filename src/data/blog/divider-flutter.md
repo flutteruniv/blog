@@ -1,5 +1,6 @@
 ---
 title: "【 Divider 】区切り線を実装しよう！【Flutter】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-11-24T12:30:43.000Z
 categories: ["widget"]

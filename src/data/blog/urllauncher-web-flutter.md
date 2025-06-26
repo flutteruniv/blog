@@ -1,5 +1,6 @@
 ---
 title: "【 url_launcher 】アプリからWEBページを開こう！【 Flutter 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2023-01-04T10:00:00.000Z
 categories: ["package"]

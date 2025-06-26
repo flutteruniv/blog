@@ -1,5 +1,6 @@
 ---
 title: "【コピペでできる】 Golden Test で開発体験を向上させよう"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-03-02T10:00:00.000Z
 categories: ["test"]

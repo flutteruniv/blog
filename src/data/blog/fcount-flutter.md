@@ -1,5 +1,6 @@
 ---
 title: "【 f_count 】自動カウントするログ出力を使おう！【 Flutter 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-08-03T10:00:00.000Z
 categories: ["package"]

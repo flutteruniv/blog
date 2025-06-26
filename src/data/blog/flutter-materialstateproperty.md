@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】ボタンの色の変え方【 MaterialStateProperty 】"
+author: "Aoi"
 description: ""
 pubDatetime: 2022-04-20T10:00:00.000Z
 categories: ["flutter"]
