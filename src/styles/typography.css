@@ -18,7 +18,11 @@
     }
 
     h3 {
-      @apply italic;
+      @apply mb-4 mt-6 text-lg font-semibold text-foreground border-b-2 border-accent/40 pb-2;
+    }
+
+    h4 {
+      @apply mb-3 mt-5 text-base font-medium text-accent/80 relative before:content-['▶'] before:mr-2 before:text-accent/60;
     }
 
     p,
