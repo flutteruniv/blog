@@ -20,7 +20,9 @@
       "Bash(rg:*)",
       "Bash(npm run build:*)",
       "Bash(curl:*)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(mv:*)",
+      "Bash(mkdir:*)"
     ],
     "deny": []
   }
