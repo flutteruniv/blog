@@ -1,0 +1,339 @@
+---
+title: "【 curved_navigation_bar 】おしゃれなNavigation Bar を実装しよう！【 Flutter 】"
+description: ""
+pubDatetime: "2022-10-21"
+author: "Aoi"
+tags:
+  - "Flutter"
+imgUrl: ""
+layout: "../../layouts/BlogPost.astro"
+---
+
+
+【おしゃれなNavigation Bar を実装したい！】
+
+
+
+本記事ではそんな要望にお答えします。
+
+
+
+curved_navigation_bar パッケージを使った、おしゃれな Navigation Bar の実装方法について解説します。
+
+
+
+以下のようなUI が実装可能です。
+
+
+
+
+
+
+
+基本的な使い方からカスタマイズ方法まで、詳しく解説します。
+
+
+
+ぜひ読んでみてください！
+
+
+
+基本的な使い方
+
+
+
+基本的な使い方について解説していきます。
+
+
+
+準備
+
+
+
+まず準備として、パッケージのインストールと、Dartファイルへのインポート文の追加を行います。
+
+
+
+パッケージのインストール
+
+
+
+CLI(macならターミナル)で、自分のプロジェクトのルートにて以下のコマンドを実行しパッケージをインストールします。
+
+
+
+flutter pub add curved_navigation_bar
+
+
+
+パッケージのインポート
+
+
+
+実装したいDartファイルの上部に以下のインポート文を追加し、パッケージをインポートします。
+
+
+
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+
+
+
+実装
+
+
+
+実装方法について解説します。
+
+
+
+ScaffoldのbottomNavigationBarプロパティにCurvedNavigationBar ウィジェットを設定します。
+
+
+
+CurvedNavigationBar ウィジェットのindexプロパティにページを管理するインデックスを、itemsプロパティにNavigation Barに設定したいアイコン等のウィジェットのリストを、onTapプロパティにNavigation Barタップ時の処理を定義する関数を設定します。
+
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      // ...
+      bottomNavigationBar: CurvedNavigationBar(
+        index: index,
+        items: const <Widget>[
+          Icon(Icons.man, size: 30),
+          Icon(Icons.timeline, size: 30),
+          Icon(Icons.settings, size: 30),
+        ],
+        onTap: (int index) {
+          setState(() {
+            this.index = index;
+          });
+        },
+      ),
+    );
+
+
+
+サンプルコード全体はこちら
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: MyWidget(),
+    );
+  }
+}
+
+class MyWidget extends StatefulWidget {
+  const MyWidget({super.key});
+
+  @override
+  State<MyWidget> createState() => _MyWidgetState();
+}
+
+class _MyWidgetState extends State<MyWidget> {
+  int index = 0;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Curved Navigation Bar Sample'),
+      ),
+      body: <Widget>[
+        Container(
+          width: double.infinity,
+          height: double.infinity,
+          color: Colors.red,
+        ),
+        Container(
+          width: double.infinity,
+          height: double.infinity,
+          color: Colors.green,
+        ),
+        Container(
+          width: double.infinity,
+          height: double.infinity,
+          color: Colors.orange,
+        ),
+      ][index],
+      bottomNavigationBar: CurvedNavigationBar(
+        index: index,
+        items: const <Widget>[
+          Icon(Icons.man, size: 30),
+          Icon(Icons.timeline, size: 30),
+          Icon(Icons.settings, size: 30),
+        ],
+        onTap: (int index) {
+          setState(() {
+            this.index = index;
+          });
+        },
+      ),
+    );
+  }
+}
+
+
+
+
+
+上記コードで以下のようにアニメーションがついたNavigation Barが作成できます。
+
+
+
+
+
+
+
+基本的な使い方は以上となります！
+
+
+
+カスタマイズ方法
+
+
+
+カスタマイズ方法として、CurvedNavigationBar ウィジェットに用意されているプロパティをいくつか紹介します。
+
+
+
+色の設定
+
+
+
+color プロパティで背景色、現在のアイコンの背景色を一括で変更可能です。buttonBackgroundColor プロパティで現在のアイコンの背景色を変更可能です。backgroundColor プロパティでアニメーション背景の色を変更可能です。
+
+
+
+      CurvedNavigationBar(
+        color: Colors.blue[200]!,
+        buttonBackgroundColor: Colors.grey,
+        backgroundColor: Colors.white,
+        // ...
+      ),
+
+
+
+
+
+
+
+高さの設定
+
+
+
+heightプロパティでNavigation Barの高さを設定可能です。
+
+
+
+      CurvedNavigationBar(
+        height: 50,
+        // ...
+      ),
+
+
+
+アニメーション設定
+
+
+
+animationCurve プロパティで、アニメーションの動き方を設定可能です。animationDuration プロパティでアニメーションにかかる秒数を設定可能です。
+
+
+
+      CurvedNavigationBar(
+        animationCurve: Curves.bounceIn,
+        animationDuration: const Duration(milliseconds: 900),
+        // ...
+      ),
+
+
+
+以上がカスタマイズ方法の詳解となります！
+
+
+
+まとめ
+
+
+
+本記事では curved_navigation_bar パッケージを使った、おしゃれな Navigation Bar の実装方法について解説しました。
+
+
+
+基本的な使い方からカスタマイズ方法まで、詳しく解説しました。
+
+
+
+いかがだったでしょうか？
+
+
+
+普段使っているBottomNavigationBarをこのパッケージのウィジェットに入れ替えるだけで、簡単に実装可能となります。
+
+
+
+あなたのアプリにちょっとアクセントを加えたい、と思ったら、ぜひこのパッケージを導入してみることをオススメします。
+
+
+
+本記事があなたのあぷり開発の一助となれば幸いです。
+
+
+
+
+Flutterを一緒に学んでみませんか？Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、以下の画像リンクから。
+
+
+
+
+
+
+
+
+
+
+編集後記（2022/10/21）
+
+
+
+
+最近、Flutter 公式のゲーム開発へのプッシュが多いです。
+
+
+
+1週間に1~2回はゲーム関係のツイートをしているように思います。
+
+
+
+Flutterでのゲーム作成は自分も2作品ほどリリースしていることもあり、結構身近なものになってきているかな、と思います。
+
+
+
+ゲームエンジンのFlameを使わずとも、アイデア次第でゲームを作れるのはFlutterのいいところだと思います。
+
+
+
+あなたも、是非挑戦してみてはいかがでしょうか？
+
+
+
+きっと楽しい経験となるはずです。
+
+
+
+
+
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。記事の更新情報はFlutter大学Twitterにて告知します。ぜひぜひフォローをお願いいたします。
+
