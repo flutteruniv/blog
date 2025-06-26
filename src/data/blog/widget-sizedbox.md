@@ -1,5 +1,6 @@
 ---
 title: "SizedBox の使い方 【Flutter】"
+slug: "widget-sizedbox"
 description: ""
 pubDatetime: "2022-11-12"
 author: "Aoi"

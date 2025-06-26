@@ -1,5 +1,6 @@
 ---
 title: "Flutterエンジニアの人材紹介について"
+slug: "flutter_engineers_staffing_agency"
 description: ""
 pubDatetime: "2024-09-05"
 author: "kboy"

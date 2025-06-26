@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 余白 の付け方【padding,margin】"
+slug: "flutter-padding-margin"
 description: ""
 pubDatetime: "2022-06-08"
 author: "Aoi"

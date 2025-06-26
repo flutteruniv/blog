@@ -1,5 +1,6 @@
 ---
 title: "【VS Code 用拡張】 Flutter Riverpod Snippets 紹介！"
+slug: "vs-code-flutter-riverpod-snippets"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-07-13T10:00:00.000Z

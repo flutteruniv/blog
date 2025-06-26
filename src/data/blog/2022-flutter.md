@@ -1,5 +1,6 @@
 ---
 title: "2022 年のFlutter大学を振り返ろう！"
+slug: "2022-flutter"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-12-30T10:00:00.000Z

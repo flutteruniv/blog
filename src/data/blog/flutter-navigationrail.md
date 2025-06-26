@@ -1,5 +1,6 @@
 ---
 title: "【 NavigationRail 】 サイドメニュー を実装しよう！【 Flutter 】"
+slug: "flutter-navigationrail"
 description: ""
 pubDatetime: "2022-07-08"
 author: "Aoi"

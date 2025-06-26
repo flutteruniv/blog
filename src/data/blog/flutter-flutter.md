@@ -1,5 +1,6 @@
 ---
 title: "Flutter大学の Flutter修行プラン とは？"
+slug: "flutter-flutter"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-09-16T10:00:00.000Z

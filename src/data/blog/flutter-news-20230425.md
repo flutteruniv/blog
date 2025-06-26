@@ -1,5 +1,6 @@
 ---
 title: "【Flutterニュース】AIとFlutter、そして共同勉強会と新興ルーティングパッケージの紹介【2023年4月25日】"
+slug: "flutter-news-20230425"
 description: ""
 pubDatetime: "2023-04-24"
 author: "kboy"

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(say \"No WordPress XML file found in the blog data directory\")",
+      "Bash(say \"WordPress XML file found at /Users/fujikawakei/app/blog/flutter.WordPress.2025-06-25.xml\")",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(node:*)",
+      "Bash(grep:*)",
+      "Bash(say \"Found 58-64 WordPress migrated markdown files with distinct layout and formatting patterns\")",
+      "Bash(say \"Migration analysis complete: 182 of 186 WordPress posts successfully migrated (97.8% success rate)\")",
+      "Bash(say \"Successfully created all 4 missing posts - WordPress migration now 100% complete!\")",
+      "Bash(say \"Slug analysis complete: 55.4% of posts have different slugs between WordPress and markdown files\")",
+      "Bash(say:*)",
+      "Bash(git -C /Users/fujikawakei/app/blog status)",
+      "Bash(git -C /Users/fujikawakei/app/blog diff HEAD~1 src/data/blog/flutter-news-20220314.md)",
+      "Bash(rm:*)"
+    ],
+    "deny": []
+  }
+}

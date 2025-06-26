@@ -1,5 +1,6 @@
 ---
 title: "8月5日(土)にFlutter勉強会の札幌.dartを開催しました！"
+slug: "sappporo_dart"
 description: ""
 pubDatetime: "2023-08-08"
 author: "kboy"

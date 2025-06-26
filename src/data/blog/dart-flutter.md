@@ -1,5 +1,6 @@
 ---
 title: "【 Dart 】スプレッド演算子 ” ... ” とは?【 Flutter 】"
+slug: "dart-flutter"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-12-23T10:00:00.000Z

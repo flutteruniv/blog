@@ -1,5 +1,6 @@
 ---
 title: "Flutter ニュース 【2023年10月第1週】"
+slug: "flutter-news-20231002"
 author: "Aoi"
 description: ""
 pubDatetime: 2023-10-03T22:52:02.000Z

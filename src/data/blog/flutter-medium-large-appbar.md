@@ -1,5 +1,6 @@
 ---
 title: "【 Flutter 】Medium & Large AppBar の実装【 Material 3 】"
+slug: "flutter-medium-large-appbar"
 description: ""
 pubDatetime: "2022-09-21"
 author: "Aoi"

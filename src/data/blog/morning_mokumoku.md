@@ -1,5 +1,6 @@
 ---
 title: "朝7時から「もくもく会」を始めました"
+slug: "morning_mokumoku"
 description: ""
 pubDatetime: "2023-05-01"
 author: "kboy"

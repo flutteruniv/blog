@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 BorderRadiusの使い方"
+slug: "border-radius"
 description: ""
 pubDatetime: "2023-03-26"
 author: "shimano"

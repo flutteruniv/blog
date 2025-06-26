@@ -1,5 +1,6 @@
 ---
 title: "Flutter ニュース 【2022年9月第2週】"
+slug: "flutter-news-20220912"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-09-12T10:00:00.000Z

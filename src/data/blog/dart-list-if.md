@@ -1,5 +1,6 @@
 ---
 title: "【 Dart 】 List の中で if 文を使おう！【 Flutter 】"
+slug: "dart-list-if"
 description: ""
 pubDatetime: "2022-12-27"
 author: "Aoi"

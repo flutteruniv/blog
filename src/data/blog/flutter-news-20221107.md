@@ -1,5 +1,6 @@
 ---
 title: "Flutter ニュース 【2022年11月第1週】"
+slug: "flutter-news-20221107"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-11-07T10:00:00.000Z

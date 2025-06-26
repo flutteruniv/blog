@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 SnackBar を出す方法【ScaffoldMessenger】"
+slug: "flutter-snackbar-scaffoldmessenger"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-03-25T10:00:00.000Z

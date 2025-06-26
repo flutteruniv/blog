@@ -1,5 +1,6 @@
 ---
 title: "【速報】 Google I/O 2023にてFlutter3.10のリリース発表。Dart 3.0に。"
+slug: "google-io-2023"
 description: ""
 pubDatetime: "2023-05-11"
 author: "kboy"

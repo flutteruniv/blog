@@ -1,5 +1,6 @@
 ---
 title: "【 Monarch 】レイアウトチェックを楽にしよう【 Flutter 】"
+slug: "flutter-monarch"
 description: ""
 pubDatetime: "2022-06-22"
 author: "Aoi"

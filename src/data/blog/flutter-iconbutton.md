@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 IconButton 使ってみた！【Material 3】"
+slug: "flutter-iconbutton"
 description: ""
 pubDatetime: "2022-09-07"
 author: "Aoi"

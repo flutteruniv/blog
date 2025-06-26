@@ -1,5 +1,6 @@
 ---
 title: "【 Flutter 】 InheritedWidget って何？"
+slug: "flutter-inheritedwidget"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-07-06T12:36:17.000Z

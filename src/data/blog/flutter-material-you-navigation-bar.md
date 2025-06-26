@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 Material You の Navigation Barの実装方法"
+slug: "flutter-material-you-navigation-bar"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-05-06T10:00:00.000Z

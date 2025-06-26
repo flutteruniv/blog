@@ -1,5 +1,6 @@
 ---
 title: "１年間で5つのFlutterアプリをリリース！？ストリクトシステムズ株式会社の開発効率がすごい"
+slug: "company-interview-strict-systems"
 description: ""
 pubDatetime: "2022-10-18"
 author: "kboy"

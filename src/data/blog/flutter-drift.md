@@ -1,5 +1,6 @@
 ---
 title: "【Flutter】 Drift の基本的な使い方解説"
+slug: "flutter-drift"
 author: "Aoi"
 description: ""
 pubDatetime: 2022-04-13T11:06:45.000Z

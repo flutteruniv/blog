@@ -1,5 +1,6 @@
 ---
 title: "Recap of FlutterNinjas 【記事まとめ】"
+slug: "flutterninjas-recap"
 description: ""
 pubDatetime: "2024-07-08"
 author: "kboy"

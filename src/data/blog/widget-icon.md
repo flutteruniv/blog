@@ -1,5 +1,6 @@
 ---
 title: "【 Icon 】アイコンを実装しよう！ 【 Flutter 】"
+slug: "widget-icon"
 description: ""
 pubDatetime: "2022-11-25"
 author: "Aoi"

@@ -1,152 +1,251 @@
 ---
-title: "【Flutter大学】 共同勉強会まとめました！【2022年3月】"
+title: "Flutterニュース 【2022年3月第3週】"
+slug: "flutter-news-20220321"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-04-09T10:00:00.000Z
-tags: ["勉強会"]
+pubDatetime: 2022-03-21T10:00:00.000Z
+tags: ["ニュース"]
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
 
-Flutter大学の共同 勉強会 、何やっているのか気になるな、、、
+Flutterの最新情報をキャッチアップしたい！
 
-そんなあなたの要望に応えるのが本記事です！
+そんなあなたに送る、 Flutterニュース 。
 
-本記事では2022年3月に行われた全4回の共同勉強会の概要をそれぞれお伝えします。
+本記事ではFlutterニュースとして、2022年3月第3週に話題になったFlutter関連の情報や、  
+アップされた記事、YouTube動画の紹介を行います。
 
-Flutter大学にどんな知見が集まっているかわかる記事となっています。
+読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
 
-ぜひ読んでみて下さい！
+## Flutter公式情報
 
-## Flutter大学の共同勉強会って？
+### Flutter公式TwitterにてGDEによるノウハウ共有が始まる
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+https://twitter.com/FlutterDev/status/1503445862785200135
 
-Flutter大学の共同勉強会について解説します。
+Flutter公式Twitterにて、Flutter GDEによる、  
+Stack Overflow の回答の共有が始まりました。
 
-### Flutter大学とは
+GDEとは、Google Developer Expertの略称で、  
+Googleのテクノロジーに対して豊富な経験があり、  
+拡散力があり、専門知識があるとGoogleに認められた人物のことです。
 
-Flutter大学とは、「Flutterエンジニアに特化した学習コミュニティ」です。
+Stack Overflowは、プログラミングに関するQ&Aサイトです。  
+[https://ja.stackoverflow.com/](https://ja.stackoverflow.com/)
 
-Flutterを勉強したい人、Flutterでエンジニアとして働いている人など、  
-さまざまな方に参加いただいています。
+現在まで以下のようなノウハウが共有されています。
 
-以下の記事で詳しく解説しておりますので、併せてご覧ください。
+*   iOS アプリのビルドエラーの対処法
+*   アプリのテーマを動的に変更する方法
+*   ヒントとして現れる波線を非表示にする方法
+*   リストから重複した要素を削除する方法
+*   Firebease × Flutterの電話番号認証のiOSでの検証方法
 
-https://blog.flutteruniv.com/flutteruniversity\_explanation/
+今後数週間、このようなノウハウの共有が行われるそうです。
 
-### 共同勉強会とは
+### アダプティブとレスポンシブの比較 | Decoding Flutter
 
-共同勉強会とは、Flutter大学内でほぼ毎週行われている  
-Flutterやアプリ開発に関する勉強会のことです。
+https://www.youtube.com/watch?v=HD5gYnspYzk&list=PLjxrf2q8roU1fRV40Ec8200rX6OuQkmnl
 
-内容は初心者向けのものから、かなりコアなものまでさまざまです。
+マルチプラットフォームのFlutterで考慮すべき重要な概念である、  
+アダプティブとレスポンシブについて解説した動画が公式よりアップロードされました。
 
-Flutter大学の有志のメンバーが発表者となり知見の共有が行われています。
+Android, iOSだけでなく、WebやDesktopにもコードを対応しなければならない、となった時、
 
-### 過去の勉強会は見れる？
+*   プラットフォーム依存の機能をどうするか？（アダプティブ）、
+*   画面レイアウトをどうするか？（レスポンシブ）
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
+について考えなければなりません。
 
-もう終わった勉強会はどうせ見れないんでしょう？
+これについて、動画内で解決策を含め解説されています。
 
-いいえ！見れます！
+### ScaffoldMessenger（今週のウィジェット）
 
-勉強会は毎回録画され、アーカイブ動画としてFlutter大学HP、またはFlutter大学アプリから閲覧可能です。
+https://www.youtube.com/watch?v=lytQi-slT5Y&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
 
-このため、Flutter大学にはかなりの知見が蓄えられています。
+今週のウィジェット(Widget of the Week)にScaffoldMessengerの動画が追加されました。
 
-勉強会動画の閲覧、勉強会への参加には、Flutter大学の有料会員登録が必要です。  
-Flutter大学への参加はこちらから。
+画面遷移の直前に出したSnackBarを  
+遷移後の画面でも表示する際に利用されるWidgetです。
 
-https://flutteruniv.com/
+基本的な使い方が動画で解説されています。
 
-## 3月の勉強会の紹介
+### runAppの内部コードの深掘り動画(The Boring Flutter Development Show)
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+https://youtu.be/e5RhcvWqJAo
 
-3月は全4回勉強会が開催されました。
+Flutterでコードを書く際、一番最初に書く`runApp`のコード、  
+このコードが内部で何をおこなっているのか、  
+`runApp`の実装コードを深掘りして理解しよう、という趣旨の動画が、  
+公式にてアップロードされました。
 
-それぞれの勉強会について、概要を紹介していきます。
+50分近い動画ですが、解説を交えつつコードリーディングされています。
 
-### 【コピペでできる】Golden Testで開発体験を向上させよう
+## Flutterに関する話題
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220402_golden.png)
+### card\_stack\_widget パッケージ
 
-勉強会の様子
+https://pub.dev/packages/card\_stack\_widget
 
-Flutterのテスト手法であるGolden Testがテーマの勉強会が行われました。
+カードを積み重ねたようなUIを実現できるパッケージ、  
+card\_stack\_widgetがRedditで話題になっていました。
 
-コピペでできる方法の実演と、  
-Golden Testを使った開発体験の向上のさせ方について解説されていました。
+スワイプで消す方向などの設定も可能です。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)
+### etch パッケージ
 
-Aoi
+https://pub.dev/packages/etch
 
-勉強会後は「ゴールデン」がFlutter大学内でミームになるくらい、  
-盛り上がっていたのが印象的でした！
+シンプルかつ宣言的にCustomPaintを扱えるようにするパッケージ、etchが  
+Redditで話題になっていました。
 
-### Firebase Cloud Messaging で通知機能を実装しよう【ライブコーディング】
+Widgetとして簡単に円や正方形などの図形を描くことが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220402_push.png)
+### iconify\_flutter パッケージ
 
-勉強会の様子
+https://pub.dev/packages/iconify\_flutter
 
-Firebase Cloud Messaging を使った通知機能の実装について勉強会が行われました。
+100以上のオープンソースのアイコンが使えるようになるパッケージが  
+Redditで話題となっていました。
 
-Fluttter、iOSでの通知機能の実装をライブコーディングで行っていただきました。
+Flutterで用意されているアイコン以外のアイコンを使いたい、  
+という時に、候補に上がるかと思います。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)
+## Flutterに関する記事
 
-Aoi
+### **Flutter の描画の仕組みを理解する**
 
-途中エラーで詰まる部分があったのですが、  
-そこをFlutter大学メンバーと協力して乗り越えたのがとても印象的でした！
+https://zenn.dev/seya/articles/f7ebcd8335eee7
 
-### DeepLinkを実装してみよう
+Flutterの描画の仕組みについて深掘りした記事が話題となりました。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220402_deeplink.png)
+Flutterの内部での描画の仕組みについてとても丁寧にまとめられています。
 
-勉強会の様子
+### 伸縮、固定が可能なHeaderの作成方法
 
-URLからアプリへと遷移する、DeepLinkの実装方法についての勉強会が行われました。
+https://guillaume.bernos.dev/quick-flutter-design-3-music-app/
 
-DeepLinkの種類の解説から、実演まで、丁寧に解説いただきました。
+上限までスクロールすると伸びて、スクロール中は上に一部が表示される、  
+そんなAppBarの実装方法についての解説記事です。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)
+実際の動作は記事内にgif画像があるので参照ください。  
+サンプルコード、GitHubも公開されています。
 
-Aoi
+### Riverpodを使ったFlutterのアーキテクチャの提案
 
-資料がとてもわかりやすく、初心者に向けて基本的なところから解説されていました！
+https://codewithandrea.com/articles/flutter-app-architecture-riverpod-introduction/
 
-### RiverpodのStreamProviderでFirestoreを使用したチャットのリアルタイム表示
+Flutter × Riverpod のアーキテクチャとして、  
+Riverpod Architectureの提案記事です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220402_stream.png)
+MVC, MVVM, Clean Architectureなど、  
+様々なアーキテクチャとの比較がなされています。
 
-勉強会の様子
+Riverpod Architectureについては、  
+概念の紹介のみで具体的な実装方法は現在更新中です。
 
-Riverpod のStreamProviderでFirestoreを使用したチャットのリアルタイム表示についての勉強会が行われました。
+## Flutterに関する動画
 
-とても丁寧に作り込まれた資料をベースに、実装方法を中心に解説いただきました。
+### Providerを使った状態管理アプリ|Step by Step for Beginners Shopping Cart
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)
+https://www.youtube.com/watch?v=\_my1IHfn0xk
 
-Aoi
+Providerを使った状態管理の方法を学べる動画です。
 
-発表いただいた後、参加者の中で積極的に質問や議論がなされていました！
+カウンターアプリを例に挙げ、  
+シンプルにProviderを使った状態の表示、共有、更新を学べます。
+
+### Flutter × Appwrite の解説動画
+
+https://www.youtube.com/watch?v=2d6evFfOX5Q
+
+Firebaseのオープンソースの代替手段として注目のAppwriteと、  
+Flutterを組み合わせて使ってみた動画が話題になっていました。
+
+導入の仕方から、Authentication、データベースの使用まで10分弱で端的にまとまっています。
+
+## Flutter大学メンバーがリリースしたアプリ
+
+### Thanxtory 感謝のサードプレイス
+
+https://apps.apple.com/jp/app/thanxtory/id1613315043
+
+[ヒロシュー](https://twitter.com/hiroshu_diary)さんにより、  
+感謝のサードプレイスアプリ『Thanxtory』がリリースされました！
+
+誰かへの感謝の気持ちを投稿し、共有する、そんなSNSアプリとなっています。  
+共有された感謝の投稿に対するいいね機能等も用意されています。
+
+週4回行われている質問相談会の質問Zoomにほぼ毎回、  
+積極的に参加されているのが印象的でした。
+
+### Stammpy! ふらり旅行支援アプリ
+
+https://apps.apple.com/jp/app/stammpy/id1612801895
+
+https://play.google.com/store/apps/details?id=jp.asapsoftware.buttercup
+
+kanaiさんにより、  
+ふらり旅行支援アプリ、『Stammpy!』がリリースされました！
+
+地元の人が登録したオススメの観光地情報を見て旅行を楽しむことのできるアプリです。  
+地図での場所の参照もできて、旅行にぴったりのアプリとなっています。
+
+技術面ではFlutterのノーコードツール、FlutterFlowを使って実装したそうです。  
+新しい技術を積極的に取り入れる姿、見習いたいですね。
+
+## Flutter大学のメンバーによる記事
+
+今週Flutter大学メンバーが書いたFlutter関連の記事を紹介します。
+
+### NoCodeサービス FlutterFlowを使ってみての感想
+
+https://qiita.com/haapyturn/items/7abc72dd61bc461da465
+
+上で紹介した、Stammpy!のアプリを作成するにあたって使ったノーコードツール、  
+FlutterFlowについて、使ってみた感想の記事です。
+
+メリット、デメリットについて、実際にアプリをリリースした方の目線で書かれています。
+
+### **Flutterのパッケージのカスタマイズ**
+
+https://zenn.dev/hiroshu/articles/9eb3da0f8bdd1f
+
+Flutterのパッケージを自分好みにカスタマイズして使うための方法について  
+まとめられた記事です。
+
+実例を用いて、端的に方法についてまとめられています。
+
+### **あれもこれもFlutterで開発されてるって、マ？？**
+
+https://zenn.dev/kooooons/articles/814cc48f6b927a
+
+Flutterで作成されたアプリを紹介している記事です。
+
+記事内で十数個のアプリが紹介されています。  
+Flutterで作成されたアプリを参考にしたい際に有用な記事です。
+
+## 週刊Flutter大学の記事
+
+週刊Flutter大学で先週アップロードした記事を紹介します。
+
+https://blog.flutteruniv.com/flutternews-20220314/
+
+https://blog.flutteruniv.com/flutter-skeleton-template/
+
+https://blog.flutteruniv.com/flutter-widget-stepper/
+
+https://blog.flutteruniv.com/flutteruniversity-jointdevelopment-7/
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
-本記事では2022年3月に行われた全4回の共同勉強会の概要をそれぞれお伝えしました。
+本記事ではFlutterニュースとして、2022年3月第3週に話題になったFlutter関連の情報や、  
+アップされた記事、YouTube動画の紹介を行いました。
 
-興味を持っていただけましたでしょうか？
-
-Flutter大学では、今後もほぼ毎週勉強会を行って行く予定です。
-
-ぜひFlutter大学に参加して、勉強会にも参加してみて下さい。
+この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
 Flutterを一緒に学んでみませんか？  
 Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
@@ -154,20 +253,46 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 [![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
-## 編集後記（2022/4/9）
+## 編集後記（2022/3/21）
 
-3月の勉強会についての紹介記事でした。
+今週のFlutterニュースの記事では、  
+Flutterメンバーによってリリースされたアプリを２つも紹介することができました。
 
-実は、GoldenTestについては私が発表者として勉強会を行わせていただきました。
+個人開発でリリースまでできるのは、本当にすごいことだと思います。  
+改めて、リリース本当におめでとうございます。
 
-発表はとても緊張しましたが、  
-Slackで積極的にFlutter大学メンバーの方々に反応いただいたおかげで、  
-とても有意義な時間が過ごせたと思います。
+個人開発で課題になるのは何だと思いますか？  
+技術面はもちろんあるかもですが、  
+自分はモチベーションを如何に保つか、だと思っています。
 
-この勉強会で練習を積んで、いずれはFlutter大学の外の勉強会、カンファレンスでも発表したいものです。
+個人開発は自分でスケジュールを組むことができて自由な反面、  
+作成の期限も自由なので、「作らなければいけない」という外部からの制約がありません。
 
-テーマは小さくても良いと思うので、  
-あなたもぜひ発表、参加してみて下さい。
+人によるかと思いますが、外からの制約がないと、  
+モチベーションを維持するのって難しいと個人的に思います。  
+作成期限を長く設定していればなおさらのことです。
+
+対策は、２つあると思っています。
+
+一つは、モチベーションが続く期間内で作り上げてしまうことです。  
+短期間、一挙集中で作ることで、  
+モチベーションが切れる前に作りきってしまうという対策です。
+
+もう一つは周りを巻き込んで作ることです。  
+周りに「○日までに作成する！」と宣言したり、  
+作成過程を周りに見てもらうことで、外からの制約を作ることができ、  
+モチベーションの維持につながります。
+
+Flutter大学ではSlackのtimesだったり、  
+個人開発の進捗報告会などで、進捗を報告したりなど、  
+周りを巻き込む方法が多く用意されています。
+
+もしあなたが個人開発のモチベーションに悩んでいるなら、オススメですよ。  
+ぜひ参加してみてください。
+
+Flutter大学への参加はこちらから
+
+https://flutteruniv.com/
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  

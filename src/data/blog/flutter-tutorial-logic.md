@@ -1,194 +1,112 @@
 ---
+layout: "../../layouts/BlogPost.astro"
 title: "Flutter チュートリアル ~ロジックの組み方を学ぼう~"
 description: ""
 pubDatetime: "2022-04-01"
-author: "Aoi"
-tags: ["ウィジェット"]
-imgUrl: ""
-layout: "../../layouts/BlogPost.astro"
+author: Aoi
+slug: "flutter-tutorial-logic"
+featured: false
+draft: false
+tags: ["初心者向け", "Flutter"]
+ogImage: ""
 ---
-
-
 
 UIは組めるようになったけど、ロジックとか、状態管理とか難しいんだよなぁ
 
-
-
-
-
 いい練習になる教材はないかしら？
-
-
-
 
 本記事では、そんな悩みにお答えします。
 
-
-
-Flutterで UIが組めるようになった人のためのチュートリアルとして、本記事では三目並べゲームの作成方法を通し、基本的なロジックの組み方について解説します。
-
-
+Flutterで UIが組めるようになった人のためのチュートリアルとして、
+本記事では三目並べゲームの作成方法を通し、基本的なロジックの組み方について解説します。
 
 完成系はこちらです。
 
-
-
-
 https://dartpad.dartlang.org/?id=a2bd77692fee9e5368365a56e57c0c60
 
-
-
-
-三目並べゲームをプレイでき、右側のボタンを押すと、その手番まで戻るタイムトラベル機能が付いています。
-
-
+三目並べゲームをプレイでき、右側のボタンを押すと、
+その手番まで戻るタイムトラベル機能が付いています。
 
 このゲームを通して、Flutterのロジックの組み方や、基本的な状態管理を学んでいきましょう！
 
-
-
-
-本記事は以下のReactのチュートリアルをFlutterで置き換えたものです。Reactの経験者の方は、Flutterでの書き方の参考になると思います。
-
-
-
+本記事は以下のReactのチュートリアルをFlutterで置き換えたものです。
+Reactの経験者の方は、Flutterでの書き方の参考になると思います。
 
 https://ja.reactjs.org/tutorial/tutorial.html
 
+## 準備
 
+本記事では、[こちら](https://dartpad.dartlang.org/?id=602a2d6dd8323d9e5e0bbc2fb74e3c43)のDartPadのコードをベースとして解説していきます。
 
-
-
-準備
-
-
-
-
-
-
-
-本記事では、こちらのDartPadのコードをベースとして解説していきます。
-
-
-
-DartPadでも進めることができますが、おすすめはAndroid Studio もしくは VScodeを使うことです。
-
-
+DartPadでも進めることができますが、
+おすすめはAndroid Studio もしくは VScodeを使うことです。
 
 ショートカットキーなどを使ってエラー対応等ができるためです。
 
+Android Studio でも、VScodeでもどちらでも構いません。
+ぜひご自分の環境でこのチュートリアルを進めてみてください。
 
-
-Android Studio でも、VScodeでもどちらでも構いません。ぜひご自分の環境でこのチュートリアルを進めてみてください。
-
-
-
-
-Android Studio もしくは VScodeで進める場合は、以下のGitHubリポジトリをクローンし、startプロジェクトのコードを書き換えながら進めることをお勧めします。（もしくは、startプロジェクトのmain.dartのコードを自分のFlutterプロジェクトのmain.dartにコピペしてください。）アプリの実行はChromeでしか確認していないため、Chromeで実行してください。
-
-
-
+Android Studio もしくは VScodeで進める場合は、
+以下のGitHubリポジトリをクローンし、startプロジェクトのコードを書き換えながら進めることをお勧めします。
+（もしくは、startプロジェクトのmain.dartのコードを
+自分のFlutterプロジェクトのmain.dartにコピペしてください。）
+アプリの実行はChromeでしか確認していないため、Chromeで実行してください。
 
 https://github.com/Umigishi-Aoi/flutter_tutorial_tic_tac_toe_game
 
+また、このチュートリアルはコピー&ペーストでなく、手打ちで行うことをお勧めします。
+コードの書き方を覚えることができ、理解も進むはずです。
 
+途中で詰まった場合は、章の最後にその章の完成コード配置していますので、
+それと見比べて、修正してみて下さい。
 
+## startプロジェクトの解説
 
+startプロジェクトの`main.dart` (DartPadの場合は表示されているコード)を見てください。
 
-また、このチュートリアルはコピー&ペーストでなく、手打ちで行うことをお勧めします。コードの書き方を覚えることができ、理解も進むはずです。
+既に色々なコードが書かれていますね。
+このコードについて概要を解説していきます。
 
-
-
-途中で詰まった場合は、章の最後にその章の完成コード配置していますので、それと見比べて、修正してみて下さい。
-
-
-
-startプロジェクトの解説
-
-
-
-startプロジェクトのmain.dart (DartPadの場合は表示されているコード)を見てください。
-
-
-
-既に色々なコードが書かれていますね。このコードについて概要を解説していきます。
-
-
-
-概要
-
-
+## 概要
 
 まずは概要として、このコードがどのような構成になっているのかを紹介します。
 
+このコードには大きく分けて3つの`Widget`があります。
+`Game`, `Boad`, `Square`の3つです。
 
+各`Widget`とUIの関係性は次の図の通りです。
 
-このコードには大きく分けて3つのWidgetがあります。Game, Boad, Squareの3つです。
+コードを見ると、
+`Game`が`Board`を呼び出し、`Board`が`GridView`で`Square`を9つ並べているのが分かると思います。
 
+まずは、`Game`の子`Widget`が`Board`で、さらに`Board`の子`Widget`が`Square`になっている、
+という関係性が掴めればOKです。
 
+## Step1.データの受け渡しの練習
 
-各WidgetとUIの関係性は次の図の通りです。
-
-
-
-
-
-
-
-コードを見ると、GameがBoardを呼び出し、BoardがGridViewでSquareを9つ並べているのが分かると思います。
-
-
-
-まずは、Gameの子WidgetがBoardで、さらにBoardの子WidgetがSquareになっている、という関係性が掴めればOKです。
-
-
-
-Step1.データの受け渡しの練習
-
-
-
-今回のチュートリアルで基本となる、情報の伝搬、親Widgetから子Widgetへのデータの受け渡しを練習してみましょう。
-
-
+今回のチュートリアルで基本となる、
+情報の伝搬、親`Widget`から子`Widget`へのデータの受け渡しを練習してみましょう。
 
 Startプロジェクトを少し書き換えて、各マス目に、自分の位置の番号を表示させてみます。
 
-
-
-各マス目の番号の情報は、Boardクラスbuildメソッド内の以下のコードのiとなります。
-
-
+各マス目の番号の情報は、`Board`クラス`build`メソッド内の以下のコードのiとなります。
 
             children: List.generate(
               9,
               (int i) => const Square(),
             ),
 
-
-
-
-=> はアロー関数といいます。ここでは詳細は省きます。詳しくは、以下の記事をご覧ください。
-
-
-
+=> はアロー関数といいます。
+ここでは詳細は省きます。
+詳しくは、以下の記事をご覧ください。
 
 https://www.choge-blog.com/programming/dart-arrow/
 
+この`i`をマス目である`Square`に渡し、`i`の値をマス目に表示させてみましょう。
 
+まず、渡すためには`Square`側で受け取る準備が必要です。
 
-
-
-このiをマス目であるSquareに渡し、iの値をマス目に表示させてみましょう。
-
-
-
-まず、渡すためにはSquare側で受け取る準備が必要です。
-
-
-
-Square側で、以下のようにvalueというフィールド（変数）を宣言してみてください。
-
-
+`Square`側で、以下のように`value`というフィールド（変数）を宣言してみてください。
 
 class Square extends StatelessWidget {
   const Square({
@@ -197,16 +115,10 @@ class Square extends StatelessWidget {
 
   final String value; //追加
 
+すると、コンストラクタである`Square()`でエラーが出るはずです。
 
-
-
-すると、コンストラクタであるSquare()でエラーが出るはずです。
-
-
-
-これは、フィールドはあるけれど、コンストラクタで受け取るコードが書いてないよ、というエラーです。以下のようにコンストラクタに追記しましょう。
-
-
+これは、フィールドはあるけれど、コンストラクタで受け取るコードが書いてないよ、というエラーです。
+以下のようにコンストラクタに追記しましょう。
 
 class Square extends StatelessWidget {
   const Square({
@@ -216,37 +128,21 @@ class Square extends StatelessWidget {
 
   final String value;
 
-
-
-
 Mac端末でVScodeの場合は、赤線にカーソルを合わせ、"⌘ + . " →"generate constractor"でもOKです。
 
+できましたでしょうか？これで、`Square`が値を受け取る準備ができました。
 
-
-
-できましたでしょうか？これで、Squareが値を受け取る準備ができました。
-
-
-
-フィールドを宣言する→コンストラクタに追記する、が、値を受け取るためのフィールドの追加の一連の流れとなります。
-
-
+フィールドを宣言する→コンストラクタに追記する、が、
+値を受け取るためのフィールドの追加の一連の流れとなります。
 
 ぜひ覚えておきましょう。
 
+ここまでできると、今度は`Board`の方でエラーが出ているはずです。
 
+このエラーは、「`Square()`で`value`の値を要求しているのに、入っていないよ！」という内容です。
 
-ここまでできると、今度はBoardの方でエラーが出ているはずです。
-
-
-
-このエラーは、「Square()でvalueの値を要求しているのに、入っていないよ！」という内容です。
-
-
-
-以下のBoardクラスのbuildメソッドを以下のように書き換えて、Squareに番号を渡してあげましょう。
-
-
+以下の`Board`クラスの`build`メソッドを以下のように書き換えて、
+`Square`に番号を渡してあげましょう。
 
   @override
   Widget build(BuildContext context) {
@@ -270,25 +166,16 @@ Mac端末でVScodeの場合は、赤線にカーソルを合わせ、"⌘ + . " 
     );
   }
 
+後々の都合上、`value`は`String`型となっています。
+一方で、`i`は`int`型です。
+型を合わせる必要があるため、`'$i'`という書き方となっています。
 
+これでエラーは無くなりました。
+ただ、まだ数字は表示されません。
 
+`Square`で受け取った値を表示するロジックを書いていないからです。
 
-後々の都合上、valueはString型となっています。一方で、iはint型です。型を合わせる必要があるため、'$i'という書き方となっています。
-
-
-
-
-これでエラーは無くなりました。ただ、まだ数字は表示されません。
-
-
-
-Squareで受け取った値を表示するロジックを書いていないからです。
-
-
-
-Squareのbuildメソッドを以下のように書き換えて、valueを表示するようにしましょう。
-
-
+`Square`の`build`メソッドを以下のように書き換えて、`value`を表示するようにしましょう。
 
   @override
   Widget build(BuildContext context) {
@@ -309,63 +196,32 @@ Squareのbuildメソッドを以下のように書き換えて、valueを表示�
     );
   }
 
-
-
 /
-
-
-
-
-
-
 
 できましたでしょうか？
 
+以上が親`Widget`から子`Widget`へとデータを受け渡す方法となります。
 
+ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=1959a019aef7ed01084cd6329b40b953)。
 
-以上が親Widgetから子Widgetへとデータを受け渡す方法となります。
+## Step_a.タップに反応するようにしよう
 
+この章では、startプロジェクトをベースにコードを書き換えていきます。
+startプロジェクトは[こちら](https://dartpad.dartlang.org/?id=602a2d6dd8323d9e5e0bbc2fb74e3c43)
 
-
-ここまでの全体のコードはこちら。
-
-
-
-Step_a.タップに反応するようにしよう
-
-
-
-
-この章では、startプロジェクトをベースにコードを書き換えていきます。startプロジェクトはこちら
-
-
-
-
-三目並べのゲームではマス目へのタップへの反応が不可欠です。練習として、各マス目をタップすると表示が変わるように、コードを書き換えてみましょう。
-
-
+三目並べのゲームではマス目へのタップへの反応が不可欠です。
+練習として、各マス目をタップすると表示が変わるように、コードを書き換えてみましょう。
 
 まずはどのようにしたら実装できるか、考え方を説明します。
 
-
-
 タップされたら値が変わる、ということは、変わる値、つまり状態を持っている必要がありますね。
 
+状態をもつ、ということは`StatefulWidget`を使えばよさそうです。
 
+ということで、`Square`を`StatefulWidget`に書き換えてみましょう。
 
-状態をもつ、ということはStatefulWidgetを使えばよさそうです。
-
-
-
-ということで、SquareをStatefulWidgetに書き換えてみましょう。
-
-
-
-
-Mac端末でVSコードを使用している方は、StatelessWidgetの上で"⌘ + ."を、AndroidStudioを使用している方は"option + enter"を押すと簡単にStatefulWidgetに書き換えられます。
-
-
-
+Mac端末でVSコードを使用している方は、`StatelessWidget`の上で"⌘ + ."を、
+AndroidStudioを使用している方は"option + enter"を押すと簡単に`StatefulWidget`に書き換えられます。
 
 class Square extends StatefulWidget {
   const Square({
@@ -397,15 +253,10 @@ class _SquareState extends State<Square> {
   }
 }
 
-
-
 できましたでしょうか？
 
-
-
-次に、状態を_valueというフィールドで持たせてみます。_SquareStateクラスに以下のように書き加えてください。
-
-
+次に、状態を`_value`というフィールドで持たせてみます。
+`_SquareState`クラスに以下のように書き加えてください。
 
 class _SquareState extends State<Square> {
   String _value = ''; //追加
@@ -413,11 +264,9 @@ class _SquareState extends State<Square> {
   @override
   Widget build(BuildContext context) {
 
-
-
-これで、Squareが_valueという状態を持つことができました。Squareクラスのbuildメソッドを以下のコードのようにして、Squareで表示する値を_valueに設定しましょう。
-
-
+これで、`Square`が`_value`という状態を持つことができました。
+`Square`クラスの`build`メソッドを以下のコードのようにして、
+`Square`で表示する値を`_value`に設定しましょう。
 
    @override
   Widget build(BuildContext context) {
@@ -438,19 +287,12 @@ class _SquareState extends State<Square> {
     );
   }
 
+これで`Square`が状態である`_value`をマス目に表示するようになりました。
 
+では、マス目をクリックしたら値が変わるようにするにはどうすればいいでしょうか？
+今回は`GestureDetector`の`onTap`でそのロジックを設定します。
 
-これでSquareが状態である_valueをマス目に表示するようになりました。
-
-
-
-では、マス目をクリックしたら値が変わるようにするにはどうすればいいでしょうか？今回はGestureDetectorのonTapでそのロジックを設定します。
-
-
-
-以下のようにSquareクラスのbuildメソッドを書き換えてください。
-
-
+以下のように`Square`クラスの`build`メソッドを書き換えてください。
 
   @override
   Widget build(BuildContext context) {
@@ -461,95 +303,57 @@ class _SquareState extends State<Square> {
       child: Container(
 //残りは変更ありません
 
+ここでポイントとなるのは`setState`です。
 
-
-ここでポイントとなるのはsetStateです。
-
-
-
-setStateをすると、そのメソッドを持つStatefulWidgetが再描画(リビルド)されます。
-
-
+`setState`をすると、そのメソッドを持つ`StatefulWidget`が再描画(リビルド)されます。
 
 今回の例でいうと、
 
+タップ 
+→ `_value` が Xに置き換わる
+→ `setState`で再描画される 
+→ Xが表示される
+といった流れとなります。
 
-
-タップ → _value が Xに置き換わる→ setStateで再描画される → Xが表示されるといった流れとなります。
-
-
-
-上記コードを実行して、マス目を触ってみてください。触ったマス目でXが表示されるはずです。
-
-
+上記コードを実行して、マス目を触ってみてください。
+触ったマス目でXが表示されるはずです。
 
 以上がタップに反応するようにする方法でした。
 
+ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=4903c53291abb7c0a2bd07c81335c3dd)。
 
+## ３目並べ基本ロジックの作成
 
-ここまでの全体のコードはこちら。
+基本はわかりましたでしょうか？
+ここからいよいよ三目並べの作成に入っていきます。
 
+最終的な目標は、手順を戻せる、タイムトラベル機能の実装ですが、
+この章では単純に三目並べが遊べるところまでを目標にしたいと思います。
 
+## Step2.親から子に状態を渡そう
 
-３目並べ基本ロジックの作成
+まず、三目並べで遊べるようにするには何が必要か考えてみましょう。
 
+一番必要なのは、３つ揃った時に勝敗を判定するロジックですよね。
 
-
-
-
-
-
-基本はわかりましたでしょうか？ここからいよいよ三目並べの作成に入っていきます。
-
-
-
-最終的な目標は、手順を戻せる、タイムトラベル機能の実装ですが、この章では単純に三目並べが遊べるところまでを目標にしたいと思います。
-
-
-
-Step2.親から子に状態を渡そう
-
-
-
-まず、三目並べで遊べるようにするには何が必要か考えてみましょう。一番必要なのは、３つ揃った時に勝敗を判定するロジックですよね。
-
-
-
-これを可能にするためには、各マスがもつ値の情報が必要です。前の章で、Squareに値の状態を持たせることはやりましたね。これを引っ張ってくればできそうですが、親から子に値を渡すのとは違い、子から親に値を渡すのは複雑で、難しいです。
-
-
+これを可能にするためには、各マスがもつ値の情報が必要です。
+前の章で、`Square`に値の状態を持たせることはやりましたね。
+これを引っ張ってくればできそうですが、
+親から子に値を渡すのとは違い、子から親に値を渡すのは複雑で、難しいです。
 
 なので、このように考えます。
 
-
-
-
-親Widget(Board)が９つのマス目の値の情報を状態として持ち、子Widget(Square)に渡して表示します。
-
-
-
-
-
-
-
+親Widget(`Board`)が９つのマス目の値の情報を状態として持ち、
+子Widget(`Square`)に渡して表示します。
 
 親が9つのマス目の値の情報を持つことで、これを精査すれば勝敗を決めることができます。
 
-
-
-
-ここでは、"Step1.データの受け渡しの練習"で作成したコードをベースに作成していきます。"Step1.データの受け渡しの練習"で作成したコードはこちら。
-
-
-
+ここでは、"Step1.データの受け渡しの練習"で作成したコードをベースに作成していきます。
+"Step1.データの受け渡しの練習"で作成したコードは[こちら](https://dartpad.dartlang.org/?id=1959a019aef7ed01084cd6329b40b953)。
 
 実際にコードで見てみましょう。
 
-
-
-まず、Board Widgetを StatefulWidgetに変えましょう。
-
-
+まず、`Board Widget`を `StatefulWidget`に変えましょう。
 
 class Board extends StatefulWidget {
   const Board({
@@ -584,45 +388,26 @@ class _BoardState extends State<Board> {
   }
 }
 
-
-
-次に、状態として9個のマス目の値を定義しましょう。今回のように順序づけて9個の値を管理する際にはListを使うと良いです。
-
-
+次に、状態として9個のマス目の値を定義しましょう。
+今回のように順序づけて9個の値を管理する際には`List`を使うと良いです。
 
 以下のように状態を定義しましょう。
-
-
 
 class _BoardState extends State<Board> {
   List<String?> _squares = List.generate(9, (index) => null);
 
+`squares`が保持する状態です。 
+`List.generate(9, (index) => null)`で要素数9のリストを生成し初期値として`null`を与えています。 
 
-
-
-squaresが保持する状態です。 List.generate(9, (index) => null)で要素数9のリストを生成し初期値としてnullを与えています。 
-
-
-
-
-String? は、nullでも良いString型の値を定義するときに用いられる書き方です。このnull safetyの書き方については、以下の記事を読んでみてください。
-
-
-
+String? は、nullでも良いString型の値を定義するときに用いられる書き方です。
+このnull safetyの書き方については、以下の記事を読んでみてください。
 
 https://zenn.dev/kboy/articles/ae607839cd4573
 
+今、`Square`には`i`の値をそのまま渡していました。
+これを、状態の`squares`の各`index`の値を渡すように設定しましょう。
 
-
-
-
-今、Squareにはiの値をそのまま渡していました。これを、状態のsquaresの各indexの値を渡すように設定しましょう。
-
-
-
-以下のようにBoardクラスのbuildメソッドのコードを書き換えてください。
-
-
+以下のように`Board`クラスの`build`メソッドのコードを書き換えてください。
 
   @override
   Widget build(BuildContext context) {
@@ -646,12 +431,8 @@ https://zenn.dev/kboy/articles/ae607839cd4573
     );
   }
 
-
-
-
-上のブロックで話したnull safetyの関係でエラーが発生しています。Squareを以下のように書き換えてください。
-
-
+上のブロックで話したnull safetyの関係でエラーが発生しています。
+`Square`を以下のように書き換えてください。
 
 class Square extends StatelessWidget {
   const Square({
@@ -681,49 +462,30 @@ class Square extends StatelessWidget {
   }
 }
 
+※ `value ?? ''` は`??`の左が `null` の時、右の値とする、という表現です。
 
+以上で、親である`Board `から子である`Square`に状態を渡すことができました。
 
+ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=8350272b0b5bc03310bebbc85d4059bb)。
 
-※ value ?? '' は??の左が null の時、右の値とする、という表現です。
+## Step3.親から子にメソッドを渡そう
 
+マス目をクリックした際の挙動を設定していきましょう。
+上の章では、`Square`の中で`onTap`で`Square`の状態を変更して`setState`して再描画しましたね。
 
+ただ、今回は状態を持っているのは`Board`です。
+けれど、`onTap`があるのは子の`Square`です。
+子の`Square`から親の`Board`の状態を変更するにはどうすれば良いでしょうか？
 
-
-以上で、親であるBoard から子であるSquareに状態を渡すことができました。
-
-
-
-ここまでの全体のコードはこちら。
-
-
-
-Step3.親から子にメソッドを渡そう
-
-
-
-マス目をクリックした際の挙動を設定していきましょう。上の章では、Squareの中でonTapでSquareの状態を変更してsetStateして再描画しましたね。
-
-
-
-ただ、今回は状態を持っているのはBoardです。けれど、onTapがあるのは子のSquareです。子のSquareから親のBoardの状態を変更するにはどうすれば良いでしょうか？
-
-
-
-解決策は、Boardに状態変更するメソッド（関数）を定義し、そのメソッドを子のSquareに渡して呼び出してもらうようにすることです。
-
-
+解決策は、`Board`に状態変更するメソッド（関数）を定義し、
+そのメソッドを子の`Square`に渡して呼び出してもらうようにすることです。
 
 親から子へは値だけではなく、メソッドも渡すことが可能です。
 
-
-
 実際にコードで見てみましょう。
 
-
-
-まずは受け取る側の準備からです。値の受け渡しの時と同様に、Squareにメソッドを宣言し、コンストラクタに追記しましょう。
-
-
+まずは受け取る側の準備からです。
+値の受け渡しの時と同様に、`Square`にメソッドを宣言し、コンストラクタに追記しましょう。
 
 class Square extends StatelessWidget {
   const Square({
@@ -735,26 +497,18 @@ class Square extends StatelessWidget {
   final void Function() onTap;  //追加
   final String? value;
 
-
-
-現在、BoardでSquareを設定している部分でエラーが出ていると思います。Boardクラスのbuildメソッドのエラーの部分を以下のように書き換え、Squareにメソッドを渡しましょう。
-
-
+現在、`Board`で`Square`を設定している部分でエラーが出ていると思います。
+`Board`クラスの`build`メソッドのエラーの部分を以下のように書き換え、
+`Square`にメソッドを渡しましょう。
 
               (int i) => Square(
                 onTap: () => handleClick(i), //追加
                 value: _squares[i],
               ),
 
+まだ`handleClick`のメソッドを定義していないため、エラーが出ていると思います。
 
-
-まだhandleClickのメソッドを定義していないため、エラーが出ていると思います。
-
-
-
-buildメソッドの前に以下のようにhandleClickを定義しましょう。
-
-
+buildメソッドの前に以下のように`handleClick`を定義しましょう。
 
 class _BoardState extends State<Board> {
   List<String?> squares = List.generate(9, (index) => null);
@@ -773,12 +527,8 @@ class _BoardState extends State<Board> {
   Widget build(BuildContext context) {
 //残りは変更ありません
 
-
-
-
-最後に、Square で受け取った onTap メソッドをGestureDetectorのonTapに設定しましょう。Squareクラスのbuildメソッドを書き換えます。
-
-
+最後に、`Square` で受け取った `onTap` メソッドを`GestureDetector`の`onTap`に設定しましょう。
+`Square`クラスの`build`メソッドを書き換えます。
 
   @override
   Widget build(BuildContext context) {
@@ -787,49 +537,36 @@ class _BoardState extends State<Board> {
       child: Container(
 //残りは変更ありません
 
-
-
-以上で設定は完了です。ここまでできたらアプリを実行して、マス目をタップしてみてください。
-
-
+以上で設定は完了です。
+ここまでできたらアプリを実行して、マス目をタップしてみてください。
 
 先ほどと同様にXが表示されるはずです。
 
+ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=b3bb1466f6b4c7b8fbcf4ae232e33de1)。
 
+## Step4.XとOを交互に表示しよう
 
-ここまでの全体のコードはこちら。
+今までのコードではXしか表示できませんでした。
+コードを改造して、XとOを交互に表示できるようにしましょう。
 
+考え方はこうです。
+まず、次の手番がXかOかを管理する状態を用意します。
+XかOかなので、`true` or `false`を返す`bool`型の状態にするのが良いでしょう。
+この状態を見て`true`ならXを、`false`ならOを表示させます。
+最後に手番の後に状態を反転させます。
 
+これなら、XとOが交互に表示されるようになりそうです。
+それでは、実装していきましょう。
 
-Step4.XとOを交互に表示しよう
-
-
-
-今までのコードではXしか表示できませんでした。コードを改造して、XとOを交互に表示できるようにしましょう。
-
-
-
-考え方はこうです。まず、次の手番がXかOかを管理する状態を用意します。XかOかなので、true or falseを返すbool型の状態にするのが良いでしょう。この状態を見てtrueならXを、falseならOを表示させます。最後に手番の後に状態を反転させます。
-
-
-
-これなら、XとOが交互に表示されるようになりそうです。それでは、実装していきましょう。
-
-
-
-まずBoardにXかOかを管理する状態を用意します。
-
-
+まず`Board`にXかOかを管理する状態を用意します。
 
 class _BoardState extends State<Board> {
   List<String?> _squares = List.generate(9, (index) => null);
   bool _xIsNext = true; //追加
 
-
-
-次にBoardクラスのhandleClickを以下のように書き換え、_xIsNextがtrueならXを、falseならOを表示させ、表示後、_xIsNextを反転させます。
-
-
+次に`Board`クラスの`handleClick`を以下のように書き換え、
+`_xIsNext`が`true`ならXを、`false`ならOを表示させ、
+表示後、`_xIsNext`を反転させます。
 
   void handleClick(int i) {
     final squares = _squares.sublist(0);
@@ -840,15 +577,10 @@ class _BoardState extends State<Board> {
     });
   }
 
-
-
 これにより、XとOが交互に表示されるようになりました。
 
-
-
-Next Playerの表示も変わるようにしましょう。以下のようにBoardクラスのbuildメソッドを書き換えてみてください。
-
-
+Next Playerの表示も変わるようにしましょう。
+以下のように`Board`クラスの`build`メソッドを書き換えてみてください。
 
   @override
   Widget build(BuildContext context) {
@@ -859,31 +591,18 @@ Next Playerの表示も変わるようにしましょう。以下のようにBoa
         SizedBox(
 //残りは変更ありません
 
-
-
 これで、XとOの手番の変化を実装できました。
 
+ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=352e7db93e73865d99f28b7a7de5ecbc)。
 
+## Step5.ゲーム勝者の判定をしよう
 
-ここまでの全体のコードはこちら。
-
-
-
-Step5.ゲーム勝者の判定をしよう
-
-
-
-いよいよ、この章の最後となります。ゲーム勝者の判定ロジックを作成しましょう。
-
-
+いよいよ、この章の最後となります。
+ゲーム勝者の判定ロジックを作成しましょう。
 
 コードベースで解説していきます。
 
-
-
 以下のコードをファイル末尾に貼り付けてください。
-
-
 
 //1
 String? calculateWinner(List<String?> squares) {
@@ -912,52 +631,32 @@ String? calculateWinner(List<String?> squares) {
   return null;
 }
 
-
-
-
 ポイントを解説していきます。
 
-
-
-//1引数としてマス目の中身のリストを持ち、揃った中身を返す（揃ってなければnullを返す）関数を作成します。
-
-
+//1
+引数としてマス目の中身のリストを持ち、揃った中身を返す（揃ってなければnullを返す）関数を作成します。
 
 //2
 
+3つ揃うパターンのインデックスのリストです。
+上の画像と比較すると、リストの3つの数字の組み合わせが
+画像上で３つ揃っていることがわかると思います。
 
+//3
+3つ揃うパターンのインデックスのリストから、一つのパターンを取り出しています。
 
-
-
-
-
-3つ揃うパターンのインデックスのリストです。上の画像と比較すると、リストの3つの数字の組み合わせが画像上で３つ揃っていることがわかると思います。
-
-
-
-//33つ揃うパターンのインデックスのリストから、一つのパターンを取り出しています。
-
-
-
-//4ここが勝敗判定のキモです。3つ揃うパターンのインデックスを使って、マス目の中身がそもそもあるか、3つとも同じになっているかをチェックしています。trueの場合は、揃っている中身(XかO)を返します。
-
-
+//4
+ここが勝敗判定のキモです。
+3つ揃うパターンのインデックスを使って、
+マス目の中身がそもそもあるか、
+3つとも同じになっているかをチェックしています。
+trueの場合は、揃っている中身(XかO)を返します。
 
 図にまとめるとこうなります。
 
-
-
-
-
-
-
 この関数を使って勝敗の判定をアプリに反映していきましょう。
 
-
-
-Board クラスのbuildメソッドを以下のように書き換えてください。
-
-
+`Board `クラスの`build`メソッドを以下のように書き換えてください。
 
   @override
   Widget build(BuildContext context) {
@@ -971,19 +670,13 @@ Board クラスのbuildメソッドを以下のように書き換えてくださ
    return Column(
 //残りは変更ありません
 
-
-
-calculateWinner(_squares)の結果に応じて、勝者を表示できるようになりました。
-
-
+`calculateWinner(_squares)`の結果に応じて、勝者を表示できるようになりました。
 
 ただ、今の状態だと勝敗が着いた後もマスにXやOを置けてしまいます。
 
-
-
-BoardクラスのhandleClickを以下のように書き換えて、勝敗が着いた場合やマス目が既に埋まっている場合には、すぐにreturnして関数を終わらせるようにしましょう。
-
-
+`Board`クラスの`handleClick`を以下のように書き換えて、
+勝敗が着いた場合やマス目が既に埋まっている場合には、
+すぐに`return`して関数を終わらせるようにしましょう。
 
   void handleClick(int i) {
     final squares = _squares.sublist(0);
@@ -997,59 +690,33 @@ BoardクラスのhandleClickを以下のように書き換えて、勝敗が着�
     });
   }
 
-
-
 おめでとうございます！
 
+これで基本的な三目並べゲームができました！
+そしてFlutterの基本的なロジックの組み方についても学ぶことができました。
 
+ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=c273a9aa5845ce7906fe163e09fb5da3)。
 
-これで基本的な三目並べゲームができました！そしてFlutterの基本的なロジックの組み方についても学ぶことができました。
+## タイムトラベル機能の実装
 
+ここからは応用編です。
+以前の着手まで、「時間を巻き戻す」、タイムトラベル機能を実装しましょう。
 
+## Step6.「盤面の状態の記録」の状態の定義
 
-ここまでの全体のコードはこちら。
+タイムトラベル機能実装の考え方は、「各手番での盤面の状態を記録しておき、
+ボタン操作に応じてその盤面を反映するようにする」です。
 
-
-
-タイムトラベル機能の実装
-
-
-
-
-
-
-
-ここからは応用編です。以前の着手まで、「時間を巻き戻す」、タイムトラベル機能を実装しましょう。
-
-
-
-Step6.「盤面の状態の記録」の状態の定義
-
-
-
-タイムトラベル機能実装の考え方は、「各手番での盤面の状態を記録しておき、ボタン操作に応じてその盤面を反映するようにする」です。
-
-
-
-今回は、ボタン操作はGame Widgetの中で行うようにします。そのためには、「盤面の状態の記録」にボタンがアクセスできるようにしなければいけません。よって、「盤面の状態の記録」の状態はGame が持っている必要があります。
-
-
+今回は、ボタン操作は`Game` Widgetの中で行うようにします。
+そのためには、「盤面の状態の記録」にボタンがアクセスできるようにしなければいけません。
+よって、「盤面の状態の記録」の状態は`Game` が持っている必要があります。
 
 図で表すと、以下のようになります。
 
+この図のように、盤面の状態の記録から盤面を取り出し、`Board`に渡すことで、
+好きな盤面を表現することができます。
 
-
-
-
-
-
-この図のように、盤面の状態の記録から盤面を取り出し、Boardに渡すことで、好きな盤面を表現することができます。
-
-
-
-早速、Game を StatfulWidgetに書き換え、「盤面の状態の記録」の状態を_historyとして定義しましょう。
-
-
+早速、`Game` を StatfulWidgetに書き換え、「盤面の状態の記録」の状態を`_history`として定義しましょう。
 
 class Game extends StatefulWidget {
   const Game({Key? key}) : super(key: key);
@@ -1085,57 +752,36 @@ class _GameState extends State<Game> {
   }
 }
 
-
-
 ここで、次にやることを整理します。
 
+`Board`で状態を受け取る準備をしましょう。
 
+盤面の状態を`Game`が管理するようになったので、
+`Board`が`Square`の状態を管理するようになった時と同様に、
+`Game`から`Board`へ盤面の状態を変更するメソッドを渡す必要があります。
 
-Boardで状態を受け取る準備をしましょう。
+なので、`Board`では、状態だけでなくメソッドも受け取る準備をしなければいけません。
 
+また、`Board`から`Square`に渡したメソッド、`handleClick`には、
+次がXの番か、Oの番かを表す状態`_xIsNext`が含まれていました。
 
+今回は`handleClick`は`Game`が持つため、`_xIsNext`も`Game`で管理するようにしましょう。
 
-盤面の状態をGameが管理するようになったので、BoardがSquareの状態を管理するようになった時と同様に、GameからBoardへ盤面の状態を変更するメソッドを渡す必要があります。
+NextPlayerの表示も`_xIsNext`を使っていました。
+この表示の部分も`Game`に移してしまいましょう。
 
-
-
-なので、Boardでは、状態だけでなくメソッドも受け取る準備をしなければいけません。
-
-
-
-また、BoardからSquareに渡したメソッド、handleClickには、次がXの番か、Oの番かを表す状態_xIsNextが含まれていました。
-
-
-
-今回はhandleClickはGameが持つため、_xIsNextもGameで管理するようにしましょう。
-
-
-
-NextPlayerの表示も_xIsNextを使っていました。この表示の部分もGameに移してしまいましょう。
-
-
-
-こうすると、Boardはもはや状態を持たなくなります。そのため、StatelessWidgetに書き換えてしまいましょう。
-
-
+こうすると、`Board`はもはや状態を持たなくなります。
+そのため、`StatelessWidget`に書き換えてしまいましょう。
 
 やることを整理すると以下のようになります。
 
+- `_xIsNext`を`Game`に移す- NextPlayerの表示部分を`Game`に移す- `Board`を`StatelessWidget`に変える- `Board`で状態を受け取る準備をする- `Board`でメソッドを受け取る準備をする
 
+一つ一つやっていきます。
+途中出るエラーについては後々修正していきますので、
+気にせずに手順を進めてください。
 
-
-_xIsNextをGameに移すNextPlayerの表示部分をGameに移すBoardをStatelessWidgetに変えるBoardで状態を受け取る準備をするBoardでメソッドを受け取る準備をする
-
-
-
-
-一つ一つやっていきます。途中出るエラーについては後々修正していきますので、気にせずに手順を進めてください。
-
-
-
-_xIsNextをGameに移す
-
-
+## `_xIsNext`を`Game`に移す
 
 class _BoardState extends State<Board> {
   List<String?> _squares = List.generate(9, (index) => null);
@@ -1160,11 +806,7 @@ class _GameState extends State<Game> {
   Widget build(BuildContext context) {
 //残りは変更ありません
 
-
-
-NextPlayerの表示部分をGameに移す
-
-
+## NextPlayerの表示部分を`Game`に移す
 
 class _BoardState extends State<Board> {
   List<String?> _squares = List.generate(9, (index) => null);
@@ -1247,15 +889,11 @@ class _GameState extends State<Game> {
   }
 }
 
+ここでcurrentは最新の盤面情報を表しています。
+このcurrentを用いて勝敗を判定しています。
+(currentがMap型であることに注意です。)
 
-
-ここでcurrentは最新の盤面情報を表しています。このcurrentを用いて勝敗を判定しています。(currentがMap型であることに注意です。)
-
-
-
-BoardをStatelessWidgetに変える
-
-
+## `Board`を`StatelessWidget`に変える
 
 class Board extends StatelessWidget {
   const Board({
@@ -1265,15 +903,9 @@ class Board extends StatelessWidget {
   List<String?> _squares = List.generate(9, (index) => null);
 //残りは変更ありません
 
+## `Board`で状態を受け取る準備をする
 
-
-Boardで状態を受け取る準備をする
-
-
-
-_squaresをsquareに変え、状態を受け取ります。
-
-
+`_squares`を`square`に変え、状態を受け取ります。
 
 class Board extends StatelessWidget {
   const Board({
@@ -1316,15 +948,9 @@ class Board extends StatelessWidget {
   }
 }
 
+## `Board`でメソッドを受け取る準備をする
 
-
-Boardでメソッドを受け取る準備をする
-
-
-
-BoardにonTapを定義して、メソッドを受け取る準備をします。
-
-
+`Board`に`onTap`を定義して、メソッドを受け取る準備をします。
 
 class Board extends StatelessWidget {
   const Board({
@@ -1368,15 +994,10 @@ class Board extends StatelessWidget {
   }
 }
 
+お疲れ様でした！以上で`Board`で状態とメソッドを受け取る準備はできました。
 
-
-お疲れ様でした！以上でBoardで状態とメソッドを受け取る準備はできました。
-
-
-
-次にGame側でBoardに状態とメソッドを受け渡す処理を書きましょう。handleClickをGameに移動させ、以下のようにコードを書き換えます。
-
-
+次に`Game`側で`Board`に状態とメソッドを受け渡す処理を書きましょう。
+`handleClick`を`Game`に移動させ、以下のようにコードを書き換えます。
 
 class _GameState extends State<Game> {
   List<Map<String, List<String?>>> _history = [
@@ -1446,43 +1067,28 @@ class _GameState extends State<Game> {
   }
 }
 
+`handleClick`の中身が変わっていることに注意してください。
 
-
-handleClickの中身が変わっていることに注意してください。
-
-
-
-以上でエラーがなくなり、元の通りアプリを実行すると三目並べゲームが遊べる状態となります。頑張って変更していった割に変化が少なく思うかも知れませんが、安心してください、タイムトラベル機能の導入のためには大きな前進です。
-
-
+以上でエラーがなくなり、元の通りアプリを実行すると三目並べゲームが遊べる状態となります。
+頑張って変更していった割に変化が少なく思うかも知れませんが、
+安心してください、タイムトラベル機能の導入のためには大きな前進です。
 
 導入まで後ちょっとです、頑張りましょう！
 
+ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=a978eb8be3f367e68bf523bc46c9de30)。
 
-
-ここまでの全体のコードはこちら。
-
-
-
-Step7.過去の着順を表示する
-
-
+## Step7.過去の着順を表示する
 
 過去の着順を表示するためのボタンを作成していきます。
 
-
-
 着順が増えるたびにボタンを増やすにはどうすればいいでしょうか？
 
+一つの答えは、`List`のメソッドである`map`を用いて、
+「盤面の状態の記録」である`_history`の要素ごとにボタンを作成し、
+リスト化して表示する、です。
 
-
-一つの答えは、Listのメソッドであるmapを用いて、「盤面の状態の記録」である_historyの要素ごとにボタンを作成し、リスト化して表示する、です。
-
-
-
-言葉では伝わりにくいので、コードで示します。Gameのbuildメソッドを以下のように書き換えてください。
-
-
+言葉では伝わりにくいので、コードで示します。
+`Game`の`build`メソッドを以下のように書き換えてください。
 
   @override
   Widget build(BuildContext context) {
@@ -1538,47 +1144,28 @@ Step7.過去の着順を表示する
     );
   }
 
-
-
-ポイントは、追記したmovesの部分です。mapを使って、historyのそれぞれの要素に対し、ElevatedBottonを生成し、最後にリスト化しています。
-
-
+ポイントは、追記した`moves`の部分です。
+`map`を使って、`history`のそれぞれの要素に対し、`ElevatedBotton`を生成し、
+最後にリスト化しています。
 
 少しテクニカルですが、このような書き方もできるのだ、と覚えておくと良いでしょう。
 
-
-
 今の状態でアプリを実行してみると、マス目を押すごとにボタンが追加されていきます。
 
+ただ、ボタンを押しても何も起きません。
+次の章でボタンを押してタイムトラベルできるようにしましょう。
 
+ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=e210422fe8f00fa58188dc040853e6d3)。
 
-ただ、ボタンを押しても何も起きません。次の章でボタンを押してタイムトラベルできるようにしましょう。
-
-
-
-ここまでの全体のコードはこちら。
-
-
-
-Step8. タイムトラベル機能の実装
-
-
+## Step8. タイムトラベル機能の実装
 
 長かったチュートリアルもいよいよ最後です！
 
-
-
 タイムトラベル機能を実装しましょう。
-
-
 
 タイムトラベル機能のためには今が何手目の状態を見ているのかを表す状態を導入します。
 
-
-
-Gameへ以下のように_stepNumberを追加してください。
-
-
+`Game`へ以下のように`_stepNumber`を追加してください。
 
 class _GameState extends State<Game> {
   List<Map<String, List<String?>>> _history = [
@@ -1588,11 +1175,10 @@ class _GameState extends State<Game> {
   bool _xIsNext = true;
 //残りは変更ありません
 
-
-
-次に、Game内でjumpToメソッドを定義して、_stepNumberがこのメソッドで更新されるようにします。また、_stepNumberの値が偶数だった場合には次の手番はXなので、_xIsNextをtrueにします。
-
-
+次に、`Game`内で`jumpTo`メソッドを定義して、
+`_stepNumber`がこのメソッドで更新されるようにします。
+また、`_stepNumber`の値が偶数だった場合には次の手番はXなので、
+`_xIsNext`を`true`にします。
 
  void handleClick(int i) {
 //変更ありません
@@ -1609,15 +1195,9 @@ class _GameState extends State<Game> {
   Widget build(BuildContext context) {
 //残りは変更ありません
 
+この`jumpTo`メソッドを、前章で設定したElevatedButtonに反映しましょう。
 
-
-このjumpToメソッドを、前章で設定したElevatedButtonに反映しましょう。
-
-
-
-Gameのbuildメソッドを以下のように更新してください。
-
-
+`Game`の`build`メソッドを以下のように更新してください。
 
   @override
   Widget build(BuildContext context) {
@@ -1634,15 +1214,10 @@ Gameのbuildメソッドを以下のように更新してください。
     String status;
 //残りは変更ありません
 
+次に、`_stepNumber`が、マス目をクリックするたび更新されるように、
+`handleClick`を書き換えましょう。
 
-
-次に、_stepNumberが、マス目をクリックするたび更新されるように、handleClickを書き換えましょう。
-
-
-
-書き換えたGame内のコードは以下のようになります。
-
-
+書き換えた`Game`内のコードは以下のようになります。
 
   void handleClick(int i) {
     final history = _history.sublist(0, _stepNumber + 1); //書き換える
@@ -1661,15 +1236,12 @@ Gameのbuildメソッドを以下のように更新してください。
     });
   }
 
+上の書き換えの部分について解説します。
+「時間の巻き戻し」をした場合、新しい`_stepNumber`より先の記録は要らなくなります。
+なので、`subList`を使って、`_stepNumber`より先の記録を破棄しています。
 
-
-上の書き換えの部分について解説します。「時間の巻き戻し」をした場合、新しい_stepNumberより先の記録は要らなくなります。なので、subListを使って、_stepNumberより先の記録を破棄しています。
-
-
-
-いよいよ本当に最後です。_stepNumberの盤面を表示させるようにGame内のbuildメソッドの中身を書き換えましょう。
-
-
+いよいよ本当に最後です。
+`_stepNumber`の盤面を表示させるように`Game`内の`build`メソッドの中身を書き換えましょう。
 
   @override
   Widget build(BuildContext context) {
@@ -1679,114 +1251,56 @@ Gameのbuildメソッドを以下のように更新してください。
 
 //残りは変更ありません
 
-
-
 おめでとうございます！
 
-
-
-これでタイムトラベル機能が実装できました！アプリを実行し、マス目をいくつかクリックした後に右側のボタンを押してみてください。
-
-
+これでタイムトラベル機能が実装できました！
+アプリを実行し、マス目をいくつかクリックした後に右側のボタンを押してみてください。
 
 その着手の盤面が表示される、タイムトラベルが可能となっていることがわかります。
 
+完成したコードは[こちら](https://dartpad.dartlang.org/?id=a2bd77692fee9e5368365a56e57c0c60)。
 
+## まとめ
 
-完成したコードはこちら。
-
-
-
-まとめ
-
-
-
-
-
-
-
-Flutterで UIが組めるようになった人のためのチュートリアルとして、本記事では三目並べゲームの作成方法を通し、基本的なロジックの組み方について解説しました。
-
-
+Flutterで UIが組めるようになった人のためのチュートリアルとして、
+本記事では三目並べゲームの作成方法を通し、基本的なロジックの組み方について解説しました。
 
 本記事で作成した三目並べは以下のような機能を持っています。
 
-
-
-
-三目並べが遊べる決着がついた時に勝者が表示される着手の履歴を見ることができ、その着手まで戻ることができる。
-
-
-
+- 三目並べが遊べる- 決着がついた時に勝者が表示される- 着手の履歴を見ることができ、その着手まで戻ることができる。
 
 かなり長く、歯応えのあるチュートリアルだったかと思います。
 
+けれども、このチュートリアルを終えたあなたは、
+Flutter力、プログラミング力がきっと上がっているはずです。
 
-
-けれども、このチュートリアルを終えたあなたは、Flutter力、プログラミング力がきっと上がっているはずです。
-
-
-
-次はあなただけの自作アプリに挑戦してみてください。きっと以前よりロジックの組み立てがしやすいですよ。
-
-
+次はあなただけの自作アプリに挑戦してみてください。
+きっと以前よりロジックの組み立てがしやすいですよ。
 
 本記事があなたのアプリ開発の一助となれば、幸いです。
 
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
+以下の画像リンクから。
 
-
-
-Flutterを一緒に学んでみませんか？Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、以下の画像リンクから。
-
-
-
-
-
-
-
-
-
-
-編集後記（2022/4/1）
-
-
-
+## 編集後記（2022/4/1）
 
 本日、4/1、Flutter大学がリニューアルされました！
 
-
-
-特にHPが一新されて、よりわかりやすく、親しみやすくなっています。ぜひ覗いてみてください。
-
-
-
+特にHPが一新されて、よりわかりやすく、親しみやすくなっています。
+ぜひ覗いてみてください。
 
 https://flutteruniv.com/
 
-
-
-
-このリニューアルを記念してのチュートリアル記事だったのですが、いかがでしたでしょうか？
-
-
+このリニューアルを記念してのチュートリアル記事だったのですが、
+いかがでしたでしょうか？
 
 ここまで読まれている方は少ないかもしれませんね。
 
-
-
 書いている私としてもかなり歯応えのある記事となりました。
-
-
 
 この記事が誰かの役に立つことを、心から祈っています。
 
-
-
-
-
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。記事の更新情報はFlutter大学Twitterにて告知します。ぜひぜひフォローをお願いいたします
-
-
-
-
-
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
+ぜひぜひフォローをお願いいたします

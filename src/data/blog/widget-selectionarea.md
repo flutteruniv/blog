@@ -1,5 +1,6 @@
 ---
 title: "【 SelectionArea 】文字を選択できるようにしよう！【Flutter】"
+slug: "widget-selectionarea"
 description: ""
 pubDatetime: "2022-09-14"
 author: "Aoi"

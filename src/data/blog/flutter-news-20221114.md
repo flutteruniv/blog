@@ -1,112 +1,242 @@
 ---
-title: "【Flutter大学】 共同勉強会 まとめました！【2022年11月】"
+title: "Flutter ニュース 【2022年11月第2週】"
+slug: "flutter-news-20221114"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-12-09T10:00:00.000Z
-tags: ["勉強会"]
+pubDatetime: 2022-11-14T10:00:00.000Z
+tags: ["ニュース"]
 ---
 
-**「Flutter大学の 共同勉強会 、何やっているのか気になるな、、、」**
+**Flutterの最新情報をキャッチアップしたい！**
 
-そんなあなたの要望に応えるのが本記事です！
+そんなあなたに送る、 Flutterニュース 。
 
-本記事では2022年11月に行われた全3回の共同勉強会の概要をそれぞれお伝えします。
+本記事ではFlutterニュースとして、2022年11月第2週に話題になったFlutter関連の情報や、  
+アップされた記事、YouTube動画の紹介を行います。
 
-Flutter大学にどんな知見が集まっているかわかる記事となっています。
+読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
 
-ぜひ読んでみて下さい！
+## Flutter公式情報
 
-## Flutter大学の共同勉強会って？
+### Flutter 3.3.8 リリース！
 
-Flutter大学の共同勉強会について解説します。
+https://twitter.com/FlutterReleases/status/1590407669483032577
 
-### Flutter大学とは
+Flutter のstable チャンネルにて、Flutter 3.3.8がリリースされました。
 
-Flutter大学とは、「Flutterエンジニアに特化した学習コミュニティ」です。
+[Hotfixes一覧](https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#338-nov-09-2022)によると今回のリリースでの修正点は以下となります。
 
-Flutterを勉強したい人、Flutterでエンジニアとして働いている人など、  
-さまざまな方に参加いただいています。
+*   [Android デバイスが no Data を渡した際の `TextField` の null safety の問題の修正](https://github.com/flutter/flutter/issues/113973)
+*   [`num` 型 を許さない `TextInput`の型変換の修正](https://github.com/flutter/flutter/issues/109632)
 
-以下の記事で詳しく解説しておりますので、併せてご覧ください。
+### Gesture Arena | Decoding Flutter
 
-https://blog.flutteruniv.com/flutteruniversity\_explanation/
+https://youtu.be/Q85LBtBdi0U
 
-### 共同勉強会とは
+Flutter のタップ、ダブルタップ、ロングタップ等のイベントがどのように判別されているかを、  
+イベントの闘技場に例えて紹介されている動画です。
 
-共同勉強会とは、Flutter大学内でほぼ毎週行われている  
-Flutterやアプリ開発に関する勉強会のことです。
+アニメーション付きで、判別の仕組みが紹介されています。
 
-内容は初心者向けのものから、かなりコアなものまでさまざまです。
+### Flutter News Toolkit
 
-Flutter大学の有志のメンバーが発表者となり知見の共有が行われています。
+https://twitter.com/FlutterDev/status/1590758686149976064
 
-### 過去の勉強会は見れる？
+Flutter の新たなテンプレートである、  
+Flutter News Toolkit へのアーリーアクセスが可能になった、とのツイートです。
 
-**「もう終わった勉強会はどうせ見れないんでしょう？」**
+このテンプレートを使うことによって、  
+認証機能やSNSへのシェア機能を持ったニュースアプリを、  
+より速く、簡単に作成することができるとのことです。
 
-いいえ！見れます！
+## Flutterに関する話題
 
-勉強会は毎回録画され、アーカイブ動画としてFlutter大学HP、  
-またはFlutter大学アプリから閲覧可能です。
+### Samsung Note のようなメモアプリのリポジトリ
 
-このため、Flutter大学にはかなりの知見が蓄えられています。
+https://www.reddit.com/r/FlutterDev/comments/ys4ulo/i\_built\_a\_notetaking\_app\_similar\_to\_samsung\_note/
 
-勉強会動画の閲覧、勉強会への参加には、Flutter大学の有料会員登録が必要です。  
-Flutter大学への参加は以下の画像リンクから。
+マークダウンで書くことのできるメモアプリのリポジトリがRedditで話題となっていました。
 
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
+Firebase を用いて作成されており、投稿内GitHubリンクからデザイン等を見ることができます。
 
-## 11月の勉強会の紹介
+### Flutter で作成されたGoogle 製 VPN デスクトップアプリ
 
-11月は全3回の勉強会が開催されました。
+https://twitter.com/timsneath/status/1590449925300846592
 
-それぞれの勉強会について、概要を紹介していきます。
+Google が提供するVPNアプリがFlutter で作られた、と話題となっていました。
 
-### 【Aoi】【Flame 入門】30分でゲームを作ろう！
+macOS と Windows で使えるアプリをシングルコードベースで作成したとのことです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/WordPress-素材.jpg)
+### Flutter バージョン管理ツール Puro
 
-FlutterのゲームエンジンであるFlameについての勉強会が開かれました。
+https://puro.dev/
 
-ライブコーディングにてFlameでのゲーム制作方法の紹介が行われました。
+Flutter のバージョン管理ツールであるPuro についての投稿がRedditで話題となっていました。
 
-Aoi「ライブコーディング中の参加者の質問や反応がとても良く、  
-楽しい勉強会になりました！」
+リンク先にてFVM等との性能差が紹介されています。
 
-### 【heyhey1028】アニメーション初心者から抜け出そう
+## Flutterに関する記事
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/WordPress-素材-1.jpg)
+### **dart:ffiで既存のC++の資産をDart/Flutterから使用する方法**
 
-Flutterでのアニメーションの実装方法について解説する勉強会が開かれました。
+https://zenn.dev/turing\_motors/articles/c62030a38d2eda
 
-アニメーションの実装方法だけでなく、  
-どんな時にどのウィジェットを使って実装するとよいかについてまで解説いただきました。
+C++ で書かれた関数等をDart / Flutter で利用する方法について解説された記事です。
 
-Aoi「複数のパターンに対し、そのそれぞれにサンプルアプリと解説を用意していて、  
-とてもわかりやすく、興味深い勉強会でした！」
+dart:ffi を用いて利用する方法が、具体的な課題と解決策の提示で解説されています。
 
-### 【みやジック】FirebaseのFirestoreとFunctionsでポイントシステムを作ってみた
+### **タダで文化祭来場用の予約サイトを作らされた話**
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/WordPress-素材-2.jpg)
+https://zenn.dev/bun133/articles/e035b8a6b04956
 
-Firebase のFirestore 、Cloud Functions を用いたポイントシステムの実装方法について  
-解説する勉強会が開かれました。
+Flutter x Firebase で 文化祭来場用の予約サイトを作成した際の経験談について  
+書かれた記事です。
 
-有効期限付きのポイントを用意するために、どのようなデータ構造で実装すればよいかについて、  
-経験ベースで解説いただきました。
+仕様変更の経緯や作成にあたって困った点等が書かれています。  
+記事内で作成したアプリケーションのソースコードのGitHubリンク等が記載されています。
 
-Aoi「実際に作成しているサービスベースでの話だったので、  
-とても実践的で勉強になりました！」
+### **StateNotifier, StateProvider, FutureProvider, StreamProviderの使い分け**
+
+https://zenn.dev/3ta/articles/fb2329ba2ab1dd
+
+Flutterの状態管理フレームワーク、Riverpod のいくつかの`Provider`について、  
+役割の違い等を紹介している記事です。
+
+`FutureProvider`の`StateNotirfierProvider`での書き換えでの例等が紹介されています。
+
+### **【Flutter】Riverpod 2.0 の Notifier と riverpod\_generator の解説**
+
+https://zenn.dev/10\_tofu\_01/articles/try\_riverpod\_generator
+
+Flutterの状態管理フレームワーク、Riverpodのバージョン2.0と同時に追加された  
+riverpod\_generator 等について紹介された記事です。
+
+カウンターアプリを題材にriverpod\_generatorでのコード生成の利用方法や、  
+`Notifier`での記述例が紹介されています。
+
+### **【重要】学習・開発で必ず確認するべきOSS**
+
+https://zenn.dev/nameless\_sn/articles/awesome\_open\_source
+
+WEB開発、モバイル開発等々で開発者が知っておくと良いオープンソースソフトウェア（OSS）について紹介された記事です。
+
+Flutter で作成されているOSSについてもいくつか紹介がなされています。
+
+### **【Flutter】プログラミング歴半年で、モバイルアプリを2個リリースした話**
+
+https://zenn.dev/tatukane/articles/81aebcfac673b6
+
+半年で2つのアプリをリリースした筆者の経験談について書かれた記事です。
+
+リリースにあたり困った点やアプリケーション作成の際に工夫した点等が記載されています。
+
+### パッケージを使わずにオリジナルのToastを実装しよう！
+
+https://itnext.io/create-your-own-toast-without-using-any-packages-6d3828816f7c
+
+パッケージを使わず、オリジナルの`Toast`を実装する方法について書かれた記事です。
+
+`Overlay`を用いた実装方法が紹介されています。
+
+### Flutter Riverpod 2.0 でのAsyncNotifier のサブクラスの単体テストの仕方
+
+https://codewithandrea.com/articles/unit-test-async-notifier-riverpod/
+
+Riverpod 2.0 で追加された`AsyncNotifier`のサブクラスの単体テストの仕方について  
+紹介、解説された記事です。
+
+認証機能を例に挙げモックの仕方やリスナーの設定方法等が紹介されています。
+
+## Flutterに関する動画
+
+### Flutterでの回転式ダイアルのUIへの挑戦
+
+https://www.youtube.com/watch?v=nzqAp8xZ4wA
+
+Flutterで黒電話のようなダイアルでのパスコード解錠アプリを作成したとの動画です。
+
+[こちら](https://github.com/mkobuolys/flutter-design-challenges/tree/master/flutter_rotary_passcode) のGitHubからソースコードを確認することが可能です。
+
+## Flutter大学メンバーによる記事
+
+### .familyについて学んでみた!
+
+https://qiita.com/JunichiHashimoto/items/877a757e501468792227
+
+Flutter 、Riverpod の`Provider` に対する修飾子である`family`について書かれた記事です。
+
+主にサンプルコードにて`family`での`Provider` 利用を行っています。
+
+### **Flutter × Bitriseでappstore＆playストアにまとめてデプロイが快適すぎる件**
+
+https://zenn.dev/manabu/articles/184ac4060c37bf
+
+Flutter とCI/CDサービスであるBitriseを用いて、  
+App Store、Google Play Storeにまとめてデプロイする方法について解説された記事です。
+
+実際に導入しているアプリの設定内容をスクショ付きで紹介されています。
+
+### **【Flutter Widget of the Week #22】AbsorbPointerを使ってみた**
+
+https://zenn.dev/faucon/articles/5a28dc9f7ea7c9
+
+Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で  
+紹介されたウィジェットを、一つ取り上げて解説する記事です。
+
+今回はタップ等のジェスチャーを無効化する`**AbsorbPointer**`についての解説記事となっています。
+
+### **【Flutter Widget of the Week #23】Transformを使ってみた**
+
+https://zenn.dev/faucon/articles/a2415c2cd1fd0a
+
+Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で  
+紹介されたウィジェットを、一つ取り上げて解説する記事です。
+
+今回は拡大や回転等を実装できる`**Transform**`についての解説記事となっています。
+
+### **Flutter Build時に Package.resolved file is corrupted or malformed**
+
+https://zenn.dev/ishihaya/articles/2dfa53a3c11b1b
+
+GitHub Actions を利用してのCI を構築時に直面したエラーの内容と解決策について書かれた記事です。
+
+端的に原因と解決策が書かれています。
+
+### **【Flutter】Animationの基礎から応用まで** 
+
+https://zenn.dev/heyhey1028/articles/a9ee3695cfcf63
+
+https://zenn.dev/heyhey1028/articles/8752d61f522f50
+
+https://zenn.dev/heyhey1028/articles/222e2851e9d97f
+
+https://zenn.dev/heyhey1028/articles/10492c3884a45a
+
+Flutterのアニメーションの実装方法について解説された記事です。
+
+アニメーションを実装するにあたっての様々な要素を丁寧にわかりやすく解説されています。
+
+これらの記事の英語化もされています。
+
+https://medium.com/@heyhey1028/flutter-animation-newbie-to-advanced-1-basics-5283c9e4b2e1
+
+## 週刊Flutter大学の記事
+
+先週週刊Flutter大学に追加された記事は以下になります。
+
+https://blog.flutteruniv.com/flutter-news-20221107/
+
+https://blog.flutteruniv.com/flutter-widget-placeholder/
+
+https://blog.flutteruniv.com/widget-sizedbox/
 
 ## まとめ
 
-本記事では2022年11月に行われた全3回の共同勉強会の概要をそれぞれお伝えしました。
+本記事ではFlutterニュースとして、  
+2022年11月第2週に話題になったFlutter関連の情報や、  
+アップされた記事、YouTube動画の紹介を行いました。
 
-興味を持っていただけましたでしょうか？
-
-ぜひFlutter大学に参加して、勉強会にも参加してみて下さい。
-
-Flutter大学への参加はこちらから。
+この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
 Flutterを一緒に学んでみませんか？  
 Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
@@ -114,20 +244,26 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 [![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
-## 編集後記（2022/12/9）
+## 編集後記（2022/11/14）
 
-共同勉強会についての記事でした。
+Flutter公式からこんなツイートがありました。
 
-アニメーションでいうと、[flutter\_animate](https://pub.dev/packages/flutter_animate)がとても気になっています。  
-Flutter 3.3のリリース時に話題になったWonderous というアプリの  
-開発チームが開発者のパッケージです。
+https://twitter.com/FlutterDev/status/1590026371417673728
 
-これを使うと簡単にアニメーションの実装ができるとのことですが、  
-どれくらい簡単にできるのか、とても気になっています。
+2023年1月25日に何かある、との告知ツイートです。  
+一体何があるんでしょうか？  
+いくつか予想をしてみようと思います。
 
-どこかでキャッチアップして、共有しようと思います。
+1.  Flutter のメジャーアップデート (Flutter 4.0.0)
+2.  Flutter のカンファレンスの開催
+3.  Flutter Apprentice のような初心者向けチュートリアル本の展開
+4.  Flutter Puzzle Hack のようなハッカソンの開催
 
-できたら記事化しようと思いますので、気長にお待ち下さい。
+個人的には、Flutter 4.0が本命かな、と思っています。  
+どれになるにしろ、今からワクワクが止まりませんね！
+
+あなたはこの告知についてどのように思いますか？  
+ぜひTwitter等でご意見をお聞かせください！
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  

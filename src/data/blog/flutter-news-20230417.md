@@ -1,5 +1,6 @@
 ---
 title: "【Flutterニュース】Chompy終了、Dart 3.0.0リリース情報、最高のriverpod解説動画、ChatGPTとGitHub Copilotの実践レビューほか【2023年4月17日】"
+slug: "flutter-news-20230417"
 description: ""
 pubDatetime: "2023-04-17"
 author: "kboy"

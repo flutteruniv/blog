@@ -1,5 +1,6 @@
 ---
 title: "【 glassmorphism 】ガラスのようなUIを実装しよう！【 Flutter 】"
+slug: "package-glassmorphism"
 description: ""
 pubDatetime: "2022-10-28"
 author: "Aoi"

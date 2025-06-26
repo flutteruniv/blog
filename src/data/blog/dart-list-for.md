@@ -1,5 +1,6 @@
 ---
 title: "【 Dart 】 List の中で for 文を使おう！【 Flutter 】"
+slug: "dart-list-for"
 description: ""
 pubDatetime: "2022-12-07"
 author: "Aoi"

@@ -1,122 +1,191 @@
 ---
-title: "【Flutter大学】 共同勉強会 まとめました！【2022年5月】"
+title: "Flutter ニュース 【2022年5月第1週】"
+slug: "flutter-news-20220509"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-06-03T10:00:00.000Z
-tags: ["勉強会"]
+pubDatetime: 2022-05-09T10:00:00.000Z
+tags: ["ニュース"]
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
 
-Flutter大学の共同 勉強会 、何やっているのか気になるな、、、
+Flutterの最新情報をキャッチアップしたい！
 
-そんなあなたの要望に応えるのが本記事です！
+そんなあなたに送る、 Flutterニュース 。
 
-本記事では2022年5月に行われた全2回の共同勉強会の概要をそれぞれお伝えします。
+本記事ではFlutterニュースとして、2022年5月第1週に話題になったFlutter関連の情報や、  
+アップされた記事、YouTube動画の紹介を行います。
 
-Flutter大学にどんな知見が集まっているかわかる記事となっています。
+読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
 
-ぜひ読んでみて下さい！
+## Flutter公式情報
 
-## Flutter大学の共同勉強会って？
+### Google I/O
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+https://io.google/2022/intl/ja/
 
-Flutter大学の共同勉強会について解説します。
+日本時間5/12 午前2時から5/13にかけて、  
+Googleの最新情報の講演会、Google I/Oが開催されます。
 
-### Flutter大学とは
+オンラインでの視聴が可能で、GoogleのプロダクトであるFlutterに関する最新情報も、  
+もちろん発表されます。
 
-Flutter大学とは、「Flutterエンジニアに特化した学習コミュニティ」です。
+最新情報をキャッチアップするのが好きな方は、ぜひ見てみてください。
 
-Flutterを勉強したい人、Flutterでエンジニアとして働いている人など、  
-さまざまな方に参加いただいています。
+### ThemeExtension | Decoding Flutter
 
-以下の記事で詳しく解説しておりますので、併せてご覧ください。
+https://youtu.be/8-szcYzFVao
 
-https://blog.flutteruniv.com/flutteruniversity\_explanation/
+Flutterの情報や機能を深掘りするシリーズ、Decording Flutterが更新されました。
 
-### 共同勉強会とは
+Flutterの5月のアップデートで実装予定の、  
+自作WidgetでもThemeを使えるようにする、  
+ThemeExtension についての解説動画となります。
 
-共同勉強会とは、Flutter大学内でほぼ毎週行われている  
-Flutterやアプリ開発に関する勉強会のことです。
+こちらの内容に関しては、週刊Flutter大学でも記事にしていますので、  
+併せてご確認ください。
 
-内容は初心者向けのものから、かなりコアなものまでさまざまです。
+https://blog.flutteruniv.com/flutter-themeextension/
 
-Flutter大学の有志のメンバーが発表者となり知見の共有が行われています。
+### Boring to Fly - Fixing up MyDash (The Boring Flutter Development Show, Ep. 57)
 
-### 過去の勉強会は見れる？
+https://youtu.be/G1dxXphxPx4
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
+The Boring Flutter Develop Show の最新Episodeが公開されました。
 
-もう終わった勉強会はどうせ見れないんでしょう？
+今回は、Flutterの初心者向け動画シリーズ、Learning to Fly とのコラボ動画で、  
+Learning to Fly で作成しているFlutter グッズアプリを、  
+2人で修正していく様子が動画化されています。  
 
-いいえ！見れます！
+## Flutterに関する話題
 
-勉強会は毎回録画され、アーカイブ動画としてFlutter大学HP、  
-またはFlutter大学アプリから閲覧可能です。
+### convenient\_test パッケージ
 
-このため、Flutter大学にはかなりの知見が蓄えられています。
+https://www.reddit.com/r/FlutterDev/comments/uk3u5g/given\_the\_interest\_convenient\_test\_is\_opensourced/
 
-勉強会動画の閲覧、勉強会への参加には、Flutter大学の有料会員登録が必要です。  
-Flutter大学への参加はこちらから。
+FlutterのIntegration Test をより便利に実行できるパッケージ、  
+convenient\_testパッケージの紹介の投稿です。
 
-https://flutteruniv.com/
+テストのビデオ録画等ができ、Integration Testの補助をしてくれるそうです。  
+投稿のリンク先にDemoのVideoがあるので、ぜひ見てみてください。
 
-## 5月の勉強会の紹介
+### Dashboard パッケージ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+https://www.reddit.com/r/FlutterDev/comments/ujpqbw/flutter\_dynamic\_dashboard\_widget/
 
-5月は全2回の勉強会が開催されました。
+パネルの大きさを自由に変えたり、移動できたりするパッケージ、  
+Dashboard パッケージの紹介の投稿です。
 
-それぞれの勉強会について、概要を紹介していきます。
+Demoのページや、YouTubeでのDemoの動画がリンクされていますので、  
+ぜひ見てみてください。
 
-### 明日から構築できる Flutter CI 入門
+## Flutterに関する記事
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/20220528_ci.png)
+### Flutter App Architecture: The Presentation Layer
 
-Fluttterでの自動でテストやフォーマットチェックを行う、  
-CIの利点や実装方法について勉強会が開かれました。
+https://codewithandrea.com/articles/flutter-presentation-layer/
 
-GitHub Actions を使ったCI の構築方法を、初心者にわかりやすく、丁寧に解説いただきました！
+Flutter でのアプリアーキテクチャの詳細を紹介する記事として、  
+ユーザーが触る部分であるプレゼンテーション層の記述方法について解説された記事です。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)
+ユーザー認証を題材に、  
+RiverpodのStateNotifierProviderを使った実装方法について記載されています。
 
-Aoi
+### Dart 2.17での Super 引数の使い方
 
-CI の便利さをこれでもかというくらいに紹介いただいた勉強会でした！
+https://codewithandrea.com/tips/dart-2.17-super-arguments/
 
-動画で実際に動いている様子を見せていただいたりと、  
-CI のイメージもしやすかったです！
+Dart 2.17でのsuper引数について書かれた記事です。
 
-### Notionを使って個人開発のタスク管理をしよう
+引数宣言時にsuperを設定することができるようになるとのことです。  
+Flutterの次のアップデートで利用可能となる書き方とのこと、楽しみですね。  
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/20220528_notion.png)
+### Throwする関数をテストする方法
 
-情報を一括で管理できるドキュメントツール、Notionについて、  
-利用方法の解説の勉強会が開かれました。
+https://codewithandrea.com/tips/flutter-test-expect-tear-off/
 
-発表者自作のテンプレートをベースに、  
-Notionでできることを事細かに紹介いただきました！
+テスト関数の中で例外を投げる関数を使う際の注意点についてまとめられた記事です。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)
+expectの中で関数を実行するのでなく、  
+関数そのものを渡すようにすると良い、とのことでした。
 
-Aoi
+### Providerを使ったFlutterの状態管理を学ぼう
 
-日々のタスク管理の手法には悩まされている自分だったので、  
-この勉強会はとても勉強になりました！
+https://cswithiyush.hashnode.dev/exploring-state-management-in-flutter-with-provider
 
-テンプレートが本当に作り込まれていて、  
-使いこなせばタスク管理は完璧！といった内容でした！
+Provider を使ったFlutterの状態管理について学ぶことができる記事です。
+
+Flutterのデフォルトのカウンターアプリを題材に、  
+Change Notifier等を使いProviderの基本的な使い方を学ぶことができます。
+
+## Flutter大学メンバーによる記事
+
+### **Flutterでよくあるログイン画面を作る**
+
+https://zenn.dev/joo\_hashi/articles/fc6914a5d74629
+
+Flutter でのログイン画面の作成例を紹介した記事です。
+
+UI的な作成例とバリデーションについても記載されています。
+
+### **FlutterのAppBarの色をオリジナルにしたい!**
+
+https://zenn.dev/joo\_hashi/articles/a0344fb300c1f6
+
+Flutter のAppBarの色を変更する方法について解説された記事です。
+
+色の指定を16進数出する方法と、RGBAで指定する方法、の2種類で解説されています。
+
+### \[Flutter×Firebase\] firebase\_authのエラーハンドリング(例外処理、try-catch)を学ぶ
+
+https://zenn.dev/hikaru24/articles/7c5d49b0e877b9
+
+Firebase\_auth でのエラーハンドリングについて書かれた記事です。
+
+Firebase\_auth で発生するエラーコードごとに対処を分ける方法について、  
+サンプルコードをベースに紹介されています。
+
+### **シンプルでカラフルで拡張しやすい FirebaseCrashlytics 連携可能な Dart 製ロガーパッケージを公開した話**
+
+https://zenn.dev/susatthi/articles/20220506-144617-flutter-roggle
+
+FlutterでDebug Consoleに表示するログをカスタマイズするためのパッケージを自作され、  
+その内容について紹介されている記事です。
+
+カラフルで、かゆいところに手が届くパッケージとなっているかと思います。  
+パッケージはpub.devにて公開されていますので、ぜひ利用してみてください。  
+（リンクは[こちら](https://pub.dev/packages/roggle)）
+
+### **FlutterHooksを気軽に使ってみよう！**
+
+https://zenn.dev/manabu/articles/bae5d5ded78cbc
+
+Flutter Hooks の基本的な使い方について解説された記事です。
+
+Flutter Hooks で使われる、useStateとuseEffectについて特に注目して記載されています。  
+これからHooksを使用するにあたって参考になる記事となっています。
+
+## 週刊Flutter大学の記事
+
+先週週刊Flutter大学に追加された記事は以下になります。
+
+https://blog.flutteruniv.com/flutter-news-20220502/
+
+https://blog.flutteruniv.com/flutter-themeextension/
+
+https://blog.flutteruniv.com/flutter-material-you-navigation-bar/
+
+https://blog.flutteruniv.com/flutteruniversity-online-exchange-meeting/
 
 ## まとめ
 
-本記事では2022年5月に行われた全2回の共同勉強会の概要をそれぞれお伝えしました。
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
-興味を持っていただけましたでしょうか？
+本記事ではFlutterニュースとして、  
+2022年5月第1週に話題になったFlutter関連の情報や、  
+アップされた記事、YouTube動画の紹介を行いました。
 
-ぜひFlutter大学に参加して、勉強会にも参加してみて下さい。
-
-Flutter大学への参加はこちらから。
+この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
 Flutterを一緒に学んでみませんか？  
 Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
@@ -124,20 +193,50 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 [![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
-## 編集後記（2022/6/3）
+## 編集後記（2022/5/9）
 
-本日は勉強会についての話でした。
+あなたは、Flutterやアプリ開発は難しいと思いますか？
 
-学んだことの発表会、という繋がりで、一点告知をさせてください。
+難しい、の定義も色々ありますので、人それぞれの意見がある話題かと思います。  
+自分は、調べれば解決方法がわかる、という意味でFlutterは難しくはないですが、  
+アプリ開発に関しては『ものづくり』としての一定の難しさがある、と思っています。
 
-Flutter の知識共有会、Flutter Gakkai が **7月23日(土)**に開催されます！
+プログラミングに関して何も勉強していない人が、  
+子供が粘土で作品を作るかのようにいきなりアプリケーションを作り始められるか、  
+と言われたら、それはNoでしょう。
 
-https://twitter.com/FlutterGakkai/status/1528339351729762304
+Flutterについてやプログラミングについての知識が多少なりとも必要となるので、  
+この意味ではFlutterでのアプリ開発は特殊技能と言え、難しいと感じるかもしれないと思います。
 
-週刊Flutter大学でも、日程が近づいたら告知記事を書く予定です。
+ただ、自分はこの技能の習得自体はそこまで難しいものではない、と考えます。  
+日本語の教材もかなり増えてきていますし、  
+本記事で紹介しているような最新情報が日々投稿されていて、  
+欲しい情報へ手が届くようになっています。  
+一つ簡単なアプリを作成するのであれば、必要なことは調べればできる、  
+もしくは調べたことを組み合わせればできるようになっているかと思います。  
+（少なくとも調べればできるかできないか、わかるようになってきています。）
 
-Flutterを盛り上げるため、  
-Flutterの知識を深めるために、ぜひぜひ参加してみてください！
+以上から、調べれば解決方法がわかる、という意味でFlutterは難しくはないと考えます。
+
+では、ここに製品開発、『ものづくり』として、  
+納期や外部から仕様の要求事項、チームのマネジメント項目が入ってくるとどうでしょうか。
+
+これらの交渉、調整に関しては、調べてわかるものでは無いですし、  
+臨機応変に対応しなければいけないもので、難しいものだと自分は考えます。  
+（こちらの方がむしろ得意で、簡単だと感じる方もいらっしゃるかもしれませんが。。。）
+
+Flutterに限らないところで、アプリ開発として、もっと広く『ものづくり』としての難しさは、  
+大きい、多くの人を巻き込んだアプリになればなるほど発生するものかと思います。
+
+以上から、自分の結論は、  
+調べれば解決方法がわかる、という意味でFlutterは難しくはないですが、  
+アプリ開発に関しては『ものづくり』としての一定の難しさがある、となります。
+
+一人で、納期を決めず、仕様策定も自由にできる環境で、  
+規模の小さい、簡単なアプリを作成するのであれば、  
+Flutterでのアプリ開発は簡単なものだと思います。
+
+あなたはどう思いますか？ぜひご意見をお聞かせください。
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
