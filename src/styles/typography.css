@@ -13,6 +13,10 @@
       @apply mb-3 text-foreground;
     }
 
+    h2 {
+      @apply relative mb-6 mt-8 border-l-4 border-accent bg-accent/5 pl-4 py-2 text-xl font-bold text-accent;
+    }
+
     h3 {
       @apply italic;
     }

@@ -21,7 +21,7 @@ slide_to_act ってどんなパッケージなんだろう？
 
 このパッケージによって以下のGIFのようなUIを簡単に実装することが可能です。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220722_slide_to_act_top-1024x169.gif" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220722_slide_to_act_top-1024x169.gif)
 
 ぜひ読んでみて下さい！
 

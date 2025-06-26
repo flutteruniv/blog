@@ -214,7 +214,7 @@ Mac端末でVScodeの場合は、赤線にカーソルを合わせ、"⌘ + . " 
 
 /
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220401_value-1024x534.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220401_value-1024x534.png)
 
 できましたでしょうか？
 
@@ -374,7 +374,7 @@ class _SquareState extends State {
 親Widget(`Board`)が９つのマス目の値の情報を状態として持ち、
 子Widget(`Square`)に渡して表示します。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220401_squares-1024x753.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220401_squares-1024x753.png)
 
 親が9つのマス目の値の情報を持つことで、これを精査すれば勝敗を決めることができます。
 

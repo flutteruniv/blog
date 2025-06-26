@@ -46,7 +46,7 @@ https://blog.flutteruniv.com/flutter-casual-game-toolkit/
 
 ### CI/CD ツールを使用しているかについてのアンケート
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-23-16.22.12-1024x642.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-23-16.22.12-1024x642.png)
 
 [https://www.reddit.com/r/FlutterDev/comments/us74r2/are_you_using_a_cicd_tool_for_your_flutter_project/](https://www.reddit.com/r/FlutterDev/comments/us74r2/are_you_using_a_cicd_tool_for_your_flutter_project/)
 
@@ -269,7 +269,7 @@ https://blog.flutteruniv.com/flutteruniversity-coworking-space/
 
 ## まとめ
 
-<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg" alt="" width="300">
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
 本記事ではFlutterニュースとして、
 2022年5月第3週に話題になったFlutter関連の情報や、

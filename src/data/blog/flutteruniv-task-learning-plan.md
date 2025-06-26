@@ -31,7 +31,7 @@ https://youtu.be/MUEAaEw27BM
 
 ## Flutter大学とは
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
 
 ### Flutter大学の概要
 
@@ -67,7 +67,7 @@ GitHubを利用した質問等が可能となります。
 
 ## 課題学習プランとは
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
 
 ### 課題学習プランの概要
 

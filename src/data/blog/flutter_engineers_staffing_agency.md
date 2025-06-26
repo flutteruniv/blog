@@ -23,7 +23,7 @@ Flutter大学では、こういった優秀で意欲的なエンジニアの方�
 
 ## Flutter大学の人材紹介の特徴
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2024/07/flutterninjas2024_wide-1024x379.jpeg" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2024/07/flutterninjas2024_wide-1024x379.jpeg)
 
 - **エンジニアによるエンジニア紹介**
 
@@ -37,7 +37,7 @@ Flutter大学では、こういった優秀で意欲的なエンジニアの方�
 
 ## 仕組み
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2024/09/CleanShot-2024-01-22-at-15.50.38@2x-1024x530.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2024/09/CleanShot-2024-01-22-at-15.50.38@2x-1024x530.png)
 
 Flutterアプリ開発を行う企業さんからのお問いわせを受け、300人以上所属するFlutterエンジニアの学習コミュニティ「Flutter大学」メンバーに対して、Slack等を用いて求人を公開します。
 

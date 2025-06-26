@@ -21,7 +21,7 @@ Flutter大学にどんな知見が集まっているかわかる記事となっ�
 
 ## Flutter大学の共同勉強会って？
 
-<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg" alt="" width="300">
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
 
 Flutter大学の共同勉強会について解説します。
 
@@ -63,7 +63,7 @@ https://flutteruniv.com/
 
 ## 3月の勉強会の紹介
 
-<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg" alt="" width="300">
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
 
 3月は全4回勉強会が開催されました。
 
@@ -118,7 +118,7 @@ Riverpod のStreamProviderでFirestoreを使用したチャットのリアルタ
 
 ## まとめ
 
-<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg" alt="" width="300">
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
 
 本記事では2022年3月に行われた全4回の共同勉強会の概要をそれぞれお伝えしました。
 

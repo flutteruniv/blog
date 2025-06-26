@@ -244,7 +244,7 @@ Device の項目にて実行する機種の変更ができます。
 
 iPadのようなタブレット端末も確認可能です。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.17.17-1024x951.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.17.17-1024x951.png)
 
 #### テーマの変更
 

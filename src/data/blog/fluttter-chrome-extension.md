@@ -17,7 +17,7 @@ Chromeの 拡張機能 も、Flutterで作れないかな？
 
 以下の画像のような形で、Chromeの拡張機能としてアプリを立ち上げることが可能となります。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の実行例-1-1024x937.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の実行例-1-1024x937.png)
 
 ぜひ本記事を読んで挑戦してみてください！
 
@@ -45,7 +45,7 @@ flutter run -d chrome
 
 Flutterプロジェクトのwebディレクトリ内にある、index.htmlを書き換えます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/ファイル位置1-1024x846.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/ファイル位置1-1024x846.png)
 
 2行目にある`<html>`を以下のコードに書き換えてください。
 
@@ -127,31 +127,31 @@ chrome://extensions/
 
 拡張機能のページが開いたら、右上のデベロッパーモードをオンにします。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/デベロッパーモード-1024x938.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/デベロッパーモード-1024x938.png)
 
 オンにすると、拡張機能の検索バーの下に、3つボタンが出てきます。
 その中の「パッケージ化されていない拡張機能を読み込む」を押してください。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の読み込み-1024x936.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の読み込み-1024x936.png)
 
 ファイル選択のポップアップが出てくるので、
 作成したFluttterプロジェクトのbuildディレクトリにある、
 webフォルダを選択して決定してください。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/フォルダ選択-1024x595.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/フォルダ選択-1024x595.png)
 
 以上で追加は完了です。
 
 ブラウザ右上のパズルのピースのアイコンをクリックすると、
 作成した拡張機能が候補として出てきます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の位置-1024x934.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の位置-1024x934.png)
 
 作成した拡張機能の横のピンマークをクリックすると、ブラウザに常時表示されるようになります。
 
 表示されたアイコンをクリックすると作成したアプリが立ち上がります。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の実行例-1024x937.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の実行例-1024x937.png)
 
 おめでとうございます！
 以上が一連の手順となります。

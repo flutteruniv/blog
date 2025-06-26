@@ -28,7 +28,7 @@ Flutter大学でのいつでも使えるコワーキングスペース、
 
 ## オンライン作業 とは？
 
-<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg" alt="" width="300">
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
 
 ### Flutter大学とは?
 
@@ -63,7 +63,7 @@ Flutter大学では好きな時間、用途でこのアプリケーションを�
 
 ## オンライン作業部屋の良いポイント
 
-<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg" alt="" width="300">
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
 
 Flutter大学のオンライン作業部屋の良いポイントを厳選して3つ紹介します！
 
@@ -124,7 +124,7 @@ Flutter大学のオンライン作業部屋では、
 
 ## まとめ
 
-<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg" alt="" width="300">
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
 
 本記事ではFlutter大学でのいつでも使えるコワーキングスペース、
 オンライン作業部屋について紹介しました。

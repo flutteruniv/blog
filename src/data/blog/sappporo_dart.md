@@ -45,7 +45,7 @@ MECEじゃなくて怒られるかもしれませんw
 
 ### まずは司会の挨拶からスタート
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/08/IMG_8250-1024x768.jpg" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/08/IMG_8250-1024x768.jpg)
 
 この記事を書いてる私kboyの司会の挨拶からスタートしました！
 

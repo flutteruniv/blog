@@ -591,7 +591,7 @@ final sizeX = (size.x -
         kBlocksRowCount;
 ```
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-23.39.57-1024x584.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-23.39.57-1024x584.png)
 
 ###### 縦方向
 
@@ -602,7 +602,7 @@ final sizeY = (size.y * kBlocksHeightRatio -
         kBlocksColumnCount;
 ```
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-23.50.57-1024x580.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-13-23.50.57-1024x580.png)
 
 ##### ブロックのリスト生成
 
@@ -625,7 +625,7 @@ final indexX = index % kBlocksRowCount;
 
 以下の図は3 x 2 のときの例となります。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-14-0.15.04-1024x367.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-14-0.15.04-1024x367.png)
 
 ##### ブロックの横の位置と縦の位置
 
@@ -640,7 +640,7 @@ block.position
 以下は横の位置の設定の考え方の図となります。
 （縦の位置も同様の考え方となります。）
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-14-0.18.19-1024x341.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-14-0.18.19-1024x341.png)
 
 ここまでできたらアプリを再実行してみましょう。
 
@@ -742,7 +742,7 @@ final vx = kBallSpeed * cos(spawnAngle * kRad);
 このコードで、`kBallSpeed`の速さを持ち、特定の角度で進む物体の、
 横方向(x方向)と縦方向(y方向)の速さを設定しています。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-15-1.29.06-1024x597.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-15-1.29.06-1024x597.png)
 
 ここで、θはラジアンなので、`kRad`をかけてラジアンに変換しています。
 

@@ -54,7 +54,7 @@ constraintは4つのdouble型の値(最小と最大の幅(width),最小と最大
 
 ### 例
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.45.12-1024x503.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.45.12-1024x503.png)
 
 上で説明したルールでのレイアウト構築について、
 図のようなレイアウト構築で行われるやりとりを、
@@ -70,7 +70,7 @@ constraintは4つのdouble型の値(最小と最大の幅(width),最小と最大
 
 高さは30~85 pixelの間で設定して欲しいな。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.58.13-1024x467.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.58.13-1024x467.png)
 
 ![主人公Widget](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)主人公Widget
 なるほど...
@@ -107,7 +107,7 @@ OK！
 
 高さが残り55pixelだな。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-20.15.33-1024x409.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-20.15.33-1024x409.png)
 
 ![主人公Widget](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)主人公Widget
 子2ちゃん、
@@ -142,7 +142,7 @@ OK！
 
 幅が250pixel、高さが60 pixel でお願いします！
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.45.12-1-1024x503.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.45.12-1-1024x503.png)
 
 以上が具体例となります！
 
@@ -171,7 +171,7 @@ Flutterのレイアウトエンジンにはいくつか重要な制限があり�
 
 これらの例について、確認できるWEBアプリを用意しました。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-18.20.19-1024x797.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-18.20.19-1024x797.png)
 
 https://umigishi-aoi.github.io/constraints_examples/#/
 

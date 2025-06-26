@@ -26,7 +26,7 @@ splash画面とは、アプリを起動した時、最初に画面中央に表�
 
 [flutter_native_splash](https://pub.dev/packages/flutter_native_splash)のサイトから、Installingを選んでいただきます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/03/スクリーンショット-2023-03-17-1.01.20-1024x598.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/03/スクリーンショット-2023-03-17-1.01.20-1024x598.png)
 
 With Flutterに書いてあるこちらのコマンドをターミナルで実行してください。
 

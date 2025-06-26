@@ -28,7 +28,7 @@ AI修行プランは、最新の**Gemini 2.5 Flash/Pro**を活用したFlutter�
 
 ## 主な特徴
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2025/06/ai_training_demo-1024x497.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2025/06/ai_training_demo-1024x497.png)
 
 ### 🤖 最新のGemini modelを使用
 
@@ -78,7 +78,7 @@ AIだけでは巷にあるChatGPTやGeminiのアプリと同じになってし�
 
 ### 日常的な開発での疑問解決
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2025/06/CleanShot-2025-06-22-at-16.09.37@2x-1024x543.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2025/06/CleanShot-2025-06-22-at-16.09.37@2x-1024x543.png)
 
 - 「StatefulWidgetとStatelessWidgetの使い分けがわからない」
 
@@ -102,7 +102,7 @@ AIだけでは巷にあるChatGPTやGeminiのアプリと同じになってし�
 
 ### 画像を使った質問
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2025/06/CleanShot-2025-06-22-at-15.56.41@2x-1024x640.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2025/06/CleanShot-2025-06-22-at-15.56.41@2x-1024x640.png)
 
 - エラー画面のスクリーンショット
 - UI設計の相談

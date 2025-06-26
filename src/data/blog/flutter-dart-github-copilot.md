@@ -35,7 +35,7 @@ https://github.com/features/copilot
 
 上記ページを開き、Start my free trial をクリックします。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.45.50-1024x830.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.45.50-1024x830.png)
 
 次の画面で注意事項を読み、
 月額プランか年額プランかを選択し、緑のボタンを押します。
@@ -54,11 +54,11 @@ https://github.com/features/copilot
 
 最後に確認画面となります。緑のボタンを押して完了です。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.14.41_-1024x852.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.14.41_-1024x852.png)
 
 支払情報を入力した後、以下の設定画面となります。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.22.34-1024x865.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.22.34-1024x865.png)
 
 - **Suggestions matching public code**
 
@@ -81,7 +81,7 @@ VS Code の画面左側のExtensions のアイコンから Extensionsを開き�
 
 出てきたGitHub Copilot のExtensionsを選択し、 installを押します。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.44.38-1024x422.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.44.38-1024x422.png)
 
 VS Code で GitHubにサインインしていない場合は画面右下にサインインを促す
 ダイアログボックスが表示されます。
@@ -109,12 +109,12 @@ Counter クラスを作ってみた結果がこちらです。
 
 なんと、`Widget`もいけます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.41.57-1024x766.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.41.57-1024x766.png)
 
 ちょっと難しく、GitHubからデータを取ってくるメソッドも
 提案コードを用意してくれます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.45.10-1024x478.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.45.10-1024x478.png)
 
 レスポンスコードも用意してくれるのがありがたいですね。
 

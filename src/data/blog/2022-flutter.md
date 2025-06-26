@@ -39,7 +39,7 @@ https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 4月、Flutter大学のHPが現在の形にリニューアルされました！
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-21.42.26-1024x453.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-21.42.26-1024x453.png)
 
 よりスタイリッシュに、情報がわかりやすく進化しました。
 

@@ -186,7 +186,7 @@ https://blog.flutteruniv.com/dart-2-17-summary/
 
 ## まとめ
 
-<img src="http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg" alt="" width="300">
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
 本記事ではFlutterニュースとして、
 2022年5月第2週に話題になったFlutter関連の情報や、
@@ -209,7 +209,7 @@ Flutter SidekickはFlutterプロジェクトをUI上で管理できるアプリ�
 
 以下の画像のようにFlutteプロジェクトをパネルにて管理できます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-15-9.31.04-1024x645.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-15-9.31.04-1024x645.png)
 
 注目すべきは使用しているFlutterのバージョンが表示されること、
 IDEマークからIDEにてプロジェクトを直接開けることの2点です。

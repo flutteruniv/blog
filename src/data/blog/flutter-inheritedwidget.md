@@ -814,7 +814,7 @@ Flutter Performance で+ボタンを押した時のリビルドの状況を見�
 `MyCounter.of(context).〜`で引数に使用した`context`は`Builder Widget` の`context`となるため、
 リビルドされる`Widget`を`Builder`以下に制限することができます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220706_builder-1024x664.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220706_builder-1024x664.png)
 
 #### `Floating Action Button` にて『`InheritedWidget`を監視しているものリスト』に
 登録されないようにする

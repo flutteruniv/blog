@@ -114,7 +114,7 @@ Android Studio のダウンロードが終わった後、セットアップを�
 
 ダウンロードしたdmgファイルを開くと、以下の画面がでてきます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.11.36-1024x627.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.11.36-1024x627.png)
 
 このファイル上でAndroid Studio.app をApplicationsにドラッグ＆ドロップし、
 ApplicationsフォルダにAndroid Studio.appを配置しましょう。
@@ -466,7 +466,7 @@ Project nameに任意の名前を入力し、Finishを押してください。
 上記完了後、Flutterプロジェクトが作成されます。
 以下の画像のように、左上のAndroidをクリックし、Projectを選択してください。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.18.14-1024x552.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.18.14-1024x552.png)
 
 おめでとうございます！
 これで初めてのFlutterプロジェクトができました！
@@ -483,7 +483,7 @@ iOSのシミュレータでアプリを実行してみましょう！
 以下の画像のように、画面真ん中上辺りのデバイス選択欄にて、
 "Open iOS Simulator"を選択します。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.44.14-1024x558.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.44.14-1024x558.png)
 
 すると、iOSのデバイスを模したシミュレータが立ち上がります。
 
@@ -494,7 +494,7 @@ iOSのシミュレータでアプリを実行してみましょう！
 
 しばらく待つと、、、
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.50.39-1024x555.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.50.39-1024x555.png)
 
 おめでとうございます！
 iOSのシミュレータで初めてのFlutterアプリが立ち上がりました！
@@ -534,7 +534,7 @@ Device Managerに戻り、以下画像赤枠の三角ボタンを押し、
 エミュレータが立ち上がったら、
 iOSの時と同様に、画面右上の緑三角ボタンでアプリを実行してみましょう。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.08.11-1024x585.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.08.11-1024x585.png)
 
 おめでとうございます！
 Android のエミュレータでもアプリの実行ができました！

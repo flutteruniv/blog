@@ -15,7 +15,7 @@ Flutterを扱っている企業さんにインタビューし、日本のFlutter
 
 ## ストリクトシステムズ株式会社とは
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-03-17.37.39-1024x407.png" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-03-17.37.39-1024x407.png)
 
 ストリクトシステムズさんは2007年12月創業。現在は、東京と沖縄にオフィスがあり、受託開発を中心に行なっています。
 
@@ -23,7 +23,7 @@ Flutterを扱っている企業さんにインタビューし、日本のFlutter
 
 ## NativeScriptからFlutterへシフト
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/nativeScript.001-1024x576.jpeg" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/nativeScript.001-1024x576.jpeg)
 
 <img src="https://blog.flutteruniv.com/wp-content/uploads/2022/10/kboy-150x150.jpeg" alt="kboy" width="300">kboy
 本日はよろしくお願いします！

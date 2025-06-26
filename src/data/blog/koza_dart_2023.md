@@ -18,7 +18,7 @@ layout: "../../layouts/BlogPost.astro"
 
 今回は、沖縄市のコザ１番商店街にある、ラグーンというイベント施設で開催させていただきました！
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/10/lagoon-1024x768.jpeg" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/10/lagoon-1024x768.jpeg)
 
 ## 沖縄コザとは？
 
@@ -30,7 +30,7 @@ layout: "../../layouts/BlogPost.astro"
 
 厳密にはコザという住所はないのですが、米軍が越来村の胡屋地区をKOZAと呼んだことをきっかけに、一般の人々もコザと呼ぶようになったと言われています。
 
-<img src="https://feeljapan.net/okinawa/wp-content/uploads/sites/2/20_01-1920x1280.jpg" alt="" width="300">
+![](https://feeljapan.net/okinawa/wp-content/uploads/sites/2/20_01-1920x1280.jpg)
 
 那覇市が一番栄えていると思いきや、週末のコザはそれに負けじとめちゃくちゃ混雑しています。米軍の人たちが集まってくるのもあって、古いアメリカのカルチャーが残っていて、日本人が全くいなくて、米ドルで払えるエリアが存在します。
 
@@ -52,19 +52,19 @@ https://twitter.com/geeoki2
 
 まずは、この週刊Flutter大学のニュースをいつも書いてくれている[Aoi](https://twitter.com/Aoi_Umigishi)さんの発表！
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/10/koza2-1024x768.jpg" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/10/koza2-1024x768.jpg)
 
 続いて、コザ出身で東大卒からの現在はIT企業を経営するヤエオさんの発表！
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/10/koza3-1024x768.jpg" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/10/koza3-1024x768.jpg)
 
 そして私kboyからも発表させていただきました！
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/10/koza6-1024x768.jpeg" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/10/koza6-1024x768.jpeg)
 
 当初発表予定だった[うし](https://twitter.com/engineer_ushi_)さんが来れなくなってしまったので、[aoi](https://twitter.com/Aoi_Umigishi)さんはまさかのダブルヘッダー笑
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/10/koza4-1024x768.jpg" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/10/koza4-1024x768.jpg)
 
 そんな感じで４つの発表を行いました！
 
@@ -74,7 +74,7 @@ https://twitter.com/geeoki2
 
 コザは安い飲み屋も沢山あるからアツいです。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/10/koza7-1024x768.jpeg" alt="" width="300">
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/10/koza7-1024x768.jpeg)
 
 ## まとめ
 
