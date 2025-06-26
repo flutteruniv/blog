@@ -3,35 +3,39 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Flutter大学は、Flutterエンジニアに特化したオンライン学習コミュニティです。
 
-![Astro Paper](public/astropaper-og.jpg)
+## Flutter大学とは？
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+Flutter大学は、Flutterを学びたい人のための学習コミュニティです。同じ内容を勉強する人が集まり、勉強のための教材やサポートが用意された場として、まるで一緒に勉強しているかのような環境を提供しています。
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+あなたが北海道にいても、沖縄にいても関係ありません。オンラインで提供される様々なコンテンツにより、どこからでも参加できる学習環境が整っています。
 
-## Features
+## 学習コンテンツ
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+Flutter大学では、効率良く学習し、一緒に学習していることを実感できるよう、以下のようなコンテンツを提供しています：
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+### 無料のYouTube教材
+[Flutter大学のYouTubeチャンネル](https://www.youtube.com/channel/UCReuARgZI-BFjioA8KBpjsw)にて、Flutterに関する学習教材を無料で公開しています。これらの教材を見て実践するだけでも、かなりの力が身につきます。
 
-and so much more.
+### 質問サポート体制
+- **AI修行プラン**: 最新のGemini 2.5 Flash/Proを活用したFlutter専門の質問・学習サポートサービス
+- **24時間365日利用可能**: AIによる即座のレスポンスで、いつでもFlutter開発に関する疑問を日本語で質問可能
+- **人間講師サポート**: AIと同じチャット画面でモバイル歴10年Flutter歴6年のFlutter大学代表kboyが回答をサポート
+- **画像対応**: エラー画面のスクリーンショットやUI設計の相談も画像でアップロード可能
 
-## Show your support
+## コミュニティの特徴
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
+### 学習教材と学習サポート体制
+Flutter初心者に向けた無料のYouTube学習教材や、行き詰まった時に現役のFlutterエンジニアに質問できる質問zoomなど、Flutter学習をするのに困ることがないよう、充実したコンテンツが準備されています。
 
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
+### 実践的な学習環境
+Flutter大学は単なる教材提供だけでなく、実際に一緒に学習している実感を得られるコミュニティとして機能しています。メンバー同士の交流や、現役エンジニアからの直接指導により、実践的なスキルを身につけることができます。
 
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
+---
 
-Kyay zuu! 🙏🏼
+**Flutterを勉強する人のための、オンラインの学習コミュニティ。それがFlutter大学です。**
+
+一緒にFlutterを学び、成長していきませんか？
+
+詳しくは公式サイトをご覧ください：[https://flutteruniv.com/](https://flutteruniv.com/)
