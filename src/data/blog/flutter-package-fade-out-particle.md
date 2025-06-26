@@ -11,6 +11,7 @@ tags: ["Package", "Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
 おしゃれなフェードアウトアニメーションを実装したい！
 
 本記事ではそんな要望にお答えします。
@@ -20,6 +21,8 @@ Flutter にておしゃれなフェードアウトアニメーションを実装
 
 このパッケージを使用すると、アイコンやテキストのWidgetに対し、
 以下のようなアニメーションを付けることが可能です。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/fade_out_particle_sample.gif)
 
 このパッケージ、海外の技術情報等が集まる掲示板サイト、Redditにて、
 投稿されて１日足らずで70以上のUpvoteを集めています！
@@ -37,31 +40,38 @@ https://www.reddit.com/r/FlutterDev/comments/vbxqxn/fade_out_particle_is_now_ava
 
 https://pub.dev/packages/fade_out_particle
 
-## パッケージのインストール
+### パッケージのインストール
 
 ターミナル (コマンドプロンプト)を立ち上げ、プロジェクトのルートに移動し、
 以下のコマンドを打ちます。
 
-`flutter pub add fade_out_particle`
+```bash
+flutter pub add fade_out_particle
+```
 
 もしくは、`pubspec.yaml `ファイルの`dependencies`に以下のコードを追加します。
 
+```yaml
 dependencies:
   fade_out_particle: ^1.0.0 #追加
+```
 
-## パッケージのインポート
+### パッケージのインポート
 
 フェードインアニメーションを追加したいWidgetの記述のあるファイルの上の方に、
 以下のインポート文を追加します。
 
-`import 'package:fade_out_particle/fade_out_particle.dart';`
+```dart
+import 'package:fade_out_particle/fade_out_particle.dart';
+```
 
-## Widgetの追加
+### Widgetの追加
 
 フェードインアニメーションを追加したいWidgetを以下のように、
 `FadeOutParticle` `Widget` で囲います。
 
-            FadeOutParticle(
+```dart
+FadeOutParticle(
               disappear: true,
               child: Row(
                 mainAxisSize: MainAxisSize.min,
@@ -79,6 +89,7 @@ dependencies:
                 ],
               ),
             ),
+```
 
 `disappear`プロパティには`bool`型の値を設定でき、
 `true`の際は、`Widget`の生成と同時に消失アニメーションが開始されます。
@@ -88,13 +99,15 @@ dependencies:
 
 その他設定できるプロパティは以下となります。
 
-- `duration` : 完全に消えるまでの秒数を管理- `curve`: アニメーションの仕方（だんだん遅くなる、等）を管理
+- `duration` : 完全に消えるまでの秒数を管理
+- `curve`: アニメーションの仕方（だんだん遅くなる、等）を管理
 
-## サンプルコード
+### サンプルコード
 
 最後にサンプルコードを紹介します。
 （大部分をパッケージのexampleから引用しております。）
 
+```dart
 import 'package:fade_out_particle/fade_out_particle.dart';
 import 'package:flutter/material.dart';
 
@@ -117,10 +130,10 @@ class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State {
   bool _disappear = true;
 
   @override
@@ -165,10 +178,13 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+```
 
 こちらのサンプルコードはFlutter 3.0.2での記載となります。
 
 ## まとめ
+
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
 本記事ではFlutter にておしゃれなフェードアウトアニメーションを実装できるパッケージ、
 [fade_out_particle](https://pub.dev/packages/fade_out_particle)** **パッケージを紹介しました。

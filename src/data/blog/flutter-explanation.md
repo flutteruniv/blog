@@ -11,15 +11,19 @@ tags: ["Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
 Flutter （フラッター）って最近よく聞くけど、何なんだろう？
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
 聞いたことあるけどよくわからないのよねぇ
 
 「Flutterは聞いたことあるけど、よくわからない、、、」
 
 そんなあなたのために、本記事では、
 
-- Flutterとは何か？- Flutterを使う利点って？- Flutterの将来性は？
+- Flutterとは何か？
+- Flutterを使う利点って？
+- Flutterの将来性は？
 
 について解説していきます。
 
@@ -29,6 +33,7 @@ Flutter （フラッター）って最近よく聞くけど、何なんだろう
 
 数年後、何のアプリを作るにしろ、
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doya-man.png)
 「それ、Flutterで作れば良くね？」
 
 となる時代が来るかもしれません。
@@ -38,11 +43,14 @@ Flutter （フラッター）って最近よく聞くけど、何なんだろう
 
 ## Flutter とは何か？
 
-## Flutter とは
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
+
+### Flutter とは
 
 Flutterとは「**アプリケーション作成のためのフレームワーク**」です。
 
 フレームワークとは『アプリケーションを開発するとき、その土台として機能させるソフトウェアのこと』です。
+
 [大塚商会IT用語辞典より引用](https://www.otsuka-shokai.co.jp/words/framework.html#:~:text=%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%A8%E3%81%AF,%E6%A9%9F%E8%83%BD%E3%81%95%E3%81%9B%E3%82%8B%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E3%81%93%E3%81%A8%E3%80%82&text=%E3%80%8C%E6%9E%A0%E7%B5%84%E3%81%BF%E3%80%8D%E3%80%8C%E9%AA%A8%E7%B5%84%E3%81%BF%E3%80%8D%E3%80%8C,%E3%81%84%E3%81%8F%E3%81%AE%E3%81%8C%E4%B8%80%E8%88%AC%E7%9A%84%E3%80%82)
 
 具体的な例で言うと、
@@ -50,10 +58,11 @@ Flutterとは「**アプリケーション作成のためのフレームワー�
 
 Flutterでコードを書く際に使うプログラミング言語を**Dart**(ダート)と言います。
 
-## 特徴
+### 特徴
 
 あなたは、こう思ってはいませんか？
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doya-woman.png)
 モバイルアプリとウェブアプリ、作るツールもプログラミング言語も違うし、
 同時になんて作れるわけない！
 
@@ -62,13 +71,17 @@ Flutterはその常識を壊します。
 Flutterの一番の特徴は、作成対象のアプリケーションが一つでないこと、
 **マルチプラットフォーム**であることです。
 
-- モバイルアプリケーション- ウェブアプリケーション- デスクトップアプリケーション- 組込みアプリケーション
+- モバイルアプリケーション
+- ウェブアプリケーション
+- デスクトップアプリケーション
+- 組込みアプリケーション
 
 Flutterでは上記を**全て作ることができます**。
 
 モバイルアプリケーションひとつとっても、
 
-- Android向け- iOS向け
+- Android向け
+- iOS向け
 
 でフレームワーク、プログラミング言語が異なります。（注1）
 
@@ -84,24 +97,31 @@ Flutterでは上記を**全て作ることができます**。
 
 それがFlutterです。
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
 モバイルアプリとウェブアプリ同時に作れるなんてすごい！
 
 注1: React Native、Xamarinなど、iOSとAndroidなら両方作成できるフレームワークもあります。
 
 ## Flutter を使う利点って？
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
+
 Flutterを使う利点はたくさんあります。
 
 本記事では抜粋して、以下の４つについて解説します。
 
-- 開発体験が良い- 導入が無料- 直感的で簡単- 開発コストの削減が可能
+- 開発体験が良い
+- 導入が無料
+- 直感的で簡単
+- 開発コストの削減が可能
 
-## 開発体験が良い
+### 開発体験が良い
 
 Flutterの利点、１つ目は開発体験が良いことです。
 
 プログラミングを少し触ったことがある人で、こんな経験はないでしょうか？
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
 プログラムを少し変えたいだけなのに、実行に時間がかかる、、、
 
 プログラムを実行して見つけたちょっとしたミス。
@@ -121,9 +141,10 @@ Flutterの**ホットリロード**という機能がこの待ち時間を解決
 
 ホットリロードによる待ち時間が少なさがFlutterの開発体験を良くしてくれます。
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)
 変更がすぐ反映されるのはとても楽しそう！
 
-## 導入が無料
+### 導入が無料
 
 Flutterの利点、２つ目は導入が無料なことです。
 
@@ -135,9 +156,10 @@ Flutterを動かすのに必要なソフトウェアは完全に無料となっ�
 （各モバイルアプリストアに作ったアプリを登録するのにお金がかかりますが、
 これは他のプラットフォームでも同じです。）
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
 普段触っているようなアプリケーションが無料で作れるなんて、魅力的だね！
 
-## 直感的で簡単
+### 直感的で簡単
 
 Flutterの利点、３つ目はコードを書くのが直感的で簡単なことです。
 
@@ -147,7 +169,12 @@ WidgetとはFlutterのコードを構成する部品のことです。
 
 例えば以下のようなWidgetがあります。
 
-- テキストを表示するWidget- 画像を表示するWidget- ボタンを表示するWidget- Widgetを縦(横)に並べるWidget- Widgetに余白を与えるWidget- ...
+- テキストを表示するWidget
+- 画像を表示するWidget
+- ボタンを表示するWidget
+- Widgetを縦(横)に並べるWidget
+- Widgetに余白を与えるWidget
+- ...
 
 Flutterでは、このようなWidgetを積み木やパズルのように組み合わせることでUIを作成していきます。
 
@@ -157,15 +184,18 @@ Flutterでは、このようなWidgetを積み木やパズルのように組み�
 
 https://www.youtube.com/watch?v=EJOA0plae_s
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)
 パズルを組み立てるみたいに画面を作れるのね！
 
-## 開発コストの削減が可能
+### 開発コストの削減が可能
 
 Flutterの利点、4つ目は、開発コストの削減が可能なことです。
 
 iOSとAndroidのモバイルアプリ開発を例に時間のコストと雇う技術者のコストを考えていきます。
 
-## 時間のコスト
+#### 時間のコスト
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/スクリーンショット-2022-02-25-11.59.48-1024x731.png)
 
 この図はアプリ開発にかかる合計時間を表した図です。
 
@@ -176,7 +206,7 @@ iOSとAndroidのモバイルアプリ開発を例に時間のコストと雇う�
 
 このように、Flutterで開発することによって、開発時間の削減ができ、コストの削減が可能です。
 
-## 雇う技術者のコスト
+#### 雇う技術者のコスト
 
 Flutterでの開発ではFlutterの開発技術を持った開発者を雇います。
 
@@ -185,20 +215,27 @@ Flutterでの開発ではFlutterの開発技術を持った開発者を雇いま
 
 このように、Flutterで開発することによって、雇う技術者のコストを削減できます。
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
 コスト削減できるなら、Flutterの導入価値ありそうですね！
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
 個人開発でもFlutterで時間短縮できそう！
 
 ## Flutter の将来性は？
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
 Flutterがすごいのはわかったけれど、将来的に使われるのかしら？
 
 私は、Flutterは将来的に広く使われるフレームワークとなると考えています。
 この根拠として以下の３つを解説していきます。
 
-- Googleによるフレームワークであること- 約3年で50万ものアプリケーションが作られたこと- 大企業が導入し始めていること
+- Googleによるフレームワークであること
+- 約3年で50万ものアプリケーションが作られたこと
+- 大企業が導入し始めていること
 
-## Google によるフレームワークであること
+### Google によるフレームワークであること
 
 根拠の１つ目はGoogleによるフレームワークであることです。
 
@@ -212,7 +249,7 @@ Google Chromeのようなウェブブラウザ、
 このGoogleが主導して作成しているフレームワーク、
 というだけでも将来性を信用できるかと思います。
 
-## 約3年で50万ものアプリケーションが作られたこと
+### 約3年で50万ものアプリケーションが作られたこと
 
 根拠の２つ目は約3年で50万ものアプリケーションが作られたことです。
 
@@ -221,6 +258,7 @@ Google Chromeのようなウェブブラウザ、
 Over the last year, Flutter has overtaken others to become the most popular toolkit for cross-platform mobile development, and as of February 2022, there are nearly 500,000 apps that use Flutter.
 
 訳：昨年、Flutterは他のツールキットを追い抜き、モバイル開発クロスプラットフォームのツールキットの中で最も人気のあるツールキットとなり、また、2022年2月時点で500,000近くのアプリでFlutterが使われています。
+
 [Flutter 2022 Strategy](https://docs.google.com/document/d/e/2PACX-1vTI9X2XHN_IY8wDO4epQSD1CkRT8WDxf2CEExp5Ef4Id206UOMopkYqU73FvAnnYG6NAecNSDo9TaEO/pub)
 
 Flutterは2018年12月にバージョン1.0.0がリリースされた、比較的新しいフレームワークとなります。
@@ -230,13 +268,15 @@ Flutterは2018年12月にバージョン1.0.0がリリースされた、比較�
 このユーザーの増加傾向が急に止まることは考えにくいです。
 これからFlutterはますます使われるようになっていくと考えられます。
 
-## 大企業が導入し始めていること
+### 大企業が導入し始めていること
 
 最後の根拠は大企業が導入し始めていることです。
 
 Flutterを導入している企業として、以下の企業が挙げられます。
 
-- [BMW](https://flutter.dev/showcase/bmw)- [TOYOTA](https://flutter.dev/showcase/toyota)- [Alibaba](https://flutter.dev/showcase/alibaba-group)
+- [BMW](https://flutter.dev/showcase/bmw)
+- [TOYOTA](https://flutter.dev/showcase/toyota)
+- [Alibaba](https://flutter.dev/showcase/alibaba-group)
 
 どれも世界的な大企業ですよね。
 今後もFlutterを導入する企業は増えていくと考えられます。
@@ -245,9 +285,13 @@ Flutterを導入している企業として、以下の企業が挙げられま�
 
 ## まとめ
 
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/パソコン.jpeg)
+
 本記事では、以下の解説を行いました。
 
-- Flutterとは何か- Flutterの利点- Flutterの将来性
+- Flutterとは何か
+- Flutterの利点
+- Flutterの将来性
 
 Flutterについて、興味を持っていただけましたでしょうか？
 

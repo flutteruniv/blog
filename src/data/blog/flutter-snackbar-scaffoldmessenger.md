@@ -3,20 +3,19 @@ title: "【Flutter】 SnackBar を出す方法【ScaffoldMessenger】"
 slug: "flutter-snackbar-scaffoldmessenger"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-03-25T10:00:00.000Z
+pubDatetime: "2022-03-25"
 tags: ["Widget"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-
 アプリで一時的にメッセージを表示したいんだけど、いい方法ないかな？
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-
 `BuildContext`を使わないで`SnackBar`を表示する方法はないかしら？
 
-本記事ではこのような悩み、疑問に答えます。  
-アプリでエラーメッセージなど、一時的にメッセージを表示したい時に使用する、  
+本記事ではこのような悩み、疑問に答えます。
+アプリでエラーメッセージなど、一時的にメッセージを表示したい時に使用する、
 `SnackBar`の表示方法について解説します。
 
 本記事を読めば以下のgifのように、一時的にメッセージを出すことが可能となります。
@@ -43,20 +42,20 @@ ScaffoldMessenger.of(context).showSnackBar(
 );
 ```
 
-`SnackBar`はプロパティを設定することで、  
+`SnackBar`はプロパティを設定することで、
 背景色や、表示時間など、色々と変更することが可能です。
 
-古い記事だと、`Scaffold.of(context).showSnackBar(〜)`  
-が紹介されているかもしれません。  
-こちらの方法は廃止予定で現在非推奨となっています。  
-  
-また、`Scaffold.~`の方法だと、画面遷移後に`SnackBar`が引き継がれない、  
-というデメリットもあります。  
+古い記事だと、`Scaffold.of(context).showSnackBar(〜)`
+が紹介されているかもしれません。
+こちらの方法は廃止予定で現在非推奨となっています。
+
+また、`Scaffold.~`の方法だと、画面遷移後に`SnackBar`が引き継がれない、
+というデメリットもあります。
 以上から、今回紹介した`ScaffoldMessenger.~`を使うことを強く勧めます。
 
 サンプルとして導入で紹介したgifのコードを紹介します。
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -141,15 +140,15 @@ class MySecondPage extends StatelessWidget {
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
-`View`とロジックを完全に切り離したい時など、  
+`View`とロジックを完全に切り離したい時など、
 `BuildContext`を使わないで`SnackBar`を表示させたい時があると思います。
 
 ここでは、`BuildContext`を使わないで`SnackBar`を表示させる方法について解説します。
 
 準備として、グローバルにて以下のキーを定義します。
 
-```
-final scaffoldKey = GlobalKey<ScaffoldMessengerState>();
+```dart
+final scaffoldKey = GlobalKey();
 ```
 
 このキーを`MaterialApp`に渡します。
@@ -179,10 +178,10 @@ _scaffoldMessangerState.showSnackBar(
 
 サンプルとして`BuildContext`を使わない場合の導入で紹介したgifのコードを紹介します。
 
-```
+```dart
 import 'package:flutter/material.dart';
 
-final scaffoldKey = GlobalKey<ScaffoldMessengerState>();
+final scaffoldKey = GlobalKey();
 
 void main() {
   runApp(const MyApp());
@@ -269,23 +268,21 @@ class MySecondPage extends StatelessWidget {
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
 
-アプリでエラーメッセージなど、一時的にメッセージを表示したい時に使用する、  
+アプリでエラーメッセージなど、一時的にメッセージを表示したい時に使用する、
 `SnackBar`の表示方法について解説しました。
 
 `BuildContext`を使う方法と使わない方法、２つを紹介しました。
 
-`BuildContext`を使わない方法は使う方法に比べて少し複雑ですが、  
+`BuildContext`を使わない方法は使う方法に比べて少し複雑ですが、
 自由度高くどこでも`SnackBar`を呼び出せるようになるので、有用だと思います。
 
 ぜひ本記事を読んで使ってみてください。
 
 本記事があなたのアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 参考
 
@@ -297,21 +294,21 @@ https://youtu.be/lytQi-slT5Y
 
 この話題に乗っかり自分も使用してみようと思い、ちょっと調べてみました。
 
-現状Cloud版がリリースされておらず、  
+現状Cloud版がリリースされておらず、
 自前でサーバーを用意し、そこにAppwriteをインストールするという形で利用できるようです。
 
-ローカルのデスクトップでもインストールはできますが、  
-やはり、Firebaseのように外部データベースとして使用したいため、  
+ローカルのデスクトップでもインストールはできますが、
+やはり、Firebaseのように外部データベースとして使用したいため、
 現状での採用は、サーバー用意するハードルが高い、そう感じました。
 
 FirebaseがCloudで使えるのは改めて素晴らしいですね。
 
-Cloud版のリリースに向けて開発推進中らしいので、  
+Cloud版のリリースに向けて開発推進中らしいので、
 大人しく待とうと思います。
 
-簡単に利用できるようになったら記事化しようと思いますので、  
+簡単に利用できるようになったら記事化しようと思いますので、
 ぜひお楽しみにお待ちください。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

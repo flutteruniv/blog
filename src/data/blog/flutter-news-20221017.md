@@ -3,15 +3,16 @@ title: "Flutter ニュース 【2022年10月第3週】"
 slug: "flutter-news-20221017"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-10-17T10:00:00.000Z
+pubDatetime: "2022-10-17"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 **「Flutterの最新情報をキャッチアップしたい！」**
 
 そんなあなたに送る、 Flutterニュース 。
 
-本記事ではFlutterニュースとして、2022年10月第3週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、2022年10月第3週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行います。
 
 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
@@ -20,16 +21,16 @@ tags: ["ニュース"]
 
 ### Upstash redis パッケージ
 
-https://www.reddit.com/r/FlutterDev/comments/y4p3qd/upstash\_redis\_now\_available\_as\_a\_pure\_dart\_package/
+https://www.reddit.com/r/FlutterDev/comments/y4p3qd/upstash_redis_now_available_as_a_pure_dart_package/
 
-サーバーレスデータベース [Upstash](https://upstash.com/#section-pricing) を[Redis](https://redis.io/) に基づいた HTTP/REST 通信で、  
-Dartで使えるようにするパッケージ、upstash\_redis パッケージが Redditで話題となっていました。
+サーバーレスデータベース [Upstash](https://upstash.com/#section-pricing) を[Redis](https://redis.io/) に基づいた HTTP/REST 通信で、
+Dartで使えるようにするパッケージ、upstash_redis パッケージが Redditで話題となっていました。
 
 サーバーレスな関数等も取り扱えるようになるとのことです。
 
 ### Flattium での Integration test
 
-https://twitter.com/wolfenrain/status/1580605769825030144?ref\_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1580605769825030144%7Ctwgr%5Edfc52e2b4a465ed9fdf79bbb5ce1c507cd7d0a3d%7Ctwcon%5Es1\_&ref\_url=https%3A%2F%2Fwww.redditmedia.com%2Fmediaembed%2Fy34v7n%3Fresponsive%3Dtrueis\_nightmode%3Dfalse
+https://twitter.com/wolfenrain/status/1580605769825030144?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1580605769825030144%7Ctwgr%5Edfc52e2b4a465ed9fdf79bbb5ce1c507cd7d0a3d%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.redditmedia.com%2Fmediaembed%2Fy34v7n%3Fresponsive%3Dtrueis_nightmode%3Dfalse
 
 yaml ファイルに書いたテスト内容を自動実行してくれるソフトウェアのFluttium のツイートがReddit で話題となっていました。
 
@@ -37,7 +38,7 @@ yaml ファイルに書いたテスト内容を自動実行してくれるソフ
 
 ### Spotube v2.5.0
 
-https://www.reddit.com/r/FlutterDev/comments/y314rl/spotube\_v250/
+https://www.reddit.com/r/FlutterDev/comments/y314rl/spotube_v250/
 
 Flutter で作成されたSpotifyのクライアント、[Spotube](https://spotube.netlify.app/) がv2.5.0にアップデートされました。
 
@@ -45,28 +46,28 @@ Flutter で作成されたSpotifyのクライアント、[Spotube](https://spotu
 
 ### Flutter と Altogic を使ったフルスタックアプリの迅速な構築
 
-https://www.reddit.com/r/FlutterDev/comments/y2sfe8/build\_fullstack\_apps\_faster\_with\_flutter\_and/
+https://www.reddit.com/r/FlutterDev/comments/y2sfe8/build_fullstack_apps_faster_with_flutter_and/
 
-BaaS プラットフォームの [Altogic](https://www.altogic.com/) を利用したアプリの作成方法やサンプルアプリの  
+BaaS プラットフォームの [Altogic](https://www.altogic.com/) を利用したアプリの作成方法やサンプルアプリの
 紹介の投稿がReddit で話題となっていました。
 
 [こちら](https://itnext.io/towards-altogic-with-flutter-b6830bdb45cb)の記事にて利用方法の概要が紹介されています。
 
 ### TubeCard のオープンソース化
 
-https://www.reddit.com/r/FlutterDev/comments/y18j1c/opensource\_code\_of\_advanced\_flutter\_app/
+https://www.reddit.com/r/FlutterDev/comments/y18j1c/opensource_code_of_advanced_flutter_app/
 
-YouTube から暗記カードを作成するのを補助するアプリ、  
+YouTube から暗記カードを作成するのを補助するアプリ、
 [TubeCard](https://tubecards.app/) をオープンソース化した、との投稿がRedditで話題となっていました。
 
 [こちら](https://tubecards.app/blog/open-source)の記事にてオープンソース化の理由を紹介されています。
 
-### flutter\_eval v0.5 リリース
+### flutter_eval v0.5 リリース
 
-https://pub.dev/packages/flutter\_eval
+https://pub.dev/packages/flutter_eval
 
-文字列で書かれたコードをFlutterのコードとして実行するウィジェットを提供する  
-パッケージ、flutter\_eval に関する [Redditの投稿](https://www.reddit.com/r/FlutterDev/comments/y1g9q3/flutter_eval_v05_web_support_evalpad_tearoffs_and/)が 話題となっていました。
+文字列で書かれたコードをFlutterのコードとして実行するウィジェットを提供する
+パッケージ、flutter_eval に関する [Redditの投稿](https://www.reddit.com/r/FlutterDev/comments/y1g9q3/flutter_eval_v05_web_support_evalpad_tearoffs_and/)が 話題となっていました。
 
 [こちら](https://ethanblake.xyz/evalpad/#/)にてサンプルアプリを見ることができます。
 
@@ -74,7 +75,7 @@ https://pub.dev/packages/flutter\_eval
 
 ### **【必見】Flutter開発で確認するべきGitHubリポジトリ・Webサイト 10選**
 
-https://zenn.dev/nameless\_sn/articles/recommended\_flutter\_repositories
+https://zenn.dev/nameless_sn/articles/recommended_flutter_repositories
 
 Flutter の開発に役に立つGitHub のリポジトリやWEB サイトを紹介している記事です。
 
@@ -84,7 +85,7 @@ Flutter の開発に役に立つGitHub のリポジトリやWEB サイトを紹�
 
 https://medium.com/@iofod/iofod-cross-platform-practice-for-neumorphic-design-ac01986b21a8
 
-ローコードツール、[iofod](https://www.iofod.com/#/index) を使用した、  
+ローコードツール、[iofod ](https://www.iofod.com/#/index)を使用した、
 ニューモーフィズムのデザインの実装について書かれた記事です。
 
 iofod からFlutter へのコード生成も可能とのことです。
@@ -105,7 +106,7 @@ https://youtu.be/grcgR9tUGiU
 
 Riverpod 2.0 について解説を行った動画です。
 
-公式ドキュメントをベースに、カウンターアプリを題材にして  
+公式ドキュメントをベースに、カウンターアプリを題材にして
 各`Provider`の使い方が紹介されています。
 
 ### Flutter で作成した 8個のアプリ
@@ -120,7 +121,7 @@ Flutter と Firebase の組み合わせで作成されたアプリが紹介さ�
 
 https://youtu.be/g0tYIdIYUyY
 
-Flutter での UI 構築のチュートリアル動画です。
+Flutter での  UI 構築のチュートリアル動画です。
 
 動画サムネイルのような画像の上に説明を載せるUI の作り方が紹介されています。
 
@@ -146,7 +147,7 @@ LINE が提供するウェブアプリのプラットフォーム LIFF と Flutt
 
 https://zenn.dev/faucon/articles/33c10677c22049
 
-Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で  
+Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で
 紹介されたウィジェットを取り上げて解説する記事です。
 
 今回は`SliverList`と`SliverGrid`についての解説記事となっています。
@@ -155,7 +156,7 @@ Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week
 
 https://zenn.dev/faucon/articles/6a2a712b9960f4
 
-Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で  
+Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で
 紹介されたウィジェットを、一つ取り上げて解説する記事です。
 
 今回は`FadeInImage`についての解説記事となっています。
@@ -164,20 +165,20 @@ Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week
 
 https://zenn.dev/faucon/articles/9d07f509f446f4
 
-Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で  
+Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で
 紹介されたウィジェットを、一つ取り上げて解説する記事です。
 
 今回は`StreamBuilder`についての解説記事となっています。
 
 ### **Flutter x Flame でブロック崩しゲームを作ってみた！**
 
-https://zenn.dev/aoi\_umigishi/articles/b691cf80a3201a
+https://zenn.dev/aoi_umigishi/articles/b691cf80a3201a
 
 Flutter x Flame で ブロック崩しゲームを作ってみた筆者の感想の記事です。
 
 Flame の使い勝手に関する紹介と、アプリ作成にあたって気をつけた依存関係等に対する解説がなされています。
 
-この記事で紹介したブロック崩しゲームを実際に作ることができるチュートリアル記事が、  
+この記事で紹介したブロック崩しゲームを実際に作ることができるチュートリアル記事が、
 週刊Flutter大学にてアップロードされています。
 
 ぜひこちらもご確認ください。
@@ -190,7 +191,7 @@ https://blog.flutteruniv.com/flutter-flame-block-breaker-game/
 
 https://blog.flutteruniv.com/flutter-news-20221010/
 
-https://blog.flutteruniv.com/package\_sliding\_up\_panel/
+https://blog.flutteruniv.com/package_sliding_up_panel/
 
 https://blog.flutteruniv.com/flutter-dart-extends/
 
@@ -198,17 +199,15 @@ https://blog.flutteruniv.com/flutter-flame-block-breaker-game/
 
 ## まとめ
 
-本記事ではFlutterニュースとして、  
-2022年10月第3週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、
+2022年10月第3週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行いました。
 
 この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/10/17）
 
@@ -220,11 +219,11 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 実際に試してみて、良ければ感想記事を書こうと思います。
 
-まだバージョンが若いソフトウェアのようなので、  
+まだバージョンが若いソフトウェアのようなので、
 今後どうなるかわかりませんが、使ってみるのが楽しみです。
 
 もし一緒に使って見る方がいれば、ぜひ感想をお聞かせください。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

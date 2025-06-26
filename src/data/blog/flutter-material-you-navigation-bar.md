@@ -3,22 +3,21 @@ title: "【Flutter】 Material You の Navigation Barの実装方法"
 slug: "flutter-material-you-navigation-bar"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-05-06T10:00:00.000Z
+pubDatetime: "2022-05-06"
 tags: ["Widget"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-
-AndroidのMaterial YouでBottomNavigationBarの推奨が変わったらしいけど、  
+AndroidのMaterial YouでBottomNavigationBarの推奨が変わったらしいけど、
 どう変わったの？
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-
 Flutterだとどうやって実装するのかしら？
 
 本記事ではこのような疑問にお答えします。
 
-Material You で推奨となっているBottom Navigation Barの実装方法について  
+Material You で推奨となっているBottom Navigation Barの実装方法について
 解説します。
 
 具体的には以下のようなBottom Navigation Barの実装となります。
@@ -33,13 +32,13 @@ Material You で推奨となっているBottom Navigation Barの実装方法に�
 
 ### Material Youとは
 
-Material You , ( Material 3 ) はAndroid 12から導入されている  
+Material You , ( Material 3 ) はAndroid 12から導入されている
 Google の新たなデザインフレームワークです。
 
 今後のAndroid のデザインは、このフレームワークに沿って行われる予定です。
 
-マルチプラットフォームでのFlutterでもこのフレームワークに沿って、  
-Android アプリを構築することで、  
+マルチプラットフォームでのFlutterでもこのフレームワークに沿って、
+Android アプリを構築することで、
 Android ユーザーにとって違和感のないデザインが実現できます。
 
 ### Material You の Bottom Navigation Bar
@@ -48,7 +47,7 @@ Material You のBottom Navigation Barの見た目は以下のようになりま�
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-06-13.48.29.png)
 
-アイコンの周りをインディケーターで囲むことで、  
+アイコンの周りをインディケーターで囲むことで、
 どのタブが選択されているかよりわかりやすい表現となっています。
 
 また名称も、" BottomNavigationBar "から " Navigation Bar " に変更となっています。
@@ -73,21 +72,21 @@ https://dartpad.dartlang.org/?id=6219ca84ee203efa23c18e6b8025a009
 
 #### ページ選択用のインデックスを用意
 
-`StatefulWidget` の状態として何ページ目を表示するのかを管理する、  
+`StatefulWidget` の状態として何ページ目を表示するのかを管理する、
 インデックスを用意します。
 
 ```
-  int _currentIndex = 0;
+int _currentIndex = 0;
 ```
 
 #### 表示するページを用意、設定
 
-表示するページを用意します。  
-（今回はサンプルなので、簡略的な`Widget`を用意していますが、  
+表示するページを用意します。
+（今回はサンプルなので、簡略的な`Widget`を用意していますが、
 実際には表示するページを設定ください。）
 
 ```
-List<Widget> pages = [
+List pages = [
     Container(
       height: double.infinity,
       width: double.infinity,
@@ -115,11 +114,11 @@ List<Widget> pages = [
   ];
 ```
 
-この`pages`を`Scaffold`の`body`に設定します。  
+この`pages`を`Scaffold`の`body`に設定します。
 (サンプルコードでは、SafeAreaを間に挟んでいます。)
 
 ```
- body: SafeArea(child: pages[_currentIndex]),
+body: SafeArea(child: pages[_currentIndex]),
 ```
 
 以上が表示するページの設定となります。
@@ -173,18 +172,18 @@ destinations: const [
 `NavigationBar`の`selectedIndex` プロパティに現在のページインデックスを管理する`_currentIndex`を設定します。
 
 ```
-        selectedIndex: _currentIndex,
+selectedIndex: _currentIndex,
 ```
 
 この設定で、`_currentIndex`が変化するのに応じて`NavigationBar`の表示も変化します。
 
-Navigation Barのタブ選択時のインデックスの変更は、  
+Navigation Barのタブ選択時のインデックスの変更は、
 `onDestinationSelected` プロパティにて行います。
 
 設定例は以下のようになります。
 
 ```
-        onDestinationSelected: (index) => setState(() {
+onDestinationSelected: (index) => setState(() {
           _currentIndex = index;
         }),
 ```
@@ -195,7 +194,7 @@ Navigation Barのタブ選択時のインデックスの変更は、
 
 上のDartPadで紹介していますが、もう一度今回のサンプルコードの全体を記載します。
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -217,13 +216,13 @@ class MyWidget extends StatefulWidget {
   const MyWidget({Key? key}) : super(key: key);
 
   @override
-  State<MyWidget> createState() => _MyWidgetState();
+  State createState() => _MyWidgetState();
 }
 
-class _MyWidgetState extends State<MyWidget> {
+class _MyWidgetState extends State {
   int _currentIndex = 0;
 
-  List<Widget> pages = [
+  List pages = [
     Container(
       height: double.infinity,
       width: double.infinity,
@@ -291,25 +290,23 @@ class _MyWidgetState extends State<MyWidget> {
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
-本記事では、Material You で推奨となっているBottom Navigation Barの実装方法について  
+本記事では、Material You で推奨となっているBottom Navigation Barの実装方法について
 解説しました。
 
 いかがだったでしょうか？
 
-Bottom Navigation Barはさまざまなアプリで使うUI部品かと思います。  
+Bottom Navigation Barはさまざまなアプリで使うUI部品かと思います。
 これから実装する際に、ぜひ今回の内容を参考にしてみてください！
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 参考
 
 https://youtu.be/2emB2VFrRnA
 
-https://youtu.be/tNwTpIt\_SmM
+https://youtu.be/tNwTpIt_SmM
 
 ## 編集後記（2022/5/6）
 
@@ -319,11 +316,11 @@ https://youtu.be/tNwTpIt\_SmM
 
 Material You での変更点についてはNavigation Barの他にもさまざまなものがあります。
 
-こちらのページにて紹介されているので、  
+こちらのページにて紹介されているので、
 是非一度読んでみることをオススメします。
 
 https://m3.material.io/
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

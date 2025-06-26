@@ -11,6 +11,7 @@ tags: ["Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
 Flutterで 無限スクロール を実装したいけれど、どうすればいいのだろう？
 
 そんな悩みにお答えするのが本記事です。
@@ -20,6 +21,8 @@ Flutterで 無限スクロール を実装したいけれど、どうすれば�
 
 本記事を読めば、以下のgifのような無限スクロールが実装可能となります。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220330_infinity_scroll.gif)
+
 無限スクロールの実装方法は色々とありますが、
 今回は`ScrollController`を使った方法を解説します。
 
@@ -27,14 +30,17 @@ Flutterで 無限スクロール を実装したいけれど、どうすれば�
 
 ## 準備
 
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
+
 まずは無限スクロールできないリストビューのサンプルコードを紹介します。
 
 このコードを改造して無限スクロールができるようにします。
 
 サンプルコードの後に、このコードの解説を行います。
 
-## サンプルコード
+### サンプルコード
 
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -56,43 +62,19 @@ class InfinityScrollPage extends StatefulWidget {
   const InfinityScrollPage({Key? key}) : super(key: key);
 
   @override
-  State<InfinityScrollPage> createState() => _InfinityScrollPageState();
+  State createState() => _InfinityScrollPageState();
 }
 
-class _InfinityScrollPageState extends State<InfinityScrollPage> {
-  final List<String> _contents = [];
+class _InfinityScrollPageState extends State {
+  final List _contents = [];
   final int loadLength = 30;
 
   int _lastIndex = 0;
 
   //1
-  Future<void> _getContents() async {
+  Future _getContents() async {
     await Future.delayed(const Duration(seconds: 3));
-    for (int i = _lastIndex; i < _lastIndex + loadLength; i++) {
-      _contents.add('Item $i');
-    }
-    _lastIndex += loadLength;
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Infinity Scroll Sample')),
-      body: Center(
-        //2
-        child: FutureBuilder(
-          future: _getContents(),
-          builder: (BuildContext context, AsyncSnapshot snapshot) {
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return const CircularProgressIndicator();
-            }
-            if (snapshot.hasError) {
-              return Text('${snapshot.error}');
-            }
-            //3
-            return ListView.separated(
-              itemCount: _contents.length,
-              separatorBuilder: (BuildContext context, int index) => Container(
+    for (int i = _lastIndex; i  Container(
                 width: double.infinity,
                 height: 2,
                 color: Colors.grey,
@@ -114,32 +96,23 @@ class _InfinityScrollPageState extends State<InfinityScrollPage> {
     );
   }
 }
+```
 
-## 解説
+### 解説
 
 サンプルコードの特徴的な部分を解説します。
 
-  //1
-  Future<void> _getContents() async {
-    await Future.delayed(const Duration(seconds: 3));
-    for (int i = _lastIndex; i < _lastIndex + loadLength; i++) {
-      _contents.add('Item $i');
-    }
-    _lastIndex += loadLength;
-  }
-
+```
 //1
-データ読み取りの関数です。
-FirebaseやAPI等、外部からのデータ取得を想定して、非同期関数として設定しています。
-現在のインデックス(初期値は`0`)から、
-読み込むデータ数（`30`）までデータを`_content`に追加する、
-という関数となっています。
-
+  Future _getContents() async {
+    await Future.delayed(const Duration(seconds: 3));
+    for (int i = _lastIndex; i
 非同期処理についてはこちらをご覧ください。
 
 https://twitter.com/FlutterUniv/status/1448921588636831749?ref_src=twsrc%5Etfw
 
-        //2
+```
+//2
         child: FutureBuilder(
           future: _getContents(),
           builder: (BuildContext context, AsyncSnapshot snapshot) {
@@ -150,6 +123,7 @@ https://twitter.com/FlutterUniv/status/1448921588636831749?ref_src=twsrc%5Etfw
               return Text('${snapshot.error}');
             }
 // ・・・
+```
 
 //2
 非同期関数でデータの取得を行い、その結果を使って画面表示するため、
@@ -165,7 +139,8 @@ FutureBuilderについてはこちらの記事も併せてご覧ください。
 
 https://blog.flutteruniv.com/flutter-future-stream-difference/
 
-            //3
+```
+//3
             return ListView.separated(
               itemCount: _contents.length,
               separatorBuilder: (BuildContext context, int index) => Container(
@@ -184,6 +159,7 @@ https://blog.flutteruniv.com/flutter-future-stream-difference/
                 );
               },
             );
+```
 
 //3
 リスト部分は、`ListView.seperated`を使用します。
@@ -193,12 +169,15 @@ https://blog.flutteruniv.com/flutter-future-stream-difference/
 
 ## 無限スクロール の実装
 
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
+
 ここから、無限スクロールの実装に入ります。
 準備と同様、コードの紹介の後、解説を行います。
 ちょっと複雑な部分がありますが、解説しますのでぜひ読んでみてください。
 
-## 実装コード
+### 実装コード
 
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -220,54 +199,20 @@ class InfinityScrollPage extends StatefulWidget {
   const InfinityScrollPage({Key? key}) : super(key: key);
 
   @override
-  State<InfinityScrollPage> createState() => _InfinityScrollPageState();
+  State createState() => _InfinityScrollPageState();
 }
 
-class _InfinityScrollPageState extends State<InfinityScrollPage> {
-  final List<String> _contents = [];
+class _InfinityScrollPageState extends State {
+  final List _contents = [];
   final int loadLength = 30;
 
   int _lastIndex = 0;
 
-  Future<void> _getContents() async {
+  Future _getContents() async {
     await Future.delayed(const Duration(seconds: 3));
 
-    for (int i = _lastIndex; i < _lastIndex + loadLength; i++) {
-      _contents.add('Item $i');
-    }
-
-    _lastIndex += loadLength;
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Infinity Scroll Sample')),
-      body: Center(
-        child: FutureBuilder(
-          future: _getContents(),
-          builder: (BuildContext context, AsyncSnapshot snapshot) {
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return const CircularProgressIndicator();
-            }
-            if (snapshot.hasError) {
-              return Text('${snapshot.error}');
-            }
-            //4
-            return InfinityListView(
-              contents: _contents,
-              getContents: _getContents,
-            );
-          },
-        ),
-      ),
-    );
-  }
-}
-
-class InfinityListView extends StatefulWidget {
-  final List<String> contents;
-  final Future<void> Function() getContents;
+    for (int i = _lastIndex; i  contents;
+  final Future Function() getContents;
 
   const InfinityListView({
     Key? key,
@@ -276,10 +221,10 @@ class InfinityListView extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  State<InfinityListView> createState() => _InfinityListViewState();
+  State createState() => _InfinityListViewState();
 }
 
-class _InfinityListViewState extends State<InfinityListView> {
+class _InfinityListViewState extends State {
   //5
   late ScrollController _scrollController;
   //6
@@ -346,16 +291,19 @@ class _InfinityListViewState extends State<InfinityListView> {
     );
   }
 }
+```
 
-## 解説
+### 解説
 
 実装コードを詳細に解説していきます。
 
-            //4
+```
+//4
             return InfinityListView(
               contents: _contents,
               getContents: _getContents,
             );
+```
 
 //4
 InfinityListViewという新たなWidgetを自作し、ListViewがあった場所に配置しています。
@@ -374,22 +322,27 @@ InfinityListViewという新たなWidgetを自作し、ListViewがあった場�
 これの防御策として、setStateの範囲を絞るために、
 ListViewを新たなWidgetで置き換えています。
 
-  //5
+```
+//5
   late ScrollController _scrollController;
+```
 
 //5
 `ScrollController`の定義部分です。
 この`ScrollController`を用いて、スクロールが終端に行ったことを検知し、
 データの再取得の処理を行います。
 
-  //6
+```
+//6
   bool _isLoading = false;
+```
 
 //6
 データ取得状況を管理するフラグです。
 データ取得中に再度データ取得処理が走らないよう、このフラグで管理します。
 
-  //7
+```
+//7
   @override
   void initState() {
     _scrollController = ScrollController();
@@ -408,6 +361,7 @@ ListViewを新たなWidgetで置き換えています。
     });
     super.initState();
   }
+```
 
 //7
 ここが無限スクロールのキモとなる部分です。
@@ -421,23 +375,28 @@ _`scrollController.position.pixels`は現在のスクロールの位置を、
 という内容になっています。
 最後に、データ取得内容を反映するために`setState`を行なっています。
 
-  //8
+```
+//8
   @override
   void dispose() {
     _scrollController.dispose();
     super.dispose();
   }
+```
 
 //8
 `ScrollController`を`dispose`している部分です。
 
-      //9
+```
+//9
       controller: _scrollController,
+```
 
 //9
 `ListView`に上で定義した`ScrollController`を設定します。
 
-      //10
+```
+//10
       itemCount: widget.contents.length + 1,
 //・・・
         //11
@@ -450,6 +409,7 @@ _`scrollController.position.pixels`は現在のスクロールの位置を、
             ),
           );
         }
+```
 
 //10,11
 itemCountの値をデータ長+1しています。
@@ -462,6 +422,8 @@ itemCountの値をデータ長+1しています。
 https://dartpad.dartlang.org/?id=f7ea0956e942edc6f1c62927f77ed5f0
 
 ## まとめ
+
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
 本記事ではリストビューが下端に行った時に自動でデータを読み取り、表示する、
 無限スクロールの実装方法について解説しました。

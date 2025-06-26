@@ -11,6 +11,7 @@ tags: ["ニュース", "Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
 Flutterの最新情報をキャッチアップしたい！
 
 そんなあなたに送る、 Flutterニュース 。
@@ -22,7 +23,7 @@ Flutterの最新情報をキャッチアップしたい！
 
 ## Flutter公式情報
 
-## Flutter 3.0.2 リリース！
+### Flutter 3.0.2 リリース！
 
 https://twitter.com/FlutterReleases/status/1535537361219641345
 
@@ -30,9 +31,18 @@ Flutterのstable チャンネルのバージョンが3.0.2に更新されまし�
 
 [こちら](https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#302-june-10-2022)によると、以下の内容が更新されたとのことです。
 
-- [Safari 13にてFlutter アプリが黒い画面表示となる問題の修正](https://github.com/flutter/flutter/issues/104785)- [Windows ユーザーがVisual Studio 2022 で `flutter doctor` するとクラッシュする問題の修正](https://github.com/flutter/flutter/issues/102451)- [一部言語でテキストの想定外の改行がなされる問題の修正](https://github.com/flutter/flutter/issues/103846)- [Material 3 仕様時にインクスパークルが発生する問題の修正](https://github.com/flutter/flutter/pull/104569)- [Android で SliverReorderableListがドラッグできない問題の修正](https://github.com/flutter/flutter/issues/103404)- [Android でネストした横方向のSlider Widget が横方向スライドできない問題の修正](https://github.com/flutter/flutter/issues/103566)- [Windows アプリのビルドで、ビルドプロセスが落ちる問題の修正](https://github.com/flutter/flutter/issues/100375)- [initState/dispose/setStateのサジェストがintellij で働かない問題の修正](https://github.com/dart-lang/sdk/issues/49027)- [パッケージを公開しようとした際、`dart pub login` で落ちる問題の修正](https://github.com/dart-lang/pub/issues/3424)- [enum の強化機能を使用した際 `dart analyze`でエラーとなる問題の修正](https://github.com/dart-lang/sdk/issues/49097)
+- [Safari 13にてFlutter アプリが黒い画面表示となる問題の修正](https://github.com/flutter/flutter/issues/104785)
+- [Windows ユーザーがVisual Studio 2022 で `flutter doctor` するとクラッシュする問題の修正](https://github.com/flutter/flutter/issues/102451)
+- [一部言語でテキストの想定外の改行がなされる問題の修正](https://github.com/flutter/flutter/issues/103846)
+- [Material 3 仕様時にインクスパークルが発生する問題の修正](https://github.com/flutter/flutter/pull/104569)
+- [Android で SliverReorderableListがドラッグできない問題の修正](https://github.com/flutter/flutter/issues/103404)
+- [Android でネストした横方向のSlider Widget が横方向スライドできない問題の修正](https://github.com/flutter/flutter/issues/103566)
+- [Windows アプリのビルドで、ビルドプロセスが落ちる問題の修正](https://github.com/flutter/flutter/issues/100375)
+- [initState/dispose/setStateのサジェストがintellij で働かない問題の修正](https://github.com/dart-lang/sdk/issues/49027)
+- [パッケージを公開しようとした際、`dart pub login` で落ちる問題の修正](https://github.com/dart-lang/pub/issues/3424)
+- [enum の強化機能を使用した際 `dart analyze`でエラーとなる問題の修正](https://github.com/dart-lang/sdk/issues/49097)
 
-## FocusableActionDetector (Widget of the Week)
+### FocusableActionDetector (Widget of the Week)
 
 https://youtu.be/R84AGg0lKs8
 
@@ -42,37 +52,37 @@ Flutter公式のWidget紹介動画シリーズ、Widget of the Week が更新さ
 4つの`Widget`の機能をまとめて扱うことのできる`Widget`、
 `[FocusableActionDetector](https://api.flutter.dev/flutter/widgets/FocusableActionDetector-class.html) Widget`の紹介動画となります。
 
-## DartPadワークショップの紹介
+### DartPadワークショップの紹介
 
 今週も公式Twitterにて様々なDartPadでのワークショップが紹介されていました。
 
-## ネイティブ iOS開発者向けのFlutter
+#### ネイティブ iOS開発者向けのFlutter
 
 https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/vandadnp/dartpad_workshop_starter/main/public/
 
 iOS開発者向けにFlutterを紹介するDartPad チュートリアルのワークショップです。
 
-## Futureの初心者向けガイド
+#### Futureの初心者向けガイド
 
 https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/FilledStacks/dart_flutter_workshops/main/futures
 
 Flutterでの非同期処理やFutureについて学ぶことのできるチュートリアルのワークショップです。
 
-## Flutter でのリアクティブコーディング
+#### Flutter でのリアクティブコーディング
 
 https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/PoojaB26/codelabs/master/dartpad_codelabs/src/reactive_code
 
 `Stream` や`ValueNotifier, Riverpod`を使った
 リアクティブプログラミングについて学ぶことのできるワークショップです。
 
-## コンバータを使ってFirestoreへの型安全を実現しよう
+#### コンバータを使ってFirestoreへの型安全を実現しよう
 
 https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/pr-Mais/dartpad_workshops/main/firestore_type_safety_with_converter
 
 Firebase のFirestoreをコンバータを実装し
 型安全に扱う方法について学ぶことのできるワークショップです。
 
-## Flutterでのキーボード指向のパズルゲームの作成
+#### Flutterでのキーボード指向のパズルゲームの作成
 
 https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/salihgueler/keyboard_puzzle_dartpad_workshop/main/
 
@@ -80,7 +90,7 @@ Flutterでのキーボードショートカットの実装方法について学�
 
 ## Flutterに関する話題
 
-## AWS Amplify Flutter ライブラリのアップデート
+### AWS Amplify Flutter ライブラリのアップデート
 
 https://www.reddit.com/r/FlutterDev/comments/v8dvzp/amplify_flutter_team_released_a_new_version_of/
 
@@ -89,7 +99,7 @@ AWS Amplify のFlutterライブラリに関して、新しいバージョンが�
 
 Androidの認証周りの改善等が行われたとのことです。
 
-## Chessformer
+### Chessformer
 
 https://github.com/K-Rafiki/chess_variant
 
@@ -99,7 +109,7 @@ Flutterで、状態管理手法としてProviderを使って作成されてい�
 
 ## Flutterに関する記事
 
-## Flutter Gen : Assetの管理をプロ仕様にしよう！
+### Flutter Gen : Assetの管理をプロ仕様にしよう！
 
 https://dhruvnakum.xyz/fluttergen-manage-assets-like-a-pro
 
@@ -110,7 +120,7 @@ Flutter_genについての投稿がRedditで話題となっていました。
 Flutter genについては日本語の[こちら](https://wasabeef.medium.com/fluttergen-25149caea94f)の記事も併せて読むと
 理解が深まります。
 
-## Flutter App Architecture: The Application Layer
+### Flutter App Architecture: The Application Layer
 
 https://codewithandrea.com/articles/flutter-app-architecture-application-layer/
 
@@ -119,7 +129,7 @@ Flutter アプリのアーキテクチャについて紹介する記事シリー
 
 複数のData層のリポジトリをApplication層でまとめて管理する方法について書かれています。
 
-## Flutter のBottomNavigationBarに関する全て
+### Flutter のBottomNavigationBarに関する全て
 
 https://itnext.io/everything-about-the-bottomnavigationbar-in-flutter-e99e5470dddb
 
@@ -128,7 +138,7 @@ BottomNavigationBar について5つの改良点をまとめた記事です。
 スクロール時にBottomNavigationBarを隠す方法など、
 BottomNavigationBarを使用する際に覚えておきたい方法についてまとめられています。
 
-## FlutterでのCSS フィルター
+### FlutterでのCSS フィルター
 
 https://medium.com/@iofod/css-filter-for-flutter-apply-filters-in-flutter-as-you-use-css-4bce68ff8acd
 
@@ -137,7 +147,7 @@ CSS_Filter パッケージの紹介記事です。
 
 サンプルコードが紹介されており、基本的な使い方を学ぶことができます。
 
-## Flutter アプリのリバース・エンジニアリング
+### Flutter アプリのリバース・エンジニアリング
 
 https://www.guardsquare.com/blog/current-state-and-future-of-reversing-flutter-apps
 
@@ -147,7 +157,7 @@ https://www.guardsquare.com/blog/current-state-and-future-of-reversing-flutter-a
 手法としてどの方法を取るべきかの検討から、
 実際のアプリに対するリバース・エンジニアリングの例まで紹介されています。
 
-## Flutterでのテストに関する最小限のガイド
+### Flutterでのテストに関する最小限のガイド
 
 https://itnext.io/minimalist-guide-to-testing-in-flutter-e9c885c7e35c
 
@@ -156,7 +166,7 @@ Flutterのテストについてまとめられた記事です。
 記事シリーズとしてテストについて書かれていく予定のようで、
 今回はテストの概要と種類についての解説記事となっています。
 
-## SwiftUI 開発者向けのFlutter
+### SwiftUI 開発者向けのFlutter
 
 https://www.alwaysrightinstitute.com//flutter/
 
@@ -167,7 +177,7 @@ SwiftUI の開発者向けに Flutterについて紹介、解説されている�
 
 ## Flutterに関する動画
 
-## Flutter E-commerce App Part6
+### Flutter E-commerce App Part6
 
 https://youtu.be/Oggjb7ATVew
 
@@ -180,11 +190,18 @@ FlutterでEコマースのアプリを作成するチュートリアル動画シ
 
 Flutter大学のYouTubeチャンネルにて更新された動画を紹介します。
 
-- [【Flutter超入門2022】③入力フォームに入れた値を次の画面に渡す【Flutter3.0】](https://youtu.be/Iyy4ceBaAjY)- [【Flutter超入門2022】④画像を配置する【Flutter3.0】](https://youtu.be/coKoO6dcQLI)- [【Flutter超入門2022】⑤リストを作る方法（ListView）【Flutter3.0】](https://youtu.be/BMREPjjgXjE)- [【Flutter超入門2022】⑥今までの復習！YouTubeアプリのトレース【Flutter3.0】](https://youtu.be/noWY6aBVY_0)- [【Flutterの教科書】① Flutter環境構築 Flutter3 M1 Mac 対応](https://youtu.be/1Qi1OmPb9f0)- [【Flutterの教科書】② UIの作り方。Twitterのタイムラインを作ってみよう。](https://youtu.be/bPGfd0xI1g4)- [【Flutterの教科書】③ じゃんけんを作ろう。変数と関数と条件分岐。](https://youtu.be/uDoDwKNOX3E)- [【Flutterの教科書】④ WebAPIと連携してフリー画像検索アプリを作ろう【前編】](https://youtu.be/vdYrRkgk20E)
+- [【Flutter超入門2022】③入力フォームに入れた値を次の画面に渡す【Flutter3.0】](https://youtu.be/Iyy4ceBaAjY)
+- [【Flutter超入門2022】④画像を配置する【Flutter3.0】](https://youtu.be/coKoO6dcQLI)
+- [【Flutter超入門2022】⑤リストを作る方法（ListView）【Flutter3.0】](https://youtu.be/BMREPjjgXjE)
+- [【Flutter超入門2022】⑥今までの復習！YouTubeアプリのトレース【Flutter3.0】](https://youtu.be/noWY6aBVY_0)
+- [【Flutterの教科書】① Flutter環境構築 Flutter3 M1 Mac 対応](https://youtu.be/1Qi1OmPb9f0)
+- [【Flutterの教科書】② UIの作り方。Twitterのタイムラインを作ってみよう。](https://youtu.be/bPGfd0xI1g4)
+- [【Flutterの教科書】③ じゃんけんを作ろう。変数と関数と条件分岐。](https://youtu.be/uDoDwKNOX3E)
+- [【Flutterの教科書】④ WebAPIと連携してフリー画像検索アプリを作ろう【前編】](https://youtu.be/vdYrRkgk20E)
 
 ## Flutter大学メンバーによる記事
 
-## 初心者 flutter x firestoreの複合クエリに挑戦する(multiple search)
+### 初心者 flutter x firestoreの複合クエリに挑戦する(multiple search)
 
 https://qiita.com/dongri727/items/fe78f78b30841e322ab0
 
@@ -192,7 +209,7 @@ Flutterで複数語の検索機能をつける方法について紹介してい�
 
 サンプルコードを紹介の上、苦戦したポイントについて紹介されています。
 
-## **Flutterのデータのモデルについて学んでみる**
+### **Flutterのデータのモデルについて学んでみる**
 
 https://zenn.dev/joo_hashi/articles/9aeaec1afa515c
 
@@ -201,7 +218,7 @@ FlutterでのCloud Firestreとのデータのやり取りに関して、
 
 詰まったポイントについて、調べた内容や参考にした記事等を併せて紹介し、解説されています。
 
-## **GetXに入門してみた!**
+### **GetXに入門してみた!**
 
 https://zenn.dev/joo_hashi/articles/ba5831fa685c26
 
@@ -209,7 +226,7 @@ Flutter のパッケージであるGet X について使用方法の解説、使
 
 サンプルコードを作成の上紹介されており、最後には使ってみた感想が記載されています。
 
-## **REDEMEってどう読むの?**
+### **REDEMEってどう読むの?**
 
 https://zenn.dev/joo_hashi/articles/2901e0774279fb
 
@@ -218,7 +235,7 @@ Flutterのパッケージを探す際に、どこを見て使用の判断をす�
 
 パッケージを探す際の思考の流れの参考になります。
 
-## **fl_chartで変数を使うとエラーが出る?**
+### **fl_chartで変数を使うとエラーが出る?**
 
 https://zenn.dev/joo_hashi/articles/e6dc11ce7a487c
 
@@ -226,7 +243,7 @@ fl_chartライブラリについて詰まった点と解決方法について記
 
 試行錯誤しながら解決策を検討し、解決している流れを知ることができます。
 
-## **【Flutter】ローカル DB パッケージの Isar Database の使い方**
+### **【Flutter】ローカル DB パッケージの Isar Database の使い方**
 
 https://zenn.dev/susatthi/articles/20220607-061331-flutter-isar
 
@@ -246,6 +263,8 @@ https://blog.flutteruniv.com/flutter-padding-margin/
 https://blog.flutteruniv.com/flutter-column/
 
 ## まとめ
+
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
 本記事ではFlutterニュースとして、
 2022年6月第2週に話題になったFlutter関連の情報や、

@@ -3,21 +3,21 @@ title: "【Flutter】ダイナミックカラーの実装方法【Material You�
 slug: "flutter-dynamic-color"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-06-01T10:00:00.000Z
+pubDatetime: "2022-06-01"
 tags: ["Package"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-
 Material You の ダイナミックカラー 、Flutterで実装するにはどうしたら良いんだろう?
 
 本記事ではそんな疑問にお答えします。
 
-Google の推奨するデザインの最新版、  
-Material You (Material 3) の目玉機能の一つである、  
-ユーザーの壁紙からキーとなる色を抽出し、  
-その色を基盤としたカラーテーマでアプリを構成する機能、ダイナミックカラーを、  
-Flutterで実装する方法について解説します。
+Google の推奨するデザインの最新版、
+Material You (Material 3) の目玉機能の一つである、
+ユーザーの壁紙からキーとなる色を抽出し、
+その色を基盤としたカラーテーマでアプリを構成する機能、ダイナミックカラーを、
+ Flutterで実装する方法について解説します。
 
 壁紙を変えるとアプリ内の色も変わる、といったなんとも不思議な体験が味わえます。
 
@@ -31,19 +31,19 @@ https://itnext.io/dynamically-theme-your-flutter-app-59da5037f5df
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
-ダイナミックカラーとは、ユーザーの壁紙からキーとなる色を抽出し、  
+ダイナミックカラーとは、ユーザーの壁紙からキーとなる色を抽出し、
 その色を基盤としたカラーテーマでアプリを構成する機能のことです。
 
-Google の推奨するデザインの最新版、  
+Google の推奨するデザインの最新版、
 Material You (Material 3) の目玉機能の一つとなっています。
 
-以下のGifがサンプルアプリによるダイナミックカラーの挙動となります。  
+以下のGifがサンプルアプリによるダイナミックカラーの挙動となります。
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/06/dynamic_color_sample.gif)
 
 壁紙の変更により、アプリ内の色が変わっていることを確認できます。
 
-この機能はモバイルだとAndroid のみで利用可能です。  
+この機能はモバイルだとAndroid のみで利用可能です。
 また、Android 12以上（エミュレータだと API 32以上）でないと反映されません。
 
 ## ダイナミックカラーの実装方法
@@ -52,18 +52,18 @@ Material You (Material 3) の目玉機能の一つとなっています。
 
 ここからは具体的な実装方法について解説していきます。
 
-### dynamic\_color パッケージのインストール
+### dynamic_color パッケージのインストール
 
-ダイナミックカラーの機能は[dynamic\_color](https://pub.dev/packages/dynamic_color) パッケージによって実装されます。
+ダイナミックカラーの機能は[dynamic_color](https://pub.dev/packages/dynamic_color) パッケージによって実装されます。
 
-以下のコマンドをFlutter プロジェクトのルートで実行し、  
-dynamic\_colorパッケージをインストールしてください。
+以下のコマンドをFlutter プロジェクトのルートで実行し、
+dynamic_colorパッケージをインストールしてください。
 
 ```bash
 flutter pub add dynamic_color
 ```
 
-### dynamic\_color パッケージのインポート
+### dynamic_color パッケージのインポート
 
 `MaterialApp` を実装するファイルに、以下の`import`文を追加してください。
 
@@ -76,7 +76,7 @@ import 'package:dynamic_color/dynamic_color.dart';
 `MaterialApp`を以下のように`DynamicColorBuilder`で囲います。
 
 ```dart
-  @override
+@override
   Widget build(BuildContext context) {
     return DynamicColorBuilder(
       builder: (ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
@@ -91,14 +91,14 @@ import 'package:dynamic_color/dynamic_color.dart';
 
 `lightDynamic, darkDynamic`に、壁紙から取ってきて作成された`ColorScheme`が設定されます。
 
-端末がダイナミックカラーに対応していない場合、  
+端末がダイナミックカラーに対応していない場合、
 これらの`ColorScheme`は`null`となります。
 
 ### ダイナミックカラー非対応端末への対応
 
 `lightDynamic, darkDynamic`が`null`許容なのでこのまま`theme`に設定することができません。
 
-以下のメソッドを用意して、  
+以下のメソッドを用意して、
 nullの時には予め設定したキーの色の`ColorScheme`となるようにします。
 
 ```dart
@@ -127,7 +127,7 @@ ThemeData darkTheme(ColorScheme? darkColorScheme) {
 上記メソッドを使ってダイナミックカラーのThemeを設定します。
 
 ```dart
-  @override
+@override
   Widget build(BuildContext context) {
     return DynamicColorBuilder(
       builder: (ColorScheme? lightDynamic, ColorScheme? darkDynamic) {
@@ -152,24 +152,22 @@ ThemeData darkTheme(ColorScheme? darkColorScheme) {
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
-Google の推奨するデザインの最新版、  
-Material You (Material 3) の目玉機能の一つである、  
-ユーザーの壁紙からキーとなる色を抽出し、  
-その色を基盤としたカラーテーマでアプリを構成する機能、ダイナミックカラーを、  
-Flutterで実装する方法について解説しました。
+Google の推奨するデザインの最新版、
+Material You (Material 3) の目玉機能の一つである、
+ユーザーの壁紙からキーとなる色を抽出し、
+その色を基盤としたカラーテーマでアプリを構成する機能、ダイナミックカラーを、
+ Flutterで実装する方法について解説しました。
 
 いかがだったでしょうか？
 
-今後、ダイナミックカラーに対応した端末はどんどん増えていくはずなので、  
+今後、ダイナミックカラーに対応した端末はどんどん増えていくはずなので、
 ぜひこの対応方法を覚えておき、いつでも対応できるよう準備してみてください。
 
 本記事があなたのアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/6/1）
 
@@ -177,14 +175,14 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 アプリの色が、壁紙によって変わるなんて、なんだか不思議な気がしますよね。
 
-壁紙の色を取得できることを利用して、  
+壁紙の色を取得できることを利用して、
 何らかの形でアプリを作れると、面白いかもしれません。
 
-iOSでもこのような機能が追加されるんでしょうか？  
+iOSでもこのような機能が追加されるんでしょうか？
 楽しみですね。
 
 今後のMaterial Designの進化にも期待しています。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

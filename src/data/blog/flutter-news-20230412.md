@@ -3,8 +3,9 @@ title: "【2023年4月12日】今週のFlutterニュース"
 slug: "flutter-news-20230412"
 author: "kboy"
 description: ""
-pubDatetime: 2023-04-12T09:03:32.000Z
+pubDatetime: "2023-04-12"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 こんにちはkboyです。
@@ -25,7 +26,7 @@ tags: ["ニュース"]
 
 https://twitter.com/FlutterReleases/status/1643664849325391901?s=20
 
-zennにて[Xcode 14.3にアップデートしたらarchive(flutter build ipa)ができなくなった問題の対処法](https://zenn.dev/flutteruniv_dev/articles/528e9a2552b0cb "Xcode 14.3にアップデートしたらarchive(flutter build ipa)ができなくなった問題の対処法")という記事を書いたのですが、この問題に対する対応のようです。
+zennにて[Xcode 14.3にアップデートしたらarchive(flutter build ipa)ができなくなった問題の対処法](https://zenn.dev/flutteruniv_dev/articles/528e9a2552b0cb)という記事を書いたのですが、この問題に対する対応のようです。
 
 また、5月10日に開かれるGoogleIOまで1ヶ月を切りました。
 
@@ -37,7 +38,7 @@ Flutterに関する情報も必ずあると思うので、要チェックです�
 
 今週の個人的なピックアップですが、なんといってもXcode14.3問題です。
 
-この問題のうち、アーカイブできない問題ですが、`source="$(readlink "${source}")"` をxcodeで検索かけて、 `source="$(readlink -f "${source}")"`に入れ替えるだけで、一応直りました。
+この問題のうち、アーカイブできない問題ですが、`source="$(readlink "${source}")" `をxcodeで検索かけて、 `source="$(readlink -f "${source}")"`に入れ替えるだけで、一応直りました。
 
 ![](https://storage.googleapis.com/zenn-user-upload/798a7aec6406-20230401.png)
 
@@ -55,7 +56,7 @@ post_install do |installer|
 end
 ```
 
-この手の全部のpodのsettingに対して**IPHONEOS\_DEPLOYMENT\_TARGET**を指定するっていう修正は、実はあるあるで、これまでの同じ修正したことがある方は多いと思います。
+この手の全部のpodのsettingに対して**IPHONEOS_DEPLOYMENT_TARGET**を指定するっていう修正は、実はあるあるで、これまでの同じ修正したことがある方は多いと思います。
 
 私も、何回かこの修正をやったことがありまして、2年半前から運用しているFlutter大学アプリではもちろんこの修正はすでに入ってました。
 

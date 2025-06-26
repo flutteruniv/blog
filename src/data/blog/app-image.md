@@ -17,26 +17,31 @@ ogImage: ""
 
 MShareというアプリを作る際に調べたので、やり方を解説したいと思います！
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/03/IMG_4915-473x1024.png)
+
 とても、簡単に作ることができますので、実装して良いアプリを作成していきましょう！
 
-## 今回の手順
+#### 今回の手順
 
 1.assets/imagesに画像を保存する。
 2.`pubspec.yaml`を追記する。
 3.`pubspec.yaml`で指定したパスでWidgetを配置する。
 
-## 画像を保存する
+### 画像を保存する
 
 プロジェクト直下にassets/imagesを作っていきます
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/03/スクリーンショット-2023-03-24-13.22.24.png)
+
 作成できましたら、使いたい画像をドラッグ&ドロップでimagesの中に追加していきましょう！
 
-## `pubspec.yaml`を追記する。
+### `pubspec.yaml`を追記する。
 
 uses-material-designの下に書きましょう！
 
 assets: の部分はpubspec.yamlに元々記述がないので追加しましょう！内容は使いたい画像のパスを指定しましょう
 
+```
 flutter:
 
   # The following line ensures that the Material Icons font is
@@ -46,14 +51,19 @@ flutter:
 
   assets:
     - assets/images/transparent_icon.png
+```
 
-## `pubspec.yaml`で指定したパスでWidgetを配置する。
+### `pubspec.yaml`で指定したパスでWidgetを配置する。
 
 Image.assetの（' '）に先ほどpubspec.yamlで記述したパスを指定しましょう！
 
+```
 Container(
                   width: 200,
                   child: Image.asset('assets/images/transparent_icon.png')),
+```
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/03/IMG_4959-473x1024.png)
 
 するとこのように画像を表示することができます！
 

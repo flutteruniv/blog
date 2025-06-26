@@ -11,87 +11,159 @@ tags: ["Dart", "Flutter"]
 ogImage: ""
 ---
 
-**コードの中で出てくる、" => " って一体何なんだろう？」**
+**「コードの中で出てくる、" .. " って一体何なんだろう？」**
 
 本記事ではそんな疑問にお答えします。
 
-Flutter / Dart で頻出する、 " => "を使ったアロー構文 について解説します。
+Flutter / Dart で頻出する、 カスケード演算子 " .. "について解説します。
 
 サンプルコードを紹介の上、どのような用途で使うのか詳細に解説します。
 
 ぜひ読んでみてください！
 
-## アロー構文 " => " とは？
+## カスケード演算子 " .. "とは
 
 コードリーディング中、以下のようなコードを見たことはありませんか？
 
-final list = <int>[1, 2, 3];
-final sum = list.fold<int>(0, (a, b) => a + b);
+```dart
+myObject..someMethod()
+        ..otherMethod();
+```
 
-print(sum); // 6
+" .. " に続いてメソッドが並んでいるようなコードです。
 
-fold については以下記事を御覧ください。
+ここで使われている" .. " を*cascades* (カスケード演算子)と呼びます。
 
-https://blog.flutteruniv.com/flutter-dart-list/#toc30
+役割としては、同じオブジェクトに対するメソッドの実行の省略記法となります。
 
-2行目の`fold` メソッドで、矢印のような記号 " => " が使われています。
+上記コードは以下のコードと同じこととなります。
 
-この" => "を使った書き方 を**arrow syntax (アロー構文)**と呼びます。
+```dart
+myObject.someMethod();
+myObject.otherMethod();
+```
 
-アロー構文は関数の定義の記法で、
-式を" => "の右側で実行し、その結果を返す関数を定義する記法となります。
+`myObject`の繰り返しを省略できるわけですね。
 
-具体的には上記コードは以下のコードと同じになります。
+以上がカスケード演算子の概要となります。
 
-final list = <int>[1, 2, 3];
-final sum = list.fold<int>(0, (a, b) {
-  return a + b;
-});
+## カスケード演算子 " .. " の特徴、テクニック
 
-print(sum); // 6
+カスケード演算子での特徴、テクニックについて紹介します。
 
-中身が`return` 1行のみの関数と同じになるわけですね。
+### 値を返さない
 
-以上が" => " の役割、アロー構文の解説となります。
+```dart
+myObject..someMethod()
+        ..otherMethod();
+```
 
-## サンプルコード
+上記コードの`someMethod`が`int`型の値を返すものだとしましょう。
+普通の"."で実行すれば、値を返すメソッド、ということになります。
 
-最後にサンプルコードを紹介します。
+一方、カスケード演算子で実行されたメソッドは、値を返さない、という特徴があります。
 
-先の例では`fold` の中の関数の定義にアロー構文を用いましたが、
-以下のようにクラス内のメソッドの定義でも使用可能です。
+下記のコードで、`UserData`クラスに`toString`メソッドを使って`String`化をしていますが、
+カスケード演算子での実行のため、`data`には`String`は返されず、
+`userData`が代入されるのみとなります。
 
-void main(List<String> arguments) {
-  final people = People(height: 1.65, weight: 65.2);
+```dart
+class UserData {}
 
-  print(people.bmi); // 23.948576675849406
+void main() {
+  final userData = UserData();
+  final dataA = userData.toString();
+  final dataB = userData..toString();
 
-  people.say('Hello'); // Hello
+  print(dataA.runtimeType); // String
+  print(dataB.runtimeType); // UserData
+}
+```
+
+`runtimeType` メソッドで実行元のオブジェクトの型を知ることができます。
+
+### フィールドへの値の連続代入
+
+カスケード演算子を使うと、以下のようなフィールドへの値の連続代入が可能です。
+
+```dart
+class UserData {
+  String? name;
+  int? age;
+  String? from;
 }
 
-class People {
-  People({required this.height, required this.weight});
+void main() {
+  final userData = UserData();
 
-  final double height;
-  final double weight;
+  userData
+    ..name = "Aoi"
+    ..age = 30
+    ..from = "Chiba";
 
-  double get bmi => weight / (height * height);
+  print(userData.name); // Aoi
+  print(userData.age); // 30
+  print(userData.from); // Chiba
+}
+```
 
-  void say(String message) => print(message);
+上記コードは10行目の`userData`を省略して、以下のように書くこともできます。
+
+```dart
+class UserData {
+  String? name;
+  int? age;
+  String? from;
 }
 
-以上がサンプルコードとなります。
+void main() {
+  final userData = UserData()
+    ..name = "Aoi"
+    ..age = 30
+    ..from = "Chiba";
+
+  print(userData.name); // Aoi
+  print(userData.age); // 30
+  print(userData.from); // Chiba
+}
+```
+
+### *null-shorting *なカスケード演算子
+
+以下のようなコードを考えます。
+
+```dart
+Data? data = fetchData();
+data?.someMethod;
+data?.otherMethod;
+```
+
+"?."は条件付きプロパティアクセス演算子です。
+演算子の左側が`null`のとき、右側の処理が実行されません。（[参考](https://dart.dev/codelabs/dart-cheatsheet#conditional-property-access)）
+
+このコードを*null-shorting* なカスケード演算子" ?.. "を使って次のように書き換えることが可能です。
+
+```dart
+Data? data = fetchData();
+  ?..someMethod;
+  ..otherMethod;
+```
+
+最初に*null-shorting* なカスケード演算子で演算子の左側の`null`の判定をし、
+`null`なら右側の処理を実行しない、(その後のカスケード演算子の処理も実行しない)
+というようにできます。
 
 ## まとめ
 
-本記事ではFlutter / Dart で頻出する、 " => "を使ったアロー構文 について解説しました。
+本記事ではFlutter / Dart で頻出する、 カスケード演算子 " .. "について解説しました。
 
 サンプルコードを紹介の上、どのような用途で使うのか詳細に解説しました。
 
 いかがだったでしょうか？
 
-アロー構文はFlutterのコードリーディング中に頻出する記法です。
-覚えておけばコードの理解がスムーズになるので、ぜひ覚えておいてください！
+自分で使わないにしろ、人の書いたコードや内部コードで出てき得る演算子となっています。
+
+ぜひ、「これってなんだっけ？」となった時には本記事の内容を参照してみてください。
 
 本記事があなたのアプリ開発の一助となれば幸いです。
 
@@ -101,26 +173,28 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 ## 参考
 
-https://dart.dev/codelabs/dart-cheatsheet#arrow-syntax
+https://dart.dev/codelabs/dart-cheatsheet#cascades
 
-## 編集後記（2022/11/2）
+## 編集後記（2022/10/26）
 
-アロー構文についての記事でした。
+最近、[こちら](https://dart.dev/) の、Dartの公式ドキュメントを読むことが多くなりました。
 
-こういうコードの書き方って検索するのに困りますよね。
+記事ネタを探すのも目的の一つですが、
+公式ドキュメントを読むのが正しい情報の取得方法として純粋に一番だと思うからです。
 
-あなたはどんな検索ワードでこの記事にたどり着いたんでしょうか？
+Dartのドキュメント全体の日本語化はまだされていないですが、
+CodeLab 等のチュートリアルの一部は日本語化されています。
 
-" => " で検索してたどり着いたのであれば、
-願ったり叶ったりというか、ユーザーフレンドリーだな、と思います。
+例えば以下のチュートリアルではクラスの基本的な書き方等を学ぶことができます。
 
-アロー構文、というキーワードがわかる人は、
-そもそもこの記事が必要ないくらい理解しているのでは、という気持ちがありますね。
+https://developers.google.com/codelabs/from-java-to-dart#0
 
-結局の所今回紹介した内容は、書き方、読み方の問題なので、
-漢字を覚えるような形で素直にインプットしてもらえたらな、と思います。
+Javaを学んだことがある人向けのため、
+基本用語等が少々難しいですが、勉強にはなるかと思います。
 
-=> を見た時にこんな記事あったな、と思い出してもらえれば幸いです。
+公式ドキュメント内のチュートリアル紹介ページは知見の宝庫だと思っています。
+
+ぜひ読んでみて、知識を身につけてみてください。
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。

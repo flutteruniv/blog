@@ -11,8 +11,10 @@ tags: ["Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
 Flutter大学の新プラン 課題学習プラン ってどんなことができるプランなんだろう？
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
 Flutter大学のYouTube動画も良かったけれど、もっと実践的に学びたいわ！
 
 本記事ではそんな疑問、要望にお答えします！
@@ -29,7 +31,9 @@ https://youtu.be/MUEAaEw27BM
 
 ## Flutter大学とは
 
-## Flutter大学の概要
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+
+### Flutter大学の概要
 
 Flutter大学とは、「Flutterエンジニアに特化した学習コミュニティ」です。
 
@@ -40,17 +44,17 @@ Flutterを勉強したい人、Flutterでエンジニアとして働いている
 
 https://blog.flutteruniv.com/flutteruniversity_explanation/
 
-## Flutter大学のプラン
+### Flutter大学のプラン
 
 Flutter大学には、2022年7月29日現在2つのプランが存在します。
 
-## コミュニティプラン
+#### コミュニティプラン
 
 コミュニティプランは、Flutter大学のコミュニティ機能を使うためのプランです。
 
 Flutter大学アプリやFlutter大学のSlackの利用、共同勉強会の参加等々が可能となります。
 
-## Flutter 修行プラン
+#### Flutter 修行プラン
 
 Flutter 修行プランは、コミュニティプランの内容に加えて、
 Flutter大学の質問機能を使うためのプランです。
@@ -63,7 +67,9 @@ GitHubを利用した質問等が可能となります。
 
 ## 課題学習プランとは
 
-## 課題学習プランの概要
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+
+### 課題学習プランの概要
 
 課題学習プランは、コミュニティプランの内容に加えて、
 Flutter大学に用意された限定教材、限定動画を閲覧できるプランです。
@@ -74,15 +80,10 @@ Flutterを学ぶ教材として大変好評だった、**Flutterの教科書**�
 現時点で以下の内容を学べる教材を提供予定です。
 
 - 環境構築の解説
-
 - TwitterのUIの再現といったUI構築の基礎
-
 - 変数・関数・条件分岐の基礎『じゃんけん』
-
 - APIを利用したフリー画像検索アプリ
-
 - 内部データベース利用
-
 - Firebase の基礎
 
 各教材は見れるだけでなく教材に対応した演習課題が用意されています。
@@ -114,16 +115,14 @@ https://zenn.dev/flutteruniv/books/flutter-textbook-2
 Flutter修行プランの方は、
 費用の追加無しで課題学習プランの教材を閲覧可能です。
 
-## 費用
+### 費用
 
 課題学習プランの費用は**月額4,400円**となります。
 
 他のプランとの対比は以下のようになります。
 
 - コミュニティプラン ： 2,200円/月
-
 - 課題学習プラン：**4,400円/月** （← NEW！）
-
 - Flutter修行プラン：8,800円/月
 
 今までのプランのちょうど間の位置付けですね！
@@ -131,6 +130,8 @@ Flutter修行プランの方は、
 課題学習プランによって、Flutterの学び方の選択肢が増えたと考えていただければと思います。
 
 ## まとめ
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
 本記事ではFlutter大学の新プラン、課題学習プランについて、
 どんなプランなのか、値段はいくらか等、徹底的に解説しました。

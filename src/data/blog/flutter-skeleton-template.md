@@ -3,19 +3,18 @@ title: "【Flutter】 Skeleton テンプレート徹底解説"
 slug: "flutter-skeleton-template"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-03-16T10:00:00.000Z
+pubDatetime: "2022-03-16"
 tags: ["初心者向け"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-
 Flutterの Skeleton テンプレート、難しくてよくわからないんだよなぁ
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-
 カウンターアプリよりもっと本格的なアプリを実装してみたいわ！
 
-そんなあなたに、本記事ではFlutterのテンプレートアプリである  
+そんなあなたに、本記事ではFlutterのテンプレートアプリである
 Skeleton テンプレートについて、徹底解説します。
 
 作成方法から、主要な機能に至るまで詳細に解説していきます。
@@ -30,7 +29,7 @@ Skeleton テンプレートについて、徹底解説します。
 
 ### 概要
 
-Skeletonテンプレートとは、Flutter v2.5によって追加されたFlutterのテンプレートです。  
+Skeletonテンプレートとは、Flutter v2.5によって追加されたFlutterのテンプレートです。
 リストビューとアイテムの詳細ページ、設定ページが用意されています。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_スクリーンショット1.png)
@@ -45,14 +44,14 @@ Skeleton テンプレートの利用方法を解説します。
 
 Skeleton テンプレートを利用するにはコマンドラインからの実行が必要です。
 
-Flutterプロジェクトを作成したいディレクトリに移動し、  
+Flutterプロジェクトを作成したいディレクトリに移動し、
 以下のコマンドを実行します。
 
 ```
 flutter create -t skeleton ファイル名
 ```
 
-ファイル名を仮にskeleton\_sampleとするなら、
+ファイル名を仮にskeleton_sampleとするなら、
 
 ```
 flutter create -t skeleton skeleton_sample
@@ -66,21 +65,21 @@ Flutter関連部分は以下のようなフォルダ構成でテンプレート�
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/22020316_フォルダ構成-711x1024.png)
 
-最初はコマンドラインからのアプリ作成は慣れないかもしれませんが、  
+最初はコマンドラインからのアプリ作成は慣れないかもしれませんが、
 慣れてしまえばとても簡単に作成できます。
 
 ## Skeleton テンプレートの機能
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/パソコン.jpeg)
 
-Skeletonテンプレートで実装されたアプリが持つ機能を3つ紹介し、  
+Skeletonテンプレートで実装されたアプリが持つ機能を3つ紹介し、
 その実装コードについて詳しく解説していきます。
 
 Skeletonテンプレートで実装されたアプリが持つ機能は主に以下の３つです。
 
-*   画面遷移
-*   多言語化対応
-*   テーマ変更
+- 画面遷移
+- 多言語化対応
+- テーマ変更
 
 それぞれ解説していきます。
 
@@ -88,7 +87,7 @@ Skeletonテンプレートで実装されたアプリが持つ機能は主に以
 
 一つ目の機能は画面遷移です。
 
-『リストページからアイテムをタップすることで詳細ページに移動する』  
+『リストページからアイテムをタップすることで詳細ページに移動する』
 『リストページから右上の歯車アイコンをタップすることで設定ページに移動する』
 
 などの画面遷移が実装されています。
@@ -98,9 +97,9 @@ Skeletonテンプレートで実装されたアプリが持つ機能は主に以
 app.dart 65 ~ 80行目
 
 ```
-          //1
+//1
           onGenerateRoute: (RouteSettings routeSettings) {
-            return MaterialPageRoute<void>(
+            return MaterialPageRoute(
               settings: routeSettings,
               //2
               builder: (BuildContext context) {
@@ -118,45 +117,45 @@ app.dart 65 ~ 80行目
           },
 ```
 
-//1  
-`MaterialApp` の`onGeneratedRoute` を設定することで、  
+//1
+`MaterialApp` の`onGeneratedRoute` を設定することで、
 Webでアプリを立ち上げた際、ブラウザのアドレスバーによる画面遷移が可能となります。
 
-//2  
-画面遷移時に与えられる`routeSetting`の`name`変数の値によって遷移先を分岐しています。  
-このアプリでは画面ごとに`routeName`を定数で持っており、  
-`routeSetting`の`name`変数がViewの`routeName`と同じならそのViewに移動する、  
-というロジックとなっています。  
-例えば、`routeSetting`の`name`変数が`'/sample_item'`なら、  
-`routeName`として`'/sample_item'`を持っている`SampleDetailsView`に移動する、  
-という画面遷移です。  
+//2
+画面遷移時に与えられる`routeSetting`の`name`変数の値によって遷移先を分岐しています。
+このアプリでは画面ごとに`routeName`を定数で持っており、
+`routeSetting`の`name`変数がViewの`routeName`と同じならそのViewに移動する、
+というロジックとなっています。
+例えば、`routeSetting`の`name`変数が`'/sample_item'`なら、
+`routeName`として`'/sample_item'`を持っている`SampleDetailsView`に移動する、
+という画面遷移です。
 まとめると、以下になります。
 
-*   各画面に`routeName`の定数を用意すること
-*   `MaterialPageRoute`の`builder`内で`routeSetting.name`で`switch`の条件分岐を行い、  
-    `routeName`と一致したらその画面を`return`すること
+- 各画面に`routeName`の定数を用意すること
+- `MaterialPageRoute`の`builder`内で`routeSetting.name`で`switch`の条件分岐を行い、
+`routeName`と一致したらその画面を`return`すること
 
-`routeSetting`が目に現れてこないのでわかりずらいですが、  
-アドレスバーによる画面遷移を実装するときの参考になるかと思います。  
+`routeSetting`が目に現れてこないのでわかりずらいですが、
+アドレスバーによる画面遷移を実装するときの参考になるかと思います。
 ぜひチャレンジしてみてください。
 
 ### 多言語化対応
 
 Skeletonテンプレートのアプリでは多言語対応をすぐにできるよう、準備がされています。
 
-テンプレートのデフォルトでは英語対応しかしていないため、  
+テンプレートのデフォルトでは英語対応しかしていないため、
 ここでは日本語を追加してみましょう。
 
 まず、app.dart 44~46行目、`supportedLocales`に`Locale('ja','')`を追加しましょう。
 
 ```
-          supportedLocales: const [
+supportedLocales: const [
             Locale('en', ''), // English, no country code
             Locale('ja',''),
           ],
 ```
 
-lib/src/loalizationフォルダにapp\_ja.arbファイルを追加し、  
+lib/src/loalizationフォルダにapp_ja.arbファイルを追加し、
 以下を書き込みましょう。
 
 ```
@@ -178,16 +177,16 @@ flutter gen-l10n
 app.dart 53~54行目
 
 ```
-          onGenerateTitle: (BuildContext context) =>
+onGenerateTitle: (BuildContext context) =>
               AppLocalizations.of(context)!.appTitle,
 ```
 
-アプリをchromeで開いてみてください。  
+アプリをchromeで開いてみてください。
 chromeのタブ部分のアプリタイトルが「skeletonサンプル」と日本語に変わっていれば成功です。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_日本語化-959x1024.png)
 
-chromeの設定→詳細設定→言語で言語を英語に変えると、「skeleton\_sample」と英語になるのが確認できます。
+chromeの設定→詳細設定→言語で言語を英語に変えると、「skeleton_sample」と英語になるのが確認できます。
 
 このようにSkeletonテンプレートを使うと簡単に日本語、英語対応ができます。
 
@@ -197,18 +196,18 @@ https://qiita.com/Umigishi-Aoi/items/5a62fc3b5d26938d4282
 
 ### テーマ変更
 
-Skeleton テンプレートで一番驚くのが、概要でも説明したテーマ変更だと思います。  
+Skeleton テンプレートで一番驚くのが、概要でも説明したテーマ変更だと思います。
 ここではテーマ変更のコードについてポイントを解説していきます。
 
-このテーマ変更で重要になってくるのは、`SettingsController`です。  
-この`SettingsController`がテーマを保持していて、  
-このテーマに応じてアプリを変更しています。  
-このアプリで`SettingsController`を一つだけ使うため、  
+このテーマ変更で重要になってくるのは、`SettingsController`です。
+この`SettingsController`がテーマを保持していて、
+このテーマに応じてアプリを変更しています。
+このアプリで`SettingsController`を一つだけ使うため、
 `main`関数内で生成し、`MyApp,SettingsView`に受け渡しています。
 
 main.dart 7~ 20行目
 
-```
+```dart
 void main() async {
   // Set up the SettingsController, which will glue user settings to multiple
   // Flutter Widgets.
@@ -228,40 +227,40 @@ void main() async {
 app.dart 61行目
 
 ```
-          themeMode: settingsController.themeMode,
+themeMode: settingsController.themeMode,
 ```
 
 app.dart 70~71行目
 
 ```
-                  case SettingsView.routeName:
+case SettingsView.routeName:
                     return SettingsView(controller: settingsController);
 ```
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_theme1.png)
 
-`AnimatedBuilder`は`SettingController`の変化をチェックしています。  
+`AnimatedBuilder`は`SettingController`の変化をチェックしています。
 変更を検知すると、子をリビルドします。
 
 app.dart 25~28行目
 
-```
-    return AnimatedBuilder(
+```dart
+return AnimatedBuilder(
       animation: settingsController,
       builder: (BuildContext context, Widget? child) {
         return MaterialApp(
 ```
 
-`SettingView`にてテーマの変更をすると、  
-`settingController.updateThemeMode`メソッドが走ります。  
-`SettingController`は`ChangeNotifier`を継承しているため、  
-このメソッドの中で`notifyListners`を行うことで、  
+`SettingView`にてテーマの変更をすると、
+`settingController.updateThemeMode`メソッドが走ります。
+`SettingController`は`ChangeNotifier`を継承しているため、
+このメソッドの中で`notifyListners`を行うことで、
 このインスタンスに変化があったことを、周知することができます。
 
-settings\_controller.dart 34~44行目
+settings_controller.dart 34~44行目
 
 ```
-  Future<void> updateThemeMode(ThemeMode? newThemeMode) async {
+Future updateThemeMode(ThemeMode? newThemeMode) async {
     if (newThemeMode == null) return;
 
     // Do not perform any work if new and old ThemeMode are identical
@@ -274,52 +273,50 @@ settings\_controller.dart 34~44行目
     notifyListeners();
 ```
 
-これにより`AnimatedBuilder`が変更を検知し、リビルドしてテーマの変更を反映する  
+これにより`AnimatedBuilder`が変更を検知し、リビルドしてテーマの変更を反映する
 というのが、テーマ変更の流れです。
 
 まとめると、以下の図のようになります。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_theme2.png)
 
-`ChangeNotifier` や`notifyListners`はよく使うので、  
+`ChangeNotifier` や`notifyListners`はよく使うので、
 テンプレートで使い方が確認できるのはとても良いですね。
 
 ## まとめ
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
-本記事ではFlutterのテンプレートアプリである  
+本記事ではFlutterのテンプレートアプリである
 Skeleton テンプレートについて、解説しました。
 
-基本的な作成方法から、Skeleton テンプレートが持っている機能まで、  
+基本的な作成方法から、Skeleton テンプレートが持っている機能まで、
 詳細に解説していきました。
 
-ちょっと難しく、とっかかりにくい部分もあるかもしれませんが、  
-理解すればSkeletonの名のとおりアプリの骨組についての知識は  
+ちょっと難しく、とっかかりにくい部分もあるかもしれませんが、
+理解すればSkeletonの名のとおりアプリの骨組についての知識は
 身につくのではないかと思います。
 
 本記事があなたのアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/03/16）
 
 今回はSkeletonテンプレートについての解説記事でした。
 
-カウンターアプリのテンプレートもよくできてはいますが、  
+カウンターアプリのテンプレートもよくできてはいますが、
 実力がついてくると少し物足りなくなってきます。
 
 そんな人に今回紹介したSkeletonテンプレートはおすすめです。
 
-コードリーディングするだけでかなり実力がつくかと思います。  
+コードリーディングするだけでかなり実力がつくかと思います。
 今回紹介した以外でも細かい部分で、なるほど、となるところがあるはずです。
 
 ぜひ一度、コードリーディングしてみることをお勧めします。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

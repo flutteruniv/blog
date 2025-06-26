@@ -3,25 +3,24 @@ title: "【Flutter】ボタンの色の変え方【 MaterialStateProperty 】"
 slug: "flutter-button-color-materialstateproperty"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-04-20T10:00:00.000Z
+pubDatetime: "2022-04-20"
 tags: ["UI/レイアウト"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-
 ElevatedButtonの色を変えたいんだけど、どうすればいいんだろう？
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-
 押下した時の色もカスタマイズしたいわ！
 
 本記事ではそんな疑問、要望にお答えします。
 
-基本的なボタンの色の変え方から、  
-カーソルがホバーした時、ボタンが押された時、  
+基本的なボタンの色の変え方から、
+カーソルがホバーした時、ボタンが押された時、
 それぞれでボタンの色を設定する方法まで解説します。
 
-以下のgifのようにさまざまな色を持ち、  
+以下のgifのようにさまざまな色を持ち、
 ホバーした時、ボタンが押された時に色が変わるボタンが作成可能です。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220420_rainbow_buttons.gif)
@@ -35,7 +34,7 @@ ElevatedButtonの色を変えたいんだけど、どうすればいいんだろ
 ボタンを定義する、`ElevatedButton`の色は以下のように設定することで変更可能です。
 
 ```
-              ElevatedButton(
+ElevatedButton(
                 onPressed: () {},
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(Colors.red),
@@ -44,22 +43,22 @@ ElevatedButtonの色を変えたいんだけど、どうすればいいんだろ
               ),
 ```
 
-`style`プロパティにて`backgroundColor`を指定する`ButtonStyle`を設定します。  
-`backgroundColor`に`MaterialStateProperty.all(〜)`を設定し、~の部分に色を定義すれば、  
+`style`プロパティにて`backgroundColor`を指定する`ButtonStyle`を設定します。
+`backgroundColor`に`MaterialStateProperty.all(〜)`を設定し、~の部分に色を定義すれば、
 ボタンの色を好きな色に設定可能です。
 
 ## ユーザーのアクションに対してボタンの色を変える方法
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/パソコン.jpeg)
 
-ボタンにカーソルをホバーさせた時、ボタンを押下した時など、  
+ボタンにカーソルをホバーさせた時、ボタンを押下した時など、
 ユーザーのアクションに対してボタンの色を変える方法について解説します。
 
 まず、前提知識として、`MaterialState`と`MaterialStateProperty`について説明します。
 
 ### MaterialState と MaterialStateProperty
 
-ユーザーからのアクションは`MaterialState`という`enum`にて定義されています。  
+ユーザーからのアクションは`MaterialState`という`enum`にて定義されています。
 上記のホバーされた時、や押下された時のような状態がまさに定義されています。
 
 例：
@@ -75,17 +74,17 @@ MaterialState.focused
 
 この`MaterialState`に応じて値を返すよう定義されているのが`MaterialStateProperty`です。
 
-`MaterialStateProperty`の`resolveWith`というメソッドで、  
+`MaterialStateProperty`の`resolveWith`というメソッドで、
 `MaterialState`に対して値(今回の場合は色)を返すように設定できます。
 
 今回の`ElevatedButton`の例でいうと、このようになります。
 
 ```
-            ElevatedButton(
+ElevatedButton(
                 onPressed: () {},
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.resolveWith(
-                      (Set<MaterialState> states) {
+                      (Set states) {
                     Color? color = Colors.red;
 
                     if (states.contains(MaterialState.hovered)) {
@@ -101,10 +100,10 @@ MaterialState.focused
               ),
 ```
 
-※ `Color.lerp` は 割合分 第一引数の色を第2引数に寄せて`Color`を返すメソッドです。  
+※ `Color.lerp `は 割合分 第一引数の色を第2引数に寄せて`Color`を返すメソッドです。
 今回は暗くするため、黒に寄せています。
 
-ポイントは`states`にユーザーのアクションに対する`MaterialState`が入っており、  
+ポイントは`states`にユーザーのアクションに対する`MaterialState`が入っており、
 それに対して条件分岐を行っている点です。
 
 これにより、ホバーされた時や、押下された時の色を指定することが可能となります。
@@ -113,7 +112,7 @@ MaterialState.focused
 
 冒頭で紹介したgifのサンプルコードを紹介します。
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -204,13 +203,13 @@ class ButtonPage extends StatelessWidget {
 }
 
 //2
-class ButtonBackgroundColor implements MaterialStateProperty<Color?> {
+class ButtonBackgroundColor implements MaterialStateProperty {
   const ButtonBackgroundColor(this.baseColor);
 
   final Color baseColor;
 
   @override
-  Color? resolve(Set<MaterialState> states) {
+  Color? resolve(Set states) {
     Color? color = baseColor;
 
     if (states.contains(MaterialState.hovered)) {
@@ -224,17 +223,17 @@ class ButtonBackgroundColor implements MaterialStateProperty<Color?> {
 }
 ```
 
-//1  
-毎回MaterialStateProperty.resolveWithで関数を定義するのは冗長のため、  
+//1
+毎回MaterialStateProperty.resolveWithで関数を定義するのは冗長のため、
 `MaterialStateProperty<Color?>` を実装した、`ButtonBackgroundColor`クラスを定義し、設定しています。
 
-//2  
-`ButtonBackgroundColor`クラスの定義部分です。  
-`resolve`というメソッドを`override`し、  
-このメソッド内に、`MaterialState`に応じて色を返すロジックを書いています。  
+//2
+`ButtonBackgroundColor`クラスの定義部分です。
+`resolve`というメソッドを`override`し、
+このメソッド内に、`MaterialState`に応じて色を返すロジックを書いています。
 ※前章で記載した`MaterialStateProperty.resolveWith`の中身とほぼ同内容です。
 
-本記事で初回したサンプルコードは以下のDartPadに用意されています。  
+本記事で初回したサンプルコードは以下のDartPadに用意されています。
 ぜひ触ってみてください。
 
 https://dartpad.dartlang.org/?id=6f5ed0b9889edfaa290d4b87e93f64e0
@@ -243,20 +242,18 @@ https://dartpad.dartlang.org/?id=6f5ed0b9889edfaa290d4b87e93f64e0
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
 
-本記事では、基本的なボタンの色の変え方から、  
-カーソルがホバーした時、ボタンが押された時、  
+本記事では、基本的なボタンの色の変え方から、
+カーソルがホバーした時、ボタンが押された時、
 それぞれでボタンの色を設定する方法まで解説しました。
 
-ButtonStyleの中のプロパティでの設定でない点が、  
+ButtonStyleの中のプロパティでの設定でない点が、
 少し難しく、代わりに応用が効く形になっているのかな、と思います。
 
 ぜひ本記事を参考にボタンに色を設定してみてください！
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 参考
 
@@ -266,17 +263,17 @@ https://youtu.be/CylXr3AF3uU
 
 本記事は参考にあるDecording Flutterの内容をかいつまんで紹介した記事でした。
 
-Flutterの公式が色々なテーマで深堀りの内容を紹介してくれる、  
+Flutterの公式が色々なテーマで深堀りの内容を紹介してくれる、
 Decording Flutter、みなさんは見ていますか？
 
-ちょっと内容について難しく感じる部分はあるかもしれませんが、  
+ちょっと内容について難しく感じる部分はあるかもしれませんが、
 英語の字幕もついていて、とても見やすいコンテンツになっているかと思います。
 
-Flutterで何ができるのか？の知識を広げるのに有用な動画シリーズだと、  
+Flutterで何ができるのか？の知識を広げるのに有用な動画シリーズだと、
 個人的には思います。
 
 ぜひまだ見ていない方や見たことのない方は見てみることを
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

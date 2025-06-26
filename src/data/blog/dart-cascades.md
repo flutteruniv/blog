@@ -25,8 +25,10 @@ Flutter / Dart で頻出する、 カスケード演算子 " .. "について解
 
 コードリーディング中、以下のようなコードを見たことはありませんか？
 
+```dart
 myObject..someMethod()
         ..otherMethod();
+```
 
 " .. " に続いてメソッドが並んでいるようなコードです。
 
@@ -36,8 +38,10 @@ myObject..someMethod()
 
 上記コードは以下のコードと同じこととなります。
 
+```dart
 myObject.someMethod();
 myObject.otherMethod();
+```
 
 `myObject`の繰り返しを省略できるわけですね。
 
@@ -47,10 +51,12 @@ myObject.otherMethod();
 
 カスケード演算子での特徴、テクニックについて紹介します。
 
-## 値を返さない
+### 値を返さない
 
+```dart
 myObject..someMethod()
         ..otherMethod();
+```
 
 上記コードの`someMethod`が`int`型の値を返すものだとしましょう。
 普通の"."で実行すれば、値を返すメソッド、ということになります。
@@ -61,6 +67,7 @@ myObject..someMethod()
 カスケード演算子での実行のため、`data`には`String`は返されず、
 `userData`が代入されるのみとなります。
 
+```dart
 class UserData {}
 
 void main() {
@@ -71,13 +78,15 @@ void main() {
   print(dataA.runtimeType); // String
   print(dataB.runtimeType); // UserData
 }
+```
 
 `runtimeType` メソッドで実行元のオブジェクトの型を知ることができます。
 
-## フィールドへの値の連続代入
+### フィールドへの値の連続代入
 
 カスケード演算子を使うと、以下のようなフィールドへの値の連続代入が可能です。
 
+```dart
 class UserData {
   String? name;
   int? age;
@@ -96,9 +105,11 @@ void main() {
   print(userData.age); // 30
   print(userData.from); // Chiba
 }
+```
 
 上記コードは10行目の`userData`を省略して、以下のように書くこともできます。
 
+```dart
 class UserData {
   String? name;
   int? age;
@@ -115,23 +126,28 @@ void main() {
   print(userData.age); // 30
   print(userData.from); // Chiba
 }
+```
 
-## *null-shorting *なカスケード演算子
+### *null-shorting *なカスケード演算子
 
 以下のようなコードを考えます。
 
+```dart
 Data? data = fetchData();
 data?.someMethod;
 data?.otherMethod;
+```
 
 "?."は条件付きプロパティアクセス演算子です。
 演算子の左側が`null`のとき、右側の処理が実行されません。（[参考](https://dart.dev/codelabs/dart-cheatsheet#conditional-property-access)）
 
 このコードを*null-shorting* なカスケード演算子" ?.. "を使って次のように書き換えることが可能です。
 
+```dart
 Data? data = fetchData();
   ?..someMethod;
   ..otherMethod;
+```
 
 最初に*null-shorting* なカスケード演算子で演算子の左側の`null`の判定をし、
 `null`なら右側の処理を実行しない、(その後のカスケード演算子の処理も実行しない)

@@ -11,6 +11,7 @@ tags: ["ニュース", "Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
 Flutterの最新情報をキャッチアップしたい！
 
 そんなあなたに送る、 Flutterニュース 。
@@ -22,7 +23,7 @@ Flutterの最新情報をキャッチアップしたい！
 
 ## Flutter公式情報
 
-## Flutter 3.0.5 リリース！
+### Flutter 3.0.5 リリース！
 
 https://twitter.com/FlutterReleases/status/1547325037803458563
 
@@ -30,9 +31,12 @@ Flutter のstable チャンネルで3.0.5がリリースされました。
 
 [こちら](https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel)によると、以下の内容が修正されたとのことです。
 
-- [Windows、Visual Studioで特定の言語でFlutterのツールが失敗する問題の修正](https://github.com/flutter/flutter/issues/106601)- [ARMデバイス上で起動時Flutterがクラッシュする問題の修正](https://github.com/flutter/flutter/issues/106510)- [Flutterでのコード補完の向上](https://github.com/dart-lang/sdk/issues/49054)- [ファイナライズパラメータ使用時コンパイラーがクラッシュする問題の修正](https://github.com/dart-lang/sdk/issues/49402)
+- [Windows、Visual Studioで特定の言語でFlutterのツールが失敗する問題の修正](https://github.com/flutter/flutter/issues/106601)
+- [ARMデバイス上で起動時Flutterがクラッシュする問題の修正](https://github.com/flutter/flutter/issues/106510)
+- [Flutterでのコード補完の向上](https://github.com/dart-lang/sdk/issues/49054)
+- [ファイナライズパラメータ使用時コンパイラーがクラッシュする問題の修正](https://github.com/dart-lang/sdk/issues/49402)
 
-## Synchronous BuildContexts | Decoding Flutter
+### Synchronous BuildContexts | Decoding Flutter
 
 https://youtu.be/bzWaMpD1LHY
 
@@ -43,7 +47,7 @@ Flutter 3 で更新されたlint 2.0で新たに追加された`use_build_contex
 のlintについて、
 内容を解説し、解決方法を紹介しています。
 
-## Full-stack Dart  パート 2 (The Boring Flutter Development Show)
+### Full-stack Dart  パート 2 (The Boring Flutter Development Show)
 
 https://www.youtube.com/watch?v=K85PUBjFhn8&list=PLjxrf2q8roU3ahJVrSgAnPjzkpGmL9Czl&index=2
 
@@ -56,7 +60,7 @@ The Boring Flutter Development Showが更新されました。
 
 ## Flutterに関する話題
 
-## 10個のFlutter tips & tricks
+### 10個のFlutter tips & tricks
 
 https://www.reddit.com/r/FlutterDev/comments/vwl0cd/ive_been_sharing_dozens_of_flutter_tips_tricks_on/
 
@@ -65,7 +69,7 @@ Flutterでの開発に役立つ情報をまとめたツイートがRedditで話�
 ツイートのリプに10個のTipsが記載されています。
 どれも図解付きの内容となっています。
 
-## フロントエンドフレームワーク ： Rad
+### フロントエンドフレームワーク ： Rad
 
 https://www.reddit.com/r/FlutterDev/comments/vymqvp/rad_a_frontend_framework_inspired_from_flutter/
 
@@ -74,7 +78,7 @@ Redditで話題となっていました。
 
 Flutter と React のいいとこ取りを狙って、全てDartで書けるように作成されたとのことです。
 
-## Flutter アプリを構築できるブラウザ環境 : Zapp
+### Flutter アプリを構築できるブラウザ環境 : Zapp
 
 https://www.reddit.com/r/FlutterDev/comments/vyu2z8/announcing_zapp_an_inbrowser_sandbox_environment/
 
@@ -84,7 +88,7 @@ VS codeのような使用感で、ブラウザ上でFlutterを動かすことが
 投稿内のfeature video でどのような動きをする環境なのか見ることができます。
 （現在開発中で、Early Access Program への参加を呼びかけています。）
 
-## Flutter Webのパフォーマンステストとしてのレジュメ
+### Flutter Webのパフォーマンステストとしてのレジュメ
 
 https://www.reddit.com/r/FlutterDev/comments/vzk67s/my_resume_as_a_test_for_flutter_web_performance/
 
@@ -94,7 +98,7 @@ Redditで話題となっていました。
 画面サイズの変更によるレスポンシブ対応がなされており、
 Android アプリとしても見ることができます。
 
-## BloCパターンを使用したサンプルアプリ
+### BloCパターンを使用したサンプルアプリ
 
 https://www.reddit.com/r/FlutterDev/comments/w0v7l5/project_sample_app_using_bloc_pattern/
 
@@ -104,7 +108,7 @@ BloC パターンを使用したサンプルアプリの紹介の投稿がReddit
 
 ## Flutterに関する記事
 
-## **Dart/Flutterライブラリ「twitter_api_v2」がTwitterの公式サイトに掲載されました**
+### **Dart/Flutterライブラリ「twitter_api_v2」がTwitterの公式サイトに掲載されました**
 
 https://zenn.dev/kato_shinya/articles/twitter-api-v2-is-listed-in-twitter-official
 
@@ -116,7 +120,7 @@ Dart/Flutterの開発者向けライブラリとして正式に掲載された�
 
 ## Flutterに関する動画
 
-## Flutterで天気アプリを構築する: Flutterチュートリアル
+### Flutterで天気アプリを構築する: Flutterチュートリアル
 
 https://youtu.be/ZqVo102JP3U
 
@@ -125,7 +129,7 @@ https://youtu.be/ZqVo102JP3U
 1時間弱の動画で、アプリには検索欄で入力した地域の天気を見る、
 テーマの変更をする等の機能がついています。
 
-## レスポンシブなダッシュボードUI : Flutterチュートリアル
+### レスポンシブなダッシュボードUI : Flutterチュートリアル
 
 https://youtu.be/9bo1V9STW2c
 
@@ -136,7 +140,7 @@ Flutterを学ぶことができるチュートリアル動画です。
 
 ## Flutter大学メンバーによる記事
 
-## 初心者　MySQL8に挑戦する 
+### 初心者　MySQL8に挑戦する
 
 https://qiita.com/dongri727/items/be64695a70f1481fdd26
 
@@ -146,7 +150,7 @@ Flutter と MySQL の組み合わせに挑戦している様子を記録して�
 
 参考にしている動画や記事などが紹介されています。
 
-## **【第1回 FlutterGakkai】発表まとめ**
+### **【第1回 FlutterGakkai】発表まとめ**
 
 https://zenn.dev/flutter_gakkai/articles/fafb715cd54921
 
@@ -156,7 +160,7 @@ Flutterをテーマにした技術カンファレンス、Flutter Gakkaiの第2�
 記事内で各セッションの動画を見ることができ、
 どのようなカンファレンスなのかイメージを掴むことができます。
 
-## **Flutterでログイン後の状態を維持する**
+### **Flutterでログイン後の状態を維持する**
 
 https://zenn.dev/joo_hashi/articles/902b184146ea94
 
@@ -165,7 +169,7 @@ Firebase を用いた認証機能で、ログイン状態ごとに表示画面�
 
 参考にされた記事や、shared_preferencesに対する見解等が記載されています。
 
-## **【Flutter】BottomNavigationBar 永続化の最小サンプル作ってみた**
+### **【Flutter】BottomNavigationBar 永続化の最小サンプル作ってみた**
 
 https://zenn.dev/mamushi/articles/nested_bottom_nav
 
@@ -174,7 +178,7 @@ BottomNavigationBarを残したまま画面遷移をする方法について、
 
 図やGIFを用いて丁寧に解説がなされています。
 
-## **copyWithメソッドとは?**
+### **copyWithメソッドとは?**
 
 https://zenn.dev/joo_hashi/articles/f88fd2e104cd3b
 
@@ -182,7 +186,7 @@ Flutterの copyWith メソッドについて書かれた記事です。
 
 海外記事の翻訳による紹介と、自分で使ってみた結果について述べられています。
 
-## **riverpodのプロバイダーとは?**
+### **riverpodのプロバイダーとは?**
 
 https://zenn.dev/joo_hashi/articles/aaf3643550070b
 
@@ -202,6 +206,8 @@ https://blog.flutteruniv.com/vs-code-flutter-riverpod-snippets/
 https://blog.flutteruniv.com/flutter-dart-github-copilot/
 
 ## まとめ
+
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
 本記事ではFlutterニュースとして、
 2022年7月第3週に話題になったFlutter関連の情報や、

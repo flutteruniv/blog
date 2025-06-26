@@ -11,8 +11,10 @@ tags: ["Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
 Flutter大学ってよく聞くけど、実際のところ 評判 は良いの？
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
 入った後、満足できるか気になるわ！
 
 そんな疑問に答えるのが本記事です。
@@ -26,6 +28,8 @@ Flutte大学に入ろうか悩んでいる人、気になっている人必見�
 
 ## Flutter大学とは？
 
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+
 Flutter大学とは、「Flutterエンジニアに特化した学習コミュニティ」です。
 
 Flutterを勉強したい人、Flutterでエンジニアとして働いている人など、
@@ -36,6 +40,8 @@ Flutterを勉強したい人、Flutterでエンジニアとして働いている
 https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 ## 実施内容詳細
+
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
 
 今回行った満足度調査の実施内容は以下の通りです。
 
@@ -52,49 +58,65 @@ https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 ## 調査結果
 
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+
 ここからはいくつか抜粋して調査結果を紹介します。
 
-## Flutter大学をご利用になって、全体的にどの程度ご満足いただけましたか？
+### Flutter大学をご利用になって、全体的にどの程度ご満足いただけましたか？
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220402_満足度-1024x471.png)
 
 ズバリ、Flutter大学に満足しているのかどうかを聞いた結果です！
 
 90%の方に満足いただけており、40%の方にはかなり満足、との評価を受けています。
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)
 たくさんの人がFlutter大学に入って満足しているんだ！
 
-## 他社の提供する同様のサービスと比べた場合、Flutter大学の質はどのように感じますか？
+### 他社の提供する同様のサービスと比べた場合、Flutter大学の質はどのように感じますか？
 
 質問補足内容：他社のサービスが思い浮かばない場合は、あなたが想定していたサービスと比べてお答えください。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220402_質-1024x542.png)
 
 Flutter大学のサービスの質が他のサービスと比べて優れているかどうかについて聞きました！
 
 結果、80%の方が「優れていると感じる」という回答でした。
 「劣っていると感じる」という回答をした方はいらっしゃいませんでした。
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-woman.png)
 みんなサービスの質は良いと思っているのね！
 
-## 他社の提供する同様のサービスと比べた場合、Flutter大学の料金はどのように感じますか？
+### 他社の提供する同様のサービスと比べた場合、Flutter大学の料金はどのように感じますか？
 
 質問補足内容：他社のサービスが思い浮かばない場合は、あなたが想定していたサービスと比べてお答えください。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220402_値段-1024x480.png)
 
 Flutter大学の値段設定が他のサービスと比べてどのように感じるかについて聞きました。
 
 結果、約43.3%の方々に安いと感じていただき、
 30%の方々に適正価格と感じていただいています。
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctress.png)
 お金払うの不安だったけれど、相等以上のサービスを受けられるのは安心だわ！
 
-## Flutter大学について、満足した点はどんな事ですか？
+### Flutter大学について、満足した点はどんな事ですか？
 
 最後に、Flutter大学利用者の満足の声を紹介します。
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
 勉強会、交流会といったイベントが豊富。 共同開発など、モチベーション維持に使える点で満足しています。
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)
 活動の自由度が高い。レベルに応じてさまざまな活動の仕方ができる。発言や提案を好意ベースで受け入れられ、心理安全性が高い。レベルの高いエンジニアが多い一方、初級者にも配慮がなされている。
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
 Flutter大学のおかげで生活出来ているので、とても助かっています。 今後注力していく人材紹介がまさにそうだと思いますが、プログラミング未経験から入学してプログラミングで生活出来るようになるフローが出来たらとても素敵だなーと思います。
 
 ## まとめ
+
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
 本記事ではFlutter大学の評判として、
 3月末にFlutter大学内で実施した満足度調査結果の一部を公開しました。

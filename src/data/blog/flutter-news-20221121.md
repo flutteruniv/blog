@@ -3,15 +3,16 @@ title: "Flutter ニュース 【2022年11月第3週】"
 slug: "flutter-news-20221121"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-11-21T10:00:00.000Z
+pubDatetime: "2022-11-21"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 **Flutterの最新情報をキャッチアップしたい！**
 
 そんなあなたに送る、 Flutterニュース 。
 
-本記事ではFlutterニュースとして、2022年11月第3週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、2022年11月第3週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行います。
 
 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
@@ -28,62 +29,62 @@ Flutter のオンラインイベントが2023年1月25日に開催されると�
 
 ### FutureBuilder (take 2) 今週のウィジェット
 
-https://youtu.be/zEdw\_1B7JHY
+https://youtu.be/zEdw_1B7JHY
 
-Flutter 公式による ウィジェット紹介動画シリーズ、Widget of the Week の  
+Flutter 公式による ウィジェット紹介動画シリーズ、Widget of the Week の
 最新動画がアップロードされました。
 
-今回の動画は[4年前にアップロードされたFutureBuilderの動画](https://youtu.be/ek8ZPdWj4Qo)の、  
+今回の動画は[4年前にアップロードされたFutureBuilderの動画](https://youtu.be/ek8ZPdWj4Qo)の、
 あまり良くない使われ方をしている部分の修正と注意を加えたTake2の動画となっています。
 
 ## Flutterに関する話題
 
-### internet\_availability Flutter パッケージ
+### internet_availability  Flutter パッケージ
 
-https://www.reddit.com/r/FlutterDev/comments/z00vn3/internet\_availability\_flutter\_package/
+https://www.reddit.com/r/FlutterDev/comments/z00vn3/internet_availability_flutter_package/
 
-[internet\_availability](https://pub.dev/packages/internet_availability) というパッケージについての投稿がRedditで話題となっていました。
+[internet_availability](https://pub.dev/packages/internet_availability) というパッケージについての投稿がRedditで話題となっていました。
 
-インターネットの利用状況を監視し、  
-画面遷移管理パッケージである[go\_router](https://pub.dev/packages/go_router)と組み合わせることで、  
-インターネットが利用できない際には新たな画面へ遷移する、  
+インターネットの利用状況を監視し、
+画面遷移管理パッケージである[go_router](https://pub.dev/packages/go_router)と組み合わせることで、
+インターネットが利用できない際には新たな画面へ遷移する、
 といった挙動を実装できます。
 
 ### Ruzz モバイルアプリ
 
 https://github.com/vlts1/ruzz
 
-人気のプログラミング言語やフレームワーク等の更新情報を追いかけることのできる  
+人気のプログラミング言語やフレームワーク等の更新情報を追いかけることのできる
 モバイルアプリ、Ruzzに関しての[Redditの投稿](https://www.reddit.com/r/FlutterDev/comments/yzgm9y/i_made_an_app_to_track_new_features_and_changes/)が話題となっていました。
 
 このアプリはFlutterで、オープンソースとして作られたとのことです。
 
-### platform\_ui パッケージ
+### platform_ui パッケージ
 
-https://www.reddit.com/r/FlutterDev/comments/yykc76/platform\_ui\_platform\_specific\_widgets\_and\_ui/
+https://www.reddit.com/r/FlutterDev/comments/yykc76/platform_ui_platform_specific_widgets_and_ui/
 
-[platform\_ui](https://pub.dev/packages/platform_ui) というパッケージについての投稿がRedditで話題となっていました。
+[platform_ui](https://pub.dev/packages/platform_ui) というパッケージについての投稿がRedditで話題となっていました。
 
-アプリの実行元のOSに従って、  
+アプリの実行元のOSに従って、
 UIを切り替えてくれるウィジェットを提供するパッケージとなります。
 
 ### Flutter Feature Architecture Generator プラグイン
 
-https://www.reddit.com/r/FlutterDev/comments/yxtufm/ive\_created\_an\_intellij\_plugin\_for\_generating/
+https://www.reddit.com/r/FlutterDev/comments/yxtufm/ive_created_an_intellij_plugin_for_generating/
 
-[Flutter Feature Architecture Generator](https://plugins.jetbrains.com/plugin/20381-flutter-feature-architecture-generator) というIntelliJのプラグインを作成した、  
+[Flutter Feature Architecture Generator](https://plugins.jetbrains.com/plugin/20381-flutter-feature-architecture-generator) というIntelliJのプラグインを作成した、
 とのRedditの投稿が話題となっていました。
 
-Feature Firstなフォルダ分け（アーキテクチャ）を自動で実装してくれる  
+Feature Firstなフォルダ分け（アーキテクチャ）を自動で実装してくれる
 プラグインとのことです。
 
-### profile\_photo パッケージ
+### profile_photo パッケージ
 
-https://www.reddit.com/r/FlutterDev/comments/yv2uk8/i\_made\_my\_first\_package/
+https://www.reddit.com/r/FlutterDev/comments/yv2uk8/i_made_my_first_package/
 
-[profile\_photo](https://pub.dev/packages/profile_photo) というパッケージについての投稿がRedditで話題となっていました。
+[profile_photo](https://pub.dev/packages/profile_photo) というパッケージについての投稿がRedditで話題となっていました。
 
-正方形や円形などさまざまな形で、  
+正方形や円形などさまざまな形で、
 カスタマイズ性に優れたプロフィール画像のUIが実装できるとのことです。
 
 ## Flutterに関する記事
@@ -102,7 +103,7 @@ https://cfdevelop.medium.com/flutter-how-to-mock-functions-for-testing-8eb07c658
 
 https://youtu.be/KCn6Diz5Bz0
 
-ローグライクシュミレーションゲーム、Giant Robot Game についての  
+ローグライクシュミレーションゲーム、Giant Robot Game についての
 動画がRedditで話題となっていました。
 
 Flutter x Flame で実装されているとのことです。
@@ -115,14 +116,14 @@ https://apps.apple.com/us/app/1440task/id1640161652
 
 https://play.google.com/store/apps/details?id=site.studio.ringrininfo.new1440task
 
-KOTAさんにより、就寝時刻までに本当にやるべきことが分かるタスク管理アプリ、  
+KOTAさんにより、就寝時刻までに本当にやるべきことが分かるタスク管理アプリ、
 『1440Task』がリリースされました！
 
-就寝時間までのカウントダウンが常に表示されていて、  
-時間を意識しつつ、その日やらなければならないことを管理できる  
+就寝時間までのカウントダウンが常に表示されていて、
+時間を意識しつつ、その日やらなければならないことを管理できる
 タスク管理アプリとなっています。
 
-UIも綺麗で課金によるグレードアップもしっかりと考えられているアプリで、  
+UIも綺麗で課金によるグレードアップもしっかりと考えられているアプリで、
 とても素晴らしいです！
 
 ### バズバト ~ 時代先取りセンスを競う新感覚ゲームアプリ ~
@@ -131,10 +132,10 @@ https://apps.apple.com/jp/app/%E3%83%90%E3%82%BA%E3%83%90%E3%83%88/id1620662173
 
 https://play.google.com/store/apps/details?id=com.yamyanu.buzzbattle
 
-洋祐矢野さんにより、時代先取りセンスを競う新感覚ゲームアプリ、  
+洋祐矢野さんにより、時代先取りセンスを競う新感覚ゲームアプリ、
 『バズバト』がリリースされました！
 
-YouTube動画のサムネイルが2つ表示され、  
+YouTube動画のサムネイルが2つ表示され、
 どちらの動画が再生回数が多いか判断し回答するクイズゲームアプリとなっています！
 
 ランキング機能等が実装されていてシンプルながらも遊んで楽しいゲームアプリです！
@@ -145,7 +146,7 @@ YouTube動画のサムネイルが2つ表示され、
 
 https://zenn.dev/faucon/articles/e015b24a94f10b
 
-Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で  
+Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で
 紹介されたウィジェットを、一つ取り上げて解説する記事です。
 
 今回は背景に対するぼかしを実装できる`**BackdropFilter**`についての解説記事となっています。
@@ -156,7 +157,7 @@ https://zenn.dev/romu/articles/6af275f1b8489d
 
 Flutterでの広告実装に際し直面したエラーに対する解決策について書かれた記事です。
 
-原因分析の結果と解決策が提示されており、  
+原因分析の結果と解決策が提示されており、
 複数箇所に広告を実装したい際に参考にしたい記事となっています。
 
 ## 週刊Flutter大学の記事
@@ -171,17 +172,15 @@ https://blog.flutteruniv.com/widget-spacer/
 
 ## まとめ
 
-本記事ではFlutterニュースとして、  
-2022年11月第3週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、
+2022年11月第3週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行いました。
 
 この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/11/21）
 
@@ -199,12 +198,12 @@ LIFF アプリとは、LINEが提供するプラットフォームで動作す�
 
 このLIFFとFlutterを組み合わせてアプリを作ろう、というハンズオンが実施されます。
 
-有志のFlutter大学メンバーが数ヶ月かけて準備したイベントとなっていて、  
+有志のFlutter大学メンバーが数ヶ月かけて準備したイベントとなっていて、
 個人的にいまから非常に楽しみにしています。
 
-上記リンクから参加登録ができますので、  
+上記リンクから参加登録ができますので、
 みなさんぜひ、参加登録をしてお待ち下さい！
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

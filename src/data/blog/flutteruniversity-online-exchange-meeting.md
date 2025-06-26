@@ -11,22 +11,26 @@ tags: ["Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
 Flutter大学ってどんな人が参加しているのか、気になるな、、、
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
 入った後、馴染むことができるか心配だわ！
 
 メンバー間の交流の機会ってあるのかしら？
 
 本記事ではそんな悩み、疑問にお答えします！
 
-Flutter大学のコミュニティのコンテンツである、 
+Flutter大学のコミュニティのコンテンツである、
 オンライン交流会 について解説します！
 
 次のオンライン交流会の告知もありますので、ぜひ読んでみてください！
 
 ## オンライン交流会 とは？
 
-## Flutter大学とは?
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+
+### Flutter大学とは?
 
 Flutter大学とは、「Flutterエンジニアに特化した学習コミュニティ」です。
 
@@ -37,7 +41,7 @@ Flutterを勉強したい人、Flutterでエンジニアとして働いている
 
 https://blog.flutteruniv.com/flutteruniversity_explanation/
 
-## オンライン交流会 とは?
+### オンライン交流会 とは?
 
 オンライン交流会とは、Flutter大学内で月一回、第2水曜日の21:00から行われている、
 オンラインでの交流会です。
@@ -56,9 +60,11 @@ Flutterの話はもちろん、仕事の話だったり、プライベートの�
 
 ## オンライン交流会の良いポイント
 
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+
 オンライン交流会に参加していて良いポイントを厳選して３つお伝えします。
 
-## 人脈が広がる
+### 人脈が広がる
 
 オンライン交流会の良いポイント１つ目は人脈が広がることです。
 
@@ -72,7 +78,7 @@ Flutterの話はもちろん、仕事の話だったり、プライベートの�
 
 シャッフル機能での人脈の拡大が、オンライン交流会の良いポイントの１つ目となります。
 
-## ここでしか聞けない話が聞ける
+### ここでしか聞けない話が聞ける
 
 オンライン交流会の良いポイント2つ目はここでしか聞けない話が聞けることです。
 
@@ -85,7 +91,7 @@ Flutterの話はもちろん、仕事の話だったり、プライベートの�
 その場限りの貴重な話を聞くことができること、
 これが、オンライン交流会の良いポイントの2つ目となります。
 
-## Flutter大学がより楽しくなる
+### Flutter大学がより楽しくなる
 
 オンライン交流会の良いポイント3つ目はFlutter大学がより楽しくなることです。
 
@@ -106,7 +112,9 @@ Flutter大学内のさらに小さいコミュニティに参加することに�
 
 ## まとめ
 
-本記事では、Flutter大学のコミュニティのコンテンツである、 
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+
+本記事では、Flutter大学のコミュニティのコンテンツである、
 オンライン交流会 について解説しました。
 
 いかがだったでしょうか？

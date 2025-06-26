@@ -3,15 +3,16 @@ title: "【 stop_watch_timer 】ストップウォッチを実装しよう【 Fl
 slug: "package-stop_watch_timer"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-11-06T14:30:24.000Z
+pubDatetime: "2022-11-06"
 tags: ["Package"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 **「Flutterでストップウォッチを実装したい！」**
 
 本記事ではそんな要望にお答えします。
 
-[stop\_watch\_timer](https://pub.dev/packages/stop_watch_timer) パッケージを使ったストップウォッチ機能の実装方法について解説します。
+[stop_watch_timer](https://pub.dev/packages/stop_watch_timer) パッケージを使ったストップウォッチ機能の実装方法について解説します。
 
 このパッケージを利用すると以下のようなストップウォッチが実装可能です。
 
@@ -27,12 +28,12 @@ tags: ["Package"]
 
 ### 準備
 
-まず準備として、パッケージのインストールと、  
+まず準備として、パッケージのインストールと、
 Dartファイルへのインポート文の追加を行います。
 
 #### パッケージのインストール
 
-CLI(macならターミナル)で、自分のプロジェクトのルートにて  
+CLI(macならターミナル)で、自分のプロジェクトのルートにて
 以下のコマンドを実行しパッケージをインストールします。
 
 ```bash
@@ -41,7 +42,7 @@ flutter pub add stop_watch_timer
 
 #### パッケージのインポート
 
-実装したいDartファイルの上部に以下のインポート文を追加し、  
+実装したいDartファイルの上部に以下のインポート文を追加し、
 パッケージをインポートします。
 
 ```dart
@@ -52,7 +53,7 @@ import 'package:stop_watch_timer/stop_watch_timer.dart';
 
 実装方法について解説します。
 
-まず、`StatefulWidget`の持つ状態として、`StopWatchTimer`インスタンスを用意します。  
+まず、`StatefulWidget`の持つ状態として、`StopWatchTimer`インスタンスを用意します。
 `dispose`メソッドにて、状態の`dispose`を設定します。
 
 ```dart
@@ -60,10 +61,10 @@ class CountUpPage extends StatefulWidget {
   const CountUpPage({super.key});
 
   @override
-  State<CountUpPage> createState() => _CountUpPageState();
+  State createState() => _CountUpPageState();
 }
 
-class _CountUpPageState extends State<CountUpPage> {
+class _CountUpPageState extends State {
   final _stopWatchTimer = StopWatchTimer();
 
   @override
@@ -86,13 +87,13 @@ class _CountUpPageState extends State<CountUpPage> {
 
 ストップウォッチの経過ミリ秒数は、`StopWatchTimer.rawTime` で`Stream`で取得できます。
 
-`StopWatchTimer.gatDisplayTime` メソッドの引数にミリ秒数を与えることで、  
+`StopWatchTimer.gatDisplayTime` メソッドの引数にミリ秒数を与えることで、
 00:00:00:00の形で経過時間を取得できます。
 
 上記を踏まえ、`StreamBuilder`にて時間表示を実装したものが以下となります。
 
 ```dart
-            StreamBuilder<int>(
+StreamBuilder(
               stream: _stopWatchTimer.rawTime,
               initialData: _stopWatchTimer.rawTime.value,
               builder: (context, snapshot) {
@@ -136,12 +137,12 @@ _stopWatchTimer.onResetTimer();
 `StreamBuilder`での実装例は以下となります。
 
 ```dart
-              StreamBuilder<List<StopWatchRecord>>(
+StreamBuilder>(
                 stream: _stopWatchTimer.records,
                 initialData: const [],
                 builder: (
                   BuildContext context,
-                  AsyncSnapshot<List<StopWatchRecord>> snapshot,
+                  AsyncSnapshot> snapshot,
                 ) {
                   final value = snapshot.data;
                   if (value!.isEmpty) {
@@ -175,11 +176,10 @@ final _stopWatchTimer = StopWatchTimer();
 _stopWatchTimer.onAddLap();
 ```
 
-上記を実装したサンプルコードは以下となります。  
+上記を実装したサンプルコードは以下となります。
 是非参考にしてみてください。
 
 サンプルコード全体
-
 ```dart
 import 'package:flutter/material.dart';
 import 'package:stop_watch_timer/stop_watch_timer.dart';
@@ -206,10 +206,10 @@ class CountUpPage extends StatefulWidget {
   const CountUpPage({super.key});
 
   @override
-  State<CountUpPage> createState() => _CountUpPageState();
+  State createState() => _CountUpPageState();
 }
 
-class _CountUpPageState extends State<CountUpPage> {
+class _CountUpPageState extends State {
   final _stopWatchTimer = StopWatchTimer();
 
   final _scrollController = ScrollController();
@@ -236,7 +236,7 @@ class _CountUpPageState extends State<CountUpPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            StreamBuilder<int>(
+            StreamBuilder(
               stream: _stopWatchTimer.rawTime,
               initialData: _stopWatchTimer.rawTime.value,
               builder: (context, snapshot) {
@@ -257,12 +257,12 @@ class _CountUpPageState extends State<CountUpPage> {
             const SizedBox(height: 32),
             SizedBox(
               height: 80,
-              child: StreamBuilder<List<StopWatchRecord>>(
+              child: StreamBuilder>(
                 stream: _stopWatchTimer.records,
                 initialData: const [],
                 builder: (
                   BuildContext context,
-                  AsyncSnapshot<List<StopWatchRecord>> snapshot,
+                  AsyncSnapshot> snapshot,
                 ) {
                   final value = snapshot.data;
                   if (value!.isEmpty) {
@@ -308,7 +308,7 @@ class _CountUpPageState extends State<CountUpPage> {
                   return;
                 }
                 _stopWatchTimer.onAddLap();
-                await Future<void>.delayed(const Duration(milliseconds: 100));
+                await Future.delayed(const Duration(milliseconds: 100));
                 await _scrollController.animateTo(
                   _scrollController.position.maxScrollExtent,
                   duration: const Duration(milliseconds: 200),
@@ -329,11 +329,11 @@ class _CountUpPageState extends State<CountUpPage> {
 
 ### カウントダウン
 
-`StopWatchTimer`のインスタンス生成時に`mode`と`presetMillisecond`を設定することで、  
+`StopWatchTimer`のインスタンス生成時に`mode`と`presetMillisecond`を設定することで、
 カウントダウンするタイマーを実装可能です。
 
 ```dart
-  final _stopWatchTimer = StopWatchTimer(
+final _stopWatchTimer = StopWatchTimer(
     mode: StopWatchMode.countDown,
     presetMillisecond: 1000 * 60,
   );
@@ -341,11 +341,10 @@ class _CountUpPageState extends State<CountUpPage> {
 
 ### リスナー
 
-`StopWatchTimer.rawTime.listen` 等で、  
+`StopWatchTimer.rawTime.listen` 等で、
 ミリ秒の変化時やストップ時などに実行される関数を設定可能です。
 
 ```dart
-
 _stopWatchTimer.rawTime.listen((value) => print('rawTime $value'));
 
 _stopWatchTimer.minuteTime.listen((value) => print('minuteTime $value'));
@@ -361,7 +360,7 @@ _stopWatchTimer.fetchEnded.listen((value) => print('ended from stream'));
 
 ## まとめ
 
-本記事では、[stop\_watch\_timer](https://pub.dev/packages/stop_watch_timer) パッケージを使ったストップウォッチ機能の実装方法について解説しました。
+本記事では、[stop_watch_timer](https://pub.dev/packages/stop_watch_timer) パッケージを使ったストップウォッチ機能の実装方法について解説しました。
 
 基本的な使い方から用意されているメソッドまで詳細に解説しました。
 
@@ -373,26 +372,24 @@ _stopWatchTimer.fetchEnded.listen((value) => print('ended from stream'));
 
 本記事があなたのアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/11/6）
 
 ストップウォッチの実装方法についての解説記事でした。
 
-このパッケージを使えば、例えばデザイン面でネイティブアプリと差別化したストップウォッチを実装できたりするので、  
+このパッケージを使えば、例えばデザイン面でネイティブアプリと差別化したストップウォッチを実装できたりするので、
 アプリ開発に非常に役に立つかと思います。
 
-0秒ちょうどで止めるゲームを実装したりとか、  
+0秒ちょうどで止めるゲームを実装したりとか、
 ゲームのカウントダウンに役に立てたりとかするのも面白そうです。
 
 色々な活用方法が思い浮かぶパッケージでしたね。
 
 使い勝手も非常によいので、ぜひ一度使ってみていただければ、と思いました。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

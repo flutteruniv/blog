@@ -3,15 +3,16 @@ title: "【 sliding_up_panel 】スライドアップパネルの実装【Flutte
 slug: "package_sliding_up_panel"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-10-12T10:00:00.000Z
+pubDatetime: "2022-10-12"
 tags: ["Package"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 **下からパネルが上がってくるような、スライドアップパネルを実装したい！**
 
 本記事ではそんな要望にお答えします。
 
-[sliding\_up\_panel](https://pub.dev/packages/sliding_up_panel) パッケージを利用した、スライドアップパネルの実装方法について解説します。
+[sliding_up_panel](https://pub.dev/packages/sliding_up_panel) パッケージを利用した、スライドアップパネルの実装方法について解説します。
 
 基本的な使い方から、カスタマイズ方法まで解説します。
 
@@ -27,12 +28,12 @@ tags: ["Package"]
 
 ### 準備
 
-まず準備として、パッケージのインストールと、  
+まず準備として、パッケージのインストールと、
 Dartファイルへのインポート文の追加を行います。
 
 #### パッケージのインストール
 
-CLI(macならターミナル)で、自分のプロジェクトのルートにて  
+CLI(macならターミナル)で、自分のプロジェクトのルートにて
 以下のコマンドを実行しパッケージをインストールします。
 
 ```bash
@@ -41,7 +42,7 @@ flutter pub add sliding_up_panel
 
 #### パッケージのインポート
 
-実装したいDartファイルの上部に以下のインポート文を追加し、  
+実装したいDartファイルの上部に以下のインポート文を追加し、
 パッケージをインポートします。
 
 ```dart
@@ -54,7 +55,7 @@ import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 任意の場所に`SlidingUpPanel` ウィジェットを追加します。
 
-`body` プロパティに背景で表示するウィジェットを、  
+`body` プロパティに背景で表示するウィジェットを、
 `pannel`プロパティにスライドアップパネルに表示したいウィジェットを配置します。
 
 ```dart
@@ -67,7 +68,6 @@ SlidingUpPanel(
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/20221012_base.gif)
 
 GIFの実装コード全体
-
 ```dart
 import 'package:flutter/material.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
@@ -113,11 +113,11 @@ class MyWidget extends StatelessWidget {
 
 ### 最小化時に表示するウィジェットの設定
 
-最小化時(下部に表示されている時)に表示するウィジェットを、  
+最小化時(下部に表示されている時)に表示するウィジェットを、
 `collapsed`プロパティにて設定できます。
 
 ```dart
-      SlidingUpPanel(
+SlidingUpPanel(
         body: const Center(
           child: Text('Hello World!'),
         ),
@@ -132,18 +132,18 @@ class MyWidget extends StatelessWidget {
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.25.15-511x1024.png)
 
-`collapsed`に何も設定しない場合、  
+`collapsed`に何も設定しない場合、
 `pannel`に設定したウィジェットの最上部部分が表示されます。
 
 スライドアップと共に`collapsed`に設定したウィジェットは非表示になります。
 
 ### 高さの指定
 
-`minHeight`プロパティにて、最小化時の高さを、  
+`minHeight`プロパティにて、最小化時の高さを、
 `maxHeight`プロパティにて、最大化時の高さを指定可能です。
 
 ```dart
-        SlidingUpPanel(
+SlidingUpPanel(
           body: const Center(
             child: Text('Hello World!'),
           ),
@@ -162,7 +162,7 @@ class MyWidget extends StatelessWidget {
 `border`プロパティにて、枠線の様々な設定が可能です。
 
 ```dart
-        SlidingUpPanel(
+SlidingUpPanel(
           body: const Center(
             child: Text('Hello World!'),
           ),
@@ -183,7 +183,7 @@ class MyWidget extends StatelessWidget {
 また、`borderRadius`プロパティにて、パネルの角を角丸にすることが可能です。
 
 ```dart
-        SlidingUpPanel(
+SlidingUpPanel(
           body: const Center(
             child: Text('Hello World!'),
           ),
@@ -206,7 +206,7 @@ class MyWidget extends StatelessWidget {
 `color`プロパティにてパネルの背景色を設定可能です。
 
 ```dart
-        SlidingUpPanel(
+SlidingUpPanel(
           body: const Center(
             child: Text('Hello World!'),
           ),
@@ -219,12 +219,12 @@ class MyWidget extends StatelessWidget {
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.55.50-507x1024.png)
 
-他にもさまざまなカスタマイズが可能です！  
+他にもさまざまなカスタマイズが可能です！
 詳しくは、[こちら](https://pub.dev/packages/sliding_up_panel#custom-usage)をご確認ください。
 
 ## まとめ
 
-本記事では、[sliding\_up\_panel](https://pub.dev/packages/sliding_up_panel) パッケージを利用した、スライドアップパネルの実装方法について解説しました。
+本記事では、[sliding_up_panel](https://pub.dev/packages/sliding_up_panel) パッケージを利用した、スライドアップパネルの実装方法について解説しました。
 
 基本的な使い方から、カスタマイズ方法まで解説しました。
 
@@ -236,36 +236,34 @@ class MyWidget extends StatelessWidget {
 
 本記事があなたのアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/10/12）
 
-昨日、Flutter と、ゲームエンジンのFlame を使って  
+昨日、Flutter と、ゲームエンジンのFlame を使って
 ブロック崩しのゲームを作成しました。
 
-一画面のみの簡単な構成ですが、  
+一画面のみの簡単な構成ですが、
 ちゃんと遊べるものとなっています。
 
-作成難易度ですが、ちょっと数学の知識が必要ではあるものの、  
+作成難易度ですが、ちょっと数学の知識が必要ではあるものの、
 Flameのおかげでそこまで難しくはなかったと思います。
 
-というか、作っていてとても楽しかったです。  
+というか、作っていてとても楽しかったです。
 目に見えて動くものを作るのは、楽しいものですね。
 
 動作の動画やソースコードは以下のGitHubにて見ることができます。
 
-https://github.com/Umigishi-Aoi/block\_breaker
+https://github.com/Umigishi-Aoi/block_breaker
 
-是非参考にしてみてください。  
+是非参考にしてみてください。
 （スターいただけるととても喜びます。）
 
-こちらについて、時間はかかりますが、いつか記事で出そうと思っていますので、  
+こちらについて、時間はかかりますが、いつか記事で出そうと思っていますので、
 そちらもお楽しみにお待ち下さい。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

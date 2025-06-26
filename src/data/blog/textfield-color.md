@@ -9,13 +9,12 @@ imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---
 
-
 TextFieldの文字色を変えるときは、以下のようにTextStyleを渡してcolorを当てます！
 
-
-
-                    TextField(
+```
+TextField(
                       style: TextStyle(
                         color: Colors.blue,
                       ),
                     ),
+```

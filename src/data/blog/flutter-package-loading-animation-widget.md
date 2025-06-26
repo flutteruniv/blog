@@ -11,8 +11,10 @@ tags: ["Package", "Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
 ローディング のアニメーション、なんかつまんないんだよなぁ。
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
 もっとおしゃれなものにする方法はないかしら？
 
 本記事では、そんな悩みにお答えします。
@@ -22,11 +24,15 @@ ogImage: ""
 
 例えば、こんなローディングが実装できます。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220406_inkdrop.gif)
+
 あなたのアプリの出来栄えをワンランク上げること間違いなしです！
 
 ぜひ読んで見てください！
 
 ## loading_animation_widget パッケージ
+
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
 [loading_animation_widget](https://pub.dev/packages/loading_animation_widget) パッケージは、
 さまざまなローディングのアニメーションを提供してくれるパッケージです。
@@ -35,35 +41,40 @@ ogImage: ""
 
 早速実装方法についてみていきましょう。
 
-## 実装方法
+### 実装方法
 
-## パッケージのインストール
+#### パッケージのインストール
 
 まず、パッケージをインストールします。
 
 `pubspec.yaml `の`dependencies`に以下のように追記します。
 
+```
 dependencies:
   flutter:
     sdk: flutter
   loading_animation_widget: ^1.1.0+3 #追記
+```
 
 追記したら `flutter pub get `をし、パッケージをインストールしましょう。
 
-## インポート
+#### インポート
 
 ローディングを実装したいdartファイルに以下の文を追加し、パッケージをインポートしましょう。
 
-`import 'package:loading_animation_widget/loading_animation_widget.dart';`
+```
+import 'package:loading_animation_widget/loading_animation_widget.dart';
+```
 
 これで利用する準備は完了です。
 
-## LoadingAnimationWidgetの追加
+#### LoadingAnimationWidgetの追加
 
 実装したい部分に`LoadingAnimationWidget`を追加しましょう。
 
 実装サンプルコードは以下の通りです。
 
+```dart
 import 'package:flutter/material.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
@@ -106,36 +117,49 @@ class MyHomePage extends StatelessWidget {
         ));
   }
 }
+```
 
-## 実装例
+### 実装例
 
 `LoadingAnimationWidget`にはさまざまなアニメーションパターンの`Widget`が用意されています。
 
 本記事ではいくつかのパターンを紹介します。
 
-## inkDropパターン
+#### inkDropパターン
 
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/04/20220406_inkdrop.gif)
+
+```
 LoadingAnimationWidget.inkDrop(
   color: Colors.white,
   size: 100,
 ),
+```
 
-## staggeredDotsWaveパターン
+#### staggeredDotsWaveパターン
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220406_staggerd_dots_wave.gif)
+
+```
 LoadingAnimationWidget.staggeredDotsWave(
   color: Colors.white,
   size: 100,
 ),
+```
 
-## flickrパターン
+#### flickrパターン
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220406_flickr.gif)
+
+```
 LoadingAnimationWidget.flickr(
   leftDotColor: Colors.greenAccent,
   rightDotColor: Colors.redAccent,
   size: 100,
 ),
+```
 
-## その他
+#### その他
 
 その他のアニメーションパターンについては、以下のページでgifで全て紹介されています。
 こちらを参照し、好きなものを選んでください。
@@ -143,6 +167,8 @@ LoadingAnimationWidget.flickr(
 https://pub.dev/packages/loading_animation_widget
 
 ## まとめ
+
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
 
 本記事では一味違うローディングのアニメーションの実装方法として、
 [loading_animation_widget](https://pub.dev/packages/loading_animation_widget)パッケージを使った方法を紹介しました。

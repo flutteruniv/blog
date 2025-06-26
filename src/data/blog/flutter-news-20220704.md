@@ -3,17 +3,17 @@ title: "Flutter ニュース 【2022年7月第1週】"
 slug: "flutter-news-20220704"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-07-04T10:00:00.000Z
+pubDatetime: "2022-07-04"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-
 Flutterの最新情報をキャッチアップしたい！
 
 そんなあなたに送る、 Flutterニュース 。
 
-本記事ではFlutterニュースとして、2022年6月第5週〜7月第1週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、2022年6月第5週〜7月第1週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行います。
 
 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
@@ -28,9 +28,9 @@ Flutter のstable チャンネルで3.0.4がリリースされました。
 
 [こちら](https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel)によると、以下の内容が修正されたとのことです。
 
-*   [iOSでのポインタ圧縮によって生じるOut of Memory エラーの修正](https://github.com/flutter/flutter/issues/105183)
-*   [システム上の低いメモリ使用率のイベントで生じるアプリのクラッシュの修正](https://github.com/flutter/flutter/issues/103870)
-*   [ImageFilterd/ColorFilterdでアニメーション時に生じる画面描画不具合の修正](https://github.com/flutter/flutter/issues/105674)
+- [iOSでのポインタ圧縮によって生じるOut of Memory エラーの修正](https://github.com/flutter/flutter/issues/105183)
+- [システム上の低いメモリ使用率のイベントで生じるアプリのクラッシュの修正](https://github.com/flutter/flutter/issues/103870)
+- [ImageFilterd/ColorFilterdでアニメーション時に生じる画面描画不具合の修正](https://github.com/flutter/flutter/issues/105674)
 
 ### InheritedWidget | Decoding Flutter
 
@@ -38,15 +38,15 @@ https://youtu.be/og-vJqLzg2c
 
 Flutterを深堀りする動画シリーズ、Decoding Flutterが更新されました。
 
-今回はMediaQuetyなどで使われる、  
-祖先のWIdgetとのデータのやり取りで重要な`Widget`、  
+今回はMediaQuetyなどで使われる、
+祖先のWIdgetとのデータのやり取りで重要な`Widget`、
 `Inherited Widget`についての動画となっています。。
 
 ## Flutterに関する話題
 
 ### Flutterで作られたWEBアプリのリスト
 
-https://www.reddit.com/r/FlutterDev/comments/voxj4x/list\_of\_web\_apps\_built\_with\_flutter/
+https://www.reddit.com/r/FlutterDev/comments/voxj4x/list_of_web_apps_built_with_flutter/
 
 Flutterで作られたWEBアプリをリスト化したい、とういう投稿がRedditで話題となっていました。
 
@@ -56,7 +56,7 @@ Flutterで作られたWEBアプリをリスト化したい、とういう投稿�
 
 ### **【Flutter】 Riverpod 入門**
 
-https://zenn.dev/naoya\_maeda/articles/a8bbf40a202c74
+https://zenn.dev/naoya_maeda/articles/a8bbf40a202c74
 
 Flutter の状態管理手法であるRiverpodについての入門記事です。
 
@@ -64,29 +64,29 @@ Riverpodの使い方についてサンプルコード付きで網羅的に紹介
 
 ### Flutter チュートリアル : チャットアプリを構築しよう
 
-https://supabase.com/blog/2022/06/30/flutter-tutorial-building-a-chat-app?utm\_source=reddit&utm\_medium=sc&utm\_campaign=blog-content
+https://supabase.com/blog/2022/06/30/flutter-tutorial-building-a-chat-app?utm_source=reddit&utm_medium=sc&utm_campaign=blog-content
 
 Flutterでチャットアプリを構築するチュートリアルの記事です。
 
-Firebaseの代替手段として作成されているバックエンドサービスのSupabaseを利用し、  
+Firebaseの代替手段として作成されているバックエンドサービスのSupabaseを利用し、
 チャットアプリを構築する方法について書かれています。
 
 ### Very Good CLI と SupabaseでFlutterアプリを構築しよう
 
 https://verygood.ventures/blog/flutter-app-very-good-cli-supabase
 
-Very Good CLI というコマンドラインからコードを生成するツールと、  
-Firebaseの代替手段として作成されているバックエンドサービスのSupabaseを  
+Very Good CLI というコマンドラインからコードを生成するツールと、
+Firebaseの代替手段として作成されているバックエンドサービスのSupabaseを
 組み合わせて、Flutterアプリを作る方法について解説された記事です。
 
-Very Good CLI でSupabase に沿ったコードをコマンドから自動生成できる、  
+Very Good CLI でSupabase に沿ったコードをコマンドから自動生成できる、
 という内容が記事内で紹介されています。
 
 ### Flutter 状態管理ライブラリを100行のコードで書こう
 
 https://medium.com/@terryl1900/create-a-flutter-state-management-library-with-100-lines-of-code-e80bd865f4bd
 
-Riverpod や Provider のような状態管理のコードを  
+Riverpod や Provider のような状態管理のコードを
 100行以内で自作してみよう、という記事です。
 
 カウンターアプリをベースに基本的な考え方から丁寧に解説されています。
@@ -99,7 +99,7 @@ https://youtu.be/9jvJyLhJP00
 
 Flutterでのスネークゲームの作成のチュートリアル動画です。
 
-スネークゲームの作成方法だけでなく、Firebaseと連携させ、ハイスコアの記録、表示方法や、  
+スネークゲームの作成方法だけでなく、Firebaseと連携させ、ハイスコアの記録、表示方法や、
 WEBアプリとしてデプロイする方法についてまで解説されています。
 
 ## **Flutter大学メンバーがリリースしたアプリ**
@@ -108,10 +108,10 @@ WEBアプリとしてデプロイする方法についてまで解説されて�
 
 https://apps.apple.com/jp/app/favpic/id1629378674
 
-minnさんにより、自分の好きなものの画像をコレクションし共有するアプリ、『Favpic』  
+minnさんにより、自分の好きなものの画像をコレクションし共有するアプリ、『Favpic』
 がリリースされました！
 
-自分が撮った画像をアップロードして、自分だけのコレクションにしたり、  
+自分が撮った画像をアップロードして、自分だけのコレクションにしたり、
 他のユーザーのコレクションに対してコメントしたりすることができるアプリとなっています。
 
 デザインもとても良く、他のユーザーの投稿を見ていてとても楽しいアプリでした！
@@ -120,16 +120,16 @@ minnさんにより、自分の好きなものの画像をコレクションし�
 
 ### **Dartのenumとextensionを使って何か作る!**
 
-https://zenn.dev/joo\_hashi/articles/5e2cf8b6605592
+https://zenn.dev/joo_hashi/articles/5e2cf8b6605592
 
 enum のExtension を利用し、Widget を作成する方法についてのサンプル記事です。
 
-RowのChildrenの中でのfor ループの処理など、  
+RowのChildrenの中でのfor ループの処理など、
 テクニックを使って書かれたコードが紹介されています。
 
 ### **FlutterでDart-defineについて学んでみた**
 
-https://zenn.dev/joo\_hashi/articles/767c0e3ab03349
+https://zenn.dev/joo_hashi/articles/767c0e3ab03349
 
 Dart-defineでの環境分けについて実際にやってみた体験談についてまとまられた記事です。
 
@@ -139,7 +139,7 @@ Dart-defineでの環境分けについて実際にやってみた体験談につ
 
 https://zenn.dev/wakanao/articles/078809dce5fa74
 
-Flutterで何も表示させたくない際に使うWidget を提供するパッケージ、  
+Flutterで何も表示させたくない際に使うWidget を提供するパッケージ、
 nil パッケージの紹介記事です。
 
 具体的な使い方から、使用時の注意点まで記載されています。
@@ -148,8 +148,8 @@ nil パッケージの紹介記事です。
 
 https://zenn.dev/wakanao/articles/702e37e880c9e6
 
-FlutterでColumn や Row で並べたWidgetの間の  
-スペースを確保するのに有用なWidgetを提供するパッケージ、  
+FlutterでColumn や Row で並べたWidgetの間の
+スペースを確保するのに有用なWidgetを提供するパッケージ、
 Gap パッケージの紹介記事です。
 
 端的にGap Widgetの使い方を紹介されています。
@@ -162,38 +162,36 @@ https://blog.flutteruniv.com/flutter-news-20220627/
 
 https://blog.flutteruniv.com/flutteruniversity-jointdevelopment-8/
 
-https://blog.flutteruniv.com/package-flutter\_neumorphic/
+https://blog.flutteruniv.com/package-flutter_neumorphic/
 
 ## まとめ
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
-本記事ではFlutterニュースとして、  
-2022年6月第5週〜7月第1週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、
+2022年6月第5週〜7月第1週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行いました。
 
 この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/7/4）
 
 今週のFlutterニュースの記事でした。
 
-今週自分が気になった内容はなんと言ってもFlutter 3.0.4 のリリースですね。  
-先々週に3.0.3がリリースされたばかりだというのに、  
-たった一週間で3.0.4がリリースされるのは、  
+今週自分が気になった内容はなんと言ってもFlutter 3.0.4 のリリースですね。
+先々週に3.0.3がリリースされたばかりだというのに、
+たった一週間で3.0.4がリリースされるのは、
 修正の反映スピードが早く、とても良いです。
 
 Flutterコミュニティの盛り上がりが見える、そんな出来事でした。
 
-今後もバグや新機能がどんどんと追加されていくことでの、  
+今後もバグや新機能がどんどんと追加されていくことでの、
 Flutter のさらなる向上に期待ですね。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

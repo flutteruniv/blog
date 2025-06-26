@@ -3,12 +3,12 @@ title: "Chromeの 拡張機能 をFlutterで作ろう！"
 slug: "fluttter-chrome-extension"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-03-23T10:00:00.000Z
+pubDatetime: "2022-03-23"
 tags: ["開発ツール"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-
 Chromeの 拡張機能 も、Flutterで作れないかな？
 
 実は、作れるんです！
@@ -31,14 +31,14 @@ https://cswithiyush.hashnode.dev/lets-build-a-chrome-extension-using-flutter
 
 ### 準備
 
-WebでビルドできるFlutterプロジェクトを用意します。  
+WebでビルドできるFlutterプロジェクトを用意します。
 以下のコマンドを実行し、エラーなく実行できるか確認してみてください。
 
 ```
 flutter run -d chrome
 ```
 
-本記事ではFlutter プロジェクトを作成した時にできる、  
+本記事ではFlutter プロジェクトを作成した時にできる、
 カウンターアプリを拡張機能に埋め込むことを目標に進めていきます。
 
 ### index.htmlの修正
@@ -50,10 +50,10 @@ Flutterプロジェクトのwebディレクトリ内にある、index.htmlを書
 2行目にある`<html>`を以下のコードに書き換えてください。
 
 ```
-<html style="height: 600px; width: 350px">
+
 ```
 
-ここで設定したheight(高さ)とwidth(幅)の大きさで、  
+ここで設定したheight(高さ)とwidth(幅)の大きさで、
 拡張機能がポップアップします。
 
 お好みの大きさに調整してください。
@@ -61,39 +61,15 @@ Flutterプロジェクトのwebディレクトリ内にある、index.htmlを書
 次に、39行目〜102行目の`<script> ~ </script>`タグを以下のコードに書き換えてください。
 
 ```
-<script
- type="application/javascript" src="main.dart.js">
-</script>
+
 ```
 
 完成したindex.htmlのコードは以下の通りとなります。（コメントは削除しています。）
 
 ```
-<!DOCTYPE html>
-<html style="height: 600px; width: 350px">
-<head>
-  <base href="$FLUTTER_BASE_HREF">
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  extension_sample2
 
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="extension_sample2">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>extension_sample2</title>
-  <link rel="manifest" href="manifest.json">
-</head>
-<body>
-       <script
-       type="application/javascript" src="main.dart.js">
-      </script>
-</body>
-</html>
 ```
 
 <title>~</title>の部分はあなたが設定した名前となります。
@@ -120,8 +96,8 @@ index.htmlと同様webディレクトリにある、manifest.jsonを書き換え
 }
 ```
 
-nameで設定した名前が拡張機能の名前となります。  
-また、default\_iconで設定したアイコンがブラウザで表示される  
+nameで設定した名前が拡張機能の名前となります。
+また、default_iconで設定したアイコンがブラウザで表示される
 拡張機能のアイコンとなります。
 
 拡張機能のための設定は以上となります。
@@ -146,27 +122,27 @@ Chromeを開き、アドレスバーにて以下のアドレスを実行して�
 chrome://extensions/
 ```
 
-右上の3つのドット→設定→拡張機能  
+右上の3つのドット→設定→拡張機能
 でも同様のページが開きます。
 
 拡張機能のページが開いたら、右上のデベロッパーモードをオンにします。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/デベロッパーモード-1024x938.png)
 
-オンにすると、拡張機能の検索バーの下に、3つボタンが出てきます。  
+オンにすると、拡張機能の検索バーの下に、3つボタンが出てきます。
 その中の「パッケージ化されていない拡張機能を読み込む」を押してください。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の読み込み-1024x936.png)
 
-ファイル選択のポップアップが出てくるので、  
-作成したFluttterプロジェクトのbuildディレクトリにある、  
+ファイル選択のポップアップが出てくるので、
+作成したFluttterプロジェクトのbuildディレクトリにある、
 webフォルダを選択して決定してください。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/フォルダ選択-1024x595.png)
 
 以上で追加は完了です。
 
-ブラウザ右上のパズルのピースのアイコンをクリックすると、  
+ブラウザ右上のパズルのピースのアイコンをクリックすると、
 作成した拡張機能が候補として出てきます。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の位置-1024x934.png)
@@ -177,7 +153,7 @@ webフォルダを選択して決定してください。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の実行例-1024x937.png)
 
-おめでとうございます！  
+おめでとうございます！
 以上が一連の手順となります。
 
 ## まとめ
@@ -190,11 +166,9 @@ webフォルダを選択して決定してください。
 
 あなたもぜひ自分のオリジナルアプリをChromeの拡張機能として作成してみてください。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 参考
 
@@ -204,19 +178,19 @@ https://www.yayocode.com/2021/07/how-to-create-google-chrome-extension.html
 
 今回は拡張機能の作り方の紹介でしたが、実際どんな機能をつけたら良いでしょうか？
 
-例えば電卓とか良さそうですよね。  
+例えば電卓とか良さそうですよね。
 ウェブ上でちょっとした計算をしたい、そんな時に使えそうです。
 
-あとはメモアプリ。  
+あとはメモアプリ。
 コピペしておきたい内容をメモするのに良さそうです。
 
-ちょっとしたゲームを拡張機能で作ってみるのも面白そうです。  
-昔流行った、糸通しのようなゲームがブラウザで、  
+ちょっとしたゲームを拡張機能で作ってみるのも面白そうです。
+昔流行った、糸通しのようなゲームがブラウザで、
 ちょっとした待ち時間に遊べたら楽しいと思います。
 
-考えてみると、色々と思いつきそうです。  
+考えてみると、色々と思いつきそうです。
 あなたは、どんなアプリを作成してみたいですか？
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

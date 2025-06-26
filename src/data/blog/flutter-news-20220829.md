@@ -3,15 +3,16 @@ title: "Flutter ニュース 【2022年8月第4週】"
 slug: "flutter-news-20220829"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-08-29T10:00:00.000Z
+pubDatetime: "2022-08-29"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 **『Flutterの最新情報をキャッチアップしたい！ 』**
 
 そんなあなたに送る、 Flutterニュース 。
 
-本記事ではFlutterニュースとして、2022年8月第4週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、2022年8月第4週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行います。
 
 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
@@ -22,49 +23,49 @@ tags: ["ニュース"]
 
 https://youtu.be/HtgsoZieoeM
 
-Flutter 公式のライブコーディングの様子などを提供する動画シリーズ、  
+Flutter 公式のライブコーディングの様子などを提供する動画シリーズ、
 The Boring Flutter Development Showが更新されました。
 
-今回はアニメーションするWidgetをゼロから作ることで、  
+今回はアニメーションするWidgetをゼロから作ることで、
 アニメーションの謎を解こう、という趣旨の動画となっています。
 
 ### Intrinsicウィジェット | Decoding Flutter
 
-https://youtu.be/Si5XJ\_IocEs
+https://youtu.be/Si5XJ_IocEs
 
-Flutter公式により、Flutterを深堀りする動画シリーズ、Decoding Flutterが  
+Flutter公式により、Flutterを深堀りする動画シリーズ、Decoding Flutterが
 更新されました。
 
-子の大きさを取得し、その最大値で他の子の大きさを決定する、  
+子の大きさを取得し、その最大値で他の子の大きさを決定する、
 `IntrinsicHeight`,`IntrinsicWidth`についての解説動画となっています。
 
 ## Flutterに関する話題
 
 ### RUSTDESK のFlutter マイグレーション
 
-https://www.reddit.com/r/FlutterDev/comments/wxz4by/migrated\_desktop\_to\_flutter/
+https://www.reddit.com/r/FlutterDev/comments/wxz4by/migrated_desktop_to_flutter/
 
-Rust で書かれた 設定不要ですぐに利用可能なリモートデスクトップソフトウェア、  
+Rust で書かれた 設定不要ですぐに利用可能なリモートデスクトップソフトウェア、
 RUSTDESKの投稿がRedditで話題になっていました。
 
 デスクトップ版にて、Flutterを利用してGUIを構築するようマイグレートが完了したとのことです。
 
-### dyn\_mouse\_scroll パッケージ
+### dyn_mouse_scroll パッケージ
 
-https://www.reddit.com/r/FlutterDev/comments/wwpzdx/dynamic\_mouse\_scrolling\_bringing\_smooth\_scroll\_to/
+https://www.reddit.com/r/FlutterDev/comments/wwpzdx/dynamic_mouse_scrolling_bringing_smooth_scroll_to/
 
-デスクトップアプリとWEBでのスムーズなマウススクロールを実装するパッケージ、  
-dyn\_mouse\_scroll パッケージがRedditで話題となっていました。
+デスクトップアプリとWEBでのスムーズなマウススクロールを実装するパッケージ、
+dyn_mouse_scroll パッケージがRedditで話題となっていました。
 
 Pub.devのぺーじにてスクロールの様子をGIFで見ることができます。
 
 ### 状態管理フレームワーク、Empire
 
-[https://www.reddit.com/r/FlutterDev/comments/wvp6hj/weve\_build\_another\_state\_management\_framework/](https://www.reddit.com/r/FlutterDev/comments/wvp6hj/weve_build_another_state_management_framework/)
+[https://www.reddit.com/r/FlutterDev/comments/wvp6hj/weve_build_another_state_management_framework/](https://www.reddit.com/r/FlutterDev/comments/wvp6hj/weve_build_another_state_management_framework/)
 
 状態管理フレームワークのEmpireがリリースされた、という投稿がRedditで話題となっていました。
 
-MVVMのアプローチで構成がされているとのことです。  
+MVVMのアプローチで構成がされているとのことです。
 投稿内で基本的な使い方等が紹介されています。
 
 ## Flutterに関する記事
@@ -73,12 +74,12 @@ MVVMのアプローチで構成がされているとのことです。
 
 https://invertase.io/blog/announcing-zapp-public-beta
 
-ブラウザ上でのFlutter実行環境、Zapp!がパブリックベータになったことに対する、  
+ブラウザ上でのFlutter実行環境、Zapp!がパブリックベータになったことに対する、
 公式の紹介記事です。
 
 パブリックベータのバージョンでできることについて紹介がなされています。
 
-こちらに関しては週刊Flutter大学でも記事化しています。  
+こちらに関しては週刊Flutter大学でも記事化しています。
 併せてご確認ください。
 
 https://blog.flutteruniv.com/flutter-zapp/
@@ -95,7 +96,7 @@ Flutter のゲームエンジン、Flameのパフォーマンスチューニン�
 
 https://itnext.io/make-loading-great-shimmer-loading-effect-on-flutter-9938facb3aae
 
-記事一覧のローディングで、くるくる回るインディケーターでなく、  
+記事一覧のローディングで、くるくる回るインディケーターでなく、
 記事が灰色になったようなローディング画面を実装する方法について書かれた記事です。
 
 動画やサンプルコード付きで紹介がなされています。
@@ -116,16 +117,16 @@ Flutter と MySQL8 の組み合わせの挑戦の記録の記事です。
 
 いよいよMySQL８ での接続に成功した筆者の試行錯誤の様子を見ることができます。
 
-### **【Flutter】flutter\_portal の説明するよ、やくめだから**
+### **【Flutter】flutter_portal の説明するよ、やくめだから**
 
-https://zenn.dev/ryota\_iwamoto/articles/flutter\_portal\_tutorial
+https://zenn.dev/ryota_iwamoto/articles/flutter_portal_tutorial
 
-flutter\_portal パッケージに関する解説記事です。
+flutter_portal パッケージに関する解説記事です。
 
-記事内ではサンプルアプリやコードの紹介や、  
+記事内ではサンプルアプリやコードの紹介や、
 理解が難しい点の図解等がなされています。
 
-### \[Flutter**×Riverpod**\]**BottomNavigationBarを勉強してみた**
+### [Flutter**×Riverpod**]**BottomNavigationBarを勉強してみた**
 
 https://zenn.dev/hikaru24/articles/ccfbd2674a587d
 
@@ -135,11 +136,11 @@ Riverpod を使って`BottomNavigationBar`での画面遷移を実装する方�
 
 ### **riverpodでFormのValidationを実現したい🤔**
 
-https://zenn.dev/joo\_hashi/articles/ef200c2078e993
+https://zenn.dev/joo_hashi/articles/ef200c2078e993
 
 `TextFormField` でのバリデーションについて解説された記事です。
 
-サンプルコード内のコメントをベースに、  
+サンプルコード内のコメントをベースに、
 バリデーションの実装方法について解説がなされています。
 
 ## 週刊Flutter大学の記事
@@ -148,37 +149,35 @@ https://zenn.dev/joo\_hashi/articles/ef200c2078e993
 
 https://blog.flutteruniv.com/flutter-news-20220822/
 
-https://blog.flutteruniv.com/package-font\_awesome\_flutter/
+https://blog.flutteruniv.com/package-font_awesome_flutter/
 
 https://blog.flutteruniv.com/flutter-zapp/
 
 ## まとめ
 
-本記事ではFlutterニュースとして、  
-2022年8月第4週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、
+2022年8月第4週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行いました。
 
 この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/8/29）
 
-本日から週刊Flutter大学のレイアウトが少し変わったのですが、  
+本日から週刊Flutter大学のレイアウトが少し変わったのですが、
 お気づきいただけましたでしょうか？
 
-ページ上部のヘッダーやオススメページの削除、  
+ページ上部のヘッダーやオススメページの削除、
 シェアボタンの移動等がなされています。
 
 今回の変更により、以前より記事が見やすい形にとなったかと思っています。
 
-今後も小さい改善を重ねていきますので、  
+今後も小さい改善を重ねていきますので、
 ぜひ週刊Flutter大学のチェックを今後ともよろしくお願い致します。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

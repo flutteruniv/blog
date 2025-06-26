@@ -3,15 +3,16 @@ title: "Flutter ニュース 【2022年12月第2週】"
 slug: "flutter-news-20221212"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-12-12T10:00:00.000Z
+pubDatetime: "2022-12-12"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 **Flutterの最新情報をキャッチアップしたい！**
 
 そんなあなたに送る、 Flutterニュース 。
 
-本記事ではFlutterニュースとして、2022年12月第2週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、2022年12月第2週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行います。
 
 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
@@ -22,13 +23,13 @@ tags: ["ニュース"]
 
 https://youtu.be/DVGYddFaLv0
 
-Flutter 公式による ウィジェット紹介動画シリーズ、Widget of the Week の  
+Flutter 公式による ウィジェット紹介動画シリーズ、Widget of the Week の
 最新動画がアップロードされました。
 
-今回はMaterial 3 のデザインの`BottomNavigationBar`を実装できる、  
+今回はMaterial 3 のデザインの`BottomNavigationBar`を実装できる、
 `NavigationBar` ウィジェットの紹介動画となっています。
 
-こちらのウィジェットに対して、週刊Flutter大学でも解説記事を出しています。  
+こちらのウィジェットに対して、週刊Flutter大学でも解説記事を出しています。
 あわせてご確認ください。
 
 https://blog.flutteruniv.com/flutter-material-you-navigation-bar/
@@ -39,7 +40,7 @@ https://youtu.be/g76H6-MeHHk
 
 Observable<Flutter>と題した、Flutterに関するライブコーディングのアーカイブ動画です。
 
-[前回](https://youtu.be/WE-CYXE1xug) に続いて、Dart Frog を使ったサーバーサイドアプリでの、  
+[前回](https://youtu.be/WE-CYXE1xug) に続いて、Dart Frog を使ったサーバーサイドアプリでの、
 Postgres 接続のハンドリングの向上をテーマとしたライブコーディングとなっています。
 
 ### The road to Dart 3,完全なsound null safe な言語
@@ -48,17 +49,17 @@ https://medium.com/dartlang/the-road-to-dart-3-afdd580fbefa
 
 Dart の次のメジャーアップデートであるDart 3 で追加される要素や展開について書かれた記事です。
 
-null safety でないコードのサポートの廃止についての解説と、  
+null safety でないコードのサポートの廃止についての解説と、
 2023年中頃のstable リリースまでの展開等が書かれています。
 
 ### 2つの開発端末で、6つのプラットフォームをサポート
 
 https://medium.com/flutter/supporting-six-platforms-with-two-keyboards-3cb3eb46d763
 
-Flutter がサポートする6つのプラットフォーム全てに対して開発を行うために、  
+Flutter がサポートする6つのプラットフォーム全てに対して開発を行うために、
 どのような開発端末を用意すべきか、という内容について解説された記事です。
 
-macOSとWindowsの開発端末それぞれが、  
+macOSとWindowsの開発端末それぞれが、
 どのプラットフォームに対しサポートしているかを紹介しています。
 
 ### Flutter Q3 2022 調査結果
@@ -67,16 +68,16 @@ https://medium.com/flutter/what-we-learned-from-the-flutter-q3-2022-survey-9b788
 
 Flutterに関する満足度等のユーザー調査結果についてまとめられた記事です。
 
-満足度の調査結果に加えて、  
+満足度の調査結果に加えて、
 Firebase SDK に対してどのような問題に直面したか？等の質問の調査結果がまとめられています。
 
 ## Flutterに関する話題
 
 ### Flutter Graphite パッケージ
 
-https://www.reddit.com/r/FlutterDev/comments/ziqcpk/flutter\_graphite\_package\_release/
+https://www.reddit.com/r/FlutterDev/comments/ziqcpk/flutter_graphite_package_release/
 
-Flutter でデータ構造等のグラフを実装するのに有用なパッケージ、  
+Flutter でデータ構造等のグラフを実装するのに有用なパッケージ、
 Graphite パッケージがRedditで話題となっていました。
 
 [こちら](https://github.com/lempiy/flutter_graphite)から作成例のGIFをみることが可能です。
@@ -85,14 +86,14 @@ Graphite パッケージがRedditで話題となっていました。
 
 https://github.com/floranguyen0/mmas-money-tracker
 
-App Store で5,000 ダウンロード以上を記録したオープンソースの家計簿アプリ、  
+App Store で5,000 ダウンロード以上を記録したオープンソースの家計簿アプリ、
 MMASがRedditで話題となっていました。
 
 Flutterで、Firebase や Providerを用いて作成されているとのことです。
 
 ### Flutterベースのターミナル、 Wives
 
-https://www.reddit.com/r/FlutterDev/comments/zhl4b2/flutter\_app\_wives\_terminal\_emulator/
+https://www.reddit.com/r/FlutterDev/comments/zhl4b2/flutter_app_wives_terminal_emulator/
 
 Flutter で作られたターミナル、Wives がRedditで話題となっていました。
 
@@ -100,19 +101,19 @@ Flutter で作られたターミナル、Wives がRedditで話題となってい
 
 ### Flutter のボイラープレートプロジェクトと、Mediumのチュートリアル
 
-https://www.reddit.com/r/FlutterDev/comments/zewf8m/flutter\_production\_boilerplate\_and\_tutorials\_on/
+https://www.reddit.com/r/FlutterDev/comments/zewf8m/flutter_production_boilerplate_and_tutorials_on/
 
-Flutterでのクリーンアーキテクチャに沿ったアプリケーションの作成方法について、  
+Flutterでのクリーンアーキテクチャに沿ったアプリケーションの作成方法について、
 サンプルコードとチュートリアル記事を紹介した投稿がRedditで話題となっていました。
 
-flutter\_bloc や auto\_routeを用いて作成がなされているとのことです。
+flutter_bloc や auto_routeを用いて作成がなされているとのことです。
 
-### auth0\_flutter2　パッケージ
+### auth0_flutter2　パッケージ
 
-https://www.reddit.com/r/FlutterDev/comments/zemnvr/first\_pubdev\_package\_auth0\_for\_mobile\_and\_web/
+https://www.reddit.com/r/FlutterDev/comments/zemnvr/first_pubdev_package_auth0_for_mobile_and_web/
 
-Auth0 をアプリに統合するのに有用なパッケージ、  
-[auth0\_flutter2](https://pub.dev/packages/auth0_flutter2) パッケージがRedditで話題となっていました。
+Auth0 をアプリに統合するのに有用なパッケージ、
+[auth0_flutter2](https://pub.dev/packages/auth0_flutter2) パッケージがRedditで話題となっていました。
 
 作成者によると、モバイル、Web の両者に唯一対応しているAuth0パッケージとのことです。
 
@@ -120,7 +121,7 @@ Auth0 をアプリに統合するのに有用なパッケージ、
 
 ### FlutterのMaterialAppでCupertinoTabViewっぽく遷移するボトムナビゲーションを作ったよ
 
-https://qiita.com/hi\_kawano/items/0557959643512ddddf9b
+https://qiita.com/hi_kawano/items/0557959643512ddddf9b
 
 BottomNavigationBarを残したまま画面遷移を行う方法について書かれた記事です。
 
@@ -138,7 +139,7 @@ Flutter でのdevやprod 等の環境分けの方法について紹介された�
 
 https://zenn.dev/urasan/articles/1e5fe9da8fc263
 
-初学者がFlutterを学び始めるに当たっての心構えや参考にすべきサイト等について  
+初学者がFlutterを学び始めるに当たっての心構えや参考にすべきサイト等について
 まとめられた記事です。
 
 環境設定からFlutterの内部の処理に至るまで、学ぶべき情報がまとめられています。
@@ -159,7 +160,7 @@ https://youtu.be/QxHlgHzSCeU
 
 Flutter で作られたコーヒー注文用アプリに関する動画がRedditで話題となっていました。
 
-音声入力、認識機能が実装されており、  
+音声入力、認識機能が実装されており、
 声による注文が可能となっています。
 
 ## Flutter大学メンバーによる記事
@@ -176,20 +177,20 @@ Youtubeのコメントでの指摘に対しての対応内容が書かれてい�
 
 https://zenn.dev/faucon/articles/590d848d9ea16e
 
-Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で  
+Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で
 紹介されたウィジェットを、一つ取り上げて解説する記事です。
 
-今回は管理する値の変化を監視し、変化があった場合に画面の再構築を行う、  
+今回は管理する値の変化を監視し、変化があった場合に画面の再構築を行う、
 `ValueListenableBuilder`についての解説記事となっています。
 
 ### **【Flutter Widget of the Week #31】Draggableを使ってみた**
 
 https://zenn.dev/faucon/articles/590d848d9ea16e
 
-Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で  
+Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で
 紹介されたウィジェットを、一つ取り上げて解説する記事です。
 
-今回はウィジェットをドラッグ可能にする、  
+今回はウィジェットをドラッグ可能にする、
 `**Draggable**`についての解説記事となっています。
 
 ## Flutter大学アドベントカレンダーの記事
@@ -200,15 +201,15 @@ Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week
 
 https://qiita.com/JunichiHashimoto/items/877a757e501468792227
 
-Flutter 、Riverpod の`Provider` に対する修飾子である`family`について書かれた記事です。
+Flutter 、Riverpod の`Provider` に対する修飾子である`family`について書かれた記事です。
 
-主にサンプルコードにて`family`での`Provider` 利用を行っています。
+主にサンプルコードにて`family`での`Provider` 利用を行っています。
 
 ### **【Flutter × RevenueCat】Androidでアプリ内課金(消耗型)の導入 -準備編-**
 
 https://zenn.dev/odaken/articles/bc84ef15b74a66
 
-課金機能導入をサポートするプラットフォームのRevenueCat を使ったアプリを  
+課金機能導入をサポートするプラットフォームのRevenueCat を使ったアプリを
 作成するための準備について書かれた記事です。
 
 この記事ではAndroid 向けの準備について紹介されています。
@@ -217,14 +218,14 @@ https://zenn.dev/odaken/articles/bc84ef15b74a66
 
 https://qiita.com/HikaruKusanagi/items/33c81c12209bf72982e4
 
-TabBar ウィジェットの各プロパティについて、  
+TabBar ウィジェットの各プロパティについて、
 設定することでどのような変化があるか紹介した記事です。
 
 各プロパティの設定による変化をGIF付きで紹介されています。
 
 ### Riverpod（2.0対応）を学んで初学者の壁をぶち破る
 
-https://qiita.com/taisei\_dev/items/4c9d9572a56051a1d51f
+https://qiita.com/taisei_dev/items/4c9d9572a56051a1d51f
 
 Riverpod 2.0 の使い方について、API通信を行うアプリを題材に解説を行った記事です。
 
@@ -242,7 +243,7 @@ https://qiita.com/naokiwakata/items/37fa63d5cbea83fcd8b9
 
 https://zenn.dev/pressedkonbu/articles/mottokina-with-dart-scraping
 
-Dartでのスクレイピングを活用した  
+Dartでのスクレイピングを活用した
 沖縄で地域クーポンが使えるお店をGoogleマップで表示の方法について書かれた記事です。
 
 実装のコードや、作成したGoogleマップが記事内で紹介されています。
@@ -251,10 +252,10 @@ Dartでのスクレイピングを活用した
 
 https://zenn.dev/hndr/articles/95235ada055f1f#fn-54f1-1
 
-デザインツールであるFigma上で定義したカラーの定数等のdesign tokenを、  
+デザインツールであるFigma上で定義したカラーの定数等のdesign tokenを、
 Flutterで利用する方法について書かれた記事です。
 
-tokenのダウンロード方法やdartファイルへの変換方法等が  
+tokenのダウンロード方法やdartファイルへの変換方法等が
 スクリーンショット付きで解説されています。
 
 ## 週刊Flutter大学の記事
@@ -269,17 +270,15 @@ https://blog.flutteruniv.com/flutteruniversity-study-meeting-2022011/
 
 ## まとめ
 
-本記事ではFlutterニュースとして、  
-2022年12月第2週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、
+2022年12月第2週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行いました。
 
 この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/12/12）
 
@@ -287,16 +286,16 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 Dart 3に関する記事は、ワクワクする話題でしたね。
 
-Stable のリリースが2023年中頃、と明言されたのも、  
+Stable のリリースが2023年中頃、と明言されたのも、
 インパクトが強かったです。
 
-記事内では同時にリリース予定の機能等についても触れられており、  
+記事内では同時にリリース予定の機能等についても触れられており、
 今後の発展にワクワクしていました。
 
 この記事を要約した記事を出すのもいいかもしれませんね。
 
 気になる方は、ぜひ読んでみてください。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

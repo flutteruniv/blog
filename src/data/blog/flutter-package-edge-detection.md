@@ -3,24 +3,23 @@ title: "【Flutter】カメラで物を検出しよう！【 edge_detection 】"
 slug: "flutter-package-edge-detection"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-04-22T10:00:00.000Z
+pubDatetime: "2022-04-22"
 tags: ["Package"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-
 Flutterで、カメラで物体の検出ってできるのかな？
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-
 難しい設定せずに楽に実装したいわ！
 
 本記事ではそんな疑問、要望にお答えします。
 
-カメラで物の端を検出し、切り取って写真を撮ることのできるパッケージ、  
-edge\_detection パッケージを紹介します。
+カメラで物の端を検出し、切り取って写真を撮ることのできるパッケージ、
+edge_detection パッケージを紹介します。
 
-edge\_detection パッケージを使うと、以下のgifのような動作が実装可能です。
+edge_detection パッケージを使うと、以下のgifのような動作が実装可能です。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220422_edge_detection_sample.gif)
 
@@ -28,17 +27,17 @@ edge\_detection パッケージを使うと、以下のgifのような動作が�
 
 ぜひ本記事を読んで、実装してみてください。
 
-## edge\_detection パッケージ
+## edge_detection パッケージ
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
-edge\_detection パッケージはその名の通り、  
-Flutterでカメラを起動し、  
+edge_detection パッケージはその名の通り、
+Flutterでカメラを起動し、
 物体の端を検知してその物体の大きさで画像を切り取る事のできるパッケージです。
 
 パッケージの紹介ページは以下となります。
 
-https://pub.dev/packages/edge\_detection
+https://pub.dev/packages/edge_detection
 
 ## 基本的な使い方
 
@@ -48,7 +47,7 @@ https://pub.dev/packages/edge\_detection
 
 ### 準備
 
-edge\_detectionパッケージを使用するにあたり、いくつか設定が必要となります。
+edge_detectionパッケージを使用するにあたり、いくつか設定が必要となります。
 
 #### iOSの設定
 
@@ -67,8 +66,8 @@ platform :ios, '10.0'
 `ios/Runner/Info.plist`に、以下の`key`を追加してください。
 
 ```
-<key>NSCameraUsageDescription</key>
-<string>カメラの利用を許可してください</string>
+NSCameraUsageDescription
+カメラの利用を許可してください
 ```
 
 iOSの設定は以上となります。
@@ -79,7 +78,7 @@ iOSの設定は以上となります。
 
 `android/build.gradle` の`kotlin_version`を確認してください。
 
-パッケージの推奨のバージョンは1.5.31ですが、  
+パッケージの推奨のバージョンは1.5.31ですが、
 1.6.10でも現在自分は動作を確認できています。
 
 どちらかで設定してください。
@@ -111,7 +110,7 @@ dependencies:
 
 パッケージのバージョンは以下のパッケージ紹介ページを確認ください。
 
-https://pub.dev/packages/edge\_detection
+https://pub.dev/packages/edge_detection
 
 ### 実装
 
@@ -131,11 +130,11 @@ import 'package:edge_detection/edge_detection.dart';
 EdgeDetection.detectEdge;
 ```
 
-このメソッドは`Future<String?>`の返り値をもつメソッドで、  
+このメソッドは`Future<String?>`の返り値をもつメソッドで、
 撮影した画像ファイルの保存場所のパスを返します。
 
-Flutter側で行うのはこのメソッドを呼び出すだけで、  
-物体の検出、撮影、画像の保存は全てパッケージが行ってくれます。  
+Flutter側で行うのはこのメソッドを呼び出すだけで、
+物体の検出、撮影、画像の保存は全てパッケージが行ってくれます。
 とても簡単ですよね！
 
 ### サンプルコード
@@ -168,14 +167,14 @@ class EdgeDetectionSample extends StatefulWidget {
   const EdgeDetectionSample({Key? key}) : super(key: key);
 
   @override
-  State<EdgeDetectionSample> createState() => _EdgeDetectionSampleState();
+  State createState() => _EdgeDetectionSampleState();
 }
 
-class _EdgeDetectionSampleState extends State<EdgeDetectionSample> {
+class _EdgeDetectionSampleState extends State {
   //撮影した画像の保存パスを保持する状態を定義
   String? _imagePath;
 
-  Future<void> getImage() async {
+  Future getImage() async {
     String? imagePath;
 
     //撮影時のエラーをtry - catch でハンドリング
@@ -184,7 +183,7 @@ class _EdgeDetectionSampleState extends State<EdgeDetectionSample> {
     } on PlatformException catch (e) {
       imagePath = e.toString();
     }
-    
+
     //撮影し、保存が終わったらsetStateで画面を更新
     setState(() {
       _imagePath = imagePath;
@@ -246,21 +245,19 @@ class _EdgeDetectionSampleState extends State<EdgeDetectionSample> {
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
-本記事では、カメラで物の端を検出し、切り取って写真を撮ることのできるパッケージ、  
-edge\_detection パッケージを紹介しました。
+本記事では、カメラで物の端を検出し、切り取って写真を撮ることのできるパッケージ、
+edge_detection パッケージを紹介しました。
 
-とても難しそうな画像認識、検知がこんなに簡単な実装で実現できるなんて、  
+とても難しそうな画像認識、検知がこんなに簡単な実装で実現できるなんて、
 驚きですよね！
 
 実際に使ってみて、使い勝手を見て貰えればと思います。
 
 本記事があなたのアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 参考
 
@@ -270,18 +267,18 @@ https://youtu.be/ddrBQMfc6nA
 
 本記事では、カメラでの物の検出を実装できるパッケージを紹介しました。
 
-この記事の作成に当たり、手元で確認を行うのですが、  
+この記事の作成に当たり、手元で確認を行うのですが、
 とても簡単に実装できる上に、ちゃんと物を検出できるので、とても驚きました。
 
-Kotlin , Swift でのネイティブの機能の実装方法を覚えておくと、  
+Kotlin , Swift でのネイティブの機能の実装方法を覚えておくと、
 こんなにも自由度の高いパッケージを作成できるようになるのだ、と感動しました。
 
-自分も今回のパッケージのように、人を驚かせるような実装、  
+自分も今回のパッケージのように、人を驚かせるような実装、
 パッケージを提供したいものです。
 
-まずはFlutterの基本からしっかり学んで、  
+まずはFlutterの基本からしっかり学んで、
 一つ一つできるようにしていきます。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

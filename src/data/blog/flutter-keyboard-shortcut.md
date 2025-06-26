@@ -22,6 +22,8 @@ Control + C キーなど、キーボードの特定のキーを押下するこ�
 以下のGIFは今回紹介するサンプルアプリの実行動画です。
 control + R , contorol + B でそれぞれ文字色が変わる、そんなアプリとなっています。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/20221117_keyboard_shortcut_demo.gif)
+
 基礎的な部分から丁寧に解説していきます。
 ぜひ読んでみてください！
 
@@ -30,14 +32,12 @@ control + R , contorol + B でそれぞれ文字色が変わる、そんなア�
 実装方法は3段階に分かれます。
 
 - キーボードのキーの押下の検知 (`Focus`ウィジェット)
-
 - どのキーが押されたかの判定(`Shortcuts`ウィジェット)
-
 - 押されたキーに対応した処理の登録、実行(`Actions`ウィジェット)
 
 それぞれ解説していきます！
 
-## キーボードのキーの押下の検知 (`Focus`ウィジェット)
+### キーボードのキーの押下の検知 (`Focus`ウィジェット)
 
 キーボードのキーの押下の検知は、アプリ内で構成要素が`Focus`されている必要があります。
 
@@ -52,6 +52,7 @@ control + R , contorol + B でそれぞれ文字色が変わる、そんなア�
 あるウィジェットを`Focus`されるように設定するのには、
 `Focus`ウィジェットでラップすれば良いです。
 
+```dart
 Focus(
   autofocus: true,
   child: Text(
@@ -62,13 +63,15 @@ Focus(
     ),
   ),
 ),
+```
 
 今回のアプリでは画面をクリックした際に`Text`から`Focus`が離れるのを防ぐため、
 以下の処理で強制的に`Focus`が戻るように設定しています。
 
 Focusの設定
-class _MyWidgetState extends State<MyWidget> {
-  final ValueNotifier<Color> _color = ValueNotifier<Color>(Colors.black);
+```dart
+class _MyWidgetState extends State {
+  final ValueNotifier _color = ValueNotifier(Colors.black);
 
   final FocusNode _focusNode = FocusNode(); //FocusNodeの追加
 
@@ -94,7 +97,7 @@ class _MyWidgetState extends State<MyWidget> {
       valueListenable: _color,
       builder: (context, color, child) {
         return Actions(
-          actions: <Type, Action<Intent>>{
+          actions: >{
             RedIntent: RedAction(color: _color),
             BlueIntent: BlueAction(color: _color),
           },
@@ -118,8 +121,9 @@ class _MyWidgetState extends State<MyWidget> {
     );
   }
 }
+```
 
-## どのキーが押されたかの判定(`Shortcuts`ウィジェット)
+### どのキーが押されたかの判定(`Shortcuts`ウィジェット)
 
 どのキーが押されたかの判定は`Shortcuts`ウィジェットで行います。
 
@@ -131,9 +135,11 @@ class _MyWidgetState extends State<MyWidget> {
 
 「control + R」を押下した際に橋渡しされる`Intent`を以下のように定義します。
 
+```dart
 class RedIntent extends Intent {
   const RedIntent();
 }
+```
 
 続いて`Shortcuts`ウィジェットの設定です。
 先程定義した`Focus`ウィジェットよりも祖先に、`Shortcuts`ウィジェットを配置します。
@@ -142,23 +148,26 @@ class RedIntent extends Intent {
 
 以下はcontrolキーとRキーを同時押しした際の例となります。
 
+```dart
 Shortcuts(
-  shortcuts: <LogicalKeySet, Intent>{
+  shortcuts: {
     LogicalKeySet(LogicalKeyboardKey.control, LogicalKeyboardKey.keyR):
         const RedIntent(),
   child: const MyWidget(),
 ),
+```
 
-## 押されたキーに対応した処理の登録、実行(`Actions`ウィジェット)
+### 押されたキーに対応した処理の登録、実行(`Actions`ウィジェット)
 
 押されたキーに対応した処理の登録、実行は`Actions`ウィジェットにて行います。
 
 まず、`Action`クラスの拡張クラスを用意し、このクラス内に実行したい処理を定義します。
 
-class RedAction extends Action<RedIntent> {
+```dart
+class RedAction extends Action {
   RedAction({required this.color});
 
-  ValueNotifier<Color> color;
+  ValueNotifier color;
 
   @override
   Object? invoke(covariant RedIntent intent) {
@@ -167,21 +176,25 @@ class RedAction extends Action<RedIntent> {
     return null;
   }
 }
+```
 
 次に、`Actions` ウィジェットを`Shortcuts`ウィジェットよりも子の方向の位置に定義します。
 `actions`プロパティにて`Shortcuts`ウィジェットから流れてくる`Intent`と`Action`の組み合わせを
 `Map`で定義します。
 
+```dart
 Actions(
-  actions: <Type, Action<Intent>>{
+  actions: >{
     RedIntent: RedAction(color: _color),
   },
   child: Scaffold(
 　　　　//...
 ),
+```
 
-上記の`Focus`, `Shortcuts`, `Actions` を実装した、最終的なサンプルアプリのコードが以下となります。 
+上記の`Focus`, `Shortcuts`, `Actions` を実装した、最終的なサンプルアプリのコードが以下となります。
 
+```dart
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -196,7 +209,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Shortcuts(
-        shortcuts: <LogicalKeySet, Intent>{
+        shortcuts: {
           LogicalKeySet(LogicalKeyboardKey.control, LogicalKeyboardKey.keyR):
               const RedIntent(),
           LogicalKeySet(LogicalKeyboardKey.control, LogicalKeyboardKey.keyB):
@@ -212,11 +225,11 @@ class MyWidget extends StatefulWidget {
   const MyWidget({super.key});
 
   @override
-  State<MyWidget> createState() => _MyWidgetState();
+  State createState() => _MyWidgetState();
 }
 
-class _MyWidgetState extends State<MyWidget> {
-  final ValueNotifier<Color> _color = ValueNotifier<Color>(Colors.black);
+class _MyWidgetState extends State {
+  final ValueNotifier _color = ValueNotifier(Colors.black);
 
   final FocusNode _focusNode = FocusNode();
 
@@ -242,7 +255,7 @@ class _MyWidgetState extends State<MyWidget> {
       valueListenable: _color,
       builder: (context, color, child) {
         return Actions(
-          actions: <Type, Action<Intent>>{
+          actions: >{
             RedIntent: RedAction(color: _color),
             BlueIntent: BlueAction(color: _color),
           },
@@ -271,10 +284,10 @@ class RedIntent extends Intent {
   const RedIntent();
 }
 
-class RedAction extends Action<RedIntent> {
+class RedAction extends Action {
   RedAction({required this.color});
 
-  ValueNotifier<Color> color;
+  ValueNotifier color;
 
   @override
   Object? invoke(covariant RedIntent intent) {
@@ -288,10 +301,10 @@ class BlueIntent extends Intent {
   const BlueIntent();
 }
 
-class BlueAction extends Action<BlueIntent> {
+class BlueAction extends Action {
   BlueAction({required this.color});
 
-  ValueNotifier<Color> color;
+  ValueNotifier color;
 
   @override
   Object? invoke(covariant BlueIntent intent) {
@@ -300,6 +313,7 @@ class BlueAction extends Action<BlueIntent> {
     return null;
   }
 }
+```
 
 ## まとめ
 

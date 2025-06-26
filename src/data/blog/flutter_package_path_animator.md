@@ -3,20 +3,20 @@ title: "【Flutter】線の軌跡をアニメーションしよう！【 path_an
 slug: "flutter_package_path_animator"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-04-15T10:00:00.000Z
+pubDatetime: "2022-04-15"
 tags: ["Package"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-
 Flutterで描いた図形の線の軌跡をアニメーションしてみたい！
 
 本記事はそんな要望にお答えします！
 
-線の軌跡をアニメーションすることのできるパッケージ、  
-path\_animatorパッケージを紹介します。
+線の軌跡をアニメーションすることのできるパッケージ、
+path_animatorパッケージを紹介します。
 
-https://pub.dev/packages/path\_animator
+https://pub.dev/packages/path_animator
 
 このパッケージを導入すると、このようなアニメーションが実現可能です。
 
@@ -24,24 +24,24 @@ https://pub.dev/packages/path\_animator
 
 ぜひ読んでみてください！
 
-## path\_animator パッケージ
+## path_animator パッケージ
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
-path\_animator パッケージは `CustomPainter`で描いた線を、  
+path_animator パッケージは `CustomPainter`で描いた線を、
 アニメーションで表示させるパッケージです。
 
 ### 基本的な使い方
 
 使い方はとてもシンプルです。
 
-1.  `Path` を`PathAnimator`に変換する
-2.  `canvas.drawPath`に`Path`の代わりに`PathAnimator`を渡す
+1. `Path` を`PathAnimator`に変換する
+2. `canvas.drawPath`に`Path`の代わりに`PathAnimator`を渡す
 
 #### Path をPathAnimatorに変換する
 
-```
-    final animatedPath = PathAnimator.build(
+```dart
+final animatedPath = PathAnimator.build(
       path: ・・・,
       animationPercent: ・・・,
     );
@@ -165,7 +165,7 @@ class _MyCustomPainter extends CustomPainter {
 
 アニメーションを行うため、`AnimationController`を使います。
 
-まず、`StatelessWidget`となっている`MyHomePage`を、  
+まず、`StatelessWidget`となっている`MyHomePage`を、
 `State`で`SingleTickerProviderStateMixin`を`mixin`した、`StatefulWidget`に変えましょう。
 
 ```
@@ -180,22 +180,22 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage>
+class _MyHomePageState extends State
     with SingleTickerProviderStateMixin {
 
 // ・・・
 ```
 
-次に`State`で`AnimationController`を定義し、  
+次に`State`で`AnimationController`を定義し、
 `initState`を追加して`AnimationController`の初期化処理を行いましょう。
 
 ```
 // ・・・
 
-class _MyHomePageState extends State<MyHomePage>
+class _MyHomePageState extends State
     with SingleTickerProviderStateMixin {
   late AnimationController? _controller;
 
@@ -238,9 +238,9 @@ class _MyHomePageState extends State<MyHomePage>
 
 `CustomPainter`に各設定を行っていきます。
 
-まず、`CustomPainter`継承クラスの`_MyCustomPainter`に、  
-`AnimationController`を設定しましょう。  
-この時、`CustomPainter`の`repaint`に`controller`を設定し、  
+まず、`CustomPainter`継承クラスの`_MyCustomPainter`に、
+`AnimationController`を設定しましょう。
+この時、`CustomPainter`の`repaint`に`controller`を設定し、
 `AnimationController`によって再描画が指示されるよう設定していることに注意してください。
 
 ```
@@ -254,7 +254,7 @@ class _MyCustomPainter extends CustomPainter {
 // ・・・
 ```
 
-今回、アニメーションにより再描画を行うため、  
+今回、アニメーションにより再描画を行うため、
 `shouldRepaint`を`true`に設定しましょう。
 
 ```
@@ -266,7 +266,7 @@ class _MyCustomPainter extends CustomPainter {
 // ・・・
 ```
 
-MyHomePageのbuildメソッド内の\_MyCustomPainterを設定している部分で、  
+MyHomePageのbuildメソッド内の_MyCustomPainterを設定している部分で、
 AnimationControllerを渡しましょう。
 
 ```
@@ -298,7 +298,7 @@ AnimationControllerを渡しましょう。
 // ・・・
 ```
 
-### path\_animatorの設定
+### path_animatorの設定
 
 `path_animator`パッケージを使って、アニメーションを設定していきましょう。
 
@@ -313,7 +313,7 @@ dependencies:
 
 #### パッケージのインポート
 
-dartファイルにパッケージをインポートします。  
+dartファイルにパッケージをインポートします。
 インポート部分に以下の文を追加しましょう。
 
 ```
@@ -322,7 +322,7 @@ import 'package:path_animator/path_animator.dart';
 
 #### PathAnimatorの実装
 
-使い方で解説した、`PathAnimator`の実装となります。  
+使い方で解説した、`PathAnimator`の実装となります。
 `path`を`PathAnimator`を使って変換しましょう。
 
 ```
@@ -412,10 +412,10 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage>
+class _MyHomePageState extends State
     with SingleTickerProviderStateMixin {
   late AnimationController? _controller;
 
@@ -519,8 +519,8 @@ class _MyCustomPainter extends CustomPainter {
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
-本記事では、線の軌跡をアニメーションすることのできるパッケージ、  
-path\_animatorパッケージを紹介しました。
+本記事では、線の軌跡をアニメーションすることのできるパッケージ、
+path_animatorパッケージを紹介しました。
 
 いかがだったでしょうか？
 
@@ -528,24 +528,22 @@ path\_animatorパッケージを紹介しました。
 
 ぜひ考えてみて、オリジナルのアニメーションを実装してみてください！
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/4/15）
 
 あなたは、git使ってますか？
 
-自分は、ほとんど毎日個人開発で使用しています。  
+自分は、ほとんど毎日個人開発で使用しています。
 また、自分の作ったサンプルコードをアップする、などの用途でも使用しています。
 
-バージョンコントロールができることは言うまでもなくgitを使う利点ですが、  
+バージョンコントロールができることは言うまでもなくgitを使う利点ですが、
 やったことがちゃんと記録され、どれだけやったかが見える化されるのは本当に良いものです。
 
-もし使ったことのない人は、一度使ってみることをオススメします。  
+もし使ったことのない人は、一度使ってみることをオススメします。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

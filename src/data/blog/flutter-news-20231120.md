@@ -3,15 +3,16 @@ title: "Flutter ニュース 【2023年11月第4週】"
 slug: "flutter-news-20231120"
 author: "Aoi"
 description: ""
-pubDatetime: 2023-11-27T10:00:00.000Z
+pubDatetime: "2023-11-27"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 **Flutterの最新情報をキャッチアップしたい！**
 
 そんなあなたに送る、 Flutterニュース 。
 
-本記事ではFlutterニュースとして、2023年11月第4週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、2023年11月第4週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行います。
 
 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
@@ -20,7 +21,7 @@ tags: ["ニュース"]
 
 ### When to use the Flutter Beta Channel
 
-https://youtu.be/ipaVjs-\_3iQ?si=jjWW4ii6craFKMg4
+https://youtu.be/ipaVjs-_3iQ?si=jjWW4ii6craFKMg4
 
 Flutter の3つmaster, beta, stable の3つのRelease について、紹介した動画です。
 
@@ -48,17 +49,15 @@ https://codewithandrea.com/articles/realtime-updates-vs-one-time-reads-flutter/
 
 ## まとめ
 
-本記事ではFlutterニュースとして、  
-2023年11月第4週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、
+2023年11月第4週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行いました。
 
 この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2023/11/27）
 
@@ -66,9 +65,9 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 3.16の恩恵としてはVS code のサイドバーにデバイス等が表示されるのが良いな、と思いました。
 
-気づけばあと一ヶ月で今年も終わりです。  
+気づけばあと一ヶ月で今年も終わりです。
 さらなる変化があるのか否か、とても楽しみにしつつ、年末と新たな年を迎えようと思います。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

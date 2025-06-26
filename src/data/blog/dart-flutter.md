@@ -3,111 +3,196 @@ title: "【 Dart 】スプレッド演算子 ” ... ” とは?【 Flutter 】"
 slug: "dart-flutter"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-12-23T10:00:00.000Z
+pubDatetime: "2022-12-23"
 tags: ["Dart"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
-**「コードの中で出てくる、” ... ”って一体何なんだろう？」**
+**「コードの中で出てくる、" .. " って一体何なんだろう？」**
 
 本記事ではそんな疑問にお答えします。
 
-Flutter / Dart で頻出する、 スプレッド演算子 ” ... “について解説します。
+Flutter / Dart で頻出する、 カスケード演算子 " .. "について解説します。
 
 サンプルコードを紹介の上、どのような用途で使うのか詳細に解説します。
 
 ぜひ読んでみてください！
 
-## スプレッド演算子 ”...”とは？
+## カスケード演算子 " .. "とは
 
 コードリーディング中、以下のようなコードを見たことはありませんか？
 
 ```dart
-  final list1 = [1, 2, 3];
-  final list2 = [4, ...list1, 5];
+myObject..someMethod()
+        ..otherMethod();
 ```
 
-2行目で使われている”...”をスプレッド演算子と呼びます。
+" .. " に続いてメソッドが並んでいるようなコードです。
 
-スプレッド演算子は、`List`のような複数の値を保持するコレクションに、  
-複数の値を一気に挿入するのに用います。
+ここで使われている" .. " を*cascades* (カスケード演算子)と呼びます。
 
-上の例だと、`list2`の`4`と`5`の間に`list1`の`[1, 2, 3]`が挿入されるので、
+役割としては、同じオブジェクトに対するメソッドの実行の省略記法となります。
+
+上記コードは以下のコードと同じこととなります。
 
 ```dart
-  print(list2); // [4, 1, 2, 3, 5]
+myObject.someMethod();
+myObject.otherMethod();
 ```
 
-となります。
+`myObject`の繰り返しを省略できるわけですね。
 
-以上がスプレッド演算子”...”の概要となります。
+以上がカスケード演算子の概要となります。
 
-## null-aware スプレッド演算子 " ...? "
+## カスケード演算子 " .. " の特徴、テクニック
 
-”...?”という演算子が存在します。
+カスケード演算子での特徴、テクニックについて紹介します。
 
-”...?”はnull-aware スプレッド演算子と呼びます。
-
-”...?”を用いると、この演算子の右側がnullの場合に例外が発生しなくなります。
+### 値を返さない
 
 ```dart
-  final list1 = null;
-  // final list2 = [4, ...list1, 5]; //Exception発生
-
-  final list3 = [4, ...?list1, 5];
-
-  print(list3); // [4, 5]
+myObject..someMethod()
+        ..otherMethod();
 ```
 
-以上がnull-aware スプレッド演算子の解説となります。
+上記コードの`someMethod`が`int`型の値を返すものだとしましょう。
+普通の"."で実行すれば、値を返すメソッド、ということになります。
 
-## 使用例
+一方、カスケード演算子で実行されたメソッドは、値を返さない、という特徴があります。
 
-使用例を紹介します。
-
-例えばある`List`のデータを読み込み済みで、  
-新たに`List`でデータを取得してきて、まとめたい、という事象を考えます。
-
-このコードは以下のように書くことができます。
+下記のコードで、`UserData`クラスに`toString`メソッドを使って`String`化をしていますが、
+カスケード演算子での実行のため、`data`には`String`は返されず、
+`userData`が代入されるのみとなります。
 
 ```dart
-  newData = fetchData();
+class UserData {}
 
-  data = [...data, ...?newData];
+void main() {
+  final userData = UserData();
+  final dataA = userData.toString();
+  final dataB = userData..toString();
+
+  print(dataA.runtimeType); // String
+  print(dataB.runtimeType); // UserData
+}
 ```
 
-このコードで既存のデータの`List`の後ろに`newData`が追加されます。
+`runtimeType` メソッドで実行元のオブジェクトの型を知ることができます。
 
-このように、スプレッド演算子は複数のデータを一気に追加するのに有効です。
+### フィールドへの値の連続代入
+
+カスケード演算子を使うと、以下のようなフィールドへの値の連続代入が可能です。
+
+```dart
+class UserData {
+  String? name;
+  int? age;
+  String? from;
+}
+
+void main() {
+  final userData = UserData();
+
+  userData
+    ..name = "Aoi"
+    ..age = 30
+    ..from = "Chiba";
+
+  print(userData.name); // Aoi
+  print(userData.age); // 30
+  print(userData.from); // Chiba
+}
+```
+
+上記コードは10行目の`userData`を省略して、以下のように書くこともできます。
+
+```dart
+class UserData {
+  String? name;
+  int? age;
+  String? from;
+}
+
+void main() {
+  final userData = UserData()
+    ..name = "Aoi"
+    ..age = 30
+    ..from = "Chiba";
+
+  print(userData.name); // Aoi
+  print(userData.age); // 30
+  print(userData.from); // Chiba
+}
+```
+
+### *null-shorting *なカスケード演算子
+
+以下のようなコードを考えます。
+
+```dart
+Data? data = fetchData();
+data?.someMethod;
+data?.otherMethod;
+```
+
+"?."は条件付きプロパティアクセス演算子です。
+演算子の左側が`null`のとき、右側の処理が実行されません。（[参考](https://dart.dev/codelabs/dart-cheatsheet#conditional-property-access)）
+
+このコードを*null-shorting* なカスケード演算子" ?.. "を使って次のように書き換えることが可能です。
+
+```dart
+Data? data = fetchData();
+  ?..someMethod;
+  ..otherMethod;
+```
+
+最初に*null-shorting* なカスケード演算子で演算子の左側の`null`の判定をし、
+`null`なら右側の処理を実行しない、(その後のカスケード演算子の処理も実行しない)
+というようにできます。
 
 ## まとめ
 
-Flutter / Dart で頻出する、 スプレッド演算子 ” ... “について解説します。
+本記事ではFlutter / Dart で頻出する、 カスケード演算子 " .. "について解説しました。
 
 サンプルコードを紹介の上、どのような用途で使うのか詳細に解説しました。
 
 いかがだったでしょうか？
 
-以前紹介した[カスケード演算子](https://blog.flutteruniv.com/dart-cascades/)と同様に、  
 自分で使わないにしろ、人の書いたコードや内部コードで出てき得る演算子となっています。
 
 ぜひ、「これってなんだっけ？」となった時には本記事の内容を参照してみてください。
 
 本記事があなたのアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 参考
 
-https://dart.dev/guides/language/language-tour#lists
+https://dart.dev/codelabs/dart-cheatsheet#cascades
 
-## 編集後記（2022/12/23）
+## 編集後記（2022/10/26）
 
-・・・
+最近、[こちら](https://dart.dev/) の、Dartの公式ドキュメントを読むことが多くなりました。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+記事ネタを探すのも目的の一つですが、
+公式ドキュメントを読むのが正しい情報の取得方法として純粋に一番だと思うからです。
+
+Dartのドキュメント全体の日本語化はまだされていないですが、
+CodeLab 等のチュートリアルの一部は日本語化されています。
+
+例えば以下のチュートリアルではクラスの基本的な書き方等を学ぶことができます。
+
+https://developers.google.com/codelabs/from-java-to-dart#0
+
+Javaを学んだことがある人向けのため、
+基本用語等が少々難しいですが、勉強にはなるかと思います。
+
+公式ドキュメント内のチュートリアル紹介ページは知見の宝庫だと思っています。
+
+ぜひ読んでみて、知識を身につけてみてください。
+
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

@@ -11,6 +11,7 @@ tags: ["ニュース", "Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
 Flutterの最新情報をキャッチアップしたい！
 
 そんなあなたに送る、 Flutterニュース 。
@@ -22,7 +23,7 @@ Flutterの最新情報をキャッチアップしたい！
 
 ## Flutter公式情報
 
-## Flutter デスクトップ アプリケーションを作成する
+### Flutter デスクトップ アプリケーションを作成する
 
 https://codelabs.developers.google.com/codelabs/flutter-github-client#0
 
@@ -31,7 +32,7 @@ Flutter公式Twitterで紹介されていました。
 
 このCodeLabでGitHubでの認証やデータ取得の方法等を学ぶことができます。
 
-## Flutter Gallery
+### Flutter Gallery
 
 https://github.com/flutter/gallery
 
@@ -41,7 +42,7 @@ Flutter GalleryのGitHubリポジトリがFlutter公式Twitter で紹介され�
 Android アプリとして公開されているだけでなく、
 [こちら](https://gallery.flutter.dev/#/)でWebアプリとしても公開されており、動作をすぐに確認することが可能です。
 
-## LinearGradient (Widget of the Week)
+### LinearGradient (Widget of the Week)
 
 https://youtu.be/gYNTcgZVcWw
 
@@ -54,7 +55,7 @@ Flutter 公式の`Widget` 紹介動画シリーズ、Widget of the Week の最�
 
 ## Flutterに関する話題
 
-## すべてのFlutter開発者が知っておくべきパッケージは？
+### すべてのFlutter開発者が知っておくべきパッケージは？
 
 https://www.reddit.com/r/FlutterDev/comments/wig622/packages_that_every_flutter_dev_should_know/
 
@@ -63,7 +64,7 @@ Redditで話題になっていました。
 
 コメントにて各々が思う重要で知っておくべきパッケージが紹介されています。
 
-## Fl-Query 0.2.0 リリース
+### Fl-Query 0.2.0 リリース
 
 https://www.reddit.com/r/FlutterDev/comments/wiar4s/flquery_020_released/
 
@@ -73,7 +74,7 @@ https://www.reddit.com/r/FlutterDev/comments/wiar4s/flquery_020_released/
 ボイラープレートなコードの解消と、再利用性の向上を目的として作成がされたとのことです。
 投稿のコメントにてリリースノートが記載されています。
 
-## flutter_auto_gui パッケージ
+### flutter_auto_gui パッケージ
 
 https://www.reddit.com/r/FlutterDev/comments/whujt6/flutter_auto_gui_a_flutter_package_allows_you/
 
@@ -84,7 +85,7 @@ https://www.reddit.com/r/FlutterDev/comments/whujt6/flutter_auto_gui_a_flutter_p
 Pythonのコードでマウスやキーボードを操作する[PyAutoGui](https://pyautogui.readthedocs.io/en/latest/)に
 インスパイアされて作成されたとのことです。
 
-## showcaseview パッケージ
+### showcaseview パッケージ
 
 https://pub.dev/packages/showcaseview
 
@@ -94,7 +95,7 @@ showcaseview パッケージがRedditで話題となっていました。
 
 リンク先のGIFにて動作を確認することが可能です。
 
-## Flutter製オープンソースメモアプリ: Noty
+### Flutter製オープンソースメモアプリ: Noty
 
 https://www.reddit.com/r/FlutterDev/comments/wg8q11/noty_open_source_note_app_made_with_flutter/
 
@@ -102,7 +103,7 @@ Flutterで作られたオープンソースのメモアプリ、Notyに関する
 
 Riverpod を用いて内部データベースでメモを保存する形式で作成されているとのことです。
 
-## LeetCodeへのDartの追加
+### LeetCodeへのDartの追加
 
 https://www.reddit.com/r/FlutterDev/comments/wf2z5n/dart_added_to_leetcode/
 
@@ -111,7 +112,7 @@ Redditで話題となっていました。
 
 LeetCodeで紹介されている問題の中で、Dartを選択することが可能となっています。
 
-## Amplify Flutter AuthenticationのWeb,Desktop への対応
+### Amplify Flutter AuthenticationのWeb,Desktop への対応
 
 https://www.reddit.com/r/FlutterDev/comments/wegf6z/announcement_amplify_flutter_authentication/
 
@@ -121,7 +122,7 @@ AWS Amplify のFlutter での認証が、Web , Desktopに対応したとのこ�
 
 ## Flutterに関する記事
 
-## VS Codeの中に何が入っている？ ~Flutter開発に対して~
+### VS Codeの中に何が入っている？ ~Flutter開発に対して~
 
 https://itnext.io/whats-in-my-vscode-for-flutter-development-48ee88e0adaf
 
@@ -129,7 +130,7 @@ Flutter開発に役立つVS Code の拡張機能を紹介した記事です。
 
 10個以上の拡張機能が記事内で紹介されています。
 
-## Supabase Flutter SDK 1.0 リリース 開発者向けプレビュー
+### Supabase Flutter SDK 1.0 リリース 開発者向けプレビュー
 
 https://supabase.com/blog/2022/08/02/supabase-flutter-sdk-1-developer-preview?utm_source=reddit&utm_medium=social&utm_campaign=blog-content
 
@@ -138,7 +139,7 @@ https://supabase.com/blog/2022/08/02/supabase-flutter-sdk-1-developer-preview?ut
 
 認証周りやデータ取得周りの変更点等がまとめられています。
 
-## Dart クラスの階層構造
+### Dart クラスの階層構造
 
 https://itnext.io/class-hierarchy-in-dart-ecacc28d0581
 
@@ -148,7 +149,7 @@ https://itnext.io/class-hierarchy-in-dart-ecacc28d0581
 
 ## Flutter大学メンバーによる記事
 
-## 初心者　MySQL8に挑戦する
+### 初心者　MySQL8に挑戦する
 
 https://qiita.com/dongri727/items/81409786b29a3ec14813
 
@@ -158,7 +159,7 @@ Flutter × MySQL の組み合わせに挑戦している筆者の体験談の記
 
 データの取得に悩まされながら健闘している様子が紹介されています。
 
-## 初心者　flutter x ブロックチェーンに再三挑戦する
+### 初心者　flutter x ブロックチェーンに再三挑戦する
 
 https://qiita.com/dongri727/items/1ee036f9e1352f17aa8a
 
@@ -166,7 +167,7 @@ Flutter × ブロックチェーンの組み合わせに挑戦している筆者
 
 ブロックチェーンを組み合わせて投票アプリを作成するとのことです。
 
-## **【Flutter】go_router をタイプセーフに使う方法【go_router_builder】**
+### **【Flutter】go_router をタイプセーフに使う方法【go_router_builder】**
 
 https://zenn.dev/susatthi/articles/20220801-135028-flutter-go-router-builder
 
@@ -174,7 +175,7 @@ go_router をタイプセーフに扱うためのパッケージ、go_router_bui
 
 サンプルコードや使っていてハマりそうなポイントについて丁寧に解説がなされています。
 
-## **Cloud Firestore ODM使ってみた!**
+### **Cloud Firestore ODM使ってみた!**
 
 https://zenn.dev/joo_hashi/articles/a1811e00c877e6
 
@@ -182,7 +183,7 @@ Firestore とDart間の橋渡しコードを自動生成するFirestore ODM の�
 
 どのようなコマンドを打って、どのようなコードが生成されるのかについて記載がされています。
 
-## **【Dart】Null Safety って何の意味があるの？**
+### **【Dart】Null Safety って何の意味があるの？**
 
 https://zenn.dev/ryota_iwamoto/articles/what_is_null_safety
 
@@ -191,7 +192,7 @@ DartのNull Safety の意義について考察を行った結果をまとめた�
 Null Safety が無いとどうなるか、という話を紹介した上で、
 筆者なりのNull Safetyのメリットを結論として紹介しています。
 
-## **【Flutter】地図パッケージを比較してみた**
+### **【Flutter】地図パッケージを比較してみた**
 
 https://zenn.dev/odaken/articles/615f12930c7f5d
 
@@ -211,6 +212,8 @@ https://blog.flutteruniv.com/package_f_count/
 https://blog.flutteruniv.com/flutter-build-environment-m2/
 
 ## まとめ
+
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
 本記事ではFlutterニュースとして、
 2022年8月第1週に話題になったFlutter関連の情報や、

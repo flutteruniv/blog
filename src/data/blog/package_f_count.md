@@ -3,23 +3,22 @@ title: "【 f_count 】自動カウントするログ出力を使おう！【 Fl
 slug: "package_f_count"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-08-03T10:00:00.000Z
+pubDatetime: "2022-08-03"
 tags: ["Package"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-
-f\_count ってどんなパッケージなんだろう？
+f_count ってどんなパッケージなんだろう？
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-
-Flutterのログ出力で描画回数をカウントしたいんだけど、  
+Flutterのログ出力で描画回数をカウントしたいんだけど、
 いい方法ないかしら？
 
 本記事ではそんな疑問にお答えします。
 
-Flutterで、自動カウントするログ出力を使えるようにするパッケージ、  
-[f\_count](https://github.com/Chinmay-KB/f_count) パッケージを紹介します！
+Flutterで、自動カウントするログ出力を使えるようにするパッケージ、
+[f_count](https://github.com/Chinmay-KB/f_count) パッケージを紹介します！
 
 以下使用例のGIFとなります。
 
@@ -33,12 +32,12 @@ Flutterで、自動カウントするログ出力を使えるようにするパ�
 
 ### 準備
 
-まず準備として、パッケージのインストールと、  
+まず準備として、パッケージのインストールと、
 Dartファイルへのインポート文の追加を行います。
 
 #### パッケージのインストール
 
-CLI(macならターミナル)で、自分のプロジェクトのルートにて  
+CLI(macならターミナル)で、自分のプロジェクトのルートにて
 以下のコマンドを実行しパッケージをインストールします。
 
 ```bash
@@ -47,7 +46,7 @@ flutter pub add f_count
 
 #### パッケージのインポート
 
-ログ出力したいDartファイルの上部に以下のインポート文を追加し、  
+ログ出力したいDartファイルの上部に以下のインポート文を追加し、
 パッケージをインポートします。
 
 ```dart
@@ -58,11 +57,11 @@ import 'package:f_count/f_count.dart';
 
 実装方法について解説します。
 
-実装はとても簡単でログ出力したい場所に、`fCount(label: 'Sample');` を置くだけです。  
+実装はとても簡単でログ出力したい場所に、`fCount(label: 'Sample');` を置くだけです。
 ('Sample'の部分は自分の好きな文字列を入れることが可能です。)
 
 ```dart
-  @override
+@override
   Widget build(BuildContext context) {
     fCount(label: 'Sample');
     return Scaffold(
@@ -75,7 +74,7 @@ import 'package:f_count/f_count.dart';
 カウントはラベルごとに行われます。
 
 ```dart
-  @override
+@override
   Widget build(BuildContext context) {
     fCount(label: 'Sample');
     fCount(label: 'Test');
@@ -120,10 +119,10 @@ class MyHomePage extends StatefulWidget {
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State {
   int _counter = 0;
 
   void _incrementCounter() {
@@ -142,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
+          children: [
             const Text(
               'You have pushed the button this many times:',
             ),
@@ -166,10 +165,10 @@ class GoodCounter extends StatefulWidget {
   const GoodCounter({super.key});
 
   @override
-  State<GoodCounter> createState() => _GoodCounterState();
+  State createState() => _GoodCounterState();
 }
 
-class _GoodCounterState extends State<GoodCounter> {
+class _GoodCounterState extends State {
   int _counter = 0;
 
   void _incrementCounter() {
@@ -183,7 +182,7 @@ class _GoodCounterState extends State<GoodCounter> {
     fCount(label: 'Good');
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
+      children: [
         Text(
           '$_counter',
           style: Theme.of(context).textTheme.headline4,
@@ -198,39 +197,37 @@ class _GoodCounterState extends State<GoodCounter> {
 }
 ```
 
-このアプリのGIFは以下となります。  
-Goodのボタンを押した時にBadのログが表示されないので、  
+このアプリのGIFは以下となります。
+Goodのボタンを押した時にBadのログが表示されないので、
 描画範囲を抑えられていることがわかります。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/f_count_sample.gif)
 
 ## まとめ
 
-本記事では、Flutterで、自動カウントするログ出力を使えるようにするパッケージ、  
-[f\_count](https://github.com/Chinmay-KB/f_count) パッケージを紹介しました。
+本記事では、Flutterで、自動カウントするログ出力を使えるようにするパッケージ、
+[f_count](https://github.com/Chinmay-KB/f_count) パッケージを紹介しました。
 
 いかがだったでしょうか？
 
-Android Studio で開発をしている方は、Flutter Performanceで同様のチェックができますが、  
+Android Studio で開発をしている方は、Flutter Performanceで同様のチェックができますが、
 VScodeを使っている方や、簡易的にチェックしたい場合等に有用です。
 
-またFlutter Performanceにはできない、  
-メソッドの呼ばれた回数のチェックができることもf\_countの利点です。
+またFlutter Performanceにはできない、
+メソッドの呼ばれた回数のチェックができることもf_countの利点です。
 
-開発の効率化にとても有用なパッケージですので、  
+開発の効率化にとても有用なパッケージですので、
 ぜひ本記事を読んで使ってみて下さい！
 
-本記事があなたのアプリ開発の一助となれば幸いです。  
+本記事があなたのアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/8/3）
 
-カウントアップ、で思い出したのですが、  
+カウントアップ、で思い出したのですが、
 長押しでカウントアップし続けるWidget、というのを作成したことがあります。
 
 以下の私の個人ブログで作成方法について解説しています。
@@ -243,6 +240,6 @@ https://zerokara-app.com/948/
 
 勉強にもなるので、あなたもぜひ自作のWidget作りに挑戦してみてください。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

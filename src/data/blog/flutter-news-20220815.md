@@ -3,17 +3,17 @@ title: "Flutter ニュース 【2022年8月第2週】"
 slug: "flutter-news-20220815"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-08-15T10:00:00.000Z
+pubDatetime: "2022-08-15"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-
 Flutterの最新情報をキャッチアップしたい！
 
 そんなあなたに送る、 Flutterニュース 。
 
-本記事ではFlutterニュースとして、2022年8月第2週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、2022年8月第2週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行います。
 
 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
@@ -24,8 +24,8 @@ Flutterの最新情報をキャッチアップしたい！
 
 https://twitter.com/FlutterDev/status/1556769728835764225
 
-Flutter のチュートリアルとして有用なFlutter Casual Games Toolkit のアプリに、  
-アプリのクラッシュの検知に優れているFirebase Crashlytics を組み合わせる方法について  
+Flutter のチュートリアルとして有用なFlutter Casual Games Toolkit のアプリに、
+アプリのクラッシュの検知に優れているFirebase Crashlytics を組み合わせる方法について
 の紹介です。
 
 ツイート内リンクから組み合わせる方法について解説された記事を読むことが可能です。
@@ -34,7 +34,7 @@ Flutter のチュートリアルとして有用なFlutter Casual Games Toolkit �
 
 https://youtu.be/DnC7eT-vh1k
 
-Debug 時に有用なWidget Inspector の表示を自分好みにカスタマイズする方法についての  
+Debug 時に有用なWidget Inspector の表示を自分好みにカスタマイズする方法についての
 動画です。
 
 `debugFillProperties`をオーバーライドして表示プロパティを増やす方法が紹介されています。
@@ -45,15 +45,15 @@ Debug 時に有用なWidget Inspector の表示を自分好みにカスタマイ
 
 https://antmedia.io/announcing-stable-flutter-webrtc-sdk/
 
-無料のFlutter のWebRTC (Web リアルタイムコミュニケーション) SDK がリリースされた、  
+無料のFlutter のWebRTC (Web リアルタイムコミュニケーション) SDK がリリースされた、
 との投稿がRedditで話題となっていました。
 
-P2P コミュニケーションプロジェクトを含む4つのサンプルプロジェクトが  
+P2P コミュニケーションプロジェクトを含む4つのサンプルプロジェクトが
 用意されているとのことです。
 
 ### オープンソースの節約アプリのリリース
 
-https://www.reddit.com/r/FlutterDev/comments/wo7zif/i\_released\_my\_2nd\_app\_on\_the\_app\_storeplay\_store/
+https://www.reddit.com/r/FlutterDev/comments/wo7zif/i_released_my_2nd_app_on_the_app_storeplay_store/
 
 オープンソースの節約アプリに関する投稿がRedditで話題となっていました。
 
@@ -63,14 +63,14 @@ https://www.reddit.com/r/FlutterDev/comments/wo7zif/i\_released\_my\_2nd\_app\_o
 
 https://medium.com/@razvantmz/dart-frog-a-minimalistic-backend-framework-for-dart-e9b479d923e7
 
-Dartでバックエンドを書くことのできるフレームワーク、  
+Dartでバックエンドを書くことのできるフレームワーク、
 Dart Frogについて解説された記事です。
 
 サンプルコード付きで対応可能な内容を紹介されています。
 
 ### Canton UI パッケージ
 
-https://www.reddit.com/r/FlutterDev/comments/wmmklc/i\_released\_my\_first\_package/
+https://www.reddit.com/r/FlutterDev/comments/wmmklc/i_released_my_first_package/
 
 UI を簡単に構築するためのパッケージとして、Canton UI がリリースされた、との投稿です。
 
@@ -94,7 +94,7 @@ Flutter のUI確認ツールであるMonarch について紹介された記事�
 
 スクリーンショットを紹介の上、使用方法についてまとめられています。
 
-Monarch については週刊Flutter大学でも記事化しています。  
+Monarch については週刊Flutter大学でも記事化しています。
 併せてご確認下さい。
 
 https://blog.flutteruniv.com/flutter-monarch/
@@ -121,39 +121,39 @@ https://codewithandrea.com/articles/functional-error-handling-either-fpdart/
 
 Either を使用したエラーハンドリング方法の紹介記事です。
 
-fizz - buzz のプログラムに対してで入力された文字列が数字以外の場合の  
-エラーハンドリングの仕方をベースに、  
+fizz - buzz のプログラムに対してで入力された文字列が数字以外の場合の
+エラーハンドリングの仕方をベースに、
 Eitherを使ったエラーハンドリング方法を紹介されています。
 
 ## Flutter大学メンバーがリリースしたアプリ
 
-### shareKakeibo  ~ 共有できる家計簿アプリ ~
+### shareKakeibo  ~ 共有できる家計簿アプリ ~
 
 https://apps.apple.com/app/sharekakeibo/id1638570813
 
 takuro さんにより、共有できる家計簿アプリ、『shareKakeibo』がリリースされました！
 
-円グラフやカレンダーでの収支の確認等の機能に加え、  
+円グラフやカレンダーでの収支の確認等の機能に加え、
 複数人での共有機能まで実装されています。
 
 UIもとても使いやすく、素敵なアプリです！
 
 ## Flutter大学メンバーによる記事
 
-### \[Flutter\] 点線の作り方
+### [Flutter] 点線の作り方
 
 https://zenn.dev/hikaru24/articles/464a6d354628c1
 
 点線のUI を作るためのパッケージを紹介された記事です。
 
-サンプルコードやスクリーンショットだけでなく、  
+サンプルコードやスクリーンショットだけでなく、
 Widgetの各プロパティでどのようなことができるのかまで紹介されています。
 
 ### **【Flutter】import：相対パス絶対パス、使い分けのススメ**
 
 https://zenn.dev/wakanao/articles/9168c156e28105
 
-Flutter のファイルのimport 文を相対パス、絶対パスで使い分けることの  
+Flutter のファイルのimport 文を相対パス、絶対パスで使い分けることの
 メリットについて記載された記事です。
 
 import 文を整理するのに有用なVS Codeの拡張機能の紹介までなされています。
@@ -172,36 +172,34 @@ https://blog.flutteruniv.com/flutteruniversity-study-meeting-202207/
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
-本記事ではFlutterニュースとして、  
-2022年8月第2週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、
+2022年8月第2週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行いました。
 
 この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/8/15）
 
 今週のFlutterニュースの記事でした。
 
-Widget Inspector でのレイアウトチェックは、  
+Widget Inspector でのレイアウトチェックは、
 アプリ開発業務で最近かなり使用しました。
 
-ピクセル単位でコンポーネントのマージンを管理したい、といった時に、  
-どこからどこまでがそのコンポーネントの描画範囲なのか、  
+ピクセル単位でコンポーネントのマージンを管理したい、といった時に、
+どこからどこまでがそのコンポーネントの描画範囲なのか、
 を知るのにとても有用でした。
 
-Widget Inspector がないと、Containerで囲んで、色つけて確認する、  
-といったちょっと力技での対応が必要となります。  
-UIをクリックしただけで描画範囲がわかるWidget Inspector は  
+Widget Inspector がないと、Containerで囲んで、色つけて確認する、
+といったちょっと力技での対応が必要となります。
+UIをクリックしただけで描画範囲がわかるWidget Inspector は
 とても便利でした。
 
 あなたもレイアウトに困った際にはぜひWidget Inspectorを使用してみてください。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

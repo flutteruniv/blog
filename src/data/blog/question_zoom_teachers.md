@@ -3,8 +3,9 @@ title: "Flutter大学の7人の質問zoom講師を紹介します！"
 slug: "question_zoom_teachers"
 author: "kboy"
 description: ""
-pubDatetime: 2023-07-07T06:12:54.000Z
+pubDatetime: "2023-07-07"
 tags: ["Flutter大学"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 Flutter大学には３つのプランがあり、最上位のFlutter修行プランですと、週７回zoomで質問することができます。
@@ -15,13 +16,13 @@ Flutter大学には３つのプランがあり、最上位のFlutter修行プラ
 
 時間割は上図のようになっています。
 
-*   月曜 18:00~18:30（ganちゃん）
-*   火曜 20:00~20:30（minnさん）
-*   水曜 20:00~20:30（ダイゴさん）
-*   木曜 20:00~20:30（coboさん）
-*   金曜 20:00~20:30（太田龍之介さん）
-*   土曜 10:00~10:30（Kosukeさん）
-*   日曜 10:00~10:30（heyheyさん）
+- 月曜 18:00~18:30（ganちゃん）
+- 火曜 20:00~20:30（minnさん）
+- 水曜 20:00~20:30（ダイゴさん）
+- 木曜 20:00~20:30（coboさん）
+- 金曜 20:00~20:30（太田龍之介さん）
+- 土曜 10:00~10:30（Kosukeさん）
+- 日曜 10:00~10:30（heyheyさん）
 
 このように、月曜は１８時から、火曜〜金曜は２０時から、土日は１０時から30分間受け付けています。
 
@@ -57,10 +58,10 @@ Flutter大学には３つのプランがあり、最上位のFlutter修行プラ
 
 #### プロフィール
 
-*   新潟大学 理学部理学科 修士２年
-*   フリーランスエンジニア（エイドル）
-*   Flutter歴2年~
-*   Flutter、Firebase、Stripeが得意
+- 新潟大学 理学部理学科 修士２年
+- フリーランスエンジニア（エイドル）
+- Flutter歴2年~
+- Flutter、Firebase、Stripeが得意
 
 まずは、**ganちゃん。**彼だけ「ちゃん」付けで呼ぶのをお許しください。
 
@@ -70,7 +71,7 @@ ganちゃんは、2021年4月にエイドル開発のプロジェクトに初め
 
 そのレベルの高さは、zennの記事を見ていただければわかると思います。
 
-[https://zenn.dev/ryota\_iwamoto](https://zenn.dev/ryota_iwamoto)
+[https://zenn.dev/ryota_iwamoto](https://zenn.dev/ryota_iwamoto)
 
 本職は、新潟大学院の数学科の学生で、難しすぎてよくわからない発表をよく学会で発表しています。この前は英語で発表していて、優秀さには本当に脱帽です。
 
@@ -82,9 +83,9 @@ ganちゃんは、2021年4月にエイドル開発のプロジェクトに初め
 
 #### プロフィール
 
-*   Axia Works合同会社エンジニア
-*   Flutter歴1年半~
-*   Flutter、Firebase、凝ったUIなどが得意
+- Axia Works合同会社エンジニア
+- Flutter歴1年半~
+- Flutter、Firebase、凝ったUIなどが得意
 
 ganちゃんに続いて、彼と同年代のminnさんの紹介です！
 
@@ -100,9 +101,9 @@ minnさんは、Flutter大学で学び始めた当初は一般事務の仕事を
 
 #### プロフィール
 
-*   フリーランスエンジニア（エイドル、金融系アプリ他）
-*   Flutter歴2年半~
-*   Flutter、Firebase、Stripeが得意
+- フリーランスエンジニア（エイドル、金融系アプリ他）
+- Flutter歴2年半~
+- Flutter、Firebase、Stripeが得意
 
 ダイゴさんは、私kboyが未経験から１年間、札幌で弟子として育てた後輩です。
 
@@ -120,9 +121,9 @@ CodeBoyやFlutter大学アプリの開発を手伝ってもらいながら成長
 
 #### プロフィール
 
-*   クラウドエース株式会社エンジニア
-*   Flutter歴1年半〜
-*   Firebase、GCP、アーキテクチャの話題が得意
+- クラウドエース株式会社エンジニア
+- Flutter歴1年半〜
+- Firebase、GCP、アーキテクチャの話題が得意
 
 coboさんは、岩手県でSIerでエンジニアをやってたのですが、さらにエンジニアとしてのレベルを上げたいということで、上京し、Flutter大学のFlutterシェアハウスに住み、本職はGCPのクラウドエンジニアとして活躍しています！
 
@@ -140,9 +141,9 @@ Spajamというハッカソンに一緒に参加したのですが、プロジ�
 
 #### プロフィール
 
-*   VISIONARY JAPANエンジニア
-*   Flutter歴2年半〜
-*   Flutter、Flutter web、Firebase、個人アプリ開発などが得意
+- VISIONARY JAPANエンジニア
+- Flutter歴2年半〜
+- Flutter、Flutter web、Firebase、個人アプリ開発などが得意
 
 彼も元々はITエンジニアではなかったのですが、今はFlutterエンジニアとしてバリバリ活躍しています。
 
@@ -158,15 +159,15 @@ Spajamというハッカソンに一緒に参加したのですが、プロジ�
 
 #### プロフィール
 
-*   atama plus株式会社（~2023年7月）エンジニア
-*   Flutter、Firebase、Django、Python、Nuxt.js、Vue.js、AngularJS、TypeScriptなど幅広く得意
-*   Flutter歴3年~
+- atama plus株式会社（~2023年7月）エンジニア
+- Flutter、Firebase、Django、Python、Nuxt.js、Vue.js、AngularJS、TypeScriptなど幅広く得意
+- Flutter歴3年~
 
 Kosukeさんは、最近は外部勉強会での登壇も多く、凄すぎる知的好奇心で、エンジニア界隈をリードする存在となっている、強強エンジニアです。
 
 最近は積極的にオープンソースのpackage作成に励んでいます！
 
-[https://github.com/KosukeSaigusa/geoflutterfire\_plus](https://github.com/KosukeSaigusa/geoflutterfire_plus)
+[https://github.com/KosukeSaigusa/geoflutterfire_plus](https://github.com/KosukeSaigusa/geoflutterfire_plus)
 
 彼に影響されて、技術力を上げているメンバーも多く、Flutter大学全体の技術レベルを底上げしてくれてるのは間違いありません。！！！僕自身もかなり勉強させてもらってます。
 
@@ -176,8 +177,8 @@ Kosukeさんは、最近は外部勉強会での登壇も多く、凄すぎる�
 
 #### プロフィール
 
-*   株式会社マネーフォワード エンジニア
-*   Flutter歴3年~
+- 株式会社マネーフォワード エンジニア
+- Flutter歴3年~
 
 最後に、この6月より日曜の講師をしてくれているのが、heyheyさんです。
 

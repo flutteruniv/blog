@@ -3,8 +3,9 @@ title: "10月8日に沖縄コザ.dartが行われました！"
 slug: "koza_dart_2023"
 author: "kboy"
 description: ""
-pubDatetime: 2023-10-25T07:47:01.000Z
+pubDatetime: "2023-10-25"
 tags: ["Flutter大学", "勉強会"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 2023年は3月の福岡.dartから始まり、大阪.dart、東京.dart、札幌.dartが行われていきました。そして今回行われたのが、沖縄コザ.dartです。
@@ -27,13 +28,9 @@ tags: ["Flutter大学", "勉強会"]
 
 ![](https://www.kozapa-osi.jp/access/images/img_map.png)
 
-https://www.kozapa-osi.jp/access/
-
 厳密にはコザという住所はないのですが、米軍が越来村の胡屋地区をKOZAと呼んだことをきっかけに、一般の人々もコザと呼ぶようになったと言われています。
 
 ![](https://feeljapan.net/okinawa/wp-content/uploads/sites/2/20_01-1920x1280.jpg)
-
-ゲート通りの様子 https://feeljapan.net/okinawa/article/2020-02-17-11367/
 
 那覇市が一番栄えていると思いきや、週末のコザはそれに負けじとめちゃくちゃ混雑しています。米軍の人たちが集まってくるのもあって、古いアメリカのカルチャーが残っていて、日本人が全くいなくて、米ドルで払えるエリアが存在します。
 

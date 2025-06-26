@@ -11,8 +11,10 @@ tags: ["初心者向け", "Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
 Flutter、最近話題だけど、どうやって始めたらいいんだろう？
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
 Flutterの初心者向けの勉強の方法を知りたいわ！
 
 本記事ではそんな疑問、要望にお答えします。
@@ -31,6 +33,8 @@ Flutterの入門の仕方として最初にやるべき環境構築の方法に�
 
 ## Flutterとは
 
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/パソコン.jpeg)
+
 Flutterとは、「**アプリケーション作成のためのフレームワーク**」です。
 
 モバイルアプリだったりWebアプリだったりを一つのコードで作成できるツールが、
@@ -43,10 +47,12 @@ https://blog.flutteruniv.com/flutter-explanation/
 
 https://www.youtube.com/watch?v=-G7nW26N7_4&t=4s
 
-## Flutter の始め方
+### Flutter の始め方
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
 アプリケーション作ってみたいけど、何から始めれば良いの？
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
 まずはあなたのお使いのPCでFlutterが使えるようにする、
 
 Flutterの**環境構築**をしましょう！
@@ -59,6 +65,8 @@ Flutterでアプリケーションを作り始めるためには、
 次の章から、動画付きでFlutterの環境構築をしていきましょう。
 
 ## 環境構築
+
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
 Flutterの環境構築の方法について解説していきます。
 
@@ -77,7 +85,7 @@ https://youtu.be/I6TpDuSFbTc
 
 こちらの動画に沿って、本記事では解説を行っていきます。
 
-## Android Studio のダウンロード
+### Android Studio のダウンロード
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=57s)。
 
@@ -87,22 +95,26 @@ Download Android Studio と書かれたボタンを押すと、利用規約が�
 利用規約を読んだ上で、文末にある同意のチェックボックスにチェックを入れ、
 **Mac with Apple chip** と書かれたボタンをクリックします。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-15.20.43.png)
+
 任意のフォルダを選択し、ダウンロードをしましょう。
 
-## Xcode のインストール
+### Xcode のインストール
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=106s)。
 
 [AppStore](https://apps.apple.com/jp/app/xcode/id497799835?mt=12)から、Xcodeをインストールします。
 インストールにかなりの時間がかかるため、インストール中に次の手順を行います。
 
-## Android Studio のセットアップ
+### Android Studio のセットアップ
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=127s)。
 
 Android Studio のダウンロードが終わった後、セットアップを行います。
 
 ダウンロードしたdmgファイルを開くと、以下の画面がでてきます。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.11.36-1024x627.png)
 
 このファイル上でAndroid Studio.app をApplicationsにドラッグ＆ドロップし、
 ApplicationsフォルダにAndroid Studio.appを配置しましょう。
@@ -112,10 +124,14 @@ ApplicationsフォルダにAndroid Studio.appを配置しましょう。
 開こうとすると出てくる以下のダイアログでは、
 以前設定したAndroid Studioの設定を再設定するか問われています。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.18.50.png)
+
 初めてAndroid Studio を設定する場合は、
 "Do not import settings"をチェックしてOKを押しましょう。
 
 Android Studio が立ち上がると、以下のダイアログが出てきます。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.22.33.png)
 
 Googleのデータ収集に協力するか、と問われています。
 協力する場合は"Send usage statistics to Google"を、
@@ -123,17 +139,27 @@ Googleのデータ収集に協力するか、と問われています。
 
 次に以下のSetup Wizardの画面が開かれます。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.34.49.png)
+
 上記画面でNextをクリックします。
 すると次の画面になります。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.36.14.png)
 
 インストール方法についての画面です。
 今回はStandardを選択し、Nextをクリックします。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.37.29.png)
+
 UIテーマの選択画面です。
 ダークモードかライトモード、好きな方を選択の上Nextをクリックします。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.39.13_2.png)
+
 今までの設定の確認画面です。
 確認の上、Nextをクリックします。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.42.22.png)
 
 Android SDK に関するライセンスの確認画面です。
 内容確認の上、各項目で同意する場合はAcceptにチェックを入れ、
@@ -145,18 +171,20 @@ Finishをクリックします。
 お疲れさまでした！
 以上でAndroid Studioのセットアップは一旦完了となります。
 
-## Flutter SDK（ソフトウェア開発キット） のダウンロード
+### Flutter SDK（ソフトウェア開発キット） のダウンロード
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=222s)。
 
-## Flutter SDK のダウンロード
+#### Flutter SDK のダウンロード
 
 [こちら](https://docs.flutter.dev/get-started/install/macos)からFlutter のSDK (ソフトウェア開発キット)をダウンロードします。
 以下画像赤枠をクリックし必要なファイルをダウンロードします。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.49.27.png)
+
 ダウンロードしたファイルをダブルクリックし、解凍します。
 
-## flutter フォルダの配置
+#### flutter フォルダの配置
 
 解凍してできたflutterフォルダを任意の場所に配置します。
 以下では、ユーザーフォルダ（ユーザー名のフォルダ）に、
@@ -165,22 +193,28 @@ developmentフォルダに配置する例を記載します。
 ターミナルを開き、ターミナルに以下のコマンド打って、
 ユーザーフォルダにdevelopmentフォルダを作成します。
 
-`mkdir ~/development`
+```
+mkdir ~/development
+```
 
 以下のコマンドでdevelopment フォルダに移動します。
 
-`cd ~/development`
+```
+cd ~/development
+```
 
 以下のコマンドでdevelopmentフォルダを開きます。
 
-`open .`
+```
+open .
+```
 
 Finderでdevelopmentフォルダが開かれました。
 
 先に解答したflutterフォルダを、developmentフォルダにドラッグ＆ドロップで配置します。
 flutterフォルダの配置手順は以上となります。
 
-## パスを通す
+### パスを通す
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=354s)。
 
@@ -188,30 +222,38 @@ flutterで利用するコマンドは今配置したflutterフォルダ内にあ
 PC上のどのフォルダでもflutterのコマンドを利用できるようにするために、
 パスを通す、という設定を行います。
 
-## シェルの確認
+#### シェルの確認
 
 以下のコマンドで、使用しているシェルの種類を確認します。
 
-`echo $SHELL`
+```
+echo $SHELL
+```
 
 bashと表示された場合は、以下の文章で出てくる.zshrcを.bashrcに読み替えて対応してください。
 zshと表示された場合は特に対応不要です。
 
-## .zshrcファイルの作成
+#### .zshrcファイルの作成
 
 ユーザーフォルダにて以下のコマンドを打ち、`.zshrc`ファイルを作成します。
 
-`touch .zshrc`
+```
+touch .zshrc
+```
 
 上記手順でターミナル上でdevelopmentフォルダにいる場合は、
 一度ターミナルを立ち上げ直すか、
 以下のコマンドを打つことでユーザールートへ移動可能です。
 
-`cd ..`
+```
+cd ..
+```
 
 以下のコマンドを打ち、`.zshrc`ファイルを開きます。
 
-`open .zshrc`
+```
+open .zshrc
+```
 
 ユーザーフォルダをFinderで開き、
 " ⌘ + Shift + . "を押して隠しファイルを表示させ、
@@ -220,12 +262,16 @@ zshと表示された場合は特に対応不要です。
 開かれた.zshrcファイルに以下の文言を追加します。
 (flutterフォルダまでのパスの部分は自分の配置したflutterフォルダまでのパスを設定してください)
 
-`export PATH="$PATH:[flutterフォルダまでのパス]/bin"`
+```
+export PATH="$PATH:[flutterフォルダまでのパス]/bin"
+```
 
 ユーザーネームが"yamadataro",上記手順でdevelopmentフォルダに
 flutterフォルダを配置した場合は、以下のようになります。
 
-`export PATH="$PATH:/Users/yamadataro/development/flutter/bin"`
+```
+export PATH="$PATH:/Users/yamadataro/development/flutter/bin"
+```
 
 動画の通り、Finderからflutterフォルダをドラッグ&ドロップすることでも設定可能です。
 
@@ -233,19 +279,25 @@ flutterフォルダを配置した場合は、以下のようになります。
 
 ターミナルを再起動後、ユーザーフォルダにて以下のコマンドを打ちます。
 
-`which flutter`
+```
+which flutter
+```
 
 パスが表示されれば、パスの設定は完了です。
 
-## flutter doctor の実行
+### flutter doctor の実行
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=601s)。
 
 以下のコマンドを実行しFlutterの設定を行っていきます。
 
-`flutter doctor`
+```
+flutter doctor
+```
 
 以下のダイアログが表示された場合はインストールを押し、ツールをインストールします。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-17.55.12.png)
 
 利用規約のダイアログが表示されるため、内容確認後同意の上、同意するを押します。
 インストール完了後、完了を押します。
@@ -256,20 +308,22 @@ flutterフォルダを配置した場合は、以下のようになります。
 
 と表示された場合は、次のM1 Mac 特有の設定を行います。
 
-## M1 Mac 特有の設定
+### M1 Mac 特有の設定
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=640s)。
 
 [こちら](https://github.com/flutter/flutter/wiki/Developing-with-Flutter-on-Apple-Silicon)に記載の、x86_64の命令をApple Silicon (M1 チップ)で利用できるようにする、
 Rossetaのインストールのコマンドを実行します。
 
-` sudo softwareupdate --install-rosetta --agree-to-license`
+```
+sudo softwareupdate --install-rosetta --agree-to-license
+```
 
 実行後、PCのパスワードを求められるので、入力します。
 
 以上でRossetaのインストールが実行されM1 Mac 特有の設定は完了となります。
 
-## Android SDK Command Line Toolsの設定
+### Android SDK Command Line Toolsの設定
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=723s)。
 
@@ -287,9 +341,11 @@ SDK Tools のタブをクリックし、
 Android SDK Command-line Tools(latest)にチェックを入れ、
 右下のOKを押します。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-18.20.26.png)
+
 再度、`flutter doctor `を実行し、先程表示された"`cmdline-tools~` "が消えていることを確認します。
 
-## Android Licenseの設定
+### Android Licenseの設定
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=885s)。
 
@@ -299,7 +355,9 @@ Android SDK Command-line Tools(latest)にチェックを入れ、
 
 以下のコマンドを実行します。
 
-`flutter doctor --android-licenses`
+```
+flutter doctor --android-licenses
+```
 
 "Review licenses that have not been accepted (y/N)?"
 と、「了承していないライセンスを表示しますか？」と言う内容が表示されるので、
@@ -312,7 +370,7 @@ Android SDK Command-line Tools(latest)にチェックを入れ、
 もう一度 `flutter doctor` を実行し、
 `"Some Android licenses not accepted."`が消えていることを確認してください。
 
-## Xcode の設定
+### Xcode の設定
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=952s)。
 
@@ -325,6 +383,8 @@ Xcodeのインストールが完了していることを確認後、Xcodeを開�
 以下のようにライセンスに関するダイアログが表示されるため、
 内容確認の上、了承の意でAgreeを押します。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-18.49.17.png)
+
 PCのパスワードを求められるので、入力し、OKを押します。
 
 インストールが完了するとXcodeが開きます。
@@ -332,7 +392,7 @@ PCのパスワードを求められるので、入力し、OKを押します。
 もう一度`flutter doctor`を行い、
 `"Xcode installation is incomple"`が消えていることを確認してください。
 
-## cocoapodsのインストール
+### cocoapodsのインストール
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=1010s)。
 
@@ -342,7 +402,9 @@ PCのパスワードを求められるので、入力し、OKを押します。
 
 以下のコマンドを実行し、CocoaPodsをインストールします。
 
-`sudo gem install cocoapods`
+```
+sudo gem install cocoapods
+```
 
 パスワード入力を求められるため、PCのパスワードを入力してください。
 
@@ -352,7 +414,7 @@ PCのパスワードを求められるので、入力し、OKを押します。
 以上で、`flutter doctor` のエラーは消えているはずです。
 お疲れさまでした！
 
-## Android StudioにFlutterプラグインを入れる
+### Android StudioにFlutterプラグインを入れる
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=1080s)。
 
@@ -360,9 +422,15 @@ Android Studio にFlutterプラグインを導入します。
 
 Android Studio を開き、Plugins から Flutterを探し、インストールを押します。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.01.54.png)
+
 以下のダイアログが表示された場合は、内容確認の上同意の意でAcceptを押します。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.05.00.png)
+
 以下のダイアログでDartプラグインを導入するか問われるため、Installを押します。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.06.34.png)
 
 インストールが完了すると、Restart IDE の表示で、
 Android Studio を再起動するよう求められるため、
@@ -371,7 +439,7 @@ Restart IDE をクリックし再起動を行います。
 以上で環境設定は完了となります！
 次からは実際にアプリケーションが実行できるか確かめて行きましょう！
 
-## Flutterプロジェクトの作成
+### Flutterプロジェクトの作成
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=1103s)。
 
@@ -380,9 +448,15 @@ Restart IDE をクリックし再起動を行います。
 Android Studio を開きます。
 以下の画像の、"New Flutter Project"をクリックします。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.09.48.png)
+
 すると、次の画面が開かれます。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.13.53.png)
+
 Nextをクリックします。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.15.14.png)
 
 Project name 等の設定画面となります。
 Project nameに任意の名前を入力し、Finishを押してください。
@@ -392,13 +466,15 @@ Project nameに任意の名前を入力し、Finishを押してください。
 上記完了後、Flutterプロジェクトが作成されます。
 以下の画像のように、左上のAndroidをクリックし、Projectを選択してください。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.18.14-1024x552.png)
+
 おめでとうございます！
 これで初めてのFlutterプロジェクトができました！
 
 libフォルダ内main.dartのコードが、デフォルトのFlutterアプリのコードとなります。
 ぜひ確認してみてください。
 
-## iOSシミュレータを起動
+### iOSシミュレータを起動
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=1151s)。
 
@@ -407,17 +483,23 @@ iOSのシミュレータでアプリを実行してみましょう！
 以下の画像のように、画面真ん中上辺りのデバイス選択欄にて、
 "Open iOS Simulator"を選択します。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.44.14-1024x558.png)
+
 すると、iOSのデバイスを模したシミュレータが立ち上がります。
 
 デバイス選択欄に起動したデバイスが表示されていることを確認の上、
 デバイス選択欄の少し右にある、緑の三角のボタンをクリックします。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.48.55.png)
+
 しばらく待つと、、、
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.50.39-1024x555.png)
 
 おめでとうございます！
 iOSのシミュレータで初めてのFlutterアプリが立ち上がりました！
 
-## Androidエミュレータの起動
+### Androidエミュレータの起動
 
 動画の該当箇所は[こちら](https://www.youtube.com/watch?v=I6TpDuSFbTc&t=1183s)。
 
@@ -426,12 +508,20 @@ iOSのシミュレータで初めてのFlutterアプリが立ち上がりまし�
 画面右上のDevice Manager ボタン(以下の画像の赤枠)から
 Device Managerを開きます。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.54.21.png)
+
 画面左のDevice Manager内、 Create Deviceから、
 Android エミュレータのデバイスを新規作成します。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.59.38.png)
+
 作成するエミュレータのハードウェアを選択しNextを押します。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.02.13.png)
+
 APIレベルを選択し、Nextを押します。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.03.10.png)
 
 必要に応じてエミュレータの名前を変更し、Finishを押します。
 
@@ -439,8 +529,12 @@ APIレベルを選択し、Nextを押します。
 Device Managerに戻り、以下画像赤枠の三角ボタンを押し、
 作成したエミュレータを立ち上げましょう。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.05.22.png)
+
 エミュレータが立ち上がったら、
 iOSの時と同様に、画面右上の緑三角ボタンでアプリを実行してみましょう。
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.08.11-1024x585.png)
 
 おめでとうございます！
 Android のエミュレータでもアプリの実行ができました！
@@ -452,12 +546,16 @@ Android のエミュレータでもアプリの実行ができました！
 
 ## 初心者向け学習方法
 
-## 最初に学ぶこと ~ UI の組み方 ~
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
 
+### 最初に学ぶこと ~ UI の組み方 ~
+
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
 Flutterの環境構築はできたけれど、何から手をつけて良いのかわからないわ！
 
 どうやったらFlutterでアプリケーションが作れるようになるのかしら？
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
 Flutterの初心者向け学習教材として、**Flutter大学のYouTube**があります！
 
 **無料**公開されていて、**誰でも**学ぶことができるんです！
@@ -481,7 +579,7 @@ https://www.youtube.com/watch?v=EJOA0plae_s&list=PLuLRJz1UnJzEDjRr1XkqyOzFzUi3Df
 
 ぜひ見て学習してみてください！
 
-## UIの組み方を学んだら ~ Dartの基礎と、Firebase ~
+### UIの組み方を学んだら ~ Dartの基礎と、Firebase ~
 
 UIの組み方を学んだあなたにオススメしたい教材が２つあります。
 
@@ -491,7 +589,7 @@ YouTubeの動画教材です。
 
 それぞれ解説していきます。
 
-## Dartの基礎教材
+#### Dartの基礎教材
 
 １つ目が、Dart基礎について書かれたZennの本です。
 
@@ -502,7 +600,7 @@ https://zenn.dev/kboy/books/a5b8b502dcdac4
 ちょっと、アプリケーションにオリジナリティを加えたい、
 そんな時にこの知識がしっかりとした基盤となってくれるはずです。
 
-## Firebaseとの連携方法について解説した動画教材
+#### Firebaseとの連携方法について解説した動画教材
 
 2つ目が、Firebaseとの連携を軸により実践的な内容を紹介した、
 Flutter大学 YouTubeの Flutter実戦編です。
@@ -521,7 +619,7 @@ Dartの基礎と、実践編の動画はどちらを先に学んでも構いま�
 
 ぜひ学んでみてください！
 
-## 実戦 ~ アプリケーションを作成しよう ~
+### 実戦 ~ アプリケーションを作成しよう ~
 
 ここまで学んだら、いよいよアプリケーションの作成にとりかかりましょう。
 
@@ -540,7 +638,7 @@ Dartの基礎と、実践編の動画はどちらを先に学んでも構いま�
 
 大変に思うかもしれませんが、ぜひ実戦してみてください！
 
-## 挫折しそうな時には、、、
+### 挫折しそうな時には、、、
 
 アプリケーション作成を実戦していると、
 どうしてもわからないことにぶつかり、挫折しそうになることがあるかもしれません。
@@ -568,6 +666,8 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 ## まとめ
 
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
+
 本記事では、Flutterの入門の仕方として最初にやるべき環境構築の方法について、
 動画付きで解説しました。
 また、初心者向けの学習方法についても紹介しました。
@@ -590,14 +690,14 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 本編集後記では、アプリを５本、半年で作成した筆者の目線で、
 これらのポイントについて解説しようと思います。
 
-## 小さいアプリケーションを作成すること
+##### 小さいアプリケーションを作成すること
 
 最初のポイントは小さいアプリケーションを作成することです。
 最初から大きい、分量の多いアプリケーションを作成しようとすると、
 わからないことが多く、手が回らなくなってしまいます。
 自分の手の回る範囲の小さいアプリケーションを最初は挑戦しましょう。
 
-## 短い期間で作成すること
+##### 短い期間で作成すること
 
 次のポイントは、短い期間で作成することです。
 アプリケーションの作成に長い時間をかけてしまうと、
@@ -605,7 +705,7 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 期間を決めて、この期間でぜったいに完成させるんだ！という
 意気込みで作成することをオススメします。
 
-## やることリストをつくること
+##### やることリストをつくること
 
 最後に紹介するポイントはやることリストを作ることです。
 アプリを作っていて、この機能もつけなきゃ、あの機能もつけなきゃ、

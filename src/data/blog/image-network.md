@@ -11,31 +11,62 @@ tags: ["Flutter"]
 ogImage: ""
 ---
 
-## サイトの画像を表示する
+## アプリ内の画像表示
 
-## 今回の手順
+今回はアプリ内の画像表示の仕方について解説していこうと思います！
 
-1.使いたい画像のurlをとってくる
-2.urlを記述する
+MShareというアプリを作る際に調べたので、やり方を解説したいと思います！
 
-## 使いたい画像のurlをとってくる
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/03/IMG_4915-473x1024.png)
 
-画像アドレスをコピーを選択。
+とても、簡単に作ることができますので、実装して良いアプリを作成していきましょう！
 
-## urlを記述する
+#### 今回の手順
 
-appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Image.network(
-            'https://1.bp.blogspot.com/-SWOiphrHWnI/XWS5x7MYwHI/AAAAAAABUXA/i_PRL_Atr08ayl9sZy9-x0uoY4zV2d5xwCLcBGAs/s1600/pose_dance_ukareru_man.png'),
-      ),
+1.assets/imagesに画像を保存する。
+2.`pubspec.yaml`を追記する。
+3.`pubspec.yaml`で指定したパスでWidgetを配置する。
 
-Image.network（）の部分に先ほど取ってきた画像をペーストする
+### 画像を保存する
 
-参考記事
+プロジェクト直下にassets/imagesを作っていきます
 
-[https://qiita.com/yu124choco/items/a2710ec004d3425a2a0b](https://qiita.com/yu124choco/items/a2710ec004d3425a2a0b)
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/03/スクリーンショット-2023-03-24-13.22.24.png)
+
+作成できましたら、使いたい画像をドラッグ&ドロップでimagesの中に追加していきましょう！
+
+### `pubspec.yaml`を追記する。
+
+uses-material-designの下に書きましょう！
+
+assets: の部分はpubspec.yamlに元々記述がないので追加しましょう！内容は使いたい画像のパスを指定しましょう
+
+```
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/transparent_icon.png
+```
+
+### `pubspec.yaml`で指定したパスでWidgetを配置する。
+
+Image.assetの（' '）に先ほどpubspec.yamlで記述したパスを指定しましょう！
+
+```
+Container(
+                  width: 200,
+                  child: Image.asset('assets/images/transparent_icon.png')),
+```
+
+![](https://blog.flutteruniv.com/wp-content/uploads/2023/03/IMG_4959-473x1024.png)
+
+するとこのように画像を表示することができます！
+
+参考にした記事
+
+https://qiita.com/yu124choco/items/a2710ec004d3425a2a0b

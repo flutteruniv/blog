@@ -9,44 +9,28 @@ imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---
 
-
-「アイコンをUIに表示させたい！」
-
-
+**「アイコンをUIに表示させたい！」**
 
 本記事ではそんな要望にお答えします。
 
-
-
 Flutterでボタンや装飾として用いる記号のウィジェット、Icon ウィジェットの紹介を行います。
-
-
 
 基本的な使い方からカスタマイズ方法まで詳しく解説します。
 
-
-
 ぜひ読んでみてください！
 
+## 基本的な使い方
 
+表示させたい場所に`Icon` ウィジェットを配置し、
+引数に表示させたいアイコンの`IconData`を設定します。
 
-基本的な使い方
+Flutter create で作成したアプリの状態では、`IconData`として、
+マテリアルデザインの`Icons.~`と、iOSのデザインの`CupertinoIcons.~`が使えます。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-16.46.32.png)
 
-
-表示させたい場所にIcon ウィジェットを配置し、引数に表示させたいアイコンのIconDataを設定します。
-
-
-
-Flutter create で作成したアプリの状態では、IconDataとして、マテリアルデザインのIcons.~と、iOSのデザインのCupertinoIcons.~が使えます。
-
-
-
-
-
-
-
-        Column(
+```dart
+Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
             Icon(Icons.share),
@@ -56,10 +40,10 @@ Flutter create で作成したアプリの状態では、IconDataとして、マ
             Icon(CupertinoIcons.share),
           ],
         ),
-
-
+```
 
 ソースコード全体
+```dart
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -99,32 +83,20 @@ class MyWidget extends StatelessWidget {
     );
   }
 }
+```
 
+## カスタマイズ方法
 
+`Icon`ウィジェットのカスタマイズ方法について解説していきます。
 
+### サイズ
 
+`size`プロパティでアイコンのサイズを設定することができます。
 
-カスタマイズ方法
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.15.14.png)
 
-
-
-Iconウィジェットのカスタマイズ方法について解説していきます。
-
-
-
-サイズ
-
-
-
-sizeプロパティでアイコンのサイズを設定することができます。
-
-
-
-
-
-
-
-        Column(
+```
+Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
             Icon(
@@ -139,40 +111,29 @@ sizeプロパティでアイコンのサイズを設定することができま�
             ),
           ],
         ),
+```
 
-
-
-色
-
-
+### 色
 
 colorプロパティにでアイコンの色を設定することができます。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.17.05.png)
 
-
-
-
-
-
+```dart
 Icon(
   Icons.share,
   color: Colors.green,
 ),
+```
 
+### 影
 
+`shadows`プロパティに`Shadow`インスタンスを設定することで、
+アイコンに影をつけることができます。
 
-影
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.11.59.png)
 
-
-
-shadowsプロパティにShadowインスタンスを設定することで、アイコンに影をつけることができます。
-
-
-
-
-
-
-
+```dart
 Icon(
   Icons.man,
   shadows: [
@@ -182,22 +143,18 @@ Icon(
     ),
   ],
 ),
+```
 
+### 方向
 
+`textDirection`プロパティで一部アイコンで用意されている向き
+（文字が左から右に書くか、アラビア文字のように右から左に書くか）
+に応じた表示を設定することができます。
 
-方向
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.01.15.png)
 
-
-
-textDirectionプロパティで一部アイコンで用意されている向き（文字が左から右に書くか、アラビア文字のように右から左に書くか）に応じた表示を設定することができます。
-
-
-
-
-
-
-
-        Column(
+```dart
+Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
             Icon(
@@ -213,96 +170,53 @@ textDirectionプロパティで一部アイコンで用意されている向き�
             ),
           ],
         ),
+```
 
+### 読み上げ内容
 
+`semanticLabel`プロパティにてデバイスの音声読み上げ機能実行時に読み上げる
+アイコンの説明を設定することができます。
 
-読み上げ内容
-
-
-
-semanticLabelプロパティにてデバイスの音声読み上げ機能実行時に読み上げるアイコンの説明を設定することができます。
-
-
-
+```dart
 Icon(
   Icons.arrow_back,
   semanticLabel: 'Back',
 ),
+```
 
+## まとめ
 
-
-まとめ
-
-
-
-本記事ではFlutterでボタンや装飾として用いる記号のウィジェット、Icon ウィジェットの紹介を行いました。
-
-
+本記事ではFlutterでボタンや装飾として用いる記号のウィジェット、
+Icon ウィジェットの紹介を行いました。
 
 基本的な使い方からカスタマイズ方法まで詳しく解説しました。
 
-
-
 いかがだったでしょうか？
-
-
 
 Iconは簡単にUIにワンポイントを設定できるウィジェットです。
 
-
-
 今回紹介したカスタマイズ方法でカスタマイズし、自分だけのアイコンを表現してみてください！
-
-
 
 本記事があなたのアプリ開発の一助となれば幸いです。
 
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
+以下の画像リンクから。
 
+## 編集後記（2022/11/25）
 
+`Icon`についての記事でした。
 
-Flutterを一緒に学んでみませんか？Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、以下の画像リンクから。
-
-
-
-
-
-
-
-
-
-
-編集後記（2022/11/25）
-
-
-
-
-Iconについての記事でした。
-
-
-
-このIconを使用したウィジェットに、IconButtonウィジェットがあります。
-
-
+この`Icon`を使用したウィジェットに、`IconButton`ウィジェットがあります。
 
 その名の通り、アイコンをボタン化するウィジェットです。
 
-
-
 このウィジェットについては以下の記事で詳しく解説をしています。
-
-
-
 
 https://blog.flutteruniv.com/flutter-iconbutton/
 
-
-
-
 ぜひ併せて読んでみてください！
 
-
-
-
-
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。記事の更新情報はFlutter大学Twitterにて告知します。ぜひぜひフォローをお願いいたします。
-
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
+ぜひぜひフォローをお願いいたします。

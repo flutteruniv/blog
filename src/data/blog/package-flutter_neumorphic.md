@@ -3,22 +3,21 @@ title: "【 flutter_neumorphic 】ニューモーフィズムでUIを実装し�
 slug: "package-flutter_neumorphic"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-07-01T10:00:00.000Z
+pubDatetime: "2022-07-01"
 tags: ["Package"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-
-flutter\_neumorphic ？ どんなパッケージなんだろう？
+flutter_neumorphic ？ どんなパッケージなんだろう？
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-
 おしゃれなUIを作ってみたいわ！
 
 本記事ではそんな疑問、要望にお答えします。
 
-立体的で質感のあるデザインスタイル、**ニューモーフィズム**で  
-UIを構築するのに有用なパッケージ、[flutter\_neumorphic](https://pub.dev/packages/flutter_neumorphic/install) の使い方を解説します。
+立体的で質感のあるデザインスタイル、**ニューモーフィズム**で
+UIを構築するのに有用なパッケージ、[flutter_neumorphic](https://pub.dev/packages/flutter_neumorphic/install) の使い方を解説します。
 
 以下のようなUI を実装することが簡単に可能です。
 
@@ -32,7 +31,7 @@ UIを構築するのに有用なパッケージ、[flutter\_neumorphic](https://
 
 ### パッケージのインストール
 
-CLI(macならターミナル)で、自分のプロジェクトのルートにて  
+CLI(macならターミナル)で、自分のプロジェクトのルートにて
 以下のコマンドを実行しパッケージをインストールします。
 
 ```bash
@@ -41,7 +40,7 @@ flutter pub add flutter_neumorphic
 
 ### パッケージのインポート
 
-UIを構築するDartファイルの上部に以下のインポート文を追加し、  
+UIを構築するDartファイルの上部に以下のインポート文を追加し、
 パッケージをインポートします。
 
 ```dart
@@ -50,17 +49,17 @@ import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 
 ### Widget の設定
 
-flutter\_neumorphicには様々なボタンや`TextField`など、さまざまな`Widget`が用意されています。
+flutter_neumorphicには様々なボタンや`TextField`など、さまざまな`Widget`が用意されています。
 
-どんなWidgetが用意されているかについては、  
+どんなWidgetが用意されているかについては、
 以下のパッケージ紹介ページをご確認ください。
 
-https://pub.dev/packages/flutter\_neumorphic#-widgets
+https://pub.dev/packages/flutter_neumorphic#-widgets
 
-本記事ではflutter\_neumorphicの基本Widget 、  
+本記事ではflutter_neumorphicの基本Widget 、
 `Neumorphic Widget`について紹介します。
 
-使い方は簡単で、ニューモーフィズムを実装したい`Container`や`SizedBox` を  
+使い方は簡単で、ニューモーフィズムを実装したい`Container`や`SizedBox` を
 `Newmorpic` `Widget`で囲うだけです。
 
 ```dart
@@ -106,16 +105,16 @@ class MyWidget extends StatelessWidget {
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.27.21.png)
 
-色や深さ、光の当たり方向は`style`に`NeumorphicStyle`を  
+色や深さ、光の当たり方向は`style`に`NeumorphicStyle`を
 設定することによって調整することが可能です。
 
 #### 色
 
-色の調製例のコードです。  
+色の調製例のコードです。
 `NeumorphicStyle`
 
 ```dart
-        Neumorphic(
+Neumorphic(
           style: NeumorphicStyle(
             color: Colors.green[100],
           ),
@@ -133,13 +132,13 @@ class MyWidget extends StatelessWidget {
 
 #### 深さ
 
-depth プロパティに-20 ~ 20の値を設定することで、  
+depth プロパティに-20 ~ 20の値を設定することで、
 でっぱり具合（へこみ具合）を調整することができます。
 
 以下は-20を設定した場合の例です。
 
 ```dart
-      Neumorphic(
+Neumorphic(
           style: const NeumorphicStyle(
             depth: -20,
           ),
@@ -158,14 +157,14 @@ depth プロパティに-20 ~ 20の値を設定することで、
 
 #### 光の方向
 
-デフォルトは左上から光が当たっている形となっていますが、  
-この光の方向を`lightSource`プロパティに`LigthtSource`を設定することで  
+デフォルトは左上から光が当たっている形となっていますが、
+この光の方向を`lightSource`プロパティに`LigthtSource`を設定することで
 変更することが可能です。
 
 以下の例では右上からに変更を行っています。
 
 ```
-        Neumorphic(
+Neumorphic(
           style: const NeumorphicStyle(
             lightSource: LightSource.topRight,
           ),
@@ -186,19 +185,18 @@ depth プロパティに-20 ~ 20の値を設定することで、
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-
 ニューモーフィズムな`Widget`をパッケージに依存せずに作りたい！
 
 そんな人向けに、ニューモーフィズムなWidgetの作り方を紹介します。
 
-ポイントは影の付け方です。  
-光源が左上にあるとして、左上側は明るく、右下側は暗く影をつけると、  
+ポイントは影の付け方です。
+光源が左上にあるとして、左上側は明るく、右下側は暗く影をつけると、
 ニューモーフィズムに見えるWidgetとなります。
 
 実装例は以下となります。
 
 ```dart
-        Container(
+Container(
           height: 100,
           width: 100,
           decoration: BoxDecoration(
@@ -225,12 +223,12 @@ depth プロパティに-20 ~ 20の値を設定することで、
         ),
 ```
 
-//1  
-右下に影をつけている部分です。  
+//1
+右下に影をつけている部分です。
 `offset`で右下にずらしています。
 
-//2  
-左上に光が当たっている表現として明るい色を設定している部分です。  
+//2
+左上に光が当たっている表現として明るい色を設定している部分です。
 offsetで左上にずらし、whiteを設定しています。
 
 このコードで以下のような見た目となります。
@@ -243,20 +241,18 @@ offsetで左上にずらし、whiteを設定しています。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
-本記事では、ニューモーフィズムで  
-UIを構築するのに有用なパッケージ、flutter\_neumorphic の使い方を解説しました。
+本記事では、ニューモーフィズムで
+UIを構築するのに有用なパッケージ、flutter_neumorphic の使い方を解説しました。
 
-いかがだったでしょうか？  
+いかがだったでしょうか？
 ニューモーフィズムでUIを構築してみたくなりましたか？
 
-本記事で紹介したように、簡単におしゃれなデザインを実装できるようになるため、  
+本記事で紹介したように、簡単におしゃれなデザインを実装できるようになるため、
 ぜひ使用を検討してみて下さい！
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 参考
 
@@ -276,6 +272,6 @@ https://fastcoding.jp/blog/all/info/neumorphism/#:~:text=%E3%83%8B%E3%83%A5%E3%8
 
 このようなデザイン手法について学んでみるのも面白いかもしれませんね。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

@@ -3,8 +3,9 @@ title: "優勝したらTシャツGET！中野でボーリング大会しまし�
 slug: "tokyo-off-0903"
 author: "kboy"
 description: ""
-pubDatetime: 2022-09-11T06:07:36.000Z
+pubDatetime: "2022-09-11"
 tags: ["Flutter大学"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 2022年9月3日に東京中野にて、Flutter大学メンバーによるボーリング大会を開催しました！
@@ -17,11 +18,7 @@ Flutter大学のオフ会の様子が少しでも伝わったらいいなと思�
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/0B453A9D-55AE-4B1A-9ACA-6730ADB68B77-98330-00000DE2D5248E91-1024x683.jpg)
 
-手前からこんぶさん、ひろなりさん、kboy
-
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/75C0E9D7-DB05-45A9-A09D-AA00D4D2847F-98330-00000DE3038B907B-1024x683.jpg)
-
-チャラい表情のkosukeさん
 
 ## ボーリング開始
 
@@ -45,27 +42,19 @@ slackで事前にうえともさんがチーム分けしてくださってスム
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/8B0C3DB2-3052-4204-8D4F-D3C81E1AE346-98330-00000DE41DBD9A9C-1-1024x683.jpg)
 
-途中で覚醒したらいすさん
-
 全部で２ゲーム行い、個人で合計得点が高かった人にはFlutter大学Tシャツをプレゼント。Tシャツは下の写真でkboyが着ているやつです。
 
 結果的には、またゆーさんが1位を取りました。おめでとうございます！
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/IMG_1509-1024x768.jpg)
 
-投げるこんぶ
-
 また、チーム戦で勝ったチームには景品としてFlutter大学ステッカーをプレゼントしました。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/IMG_3193-768x1024.jpg)
 
-Flutter大学ステッカーを貼ったmacbook air
-
 ## 記念撮影して飲み会へ
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/EAA90962-A35D-4D6F-9165-99E5CD6B314A-98330-00000DE6560B16FA-1024x683.jpg)
-
-ポーズに統一感はない
 
 今回のボーリングは12人の参加でした。
 
@@ -73,14 +62,12 @@ Flutter大学ステッカーを貼ったmacbook air
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/IMG_1520-768x1024.jpg)
 
-酔っ払ったこんぶさんと、奥はishihayaさん
-
 ## まとめ
 
 以上、今回は先日開催されたボーリングオフ会のレポートでした。
 
 今後はよりいっそうFlutter大学のオフラインの集まりの様子も記事や動画に上げていきたいと思っています！
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

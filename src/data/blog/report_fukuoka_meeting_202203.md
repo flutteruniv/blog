@@ -3,8 +3,9 @@ title: "2022年3月Flutter大学福岡オフ会レポート"
 slug: "report_fukuoka_meeting_202203"
 author: "kboy"
 description: ""
-pubDatetime: 2022-03-29T10:00:00.000Z
+pubDatetime: "2022-03-29"
 tags: ["Flutter大学"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 こんにちは。Flutter大学総長のkboyです。この週刊Flutter大学が始まってから約１ヶ月が経ちましたね。
@@ -17,8 +18,6 @@ Aoiさんの記事はとてもエネルギーがあって、情報量も多く�
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/ED30D3DB-A74E-4296-BAFB-FDFEED06F932-11429-0000095B882B1D48-1024x683.jpg)
 
-2021年秋の東京オフ会の様子
-
 Flutter大学では、オフ会を2020年10月に東京で１回、2021年9月10月には全国５都市で開催してきました。要は実際に集まっての飲み会です。
 
 **オンラインコミュニティでありながらオフ会が結構活発で楽しい**のがこのコミュニティの良いところだなと感じています。
@@ -29,15 +28,11 @@ Flutter大学では、オフ会を2020年10月に東京で１回、2021年9月10
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/ios__________-768x1024.jpeg)
 
-山盛りのニラにテンションが上がっているヤマタツ兄貴
-
 今回の福岡オフ会には14人程が集まったのですが、なんと福岡が地元の人はそのうち4人ほどw
 
 その他のメンバーは**札幌、東京、新潟から福岡に集結**しました。これが楽しい。正直言ってこんなことでもないと福岡に行かないですからねw こうやって用事を作れて地方で集まれて楽しいなと本当に感じます。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/３-768x1024.jpeg)
-
-「彼氏と博多なう」に使っていいよとか言ってる新潟大学４年ganちゃん
 
 以下に挙げるようないくつかの面白エピソードも誕生したのでFlutter大学メンバーは今度聞いてみてください笑
 
@@ -65,8 +60,6 @@ https://apps.apple.com/jp/app/%E3%82%AA%E3%82%AA%E3%82%BF%E3%83%8B%E3%82%B5%E3%8
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/２-edited-scaled.jpeg)
 
-garrawayFで写メ撮る二日酔いのkboy
-
 オフ会の時間以外にコワーキングスペース２箇所に行ってみました。
 
 garrawayfというトヨタ九州が運営しているところと、エンジニアカフェです。
@@ -78,8 +71,6 @@ https://engineercafe.jp/ja/
 ２箇所とも登録すれば無料で使うことができました。福岡は無料コワーキングスペースがいくつかあって、エンジニアにとても優しい街だなと感じます。よく比較に出される札幌にはこんなにコワーキングスペースはありません。
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/スクリーンショット-2022-03-28-16.47.50-971x1024.png)
-
-チェキを撮ることになっていますと棒読みで言われて撮影に応じるkboy。お姉さんは特に何も感想を言ってくれなかった。
 
 家賃も東京より安いし、働ける場所も多いし、福岡はエンジニアにとってナイスな街だなと改めて実感できた出張でした。あとはサウナが充実していれば。。。。w
 
@@ -95,8 +86,6 @@ https://engineercafe.jp/ja/
 
 オフ会は２、３ヶ月に１回どこかの地方でやりたいと思っています。次は大阪かベトナムかな？w
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)

@@ -3,15 +3,16 @@ title: "Flutter ニュース 【2022年11月第2週】"
 slug: "flutter-news-20221114"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-11-14T10:00:00.000Z
+pubDatetime: "2022-11-14"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 **Flutterの最新情報をキャッチアップしたい！**
 
 そんなあなたに送る、 Flutterニュース 。
 
-本記事ではFlutterニュースとして、2022年11月第2週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、2022年11月第2週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行います。
 
 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
@@ -26,14 +27,14 @@ Flutter のstable チャンネルにて、Flutter 3.3.8がリリースされま�
 
 [Hotfixes一覧](https://github.com/flutter/flutter/wiki/Hotfixes-to-the-Stable-Channel#338-nov-09-2022)によると今回のリリースでの修正点は以下となります。
 
-*   [Android デバイスが no Data を渡した際の `TextField` の null safety の問題の修正](https://github.com/flutter/flutter/issues/113973)
-*   [`num` 型 を許さない `TextInput`の型変換の修正](https://github.com/flutter/flutter/issues/109632)
+- [Android デバイスが no Data を渡した際の `TextField` の null safety の問題の修正](https://github.com/flutter/flutter/issues/113973)
+- [`num` 型 を許さない `TextInput`の型変換の修正](https://github.com/flutter/flutter/issues/109632)
 
 ### Gesture Arena | Decoding Flutter
 
 https://youtu.be/Q85LBtBdi0U
 
-Flutter のタップ、ダブルタップ、ロングタップ等のイベントがどのように判別されているかを、  
+Flutter のタップ、ダブルタップ、ロングタップ等のイベントがどのように判別されているかを、
 イベントの闘技場に例えて紹介されている動画です。
 
 アニメーション付きで、判別の仕組みが紹介されています。
@@ -42,18 +43,18 @@ Flutter のタップ、ダブルタップ、ロングタップ等のイベント
 
 https://twitter.com/FlutterDev/status/1590758686149976064
 
-Flutter の新たなテンプレートである、  
+Flutter の新たなテンプレートである、
 Flutter News Toolkit へのアーリーアクセスが可能になった、とのツイートです。
 
-このテンプレートを使うことによって、  
-認証機能やSNSへのシェア機能を持ったニュースアプリを、  
+このテンプレートを使うことによって、
+認証機能やSNSへのシェア機能を持ったニュースアプリを、
 より速く、簡単に作成することができるとのことです。
 
 ## Flutterに関する話題
 
 ### Samsung Note のようなメモアプリのリポジトリ
 
-https://www.reddit.com/r/FlutterDev/comments/ys4ulo/i\_built\_a\_notetaking\_app\_similar\_to\_samsung\_note/
+https://www.reddit.com/r/FlutterDev/comments/ys4ulo/i_built_a_notetaking_app_similar_to_samsung_note/
 
 マークダウンで書くことのできるメモアプリのリポジトリがRedditで話題となっていました。
 
@@ -79,7 +80,7 @@ Flutter のバージョン管理ツールであるPuro についての投稿がR
 
 ### **dart:ffiで既存のC++の資産をDart/Flutterから使用する方法**
 
-https://zenn.dev/turing\_motors/articles/c62030a38d2eda
+https://zenn.dev/turing_motors/articles/c62030a38d2eda
 
 C++ で書かれた関数等をDart / Flutter で利用する方法について解説された記事です。
 
@@ -89,34 +90,34 @@ dart:ffi を用いて利用する方法が、具体的な課題と解決策の�
 
 https://zenn.dev/bun133/articles/e035b8a6b04956
 
-Flutter x Firebase で 文化祭来場用の予約サイトを作成した際の経験談について  
+Flutter x Firebase で 文化祭来場用の予約サイトを作成した際の経験談について
 書かれた記事です。
 
-仕様変更の経緯や作成にあたって困った点等が書かれています。  
+仕様変更の経緯や作成にあたって困った点等が書かれています。
 記事内で作成したアプリケーションのソースコードのGitHubリンク等が記載されています。
 
 ### **StateNotifier, StateProvider, FutureProvider, StreamProviderの使い分け**
 
 https://zenn.dev/3ta/articles/fb2329ba2ab1dd
 
-Flutterの状態管理フレームワーク、Riverpod のいくつかの`Provider`について、  
+Flutterの状態管理フレームワーク、Riverpod のいくつかの`Provider`について、
 役割の違い等を紹介している記事です。
 
 `FutureProvider`の`StateNotirfierProvider`での書き換えでの例等が紹介されています。
 
-### **【Flutter】Riverpod 2.0 の Notifier と riverpod\_generator の解説**
+### **【Flutter】Riverpod 2.0 の Notifier と riverpod_generator の解説**
 
-https://zenn.dev/10\_tofu\_01/articles/try\_riverpod\_generator
+https://zenn.dev/10_tofu_01/articles/try_riverpod_generator
 
-Flutterの状態管理フレームワーク、Riverpodのバージョン2.0と同時に追加された  
-riverpod\_generator 等について紹介された記事です。
+Flutterの状態管理フレームワーク、Riverpodのバージョン2.0と同時に追加された
+riverpod_generator 等について紹介された記事です。
 
-カウンターアプリを題材にriverpod\_generatorでのコード生成の利用方法や、  
+カウンターアプリを題材にriverpod_generatorでのコード生成の利用方法や、
 `Notifier`での記述例が紹介されています。
 
 ### **【重要】学習・開発で必ず確認するべきOSS**
 
-https://zenn.dev/nameless\_sn/articles/awesome\_open\_source
+https://zenn.dev/nameless_sn/articles/awesome_open_source
 
 WEB開発、モバイル開発等々で開発者が知っておくと良いオープンソースソフトウェア（OSS）について紹介された記事です。
 
@@ -142,7 +143,7 @@ https://itnext.io/create-your-own-toast-without-using-any-packages-6d3828816f7c
 
 https://codewithandrea.com/articles/unit-test-async-notifier-riverpod/
 
-Riverpod 2.0 で追加された`AsyncNotifier`のサブクラスの単体テストの仕方について  
+Riverpod 2.0 で追加された`AsyncNotifier`のサブクラスの単体テストの仕方について
 紹介、解説された記事です。
 
 認証機能を例に挙げモックの仕方やリスナーの設定方法等が紹介されています。
@@ -171,7 +172,7 @@ Flutter 、Riverpod の`Provider` に対する修飾子である`family`につ�
 
 https://zenn.dev/manabu/articles/184ac4060c37bf
 
-Flutter とCI/CDサービスであるBitriseを用いて、  
+Flutter とCI/CDサービスであるBitriseを用いて、
 App Store、Google Play Storeにまとめてデプロイする方法について解説された記事です。
 
 実際に導入しているアプリの設定内容をスクショ付きで紹介されています。
@@ -180,7 +181,7 @@ App Store、Google Play Storeにまとめてデプロイする方法について
 
 https://zenn.dev/faucon/articles/5a28dc9f7ea7c9
 
-Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で  
+Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で
 紹介されたウィジェットを、一つ取り上げて解説する記事です。
 
 今回はタップ等のジェスチャーを無効化する`**AbsorbPointer**`についての解説記事となっています。
@@ -189,7 +190,7 @@ Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week
 
 https://zenn.dev/faucon/articles/a2415c2cd1fd0a
 
-Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で  
+Flutter 公式のウィジェット紹介動画シリーズ、Widget of the Week で
 紹介されたウィジェットを、一つ取り上げて解説する記事です。
 
 今回は拡大や回転等を実装できる`**Transform**`についての解説記事となっています。
@@ -202,7 +203,7 @@ GitHub Actions を利用してのCI を構築時に直面したエラーの内�
 
 端的に原因と解決策が書かれています。
 
-### **【Flutter】Animationの基礎から応用まで** 
+### **【Flutter】Animationの基礎から応用まで **
 
 https://zenn.dev/heyhey1028/articles/a9ee3695cfcf63
 
@@ -232,17 +233,15 @@ https://blog.flutteruniv.com/widget-sizedbox/
 
 ## まとめ
 
-本記事ではFlutterニュースとして、  
-2022年11月第2週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、
+2022年11月第2週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行いました。
 
 この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/11/14）
 
@@ -250,21 +249,21 @@ Flutter公式からこんなツイートがありました。
 
 https://twitter.com/FlutterDev/status/1590026371417673728
 
-2023年1月25日に何かある、との告知ツイートです。  
-一体何があるんでしょうか？  
+2023年1月25日に何かある、との告知ツイートです。
+一体何があるんでしょうか？
 いくつか予想をしてみようと思います。
 
-1.  Flutter のメジャーアップデート (Flutter 4.0.0)
-2.  Flutter のカンファレンスの開催
-3.  Flutter Apprentice のような初心者向けチュートリアル本の展開
-4.  Flutter Puzzle Hack のようなハッカソンの開催
+1. Flutter のメジャーアップデート (Flutter 4.0.0)
+2. Flutter のカンファレンスの開催
+3. Flutter Apprentice のような初心者向けチュートリアル本の展開
+4. Flutter Puzzle Hack のようなハッカソンの開催
 
-個人的には、Flutter 4.0が本命かな、と思っています。  
+個人的には、Flutter 4.0が本命かな、と思っています。
 どれになるにしろ、今からワクワクが止まりませんね！
 
-あなたはこの告知についてどのように思いますか？  
+あなたはこの告知についてどのように思いますか？
 ぜひTwitter等でご意見をお聞かせください！
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

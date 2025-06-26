@@ -3,8 +3,9 @@ title: "【Flutter大学】 共同勉強会 まとめました！【2022年8月�
 slug: "flutteruniversity-study-meeting-202208"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-09-02T10:00:00.000Z
+pubDatetime: "2022-09-02"
 tags: ["勉強会"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 **「Flutter大学の 共同勉強会 、何やっているのか気になるな、、、」**
@@ -25,16 +26,16 @@ Flutter大学の共同勉強会について解説します。
 
 Flutter大学とは、「Flutterエンジニアに特化した学習コミュニティ」です。
 
-Flutterを勉強したい人、Flutterでエンジニアとして働いている人など、  
+Flutterを勉強したい人、Flutterでエンジニアとして働いている人など、
 さまざまな方に参加いただいています。
 
 以下の記事で詳しく解説しておりますので、併せてご覧ください。
 
-https://blog.flutteruniv.com/flutteruniversity\_explanation/
+https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 ### 共同勉強会とは
 
-共同勉強会とは、Flutter大学内でほぼ毎週行われている  
+共同勉強会とは、Flutter大学内でほぼ毎週行われている
 Flutterやアプリ開発に関する勉強会のことです。
 
 内容は初心者向けのものから、かなりコアなものまでさまざまです。
@@ -47,15 +48,13 @@ Flutter大学の有志のメンバーが発表者となり知見の共有が行�
 
 いいえ！見れます！
 
-勉強会は毎回録画され、アーカイブ動画としてFlutter大学HP、  
+勉強会は毎回録画され、アーカイブ動画としてFlutter大学HP、
 またはFlutter大学アプリから閲覧可能です。
 
 このため、Flutter大学にはかなりの知見が蓄えられています。
 
-勉強会動画の閲覧、勉強会への参加には、Flutter大学の有料会員登録が必要です。  
+勉強会動画の閲覧、勉強会への参加には、Flutter大学の有料会員登録が必要です。
 Flutter大学への参加は以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 8月の勉強会の紹介
 
@@ -71,20 +70,20 @@ Flutter大学への参加は以下の画像リンクから。
 
 年間100記事書いているエンジニアの目線から記事作成のメリット、作成のコツが紹介されました。
 
-Aoi「私が発表した勉強会となります。  
+Aoi「私が発表した勉強会となります。
 普段思っている記事作成のメリットについて詳細にお話しさせていただきました！」
 
 ### **【ダイゴ】はじめての MethodChannel**
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/20220902_method_channel.png)
 
-Flutterでネイティブ連携を行うための、  
+Flutterでネイティブ連携を行うための、
 MethodChannelについての勉強会が開かれました。
 
-Android / iOS それぞれでの連携の仕方について、  
+Android / iOS それぞれでの連携の仕方について、
 詳細に解説いただきました。
 
-Aoi「発表内ではバッテリー残量の取得を例に、  
+Aoi「発表内ではバッテリー残量の取得を例に、
 ネイティブとの連携の方法をコードベースで紹介いただきました！」
 
 ### **【すさ】日本モバイル史の繁栄と衰退**
@@ -95,7 +94,7 @@ Aoi「発表内ではバッテリー残量の取得を例に、
 
 1985年から、携帯電話に関する変遷について紹介いただきました。
 
-Aoi「2005年からエンジニアとして働いているすささんならではの発表で、  
+Aoi「2005年からエンジニアとして働いているすささんならではの発表で、
 大変ためになりました！」
 
 ## まとめ
@@ -108,28 +107,26 @@ Aoi「2005年からエンジニアとして働いているすささんならで�
 
 Flutter大学への参加はこちらから。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/9/2）
 
 8月の勉強会についてのまとめ記事でした。
 
-MethodCannelに関連して、  
-ネイティブとの連携面で先日発表のDart2.18で紹介された、  
+MethodCannelに関連して、
+ネイティブとの連携面で先日発表のDart2.18で紹介された、
 ffigenを使ったネイティブAPI利用の内容はとても興味深かったですね。
 
 https://blog.flutteruniv.com/flutter-3-3-dart-2-18/#toc20
 
-元記事を読んでいて、こんなネイティブのように書くことができるのか！  
+元記事を読んでいて、こんなネイティブのように書くことができるのか！
 と驚いたのを覚えています。
 
-まだObjective-C/Swiftのみの対応ですが、  
+まだObjective-C/Swiftのみの対応ですが、
 今後Kotlin/Java等に広がることに期待ですね。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

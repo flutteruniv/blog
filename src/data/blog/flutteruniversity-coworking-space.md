@@ -11,8 +11,10 @@ tags: ["Flutter"]
 ogImage: ""
 ---
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
 Flutter大学の オンライン作業部屋 って一体どんなところなの？
 
+![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
 一人でFlutterの勉強したり仕事したりするのってちょっと寂しいのよね、、、
 
 本記事ではそんな疑問、悩みにお答えします！
@@ -26,7 +28,9 @@ Flutter大学でのいつでも使えるコワーキングスペース、
 
 ## オンライン作業 とは？
 
-## Flutter大学とは?
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+
+### Flutter大学とは?
 
 Flutter大学とは、「Flutterエンジニアに特化した学習コミュニティ」です。
 
@@ -37,7 +41,7 @@ Flutterを勉強したい人、Flutterでエンジニアとして働いている
 
 https://blog.flutteruniv.com/flutteruniversity_explanation/
 
-## オンライン作業部屋 とは？
+### オンライン作業部屋 とは？
 
 Flutter大学のオンライン作業部屋とは、
 [gather](https://www.gather.town) や [spatial chat](https://spatial.chat/) のミーティングアプリを利用した、
@@ -59,9 +63,11 @@ Flutter大学では好きな時間、用途でこのアプリケーションを�
 
 ## オンライン作業部屋の良いポイント
 
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+
 Flutter大学のオンライン作業部屋の良いポイントを厳選して3つ紹介します！
 
-## いつでも使える
+### いつでも使える
 
 1つ目の良いポイントは、オンライン作業部屋をいつでも使えることです。
 
@@ -74,7 +80,7 @@ Flutter大学のオンライン作業部屋は、24時間、いつでも開か�
 時間を選ばず使いたい時に使えること、
 これがオンライン作業部屋の1つ目の良いポイントです。
 
-## 集中して作業ができる
+### 集中して作業ができる
 
 2つ目の良いポイントは、集中して作業ができることです。
 
@@ -91,9 +97,9 @@ Flutter大学のオンライン作業部屋は、24時間、いつでも開か�
 あなたの作業を集中して取り組めるようになること、
 これがオンライン作業部屋の2つ目の良いポイントです。
 
-Gatherを使った作業の様子
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/coworking1.png)
 
-## 誰かと一緒に作業をしている感覚を味わえる
+### 誰かと一緒に作業をしている感覚を味わえる
 
 3つ目の良いポイントは誰かと一緒に作業している感覚を味わえることです。
 
@@ -114,9 +120,11 @@ Flutter大学のオンライン作業部屋では、
 オンラインながらも周りに人がいることで、寂しさを軽減できること、
 これが3つ目の良いポイントです。
 
-作業の合間の雑談の様子
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/coworking3.png)
 
 ## まとめ
+
+![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
 
 本記事ではFlutter大学でのいつでも使えるコワーキングスペース、
 オンライン作業部屋について紹介しました。

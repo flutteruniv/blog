@@ -3,30 +3,30 @@ title: "Flutter ニュース 【2022年5月第4週】"
 slug: "flutter-news-20220606"
 author: "Aoi"
 description: ""
-pubDatetime: 2022-05-30T10:00:00.000Z
+pubDatetime: "2022-05-30"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-
 Flutterの最新情報をキャッチアップしたい！
 
 そんなあなたに送る、 Flutterニュース 。
 
-本記事ではFlutterニュースとして、2022年5月第4週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、2022年5月第4週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行います。
 
 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
 
 ## Flutter公式情報
 
-### Package of the Week shared\_prefernces
+### Package of the Week shared_prefernces
 
-https://youtu.be/sa\_U0jffQII
+https://youtu.be/sa_U0jffQII
 
 Flutter公式のパッケージを紹介する動画シリーズ、Package of the Week が更新されました。
 
-今回はローカルでデータを保存する、shared\_preferncesについての動画となります。
+今回はローカルでデータを保存する、shared_preferncesについての動画となります。
 
 ### DartPad ワークショップの紹介
 
@@ -36,56 +36,56 @@ Flutter公式のパッケージを紹介する動画シリーズ、Package of th
 
 https://dartpad.dev/workshops.html?webserver=https://mobile2web-workshop.web.app
 
-モバイルからWeb,Desktopアプリへの移行するにあたっての、  
+モバイルからWeb,Desktopアプリへの移行するにあたっての、
 マウスホバー時のアクションやキーボード入力に関する設定等を学べるワークショップです。
 
 #### LazyIndexedStack の実装
 
-https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/AlexV525/dartpad\_workshops/main/implement\_lazy\_indexed\_stack
+https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/AlexV525/dartpad_workshops/main/implement_lazy_indexed_stack
 
-`IndexedStack` `Widget`にて遅延読み込みを実現した、  
+`IndexedStack` `Widget`にて遅延読み込みを実現した、
 `LazyIndexedStack` `Widget`の実装方法について学べるワークショップです。
 
 #### Flutter Themeでの一貫したデザイン
 
-https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/foxanna/flutter\_theme\_workshop/main/workshop#Step1
+https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/foxanna/flutter_theme_workshop/main/workshop#Step1
 
-`Theme`や`ThemeData`を用いて、  
+`Theme`や`ThemeData`を用いて、
 ボタンやテキスト等に一貫したデザインを実装する方法を学べるワークショップです。
 
 #### Extension メソッド
 
 https://dartpad.dev/workshops.html?webserver=https://extension-method-workshop.web.app
 
-既存のクラスに新しい機能を加える、  
+既存のクラスに新しい機能を加える、
 `Extension` メソッドの使い方について学ぶことができるワークショップです。
 
 ## Flutterに関する話題
 
 ### 仮想マシンでの比較によるM1 マシンでのFlutterビルドの速さについて
 
-https://www.reddit.com/r/FlutterDev/comments/uxbp8p/flutter\_builds\_are\_way\_faster\_with\_m1\_machines\_a/
+https://www.reddit.com/r/FlutterDev/comments/uxbp8p/flutter_builds_are_way_faster_with_m1_machines_a/
 
-CodeMagic でのCI/CD でFlutterアプリをビルドする際に、  
-M1 Mac の端末を選択すると、Mac Pro を選択するより50%速い、  
+CodeMagic でのCI/CD でFlutterアプリをビルドする際に、
+M1 Mac の端末を選択すると、Mac Pro を選択するより50%速い、
 という検証結果についての投稿、記事です。
 
 投稿内のリンクから飛べる記事には比較のグラフが記載されています。
 
-### flutter\_floating プラグイン
+### flutter_floating プラグイン
 
-https://github.com/jiusanzhou/flutter\_floatwing
+https://github.com/jiusanzhou/flutter_floatwing
 
-Android 端末で他のアプリやホーム画面でオーバーレイで  
+Android 端末で他のアプリやホーム画面でオーバーレイで
 Flutterアプリの画面を表示させるプラグインがRedditで話題になっていました。
 
 Readmeに使用感のGifが記載されています。
 
-###  Hacki for Hacker News
+###  Hacki for Hacker News
 
 https://github.com/Livinglist/Hacki
 
-[Hacker News](https://news.ycombinator.com/)をスマホアプリで見れるようにした  
+[Hacker News](https://news.ycombinator.com/)をスマホアプリで見れるようにした
 アプリケーションのソースコードが公開されていました。
 
 状態管理手法としてBloCを用いて作成されているとのことです。
@@ -104,10 +104,10 @@ FlutterのローコードツールであるFlutterFlowについて紹介され�
 
 https://verygood.ventures/blog/dart-frog
 
-VERY GOOD VENTURESによるDart でのバックエンドフレームワーク、  
+VERY GOOD VENTURESによるDart でのバックエンドフレームワーク、
 Dart Frog についての記事です。
 
-まだ試験段階のようですが、Dartでバックエンドサーバーの処理を書くことができます。  
+まだ試験段階のようですが、Dartでバックエンドサーバーの処理を書くことができます。
 セットアップの仕方からテストの仕方まで記載されています。
 
 ### Dart での高階関数と再帰
@@ -118,7 +118,7 @@ Dartでの再帰関数や高階関数に関する記事です。
 
 Mapやreduceなどの高階関数が例を用いて紹介されています。
 
-再帰関数については週刊Flutter大学にて記事を出しています。  
+再帰関数については週刊Flutter大学にて記事を出しています。
 併せてご確認ください。
 
 https://blog.flutteruniv.com/dart-recursive-function/
@@ -153,9 +153,9 @@ https://youtu.be/FwtOUqXZazw
 
 https://youtu.be/Yq3B4lpJSKg
 
-shader パッケージ、並びに shader\_cli パッケージの利用方法について解説された動画です。
+shader パッケージ、並びに shader_cli パッケージの利用方法について解説された動画です。
 
-コマンドラインツールを用いてシェーダーのコードを即座に反映させる方法が  
+コマンドラインツールを用いてシェーダーのコードを即座に反映させる方法が
 解説されています。
 
 ## 週刊Flutter大学の記事
@@ -174,17 +174,15 @@ https://blog.flutteruniv.com/flutter-riverpod/
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
-本記事ではFlutterニュースとして、  
-2022年5月第4週に話題になったFlutter関連の情報や、  
+本記事ではFlutterニュースとして、
+2022年5月第4週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行いました。
 
 この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
 
-Flutterを一緒に学んでみませんか？  
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、  
+Flutterを一緒に学んでみませんか？
+Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
 以下の画像リンクから。
-
-[![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/Flutter大学バナー.png)](//flutteruniv.com)
 
 ## 編集後記（2022/5/30）
 
@@ -192,26 +190,26 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 そのため、月に3~4回ほどしか家から出ない生活を送っています。
 
-これは良いことだと思っているのですが、ちょっと困ったというか、  
+これは良いことだと思っているのですが、ちょっと困ったというか、
 辛かった出来事があったので紹介します。
 
 先日、某夢の国に遊びに行ったときのことです。
 
-最近は入場者数の制限もゆるくなっているからか、  
-体感とても多い人数の来場者数でした。  
+最近は入場者数の制限もゆるくなっているからか、
+体感とても多い人数の来場者数でした。
 人数が多くなると長くなるのがアトラクションの待ち時間です。
 
-夢の国の滞在時間の半分くらいがアトラクションの待ち時間で、  
+夢の国の滞在時間の半分くらいがアトラクションの待ち時間で、
 ちょっと進んでは止まる、座ることができない時間を過ごしました。
 
-こうした時に悲鳴をあげるのが普段座り仕事しかしていない自分の足です。  
+こうした時に悲鳴をあげるのが普段座り仕事しかしていない自分の足です。
 滞在中から痛くて仕方がなく、帰宅時には泣きそうになりながら帰っていました。
 
-テレワークに喜ぶばかりでなく、  
+テレワークに喜ぶばかりでなく、
 なにかしらで足腰を鍛えることは必要だなと、改めて感じました。
 
 少しずつ鍛えていくようにします。
 
-週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
-記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
+週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
+記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
 ぜひぜひフォローをお願いいたします。

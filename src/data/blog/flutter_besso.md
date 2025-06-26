@@ -13,6 +13,8 @@ ogImage: ""
 
 突然ですが、Flutter大学は**Flutter別荘**という古民家を所有しています。これです。
 
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/10/CleanShot-0004-10-31-at-20.23.27@2x-1-1024x581.png)
+
 この記事では、Flutter別荘がどういった経緯で立ち上げられたのか、どんな生活をおくっているのか、どうやったら遊びに行けるのかについて紹介していきます。
 
 いつもの記事とは毛色が異なるので、困惑させているかもしれませんね。
@@ -55,31 +57,31 @@ Flutter別荘には2022年11月現在、5名の居住者がいて、共同生活
 
 鳥のさえずりが聞こえる静かな朝を迎えます。
 
-朝の散歩 山間にある田園からの眺望
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-10.51.52@2x-1024x505.png)
 
 午前から張り切ってFlutterの学習です。
 
 ひとつの部屋に集まり、互いを意識しながら切磋琢磨していきます。
 
-まだデスクがない中での学習風景
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-10.57.26@2x-1024x577.png)
 
 お腹が空いたらご飯。みんなで仲良く食べます。
 
-えごさん特性のガパオライス
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.03.39@2x-1024x587.png)
 
 午後も学習をして、脳みそが疲れてきたら、筋トレです。
 
 肉体もしっかり鍛えていきます。
 
-スクワットで己と向き合う
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.11.05@2x-1024x503.png)
 
 日が沈み始めるころにはテントサウナで疲れを癒します。
 
-インフィニティチェアでととのう
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.16.31@2x-1024x489.png)
 
 夜はBBQ。炭火を囲って団欒のひとときです。
 
-炭火で焼く タンドリーチキン と ししとう
+![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/CleanShot-0004-11-03-at-11.28.18@2x-1024x506.png)
 
 こうしてFlutter別荘での一日が終わります。
 

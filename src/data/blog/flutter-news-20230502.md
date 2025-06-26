@@ -3,8 +3,9 @@ title: "【Flutterニュース】Dart 3がもうすぐ来るぞ【2023年5月2�
 slug: "flutter-news-20230502"
 author: "kboy"
 description: ""
-pubDatetime: 2023-05-01T23:48:59.000Z
+pubDatetime: "2023-05-01"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
 ---
 
 ゴールデンウィークいかがお過ごしですか？Flutterを勉強している人もいるかもしれませんので、そんな方のために今日もFlutterニュースを書いていきたいと思います！
@@ -19,13 +20,13 @@ tags: ["ニュース"]
 
 https://twitter.com/flutterreleases/status/1651292613998149634?s=46
 
-## auto\_route
+## auto_route
 
-すささんは以下の理由でauto\_routeに最近乗り換えたとのこと！
+すささんは以下の理由でauto_routeに最近乗り換えたとのこと！
 
-\>ずっと [go\_router](https://pub.dev/packages/go_router) と [go\_router\_builder](https://pub.dev/packages/go_router_builder) を使ってましたが、ボトムナビゲーションバーを表示したまま画面遷移するように `ShellRoute` を使って修正をしたら、[タブを行き来すると画面スタックがクリアされてしまう問題](https://github.com/flutter/flutter/issues/99124) が go\_router では解決できませんでした。
+>ずっと [go_router](https://pub.dev/packages/go_router) と [go_router_builder](https://pub.dev/packages/go_router_builder) を使ってましたが、ボトムナビゲーションバーを表示したまま画面遷移するように `ShellRoute` を使って修正をしたら、[タブを行き来すると画面スタックがクリアされてしまう問題](https://github.com/flutter/flutter/issues/99124) が go_router では解決できませんでした。
 
-[https://zenn.dev/flutteruniv\_dev/articles/20230427-095829-flutter-auto-route](https://zenn.dev/flutteruniv_dev/articles/20230427-095829-flutter-auto-route)
+[https://zenn.dev/flutteruniv_dev/articles/20230427-095829-flutter-auto-route](https://zenn.dev/flutteruniv_dev/articles/20230427-095829-flutter-auto-route)
 
 Flutterはこのタブの状態管理あたりが、iOSネイティブ（Swift）よりも大変ですね。。！
 
@@ -47,7 +48,7 @@ Flutter大学内でもDart3.0が話題になってきました！
 
 ここからは個人的な話。先週、Flutter大学に対してstripeのプロモーションコードを入力できるような実装をしていたので、その知見を記事にまとめました！
 
-[https://zenn.dev/flutteruniv\_dev/articles/672ba75d3829ca](https://zenn.dev/flutteruniv_dev/articles/672ba75d3829ca)
+[https://zenn.dev/flutteruniv_dev/articles/672ba75d3829ca](https://zenn.dev/flutteruniv_dev/articles/672ba75d3829ca)
 
 ## 今週読んだ記事
 
