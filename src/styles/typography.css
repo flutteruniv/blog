@@ -97,6 +97,47 @@
     pre {
       @apply focus-visible:border-transparent focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-dashed;
     }
+
+    /* ===== Link Card Styling (remark-link-card-plus) ===== */
+    .remark-link-card-plus__container {
+      @apply w-full mb-5 max-w-full;
+    }
+
+    .remark-link-card-plus__card {
+      @apply border border-border rounded-lg no-underline flex gap-4 transition-colors duration-150 hover:bg-muted/30 max-w-full overflow-hidden;
+    }
+
+    .remark-link-card-plus__main {
+      @apply flex flex-col justify-center font-normal flex-1 py-3 pl-4 pr-2 min-w-0;
+    }
+
+    .remark-link-card-plus__title {
+      @apply text-base font-bold leading-tight text-foreground overflow-hidden line-clamp-2 mb-2 max-w-full;
+    }
+
+    .remark-link-card-plus__description {
+      @apply text-sm text-foreground/60 mb-2 overflow-hidden line-clamp-3 max-w-full;
+    }
+
+    .remark-link-card-plus__meta {
+      @apply flex items-center gap-2 min-w-0;
+    }
+
+    .remark-link-card-plus__favicon {
+      @apply mt-1 mb-0 w-4 h-4 flex-shrink-0;
+    }
+
+    .remark-link-card-plus__url {
+      @apply text-sm text-foreground/50 overflow-hidden text-ellipsis whitespace-nowrap min-w-0 flex-1;
+    }
+
+    .remark-link-card-plus__thumbnail {
+      @apply w-24 h-24 flex-shrink-0;
+    }
+
+    .remark-link-card-plus__image {
+      @apply object-cover h-full w-full m-0 rounded-r-lg;
+    }
   }
 
   /* ===== Code Blocks & Syntax Highlighting ===== */
