@@ -24,7 +24,12 @@
       "Bash(mv:*)",
       "Bash(mkdir:*)",
       "Bash(git --git-dir=../../../.git --work-tree=../../.. status)",
-      "Bash(git --git-dir=../../../.git --work-tree=../../.. add .)"
+      "Bash(git --git-dir=../../../.git --work-tree=../../.. add .)",
+      "Bash(git --git-dir=../../../.git --work-tree=../../.. commit -m \"Complete WordPress to Astro migration\n\n- Implement hierarchical category system matching WordPress structure\n  * Add /category/flutter/beginer/ URL patterns  \n  * Map Japanese tags to English category slugs\n  * Create category index and nested route pages\n  * Replace tag system with proper category taxonomy\n\n- Enhance typography for better content hierarchy\n  * H2: Accent-colored blocks with left borders\n  * H3: Clean underlined sections with accent borders\n  * H4: Arrow-prefixed subsections\n  * Improved readability and visual scanning\n\n- Update navigation to Japanese localization\n  * Header: 記事 (Posts), カテゴリー (Category), About\n  * Page titles and breadcrumbs in Japanese\n  * Maintain consistency with URL structure\n\n- Implement rich link functionality\n  * Enhanced external link styling with indicators\n  * Preserve clean static generation approach\n  * Remove problematic image-generating plugins\n\n- Fix permalink structure for SEO preservation\n  * Change from /posts/slug to /slug format\n  * Maintain WordPress URL compatibility\n  * Update all internal link references\n\n- Add comprehensive deployment configuration\n  * netlify.toml with optimized build settings\n  * Security headers and performance optimizations\n  * URL redirects for clean routing\n  * Complete deployment documentation\n\nReady for production deployment to replace WordPress site.\nAll original content preserved with enhanced UX and performance.\")",
+      "Bash(git --git-dir=../../../.git --work-tree=../../.. push origin main)",
+      "Bash(pnpm --dir ../../.. install)",
+      "Bash(git --git-dir=../../../.git --work-tree=../../.. add pnpm-lock.yaml)",
+      "Bash(git --git-dir=../../../.git --work-tree=../../.. add ../../../pnpm-lock.yaml)"
     ],
     "deny": []
   }
