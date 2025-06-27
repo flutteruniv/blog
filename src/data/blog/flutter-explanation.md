@@ -11,11 +11,29 @@ tags: ["Flutter"]
 ogImage: ""
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-Flutter （フラッター）って最近よく聞くけど、何なんだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutter （フラッター）って最近よく聞くけど、何なんだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-聞いたことあるけどよくわからないのよねぇ
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      聞いたことあるけどよくわからないのよねぇ
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 「Flutterは聞いたことあるけど、よくわからない、、、」
 
@@ -33,8 +51,17 @@ Flutter （フラッター）って最近よく聞くけど、何なんだろう
 
 数年後、何のアプリを作るにしろ、
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doya-man.png)
-「それ、Flutterで作れば良くね？」
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doya-man.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      「それ、Flutterで作れば良くね？」
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 となる時代が来るかもしれません。
 
@@ -62,8 +89,17 @@ Flutterでコードを書く際に使うプログラミング言語を**Dart**(�
 
 あなたは、こう思ってはいませんか？
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doya-woman.png)
-モバイルアプリとウェブアプリ、作るツールもプログラミング言語も違うし、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doya-woman.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      モバイルアプリとウェブアプリ、作るツールもプログラミング言語も違うし、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 同時になんて作れるわけない！
 
 Flutterはその常識を壊します。
@@ -97,8 +133,17 @@ Flutterでは上記を**全て作ることができます**。
 
 それがFlutterです。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-モバイルアプリとウェブアプリ同時に作れるなんてすごい！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      モバイルアプリとウェブアプリ同時に作れるなんてすごい！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 注1: React Native、Xamarinなど、iOSとAndroidなら両方作成できるフレームワークもあります。
 
@@ -121,8 +166,17 @@ Flutterの利点、１つ目は開発体験が良いことです。
 
 プログラミングを少し触ったことがある人で、こんな経験はないでしょうか？
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-プログラムを少し変えたいだけなのに、実行に時間がかかる、、、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      プログラムを少し変えたいだけなのに、実行に時間がかかる、、、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 プログラムを実行して見つけたちょっとしたミス。
 これを修正しようと思ってプログラムを再実行すると、ちょっとの変更なのに1~2分かかってしまう。
@@ -141,8 +195,17 @@ Flutterの**ホットリロード**という機能がこの待ち時間を解決
 
 ホットリロードによる待ち時間が少なさがFlutterの開発体験を良くしてくれます。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)
-変更がすぐ反映されるのはとても楽しそう！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      変更がすぐ反映されるのはとても楽しそう！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 ### 導入が無料
 
@@ -156,8 +219,17 @@ Flutterを動かすのに必要なソフトウェアは完全に無料となっ�
 （各モバイルアプリストアに作ったアプリを登録するのにお金がかかりますが、
 これは他のプラットフォームでも同じです。）
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-普段触っているようなアプリケーションが無料で作れるなんて、魅力的だね！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      普段触っているようなアプリケーションが無料で作れるなんて、魅力的だね！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 ### 直感的で簡単
 
@@ -184,8 +256,17 @@ Flutterでは、このようなWidgetを積み木やパズルのように組み�
 
 https://www.youtube.com/watch?v=EJOA0plae_s
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)
-パズルを組み立てるみたいに画面を作れるのね！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      パズルを組み立てるみたいに画面を作れるのね！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 ### 開発コストの削減が可能
 
@@ -215,18 +296,45 @@ Flutterでの開発ではFlutterの開発技術を持った開発者を雇いま
 
 このように、Flutterで開発することによって、雇う技術者のコストを削減できます。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
-コスト削減できるなら、Flutterの導入価値ありそうですね！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      コスト削減できるなら、Flutterの導入価値ありそうですね！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-個人開発でもFlutterで時間短縮できそう！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      個人開発でもFlutterで時間短縮できそう！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 ## Flutter の将来性は？
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-Flutterがすごいのはわかったけれど、将来的に使われるのかしら？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutterがすごいのはわかったけれど、将来的に使われるのかしら？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 私は、Flutterは将来的に広く使われるフレームワークとなると考えています。
 この根拠として以下の３つを解説していきます。

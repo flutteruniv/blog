@@ -8,8 +8,17 @@ tags: ["Dart"]
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-`final`と`const` って何が違うんだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      `final`と`const` って何が違うんだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 本記事ではそんな疑問にお答えします。
 
@@ -39,7 +48,7 @@ void main() {
 }
 ```
 
-https://dartpad.dartlang.org/?id=f376d029efac3680b7cb45d3828274eb
+https://dartpad.dev/?id=f376d029efac3680b7cb45d3828274eb
 
 final を使用した例です。
 一度final とつけた変数に値を入れたなら、再代入はできなくなります。
@@ -58,10 +67,19 @@ void main() {
 }
 ```
 
-https://dartpad.dartlang.org/?id=16f51b01853e1cfbb2f9c5f9895455e4
+https://dartpad.dev/?id=16f51b01853e1cfbb2f9c5f9895455e4
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-代入をできなくするのって不便そう、、、付けない方がよくない？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      代入をできなくするのって不便そう、、、付けない方がよくない？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 そう思う方がいるかもしれません。
 
@@ -81,8 +99,17 @@ https://dartpad.dartlang.org/?id=16f51b01853e1cfbb2f9c5f9895455e4
 
 ### finalとconst の違い
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-どちらも値を変えたくない時に使うのはわかったけれど、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      どちらも値を変えたくない時に使うのはわかったけれど、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 どう違うのかしら？
 
@@ -109,7 +136,7 @@ const を付けた変数は、コンパイル時に定数になります。
 そのためこの`DateTime.now()`は実行時にチェックする`final`の変数には設定できますが、
 `const`には設定できません。（以下のDartPadを御覧ください）
 
-https://dartpad.dartlang.org/?id=17cb870b1643170df555bba271870599
+https://dartpad.dev/?id=17cb870b1643170df555bba271870599
 
 `const` に設定できるのは 数や文字列や constのついた変数、 定数の計算結果のような、
 コンパイル時の定数に限られます。
@@ -140,7 +167,7 @@ void main() {
 ですが、`const`ではできません。
 以下のDartPadを実行してわかるように、実行時エラーとなります。
 
-https://dartpad.dartlang.org/?id=7edc7e1eb3193cee9ed1e0fff1cce50e
+https://dartpad.dev/?id=7edc7e1eb3193cee9ed1e0fff1cce50e
 
 `const`で設定した`object`はimmutable(不変)になるということです。
 

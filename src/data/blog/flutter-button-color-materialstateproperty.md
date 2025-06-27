@@ -8,11 +8,29 @@ tags: ["UI/レイアウト"]
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-ElevatedButtonの色を変えたいんだけど、どうすればいいんだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      ElevatedButtonの色を変えたいんだけど、どうすればいいんだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-押下した時の色もカスタマイズしたいわ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      押下した時の色もカスタマイズしたいわ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 本記事ではそんな疑問、要望にお答えします。
 
@@ -236,7 +254,7 @@ class ButtonBackgroundColor implements MaterialStateProperty {
 本記事で初回したサンプルコードは以下のDartPadに用意されています。
 ぜひ触ってみてください。
 
-https://dartpad.dartlang.org/?id=6f5ed0b9889edfaa290d4b87e93f64e0
+https://dartpad.dev/?id=6f5ed0b9889edfaa290d4b87e93f64e0
 
 ## まとめ
 

@@ -8,12 +8,30 @@ tags: ["Dart"]
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-コードを読んでいたら関数の中で自分自身の関数を呼び出しているのを
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      コードを読んでいたら関数の中で自分自身の関数を呼び出しているのを
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 見つけたんだけど、これってどういう処理なのかな？
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-難しくてよくわからないわ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      難しくてよくわからないわ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 本記事ではそんな疑問にお答えします。
 
@@ -73,7 +91,7 @@ int iterativeSum(int n) {
 ２つ目は、`for`で行った時に比べ、パフォーマンスが良くないことです。
 以下のDartPadで`for`ループで行う場合と、再帰的に行う場合の実行時間を比較しています。
 
-https://dartpad.dartlang.org/?id=1de5c64bc31178eda4b0e6391263ddf0
+https://dartpad.dev/?id=1de5c64bc31178eda4b0e6391263ddf0
 
 何回か実行してみると、再帰的に行う場合の方が時間がかかることがわかると思います。
 このように、パフォーマンスが悪くなってしまうことが弱点の２つ目です。

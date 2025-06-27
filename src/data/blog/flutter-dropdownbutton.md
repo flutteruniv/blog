@@ -11,8 +11,17 @@ tags: ["Widget"]
 ogImage: ""
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-Flutterでドロップダウン（プルダウン）のボタンってどうやって表示するんだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutterでドロップダウン（プルダウン）のボタンってどうやって表示するんだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 今回はそんな疑問にお答えします！
 本記事では、ドロップダウン（プルダウン）のボタンの表示に役立つWidget、

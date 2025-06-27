@@ -8,11 +8,29 @@ tags: ["Package"]
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-flutter_neumorphic ？ どんなパッケージなんだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      flutter_neumorphic ？ どんなパッケージなんだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-おしゃれなUIを作ってみたいわ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      おしゃれなUIを作ってみたいわ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 本記事ではそんな疑問、要望にお答えします。
 
@@ -184,8 +202,17 @@ Neumorphic(
 
 ![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-ニューモーフィズムな`Widget`をパッケージに依存せずに作りたい！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      ニューモーフィズムな`Widget`をパッケージに依存せずに作りたい！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 そんな人向けに、ニューモーフィズムなWidgetの作り方を紹介します。
 

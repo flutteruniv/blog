@@ -9,8 +9,17 @@ imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-`BottomNavigationBar` をスクロールしたら隠れるようにしたいんだけれど、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      `BottomNavigationBar` をスクロールしたら隠れるようにしたいんだけれど、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 どうすれば良いんだろう？
 
 本記事ではそんな疑問にお答えします。

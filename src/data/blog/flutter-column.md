@@ -8,11 +8,29 @@ tags: ["初心者向け"]
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-`Column` ってよく使うけれど、縦に並べるだけじゃないのかな？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      `Column` ってよく使うけれど、縦に並べるだけじゃないのかな？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-各プロパティの設定でどんな影響があるのか知りたいわ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      各プロパティの設定でどんな影響があるのか知りたいわ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 本記事ではそんな疑問、要望にお答えします。
 
@@ -66,7 +84,7 @@ Column(
 各プロパティについて、実際に変更すると、どうレイアウトが変わるのか、
 触って確かめることのできるDartPadを作成しました。
 
-https://dartpad.dartlang.org/?id=ff1435be00d292eaa5cc1712982ed830
+https://dartpad.dev/?id=ff1435be00d292eaa5cc1712982ed830
 
 本記事を読みながら、自分でもぜひ触って検証してみてください。
 

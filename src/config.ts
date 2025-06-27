@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://blog.flutteruniv.com/", // replace this with your deployed domain
   author: "Fujikawa Kei",
   profile: "https://blog.flutteruniv.com/",
-  desc: "Flutterエンジニアの学習コミュニティ",
+  desc: "Flutterエンジニアのための技術ブログ",
   title: "週刊Flutter大学",
   ogImage: "flutter-og.jpg",
   lightAndDarkMode: true,

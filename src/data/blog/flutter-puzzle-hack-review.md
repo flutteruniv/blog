@@ -8,11 +8,29 @@ tags: ["イベント"]
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-Flutter Puzzle Hack の結果が気になる！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutter Puzzle Hack の結果が気になる！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)
-どんな作品が入賞したのかしら？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      どんな作品が入賞したのかしら？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 本記事では今年始めに実施されたFlutterのハッカソンイベント、
  Flutter Puzzle Hack の入賞作品をレビューしていきます。
@@ -89,8 +107,17 @@ providers.dart一つのファイルにまとまっています。
 
 また、Webだけでなく、AndroidやiOSでも実行可能とのことです。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
-２ヶ月ちょっとの期間で作ったとは思えないほどのクオリティで、驚きました！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      ２ヶ月ちょっとの期間で作ったとは思えないほどのクオリティで、驚きました！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 とにかく細かいところのアニメーションがとても素晴らしいです！
 
@@ -152,8 +179,17 @@ Puzzle関連のロジックや、ダッシュボード画面のロジック等�
 
 また、Webだけでなく、AndroidやiOSでも実行可能とのことです。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
-アニメーションでパズルを実行する、というアイデアと、それの実現が本当に凄いです！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      アニメーションでパズルを実行する、というアイデアと、それの実現が本当に凄いです！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 Auto Solve機能もすべてDartで書かれている、というのがとても良いなと思いました。
 
@@ -207,8 +243,17 @@ The Werewolves Escape のパズルは１〜９の数パネルのスライドパ�
 
 またこちらも、Webだけでなく、AndroidやiOSでも実行可能とのことです。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
-オープニングムービーやバックグラウンドミュージックなど、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      オープニングムービーやバックグラウンドミュージックなど、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 構築されている世界観がとても良いアプリです！
 
 箱入り娘パズルを採用しているのも、まさしく独創性あふれるアイデアで、
@@ -268,8 +313,17 @@ Auto Solveのメソッド等を別リポジトリで管理するなどして、
 - マルチプレイ時の妨害スキル
 - 画面サイズに対するレスポンシブ対応
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
-スライドパズルをマルチプレイで遊べるようにする、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      スライドパズルをマルチプレイで遊べるようにする、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 という難しいテーマを見事に実現したアプリになっています！
 
 しかも複数の種類の端末でのマルチプレイの実現、

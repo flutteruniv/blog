@@ -11,11 +11,29 @@ tags: ["Flutter大学"]
 ogImage: ""
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-Flutterで検索すると出てくる Flutter大学とは  、一体何なんだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutterで検索すると出てくる Flutter大学とは  、一体何なんだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-お金取るみたいだし怪しくないかしら？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      お金取るみたいだし怪しくないかしら？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 あなたは、こんな風に思っていませんか？
 
@@ -36,8 +54,17 @@ Flutter大学とは、**Flutterエンジニアに特化した学習コミュニ�
 
 ### 学習コミュニティとは？
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-学習コミュニティって何だろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      学習コミュニティって何だろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 こんな風に思うかもしれません。
 
@@ -55,8 +82,17 @@ Flutterについては、[Flutterって何？ アプリ開発の常識を壊す�
 
 ### オンラインのコミュニティ
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-一体どこで集まっているのかしら？遠いと参加できないわ。
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      一体どこで集まっているのかしら？遠いと参加できないわ。
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 ご安心ください。
 Flutter大学はこの学習コミュニティを**オンラインで**提供します。
@@ -67,8 +103,17 @@ Flutter大学の様々なコンテンツにより、
 
 ### 学習教材と学習サポート体制
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-学習する場があっても、何をどうやって勉強していいのかわからないんだよね、、、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      学習する場があっても、何をどうやって勉強していいのかわからないんだよね、、、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 Flutter大学では学習コミュニティとしてより良いものとするために、
 学習教材、学習サポート体制を準備しています。
@@ -119,11 +164,29 @@ https://www.youtube.com/channel/UCReuARgZI-BFjioA8KBpjsw
 
 Flutter大学では週4回、現役のFlutterエンジニアによる質問相談会を[Zoom](https://explore.zoom.us/ja/products/meetings/)にて行なっています。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-Stream BuilderとFutureBuilderの違いが知りたい
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Stream BuilderとFutureBuilderの違いが知りたい
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)
-デバッグ画面の見方、使い方が知りたい
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      デバッグ画面の見方、使い方が知りたい
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 など、毎回様々な質問とその回答が行われています。
 
@@ -133,11 +196,29 @@ Stream BuilderとFutureBuilderの違いが知りたい
 
 #### 24時間質問受付
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-言葉での質問だと質問しづらい、、、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      言葉での質問だと質問しづらい、、、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-質問Zoomの時間が合わないわ、、、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      質問Zoomの時間が合わないわ、、、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 そんな方は、GitHubのissueを用いて24時間いつでも質問を投稿することが可能です。
 

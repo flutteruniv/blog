@@ -8,11 +8,29 @@ tags: ["初心者向け"]
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-FutureとStream 、よく出てくるけど、一体何なの？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      FutureとStream 、よく出てくるけど、一体何なの？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-何が違うのかわからないわ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      何が違うのかわからないわ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 Flutterでコードを書いていて出てくる`Future`と`Stream`、
 どちらも非同期処理でよく使われるものとなっていますが、難しくてよくわからないですよね。
@@ -27,8 +45,17 @@ Flutter初心者必見の内容となっています。
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/パソコン.jpeg)
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-Future ってよく出てくるけど、一体何なんだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Future ってよく出てくるけど、一体何なんだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 `Future`とは、**「非同期処理の返り値を表すクラス」**です。
 
@@ -170,8 +197,17 @@ https://twitter.com/flutteruniv/status/1451806410849673220?s=21
 
 ### FutureBuilder
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-`Future`関数の結果を使ってUIを作成するにはどうしたらいいの？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      `Future`関数の結果を使ってUIを作成するにはどうしたらいいの？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 Widgetを組み上げる`build`関数は `Future`関数でないため、
 この中で`async / await`を使うことはできません。
@@ -300,8 +336,17 @@ class _MyHomePageState extends State {
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-Stream って難しそうなんだよなぁ・・・
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Stream って難しそうなんだよなぁ・・・
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 ちょっとイメージするのが難しいですが、イメージを掴めばこれ以上ない武器になります！
 
@@ -317,8 +362,17 @@ Stream って難しそうなんだよなぁ・・・
 
 ```dart
 Stream countStream() async* {
-  for (int i = 1; i ![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-Stream関数の結果を使ってUIを作成するにはどうしたらいいの？
+  for (int i = 1; i <div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Stream関数の結果を使ってUIを作成するにはどうしたらいいの？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 `Stream`の値によって画面の値を変えていくには`StreamBuilder`を使うと便利です。
 
