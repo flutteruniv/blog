@@ -17,7 +17,7 @@ FlutterでUIを作成する際の場所取りに有用な仮置きのウィジ�
 
 本記事を読めば、以下画像のようにUIの場所取りをすることが可能です。
 
-<img src="/images/wp-content/uploads/2022/11/スクリーンショット-2022-11-09-17.21.00-565x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/11/スクリーンショット-2022-11-09-17.21.00-565x1024.webp" alt="" width="300">
 
 画像のサンプルコード
 ```dart
@@ -172,4 +172,3 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

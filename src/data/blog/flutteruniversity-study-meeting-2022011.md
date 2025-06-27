@@ -64,7 +64,7 @@ Flutter大学への参加は以下の画像リンクから。
 
 ### 【Aoi】【Flame 入門】30分でゲームを作ろう！
 
-![](/images/wp-content/uploads/2022/12/WordPress-素材.jpg)
+![](/images/wp-content/uploads/2022/12/WordPress-素材.webp)
 
 FlutterのゲームエンジンであるFlameについての勉強会が開かれました。
 
@@ -75,7 +75,7 @@ Aoi「ライブコーディング中の参加者の質問や反応がとても�
 
 ### 【heyhey1028】アニメーション初心者から抜け出そう
 
-![](/images/wp-content/uploads/2022/12/WordPress-素材-1.jpg)
+![](/images/wp-content/uploads/2022/12/WordPress-素材-1.webp)
 
 Flutterでのアニメーションの実装方法について解説する勉強会が開かれました。
 
@@ -87,7 +87,7 @@ Aoi「複数のパターンに対し、そのそれぞれにサンプルアプ�
 
 ### 【みやジック】FirebaseのFirestoreとFunctionsでポイントシステムを作ってみた
 
-![](/images/wp-content/uploads/2022/12/WordPress-素材-2.jpg)
+![](/images/wp-content/uploads/2022/12/WordPress-素材-2.webp)
 
 Firebase のFirestore 、Cloud Functions を用いたポイントシステムの実装方法について
 解説する勉強会が開かれました。
@@ -129,4 +129,3 @@ Flutter 3.3のリリース時に話題になったWonderous というアプリ�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

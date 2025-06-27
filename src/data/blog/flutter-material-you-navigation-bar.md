@@ -2,7 +2,7 @@
 title: "【Flutter】 Material You の Navigation Barの実装方法"
 slug: "flutter-material-you-navigation-bar"
 author: "Aoi"
-description: ""
+description: "FlutterでMaterial YouのNavigation Barを実装する方法を解説。Android 12の新デザインシステムに対応したボトムナビゲーションの作成方法をサンプルコード付きで詳しく説明します。"
 pubDatetime: "2022-05-06"
 tags: ["Widget"]
 layout: "../../layouts/BlogPost.astro"
@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -23,7 +23,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -40,13 +40,13 @@ Material You で推奨となっているBottom Navigation Barの実装方法に�
 
 具体的には以下のようなBottom Navigation Barの実装となります。
 
-![](/images/wp-content/uploads/2022/05/20220506_navigation_bar.gif)
+![](/images/wp-content/uploads/2022/05/20220506_navigation_bar.webp)
 
 ぜひ読んでみてください！
 
 ## Material You の Bottom Navigation Bar の概要
 
-![](/images/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+![](/images/wp-content/uploads/2022/02/プログラミング画像.webp)
 
 ### Material Youとは
 
@@ -63,7 +63,7 @@ Android ユーザーにとって違和感のないデザインが実現できま
 
 Material You のBottom Navigation Barの見た目は以下のようになります。
 
-<img src="/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-06-13.48.29.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-06-13.48.29.webp" alt="" width="300">
 
 アイコンの周りをインディケーターで囲むことで、
 どのタブが選択されているかよりわかりやすい表現となっています。
@@ -74,7 +74,7 @@ Material You のBottom Navigation Barの見た目は以下のようになりま�
 
 ## Navigation Bar の実装方法
 
-![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.webp)
 
 Navigation Barの実装方法について解説していきます。
 
@@ -306,7 +306,7 @@ class _MyWidgetState extends State {
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 本記事では、Material You で推奨となっているBottom Navigation Barの実装方法について
 解説しました。
@@ -341,4 +341,3 @@ https://m3.material.io/
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

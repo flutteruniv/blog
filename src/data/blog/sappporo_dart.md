@@ -33,7 +33,7 @@ MECEじゃなくて怒られるかもしれませんw
 
 ## 札幌.dartレポ
 
-![](/images/wp-content/uploads/2023/08/札幌.dart_.png)
+![](/images/wp-content/uploads/2023/08/札幌.dart_.webp)
 
 さて、今回行った札幌.dartのレポに行きたいと思います。
 
@@ -45,13 +45,13 @@ MECEじゃなくて怒られるかもしれませんw
 
 ### まずは司会の挨拶からスタート
 
-![](/images/wp-content/uploads/2023/08/IMG_8250-1024x768.jpg)
+![](/images/wp-content/uploads/2023/08/IMG_8250-1024x768.webp)
 
 この記事を書いてる私kboyの司会の挨拶からスタートしました！
 
 会場もいい感じですね！
 
-![](/images/wp-content/uploads/2023/08/IMG_8253.jpg)
+![](/images/wp-content/uploads/2023/08/IMG_8253.webp)
 
 夏は札幌に住んでいますというドヤ顔をしています。
 
@@ -103,7 +103,7 @@ Androidアプリのリリース方法から、CodePushができるツールの[s
 
 私kboyは禁酒してるのでお茶なのが残念でしたが、いろんな人とお話しできて、名刺交換もできて、いろんな札幌の開発会社を知るいい機会になりました！
 
-![](/images/wp-content/uploads/2023/08/IMG_8255.jpg)
+![](/images/wp-content/uploads/2023/08/IMG_8255.webp)
 
 ## ビアガーデン２次会
 
@@ -111,7 +111,7 @@ Androidアプリのリリース方法から、CodePushができるツールの[s
 
 やっぱり大通ビアガーデンは最高です。（僕はオールフリーしか飲んでないけどw
 
-<img src="/images/wp-content/uploads/2023/08/IMG_8246-768x1024.jpg" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/08/IMG_8246-768x1024.webp" alt="" width="300">
 
 ## まとめ
 
@@ -119,4 +119,3 @@ Androidアプリのリリース方法から、CodePushができるツールの[s
 
 この機会にFlutterエンジニア同士で繋がっていただき、札幌のエンジニアコミュニティが盛り上がり、そして札幌のIT業界が盛り上がることを期待しております。
 
-次は、10月8日(日)の沖縄コザ.dartで会いましょう。沖縄じゃない人もコザに遠征してくださいね。（沖縄は、那覇よりコザです。）

@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -38,7 +38,7 @@ https://itnext.io/dynamically-theme-your-flutter-app-59da5037f5df
 
 ## ダイナミックカラーとは
 
-![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.webp)
 
 ダイナミックカラーとは、ユーザーの壁紙からキーとなる色を抽出し、
 その色を基盤としたカラーテーマでアプリを構成する機能のことです。
@@ -48,7 +48,7 @@ Material You (Material 3) の目玉機能の一つとなっています。
 
 以下のGifがサンプルアプリによるダイナミックカラーの挙動となります。
 
-![](/images/wp-content/uploads/2022/06/dynamic_color_sample.gif)
+![](/images/wp-content/uploads/2022/06/dynamic_color_sample.webp)
 
 壁紙の変更により、アプリ内の色が変わっていることを確認できます。
 
@@ -57,7 +57,7 @@ Material You (Material 3) の目玉機能の一つとなっています。
 
 ## ダイナミックカラーの実装方法
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 ここからは具体的な実装方法について解説していきます。
 
@@ -159,7 +159,7 @@ ThemeData darkTheme(ColorScheme? darkColorScheme) {
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 Google の推奨するデザインの最新版、
 Material You (Material 3) の目玉機能の一つである、
@@ -194,4 +194,3 @@ iOSでもこのような機能が追加されるんでしょうか？
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

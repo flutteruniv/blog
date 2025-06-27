@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -53,30 +53,30 @@ https://github.com/features/copilot
 
 上記ページを開き、Start my free trial をクリックします。
 
-![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.45.50-1024x830.png)
+![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.45.50-1024x830.webp)
 
 次の画面で注意事項を読み、
 月額プランか年額プランかを選択し、緑のボタンを押します。
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.51.26-701x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.51.26-701x1024.webp" alt="" width="300">
 
 支払い情報の入力欄です。
 
 下記画面で、名前、住所を入力します。
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.52.59-971x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-15.52.59-971x1024.webp" alt="" width="300">
 
 次の画面で支払い方法の選択と、必要情報を入力し、緑のボタンを押します。
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.11.21-878x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.11.21-878x1024.webp" alt="" width="300">
 
 最後に確認画面となります。緑のボタンを押して完了です。
 
-![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.14.41_-1024x852.png)
+![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.14.41_-1024x852.webp)
 
 支払情報を入力した後、以下の設定画面となります。
 
-![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.22.34-1024x865.png)
+![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.22.34-1024x865.webp)
 
 - **Suggestions matching public code**
 
@@ -99,7 +99,7 @@ VS Code の画面左側のExtensions のアイコンから Extensionsを開き�
 
 出てきたGitHub Copilot のExtensionsを選択し、 installを押します。
 
-![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.44.38-1024x422.png)
+![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-16.44.38-1024x422.webp)
 
 VS Code で GitHubにサインインしていない場合は画面右下にサインインを促す
 ダイアログボックスが表示されます。
@@ -118,31 +118,31 @@ Dart で GitHub Copilot を実際に使ってみます。
 
 Counter クラスを作ってみた結果がこちらです。
 
-![](/images/wp-content/uploads/2022/07/20220715_copilot_counter.gif)
+![](/images/wp-content/uploads/2022/07/20220715_copilot_counter.webp)
 
 メソッドもいけます。
 うるう年判定のメソッドを作成してみた結果がこちらです。
 
-![](/images/wp-content/uploads/2022/07/20220715_copilot_leepyear.gif)
+![](/images/wp-content/uploads/2022/07/20220715_copilot_leepyear.webp)
 
 なんと、`Widget`もいけます。
 
-![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.41.57-1024x766.png)
+![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.41.57-1024x766.webp)
 
 ちょっと難しく、GitHubからデータを取ってくるメソッドも
 提案コードを用意してくれます。
 
-![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.45.10-1024x478.png)
+![](/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.45.10-1024x478.webp)
 
 レスポンスコードも用意してくれるのがありがたいですね。
 
 `StatefulWidget` は無理かな、と思っていたら、
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.54.42.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.54.42.webp" alt="" width="300">
 
 Stateのコードを書くとなんと提案コードをここまで出してくれました。
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.55.36-794x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-15-17.55.36-794x1024.webp" alt="" width="300">
 
 textThemeのdisplay1は既に使われていないので、エラーとなります。
 このように、提案されたコードが古くエラーが発生するので、
@@ -202,4 +202,3 @@ Copilotも今は批判があるし、まだまだ問題もあるかも知れま�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

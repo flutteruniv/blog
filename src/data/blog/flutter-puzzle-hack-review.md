@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/man.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/woman.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -109,7 +109,7 @@ providers.dart一つのファイルにまとまっています。
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/doctor.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -181,7 +181,7 @@ Puzzle関連のロジックや、ダッシュボード画面のロジック等�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/doctor.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -245,7 +245,7 @@ The Werewolves Escape のパズルは１〜９の数パネルのスライドパ�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/doctor.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -315,7 +315,7 @@ Auto Solveのメソッド等を別リポジトリで管理するなどして、
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/doctor.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -332,7 +332,7 @@ Auto Solveのメソッド等を別リポジトリで管理するなどして、
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 本記事では今年始めに実施されたFlutterのハッカソンイベント、
  Flutter Puzzle Hack の入賞作品をレビューしていきました。
@@ -373,4 +373,3 @@ https://youtu.be/dddu75aOGkE
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

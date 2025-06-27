@@ -35,7 +35,7 @@ Container(
 
 上記の例では、Containerの四角形の角が、半径50の円弧で丸められています。
 
-<img src="/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-26-14.51.10-1.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-26-14.51.10-1.webp" alt="" width="300">
 
 ### `only`
 
@@ -55,7 +55,7 @@ Container(
 
 上記の例では、四角形の左上と右下の角が半径20の円弧で丸められています。`BorderRadius.only`メソッドは、指定された角だけを丸めるために使用されます。上記の例では、`topLeft`と`bottomRight`の角が丸められ、他の角は丸められていません。
 
-<img src="/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-26-15.02.23.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-26-15.02.23.webp" alt="" width="300">
 
 `BorderRadius.only`メソッドには、以下のようなパラメーターがあります。
 
@@ -80,7 +80,7 @@ Container(
 );
 ```
 
-<img src="/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-26-15.05.37.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-26-15.05.37.webp" alt="" width="300">
 
 上記の例では、四角形の上の角が半径40下の角が半径20の円弧で丸められています。`BorderRadius.vertical`メソッドは、上下の角だけを丸めるために使用されます。上記の例では、`top`と`bottom`の角が丸められ、他の角は丸められていません。
 
@@ -105,7 +105,7 @@ Container(
 );
 ```
 
-<img src="/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-26-15.13.57.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-26-15.13.57.webp" alt="" width="300">
 
 上記の例では、四角形の左の角が半径40右の角が半径20の円弧で丸められています。`BorderRadius.horizontal`メソッドは、左右の角だけを丸めるために使用されます。上記の例では、`left`と`right`の角が丸められ、他の角は丸められていません。
 
@@ -116,4 +116,3 @@ Container(
 
 これらのパラメーターを使用して、必要な角だけを丸めることができます。例えば、上下の角だけを丸めたい場合は、`BorderRadius.vertical`メソッドを使用することもできます。
 
-これらのメソッドを使用して、四角形を必要に応じてカスタマイズすることができます。

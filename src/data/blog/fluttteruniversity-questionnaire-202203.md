@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -25,7 +25,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -46,7 +46,7 @@ Flutte大学に入ろうか悩んでいる人、気になっている人必見�
 
 ## Flutter大学とは？
 
-![](/images/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting3-1024x683.webp)
 
 Flutter大学とは、「Flutterエンジニアに特化した学習コミュニティ」です。
 
@@ -59,7 +59,7 @@ https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 ## 実施内容詳細
 
-![](/images/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/Meeting-1024x683.webp)
 
 今回行った満足度調査の実施内容は以下の通りです。
 
@@ -76,13 +76,13 @@ https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 ## 調査結果
 
-![](/images/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting2-1024x683.webp)
 
 ここからはいくつか抜粋して調査結果を紹介します。
 
 ### Flutter大学をご利用になって、全体的にどの程度ご満足いただけましたか？
 
-![](/images/wp-content/uploads/2022/04/20220402_満足度-1024x471.png)
+![](/images/wp-content/uploads/2022/04/20220402_満足度-1024x471.webp)
 
 ズバリ、Flutter大学に満足しているのかどうかを聞いた結果です！
 
@@ -90,7 +90,7 @@ https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/woman.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -104,7 +104,7 @@ https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 質問補足内容：他社のサービスが思い浮かばない場合は、あなたが想定していたサービスと比べてお答えください。
 
-![](/images/wp-content/uploads/2022/04/20220402_質-1024x542.png)
+![](/images/wp-content/uploads/2022/04/20220402_質-1024x542.webp)
 
 Flutter大学のサービスの質が他のサービスと比べて優れているかどうかについて聞きました！
 
@@ -113,7 +113,7 @@ Flutter大学のサービスの質が他のサービスと比べて優れてい�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/b-woman.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/b-woman.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -127,7 +127,7 @@ Flutter大学のサービスの質が他のサービスと比べて優れてい�
 
 質問補足内容：他社のサービスが思い浮かばない場合は、あなたが想定していたサービスと比べてお答えください。
 
-![](/images/wp-content/uploads/2022/04/20220402_値段-1024x480.png)
+![](/images/wp-content/uploads/2022/04/20220402_値段-1024x480.webp)
 
 Flutter大学の値段設定が他のサービスと比べてどのように感じるかについて聞きました。
 
@@ -136,7 +136,7 @@ Flutter大学の値段設定が他のサービスと比べてどのように感�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/doctress.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/doctress.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -152,7 +152,7 @@ Flutter大学の値段設定が他のサービスと比べてどのように感�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/man.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -164,7 +164,7 @@ Flutter大学の値段設定が他のサービスと比べてどのように感�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/b-man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/b-man.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -176,7 +176,7 @@ Flutter大学の値段設定が他のサービスと比べてどのように感�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/doctor.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -188,7 +188,7 @@ Flutter大学の値段設定が他のサービスと比べてどのように感�
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/新聞-1024x683.webp)
 
 本記事ではFlutter大学の評判として、
 3月末にFlutter大学内で実施した満足度調査結果の一部を公開しました。
@@ -224,4 +224,3 @@ Flutter開発の一助となれるよう、努めていきます。
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

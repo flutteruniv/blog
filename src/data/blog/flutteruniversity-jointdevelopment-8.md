@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -35,7 +35,7 @@ Flutter大学の共同開発の雰囲気が分かる記事となっています�
 
 ## Flutter大学 の 共同開発 とは？
 
-![](/images/wp-content/uploads/2022/03/meeting4-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting4-1024x683.webp)
 
 Flutter大学の共同開発について解説します。
 
@@ -56,7 +56,7 @@ https://blog.flutteruniv.com/flutteruniversity-jointdevelopment-7/
 
 ## 第8期共同開発 インタビュー！
 
-![](/images/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/Meeting-1024x683.webp)
 
 少しでもあなたに共同開発についてイメージを掴んでもらうため、
 現在最終発表に向けてラストスパートをかけている第8期の共同開発について、
@@ -70,7 +70,7 @@ Flutter大学内外問わず、とても興味深い内容だと思います。
 
 #### アプリの概要
 
-![fenさん](/images/wp-content/themes/cocoon-master/images/man.png)fenさん
+![fenさん](/images/wp-content/themes/cocoon-master/images/man.webp)fenさん
 お子さんの家事の記録とお小遣いを管理するアプリです。
 
 アプリ内で擬似的にお金が溜まっていくので
@@ -78,7 +78,7 @@ Flutter大学内外問わず、とても興味深い内容だと思います。
 
 #### 成果発表会に向けた意気込み
 
-![fenさん](/images/wp-content/themes/cocoon-master/images/man.png)fenさん
+![fenさん](/images/wp-content/themes/cocoon-master/images/man.webp)fenさん
 約10分という短い時間での発表となりますが
 その10分を最大限に活かせるような発表にしていきたいです。
 
@@ -86,7 +86,7 @@ Flutter大学内外問わず、とても興味深い内容だと思います。
 
 #### アプリの概要
 
-![みやジックさん](/images/wp-content/themes/cocoon-master/images/man.png)みやジックさん
+![みやジックさん](/images/wp-content/themes/cocoon-master/images/man.webp)みやジックさん
 街をイメージした副業マッチングサービス、
 
 スキ街は誰かの依頼を叶えるとお金ではなく景品がもらえるという形の
@@ -94,14 +94,14 @@ Flutter大学内外問わず、とても興味深い内容だと思います。
 
 #### 成果発表会に向けた意気込み
 
-![みやジックさん](/images/wp-content/themes/cocoon-master/images/man.png)みやジックさん
+![みやジックさん](/images/wp-content/themes/cocoon-master/images/man.webp)みやジックさん
 お手柔らかにお願いします笑
 
 ### 『つみあげったー』〜#今日の積み上げ 効率化アプリ〜
 
 #### アプリの概要
 
-![Aoiさん](/images/wp-content/themes/cocoon-master/images/man.png)Aoiさん
+![Aoiさん](/images/wp-content/themes/cocoon-master/images/man.webp)Aoiさん
 ＃今日の積み上げ というツイートで
 日々自分が行った実績をツイートする習慣を、
 
@@ -114,7 +114,7 @@ Flutter大学内外問わず、とても興味深い内容だと思います。
 
 #### 最終発表会に向けた意気込み
 
-![Aoiさん](/images/wp-content/themes/cocoon-master/images/man.png)Aoiさん
+![Aoiさん](/images/wp-content/themes/cocoon-master/images/man.webp)Aoiさん
 このプロジェクトは
 『初心者がステップアップするための共同開発プロジェクト』
 
@@ -127,7 +127,7 @@ Flutter大学内外問わず、とても興味深い内容だと思います。
 
 #### アプリの概要
 
-![Kosukeさん](/images/wp-content/themes/cocoon-master/images/man.png)Kosukeさん
+![Kosukeさん](/images/wp-content/themes/cocoon-master/images/man.webp)Kosukeさん
 （おそらく）Flutter 大学の共同開発初の「アプリを作らない共同開発」として、
 
 FlutterFire の開発に使ったり参照したりできる
@@ -138,7 +138,7 @@ FlutterFire の開発に使ったり参照したりできる
 
 #### 最終発表会に向けた意気込み
 
-![Kosukeさん](/images/wp-content/themes/cocoon-master/images/man.png)Kosukeさん
+![Kosukeさん](/images/wp-content/themes/cocoon-master/images/man.webp)Kosukeさん
 発表会では、各機能やサンプルを開発したメンバー自身が
 
 それぞれその内容をご紹介する予定です。お楽しみに！
@@ -147,13 +147,13 @@ FlutterFire の開発に使ったり参照したりできる
 
 #### アプリの概要
 
-![k.matsuyamaさん](/images/wp-content/themes/cocoon-master/images/man.png)k.matsuyamaさん
+![k.matsuyamaさん](/images/wp-content/themes/cocoon-master/images/man.webp)k.matsuyamaさん
 自分のココロの状態とその動機となる出来事を記録するアプリです。
 また、その記録した日の天気の情報も表示し、天気と心の状態の相関性も可視化します。
 
 #### 最終発表会に向けた意気込み
 
-![k.matsuyamaさん](/images/wp-content/themes/cocoon-master/images/man.png)k.matsuyamaさん
+![k.matsuyamaさん](/images/wp-content/themes/cocoon-master/images/man.webp)k.matsuyamaさん
 今まで取り組みした事を伝えれるよう頑張ります。
 
 fenさん、みやジックさん、Aoiさん、Kosukeさん、k.matsuyamaさん、
@@ -171,7 +171,7 @@ https://www.youtube.com/channel/UCReuARgZI-BFjioA8KBpjsw/featured
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 本記事では6月末でいよいよ終わりを迎える第8期の共同開発プロジェクトについて、
 各共同開発のリーダーにインタビューをした結果を記載しました。
@@ -206,4 +206,3 @@ https://blog.flutteruniv.com/flutter-mason/
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

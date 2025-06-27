@@ -12,7 +12,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -24,7 +24,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -37,7 +37,7 @@ layout: "../../layouts/BlogPost.astro"
 上記のような疑問や悩みに答えてくれるパッケージこそが badgesです。
 以下のようなUIが簡単に作成可能です。
 
-<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27.webp" alt="" width="300">
 
 基本的な使い方から、詳細設定まで解説します。
 本記事さえ読めばbadgesを使いこなせること、間違いなしです！
@@ -46,13 +46,13 @@ layout: "../../layouts/BlogPost.astro"
 
 ## 基本的な使い方
 
-![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.webp)
 
 badgesパッケージの基本的な使い方を紹介します。
 
 以下の画像のようなUIを作成してみましょう。
 
-<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27-1.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27-1.webp" alt="" width="300">
 
 ### パッケージのインストール
 
@@ -94,14 +94,14 @@ Badge(
 ),
 ```
 
-<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27-2.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-10.17.27-2.webp" alt="" width="300">
 
 基本的な使い方は以上となります。
 とても簡単に実装できますね。
 
 ## 詳細設定
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 badgesパッケージを使う利点は豊富な詳細設定にあります。
 以下で詳細に解説していきます。
@@ -126,7 +126,7 @@ badgesパッケージを使う利点は豊富な詳細設定にあります。
 
 左下に配置した例 ：
 
-<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.05.02.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.05.02.webp" alt="" width="300">
 
 ```
 Badge(
@@ -143,7 +143,7 @@ Badge(
 また、`alignment` プロパティにて、
 `Badge` Widgetの親Widgetに対する子Widgetの位置を調整することが可能です。
 
-<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.11.58.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.11.58.webp" alt="" width="300">
 
 ```
 Container(
@@ -188,7 +188,7 @@ Container(
 
 バッジ色を青色、角丸の長方形、枠線付きの例：
 
-<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.48.36.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-13.48.36.webp" alt="" width="300">
 
 ```
 Badge(
@@ -209,7 +209,7 @@ Badge(
 
 バッジ色を青色から赤色のグラデーション、長方形の例：
 
-<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.19.59.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.19.59.webp" alt="" width="300">
 
 ```
 Badge(
@@ -232,7 +232,7 @@ Badge(
 
 余白0を設定した例
 
-<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.36.02.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.36.02.webp" alt="" width="300">
 
 ```
 Badge(
@@ -280,7 +280,7 @@ https://pub.dev/packages/badges
 
 `elevation` `0`の例：
 
-<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.07.03.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-11-14.07.03.webp" alt="" width="300">
 
 #### バッジのタップ判定
 
@@ -296,7 +296,7 @@ https://pub.dev/packages/badges
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/パソコン.webp)
 
 本記事では badges というパッケージの紹介を行いました。
 基本的な使い方から、詳細設定まで解説していきました。
@@ -339,4 +339,3 @@ GitHubを見る人から高評価を得られます。
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

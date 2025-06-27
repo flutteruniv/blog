@@ -56,13 +56,13 @@ Flutter大学内外問わず、とても興味深い内容だと思います。
 
 #### アプリの概要
 
-![near108さん](/images/wp-content/themes/cocoon-master/images/man.png)near108さん
+![near108さん](/images/wp-content/themes/cocoon-master/images/man.webp)near108さん
 IT技術に関する発表や勉強会、
 セミナーなどの動画を閲覧することができる動画ポータルアプリです。
 
 #### 成果発表会に向けた意気込み
 
-![near108さん](/images/wp-content/themes/cocoon-master/images/man.png)near108さん
+![near108さん](/images/wp-content/themes/cocoon-master/images/man.webp)near108さん
 トラブル等もありだいぶ遅延が発生してますが、
 メンバー総出で追い込みをかけて成果発表会までには動くものが出せるように頑張ります。
 
@@ -70,7 +70,7 @@ IT技術に関する発表や勉強会、
 
 #### アプリの概要
 
-![こんぶさん](/images/wp-content/themes/cocoon-master/images/man.png)こんぶさん
+![こんぶさん](/images/wp-content/themes/cocoon-master/images/man.webp)こんぶさん
 常夜灯では場所に対して投稿を行います。
 自分が今いる場所にのみ投稿することができます。
 その投稿データは場所に刻まれるで時間が経過しても、
@@ -82,7 +82,7 @@ IT技術に関する発表や勉強会、
 
 #### 成果発表会に向けた意気込み
 
-![こんぶさん](/images/wp-content/themes/cocoon-master/images/man.png)こんぶさん
+![こんぶさん](/images/wp-content/themes/cocoon-master/images/man.webp)こんぶさん
 こんぶの弟子たちがラストスパートしています！
 暖かく見守ってください。
 
@@ -90,7 +90,7 @@ IT技術に関する発表や勉強会、
 
 #### アプリの概要
 
-![やまさん](/images/wp-content/themes/cocoon-master/images/woman.png)やまさん
+![やまさん](/images/wp-content/themes/cocoon-master/images/woman.webp)やまさん
 「もっと絵本を読みたい！」
 そう思えるようなきっかけを作りたいという想いから
 構想がはじまりました。
@@ -100,7 +100,7 @@ IT技術に関する発表や勉強会、
 
 #### 成果発表会に向けた意気込み
 
-![やまさん](/images/wp-content/themes/cocoon-master/images/woman.png)やまさん
+![やまさん](/images/wp-content/themes/cocoon-master/images/woman.webp)やまさん
 「HELP！」
 そんな気持ちから始めた共同開発。
 長いような短いような濃密な3ヶ月でした。
@@ -165,4 +165,3 @@ Flutterニュースですが、週毎のニュースは引き続き続けると�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

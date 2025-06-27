@@ -29,7 +29,7 @@ Dart (Flutter) で頻出する、`List` についての解説記事です。
 
 以下は、 文字列(`String`) の`List`の例です。
 
-![](/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-19-17.31.14-1024x312.png)
+![](/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-19-17.31.14-1024x312.webp)
 
 この集合のポイントは、何番目かという数字(インデックス)が
 各要素に対応付けられていることです。
@@ -1045,4 +1045,3 @@ Flutter大学内でお声がけいただくか、
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

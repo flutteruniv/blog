@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -39,7 +39,7 @@ Flutterのパッケージである [animated_text_kit](https://pub.dev/packages/
 
 以下のようなアニメーションを設定することが可能です。
 
-![](/images/wp-content/uploads/2022/07/20220720_show.gif)
+![](/images/wp-content/uploads/2022/07/20220720_show.webp)
 
 本記事を読めばテキストに様々なアニメーションを設定することができるようになります。
 ぜひ読んでみて下さい！
@@ -99,7 +99,7 @@ AnimatedTextKit(
 
 この実装だけで、以下のようなアニメーションが。
 
-![](/images/wp-content/uploads/2022/07/20220720_base.gif)
+![](/images/wp-content/uploads/2022/07/20220720_base.webp)
 
 サンプルコード全体
 ```dart
@@ -159,7 +159,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](/images/wp-content/uploads/2022/07/20220720_rotate.gif)
+![](/images/wp-content/uploads/2022/07/20220720_rotate.webp)
 
 ### Fade
 
@@ -176,7 +176,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](/images/wp-content/uploads/2022/07/20220720_fade.gif)
+![](/images/wp-content/uploads/2022/07/20220720_fade.webp)
 
 ### Typer
 
@@ -192,7 +192,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](/images/wp-content/uploads/2022/07/20220720_typer.gif)
+![](/images/wp-content/uploads/2022/07/20220720_typer.webp)
 
 ### Typewriter
 
@@ -209,7 +209,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](/images/wp-content/uploads/2022/07/20220720_typewriter.gif)
+![](/images/wp-content/uploads/2022/07/20220720_typewriter.webp)
 
 ### Scale
 
@@ -226,7 +226,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](/images/wp-content/uploads/2022/07/20220720_scale.gif)
+![](/images/wp-content/uploads/2022/07/20220720_scale.webp)
 
 ### Colorize
 
@@ -271,7 +271,7 @@ const colorizeColors = [
 ];
 ```
 
-![](/images/wp-content/uploads/2022/07/20220720_colorize.gif)
+![](/images/wp-content/uploads/2022/07/20220720_colorize.webp)
 
 ### Wavy
 
@@ -287,7 +287,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](/images/wp-content/uploads/2022/07/20220720_wavy.gif)
+![](/images/wp-content/uploads/2022/07/20220720_wavy.webp)
 
 ### Flicker
 
@@ -303,7 +303,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](/images/wp-content/uploads/2022/07/20220720_flicker.gif)
+![](/images/wp-content/uploads/2022/07/20220720_flicker.webp)
 
 ### TextLiquidFill
 
@@ -325,7 +325,7 @@ TextLiquidFill(
 ※textStyleは必須プロパティではありませんが、
 デフォルトの`fontSize`が140で設定されているため、設定しています。
 
-![](/images/wp-content/uploads/2022/07/20220720_liquid.gif)
+![](/images/wp-content/uploads/2022/07/20220720_liquid.webp)
 
 ## まとめ
 
@@ -370,4 +370,3 @@ GIFの作成は、Macの標準機能で動画撮影→GIFを[こちら](https://
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

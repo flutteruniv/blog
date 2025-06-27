@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -30,7 +30,7 @@ Flutter大学にどんな知見が集まっているかわかる記事となっ�
 
 ## Flutter大学の共同勉強会って？
 
-![](/images/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/Meeting-1024x683.webp)
 
 Flutter大学の共同勉強会について解説します。
 
@@ -58,7 +58,7 @@ Flutter大学の有志のメンバーが発表者となり知見の共有が行�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -80,7 +80,7 @@ Flutter大学への参加は以下の画像リンクから。
 
 ## 7月の勉強会の紹介
 
-![](/images/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting2-1024x683.webp)
 
 7月は全2回の勉強会が開催されました。
 
@@ -88,7 +88,7 @@ Flutter大学への参加は以下の画像リンクから。
 
 ### **Firebase Functions入門**
 
-![](/images/wp-content/uploads/2022/08/20220812_cloud_functions.png)
+![](/images/wp-content/uploads/2022/08/20220812_cloud_functions.webp)
 
 サーバーレスで関数を実行できるCloud Functions についての
 勉強会が開かれました。
@@ -96,7 +96,7 @@ Flutter大学への参加は以下の画像リンクから。
 Cloud Functions とは何かという基礎的な内容から、
 実際のファイル構成や設定等の紹介など実戦的な内容まで解説いただきました！
 
-![Aoi](/images/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](/images/wp-content/themes/cocoon-master/images/b-man.webp)Aoi
 とても勉強になる勉強会でした！
 
 内容がとても充実しているので、Cloud Functions を使って困った際には、
@@ -104,7 +104,7 @@ Cloud Functions とは何かという基礎的な内容から、
 
 ### **Flutter RiverpodのDIを活用してLayered Architectureを構築してみた**
 
-![](/images/wp-content/uploads/2022/08/20220812_riverpod.png)
+![](/images/wp-content/uploads/2022/08/20220812_riverpod.webp)
 
 Riverpod のDI (依存性注入)機能を使用したLayered Architectureでの
 アプリの構築方法について、勉強会が開かれました。
@@ -112,7 +112,7 @@ Riverpod のDI (依存性注入)機能を使用したLayered Architectureでの
 サンプルとなるアプリをベースに、DI の方法、メリット等について、
 詳細に解説いただきました！
 
-![Aoi](/images/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](/images/wp-content/themes/cocoon-master/images/b-man.webp)Aoi
 Riverpod を用いたDI の方法の紹介では、
 「なるほど、そうすればいいのか！」と、
 目から鱗が落ちるような方法も紹介いただき、
@@ -166,4 +166,3 @@ Cloud Functions を使うに当たって新たな言語を覚えなければい�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

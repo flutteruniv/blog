@@ -18,6 +18,13 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
+      customPages: [
+        'https://blog.flutteruniv.com/',
+        'https://blog.flutteruniv.com/search/',
+        'https://blog.flutteruniv.com/about/',
+      ],
+      changefreq: 'weekly',
+      priority: 0.7,
     }),
   ],
   markdown: {

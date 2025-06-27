@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -30,7 +30,7 @@ Flutter大学の質問Zoomについて、特徴を詳細に解説します。
 
 ## 質問Zoom とは
 
-![](/images/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/Meeting-1024x683.webp)
 
 質問Zoomとは、Flutter大学内で行われている質問相談会のことです。
 
@@ -97,7 +97,7 @@ https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/meeting4-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting4-1024x683.webp)
 
 本記事では大学の質問Zoomについて、特徴を詳細に解説しました。
 
@@ -141,4 +141,3 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

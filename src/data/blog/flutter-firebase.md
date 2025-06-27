@@ -11,7 +11,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -59,7 +59,7 @@ Firebaseを使うと、一例として以下のようなことが可能です。
 作成するアプリのgifは以下です。
 右側の端末で作成した願いが、左側の端末でも同時に表示されていることがわかります。
 
-![](/images/wp-content/uploads/2022/05/firebase_sample.gif)
+![](/images/wp-content/uploads/2022/05/firebase_sample.webp)
 
 この記事を読みながら、ぜひ一緒に作成してみてください！
 
@@ -97,12 +97,12 @@ https://blog.flutteruniv.com/flutter-entrance/
 
 https://firebase.google.com/?hl=ja
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-16.29.38-1024x404.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-16.29.38-1024x404.webp)
 
 以下のようなFirebase のコンソール画面が開かれていれば、
 コンソールへの移動は完了となります。
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-16.45.44-1024x1002.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-16.45.44-1024x1002.webp)
 
 ### Firebase CLI のインストール
 
@@ -195,26 +195,26 @@ flutterfire configure
 今回はcreate new project をカーソルキー上下で選択し、
 Enterを押して新しくプロジェクトを作成します。
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-18.15.48-1024x127.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-18.15.48-1024x127.webp)
 
 作成するFirebase プロジェクトの名前を入力するよう求められるため、
 好きな名前を入力します。(今回はmy-easy-tutorialとします。)
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-18.25.05-1024x28.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-18.25.05-1024x28.webp)
 
 次にサポートするプラットフォームを選択します。
 カーソルキー上下で移動し、スペースキーでチェックのオンオフを行います。
 選択が完了したらEnterを押し、決定します。
 (今回はすべてチェックが入った状態で進めます。)
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-18.27.16-1024x120.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-18.27.16-1024x120.webp)
 
 FirebaseのプロジェクトへFlutterプロジェクトが各プラットフォームごとに登録されます。
 
 登録が完了後、androidのgradleファイルを修正するか問われるため、
 yキーを押し、了承します。
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-18.29.10-1024x30.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-18.29.10-1024x30.webp)
 
 以上で、FlutterFire CLI を使ったFirebaseのセットアップは完了となります。
 
@@ -288,16 +288,16 @@ Firebase コンソールに作成したプロジェクトが無い場合、
 
 開いたプロジェクトにてCloud Firestoreを選択します。
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-18.56.55-1024x541.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-18.56.55-1024x541.webp)
 
 データベースの作成を選択します。
 
-<img src="/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-19.00.11-1-1024x941.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-19.00.11-1-1024x941.webp" alt="" width="300">
 
 セキュリティルールの選択画面となります。
 今回はテスト環境モードで開始する、を選択し次へを押します。
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-19.08.15-1024x740.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-19.08.15-1024x740.webp)
 
 セキュリティルールとは、Cloud Firestoreのデータに対し、
 誰に、読み書きなどどんな権限を持たせるかを設定するものです。
@@ -309,7 +309,7 @@ Firebase コンソールに作成したプロジェクトが無い場合、
 データベースを保存するサーバーの所在地を選択します。
 今回はasia-northeast1 (東京)を選択し、有効にするを押します。
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-19.08.57-1024x611.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-19.08.57-1024x611.webp)
 
 以上でCloud Firestoreを使用する準備ができました。
 
@@ -446,7 +446,7 @@ class _MyWidgetState extends State {
 }
 ```
 
-<img src="/images/wp-content/uploads/2022/05/Screenshot_1652875881-473x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/05/Screenshot_1652875881-473x1024.webp" alt="" width="300">
 
 現状、入力された文字列が画面上から表示されるようなアプリにはなっていますが、
 あくまで実行している端末のみで参照できるだけで、
@@ -465,7 +465,7 @@ Cloud Firestoreがどのようにデータを保存しているのかです。
 
 以下の図のような形でCloud Firestoreではデータを保存しています。
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-22.05.01-1024x607.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-22.05.01-1024x607.webp)
 
 項目を表したフィールドと値が組になってドキュメントに保存され、
 そのドキュメントがコレクションとして集まっている、という保存形式です。
@@ -483,7 +483,7 @@ Cloud Firestore にいくつかデータを入力してみましょう。
 
 コレクションを開始を押します。
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-21.43.45-1024x676.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-21.43.45-1024x676.webp)
 
 コレクションIDの入力です。
 
@@ -491,7 +491,7 @@ Cloud Firestore のデータはコレクションというひとまとまりで�
 その名前を付ける部分です。
 今回はdreamという名前にします。
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-21.45.21-1024x590.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-18-21.45.21-1024x590.webp)
 
 ドキュメントの追加画面です。
 ドキュメントにフィールドをいくつか持たせることができます。
@@ -502,13 +502,13 @@ Cloud Firestore のデータはコレクションというひとまとまりで�
 createdAtという時刻を表すフィールドも記載しましょう。
 タイプをtimestampに設定し、適当な時刻を設定します。
 
-<img src="/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-19-0.19.16-992x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-19-0.19.16-992x1024.webp" alt="" width="300">
 
 保存を押すと、データが保存されます。
 
 複数ドキュメントを保存してみましょう。
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-19-0.19.37-1024x288.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-19-0.19.37-1024x288.webp)
 
 このように、データを登録することで、
 このデータベースからデータを取得することさえできれば、
@@ -881,4 +881,3 @@ Firebase の実装も120行ちょっとでできることに、
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

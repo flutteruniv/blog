@@ -58,7 +58,11 @@ const { page, categoryKey, categoryConfig, parentConfig, categoryDisplayPath } =
 const { parent, child } = Astro.params;
 ---
 
-<Layout title={`${categoryDisplayPath} | ${SITE.title}`}>
+<Layout 
+  title={`${categoryDisplayPath}カテゴリー | ${SITE.title}`}
+  description={categoryConfig.description || `${categoryDisplayPath}に関するFlutter技術記事一覧。${parentConfig.displayName}カテゴリーの詳細分野について、実践的なサンプルコード付きで学べます。`}
+  canonicalURL={new URL(`/category/${parent}/${child}/`, Astro.site).href}
+>
   <Header />
   <Main
     pageTitle={["カテゴリー:", categoryDisplayPath]}

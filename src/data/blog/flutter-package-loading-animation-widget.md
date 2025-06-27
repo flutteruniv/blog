@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -25,7 +25,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -42,7 +42,7 @@ ogImage: ""
 
 例えば、こんなローディングが実装できます。
 
-![](/images/wp-content/uploads/2022/04/20220406_inkdrop.gif)
+![](/images/wp-content/uploads/2022/04/20220406_inkdrop.webp)
 
 あなたのアプリの出来栄えをワンランク上げること間違いなしです！
 
@@ -50,7 +50,7 @@ ogImage: ""
 
 ## loading_animation_widget パッケージ
 
-![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.webp)
 
 [loading_animation_widget](https://pub.dev/packages/loading_animation_widget) パッケージは、
 さまざまなローディングのアニメーションを提供してくれるパッケージです。
@@ -145,7 +145,7 @@ class MyHomePage extends StatelessWidget {
 
 #### inkDropパターン
 
-![](/images/wp-content/uploads/2022/04/20220406_inkdrop.gif)
+![](/images/wp-content/uploads/2022/04/20220406_inkdrop.webp)
 
 ```
 LoadingAnimationWidget.inkDrop(
@@ -156,7 +156,7 @@ LoadingAnimationWidget.inkDrop(
 
 #### staggeredDotsWaveパターン
 
-![](/images/wp-content/uploads/2022/04/20220406_staggerd_dots_wave.gif)
+![](/images/wp-content/uploads/2022/04/20220406_staggerd_dots_wave.webp)
 
 ```
 LoadingAnimationWidget.staggeredDotsWave(
@@ -167,7 +167,7 @@ LoadingAnimationWidget.staggeredDotsWave(
 
 #### flickrパターン
 
-![](/images/wp-content/uploads/2022/04/20220406_flickr.gif)
+![](/images/wp-content/uploads/2022/04/20220406_flickr.webp)
 
 ```
 LoadingAnimationWidget.flickr(
@@ -186,7 +186,7 @@ https://pub.dev/packages/loading_animation_widget
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 本記事では一味違うローディングのアニメーションの実装方法として、
 [loading_animation_widget](https://pub.dev/packages/loading_animation_widget)パッケージを使った方法を紹介しました。
@@ -224,4 +224,3 @@ SNSを見て時間を潰してしまっています。
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

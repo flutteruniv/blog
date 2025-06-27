@@ -12,13 +12,13 @@ layout: "../../layouts/BlogPost.astro"
 
 ## 沖縄コザ.dartとは？
 
-![](/images/wp-content/uploads/2023/10/コザ.dart_.png)
+![](/images/wp-content/uploads/2023/10/コザ.dart_.webp)
 
 〇〇.dartと題して、いろんな地方でFlutter/Dartのオフラインの勉強会を行うシリーズの沖縄コザver.です。
 
 今回は、沖縄市のコザ１番商店街にある、ラグーンというイベント施設で開催させていただきました！
 
-![](/images/wp-content/uploads/2023/10/lagoon-1024x768.jpeg)
+![](/images/wp-content/uploads/2023/10/lagoon-1024x768.webp)
 
 ## 沖縄コザとは？
 
@@ -52,19 +52,19 @@ https://twitter.com/geeoki2
 
 まずは、この週刊Flutter大学のニュースをいつも書いてくれている[Aoi](https://twitter.com/Aoi_Umigishi)さんの発表！
 
-![](/images/wp-content/uploads/2023/10/koza2-1024x768.jpg)
+![](/images/wp-content/uploads/2023/10/koza2-1024x768.webp)
 
 続いて、コザ出身で東大卒からの現在はIT企業を経営するヤエオさんの発表！
 
-![](/images/wp-content/uploads/2023/10/koza3-1024x768.jpg)
+![](/images/wp-content/uploads/2023/10/koza3-1024x768.webp)
 
 そして私kboyからも発表させていただきました！
 
-![](/images/wp-content/uploads/2023/10/koza6-1024x768.jpeg)
+![](/images/wp-content/uploads/2023/10/koza6-1024x768.webp)
 
 当初発表予定だった[うし](https://twitter.com/engineer_ushi_)さんが来れなくなってしまったので、[aoi](https://twitter.com/Aoi_Umigishi)さんはまさかのダブルヘッダー笑
 
-![](/images/wp-content/uploads/2023/10/koza4-1024x768.jpg)
+![](/images/wp-content/uploads/2023/10/koza4-1024x768.webp)
 
 そんな感じで４つの発表を行いました！
 
@@ -74,11 +74,11 @@ https://twitter.com/geeoki2
 
 コザは安い飲み屋も沢山あるからアツいです。
 
-![](/images/wp-content/uploads/2023/10/koza7-1024x768.jpeg)
+![](/images/wp-content/uploads/2023/10/koza7-1024x768.webp)
 
 ## まとめ
 
-<img src="/images/wp-content/uploads/2023/10/koza-1024x768.jpg" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/10/koza-1024x768.webp" alt="" width="300">
 
 そんな感じで、沖縄コザにてFlutteエンジニアの勉強会を開くことができました！地方に行くと、地元で頑張っているエンジニアにも会うことができて、楽しいですし、インターネットでは感じることのできない１人１人の熱量を感じられます。
 
@@ -86,4 +86,3 @@ https://twitter.com/geeoki2
 
 発表の内容はYouTubeにも上がっていますので、気になる発表がある方はチェックしてください！
 
-https://youtu.be/C1gobylL4XI?si=ga3QMTlITEaJqohy

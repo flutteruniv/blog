@@ -18,7 +18,7 @@ Flutter大学では2020年4月から2025年6月まで5年間、一貫して時�
 
 ## AI修行プランとは？
 
-![](/images/wp-content/uploads/2025/06/ChatGPT-Image-2025年6月22日-15_33_49.png)
+![](/images/wp-content/uploads/2025/06/ChatGPT-Image-2025年6月22日-15_33_49.webp)
 
 Flutter開発において、「**わからないことがあるけれど、どこに質問すればいいかわからない**」「**コードレビューを受けたいけれど、適切なフィードバックを得られない**」といった悩みを抱えていませんか？
 
@@ -28,7 +28,7 @@ AI修行プランは、最新の**Gemini 2.5 Flash/Pro**を活用したFlutter�
 
 ## 主な特徴
 
-![](/images/wp-content/uploads/2025/06/ai_training_demo-1024x497.png)
+![](/images/wp-content/uploads/2025/06/ai_training_demo-1024x497.webp)
 
 ### 🤖 最新のGemini modelを使用
 
@@ -78,7 +78,7 @@ AIだけでは巷にあるChatGPTやGeminiのアプリと同じになってし�
 
 ### 日常的な開発での疑問解決
 
-![](/images/wp-content/uploads/2025/06/CleanShot-2025-06-22-at-16.09.37@2x-1024x543.png)
+![](/images/wp-content/uploads/2025/06/CleanShot-2025-06-22-at-16.09.37@2x-1024x543.webp)
 
 - 「StatefulWidgetとStatelessWidgetの使い分けがわからない」
 
@@ -102,7 +102,7 @@ AIだけでは巷にあるChatGPTやGeminiのアプリと同じになってし�
 
 ### 画像を使った質問
 
-![](/images/wp-content/uploads/2025/06/CleanShot-2025-06-22-at-15.56.41@2x-1024x640.png)
+![](/images/wp-content/uploads/2025/06/CleanShot-2025-06-22-at-15.56.41@2x-1024x640.webp)
 
 - エラー画面のスクリーンショット
 - UI設計の相談
@@ -147,4 +147,3 @@ A: 急な変更ですので、移行期間として7月~9月の期間中は、�
 
 以上Flutter大学からのお知らせでした。AIのバイブコーディングの発達など、変化が目まぐるしい時代ですが、Flutter大学ではこの変化を楽しみつつ、引き続きアプリ開発はAIとFlutterで行なっていきたいと思います。一緒に学習を楽しみたい方はぜひご参加をご検討ください。
 
-[https://flutteruniv.com](https://flutteruniv.com)

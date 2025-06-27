@@ -14,7 +14,7 @@ MShareというアプリを作る際に調べたので、やり方を解説し�
 
 splash画面とは、アプリを起動した時、最初に画面中央に表示されるページことです。
 
-<img src="/images/wp-content/uploads/2023/03/IMG_4915-473x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/03/IMG_4915-473x1024.webp" alt="" width="300">
 
 とても、簡単に作ることができますので、実装して良いアプリを作成していきましょう！
 
@@ -26,7 +26,7 @@ splash画面とは、アプリを起動した時、最初に画面中央に表�
 
 [flutter_native_splash](https://pub.dev/packages/flutter_native_splash)のサイトから、Installingを選んでいただきます。
 
-![](/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-17-1.01.20-1024x598.png)
+![](/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-17-1.01.20-1024x598.webp)
 
 With Flutterに書いてあるこちらのコマンドをターミナルで実行してください。
 
@@ -40,7 +40,7 @@ With Flutterに書いてあるこちらのコマンドをターミナルで実�
 
 プロジェクト直下にassets/imagesを作っていきます
 
-<img src="/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-15-17.30.04.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-15-17.30.04.webp" alt="" width="300">
 
 作成できましたら、使いたい画像をドラッグ&ドロップでimagesの中に追加していきましょう！
 
@@ -69,4 +69,3 @@ color: "#00bfff"
 flutter pub pub run flutter_native_splash:create
 ```
 
-上手くいけばスプラッシュ画面が実装できていると思います！

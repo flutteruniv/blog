@@ -54,25 +54,25 @@ constraintは4つのdouble型の値(最小と最大の幅(width),最小と最大
 
 ### 例
 
-![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.45.12-1024x503.png)
+![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.45.12-1024x503.webp)
 
 上で説明したルールでのレイアウト構築について、
 図のようなレイアウト構築で行われるやりとりを、
 ウィジェット(Widget)を擬人化し、会話する様子で紹介します。
 
-![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.png)主人公Widget
+![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.webp)主人公Widget
 お父さん(親Widget)、
 
 私の制約はなんですか？
 
-![親Widget](/images/wp-content/themes/cocoon-master/images/ojisan.png)親Widget
+![親Widget](/images/wp-content/themes/cocoon-master/images/ojisan.webp)親Widget
 幅は、80~250 pixelの間で、
 
 高さは30~85 pixelの間で設定して欲しいな。
 
-![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.58.13-1024x467.png)
+![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.58.13-1024x467.webp)
 
-![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.png)主人公Widget
+![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.webp)主人公Widget
 なるほど...
 
 自分としては5 pixel のpadding は欲しいから、
@@ -84,7 +84,7 @@ constraintは4つのdouble型の値(最小と最大の幅(width),最小と最大
 
 してもらうよう伝えればいいな。
 
-![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.png)主人公Widget
+![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.webp)主人公Widget
 子1くん、
 あなたは、
 
@@ -92,24 +92,24 @@ constraintは4つのdouble型の値(最小と最大の幅(width),最小と最大
 
 高さは0 ~ 75pixel の間で頼みます。
 
-![子1Widget](/images/wp-content/themes/cocoon-master/images/man.png)子1Widget
+![子1Widget](/images/wp-content/themes/cocoon-master/images/man.webp)子1Widget
 OK！
 
 じゃあ幅は240 pixel、高さは20pixel がいいな！
 
-![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.png)主人公Widget
+![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.webp)主人公Widget
 ありがとう！
 
-![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.png)主人公Widget
+![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.webp)主人公Widget
 なるほど...
 
 子2ちゃんは子1くんの下に配置したいから、
 
 高さが残り55pixelだな。
 
-![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-20.15.33-1024x409.png)
+![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-20.15.33-1024x409.webp)
 
-![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.png)主人公Widget
+![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.webp)主人公Widget
 子2ちゃん、
 あなたは、
 
@@ -117,15 +117,15 @@ OK！
 
 高さは0 ~ 55 pixel の間で頼みます。
 
-![子2Widget](/images/wp-content/themes/cocoon-master/images/woman.png)子2Widget
+![子2Widget](/images/wp-content/themes/cocoon-master/images/woman.webp)子2Widget
 OK！
 
 じゃあ幅は90 pixel、高さは30pixel がいいな！
 
-![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.png)主人公Widget
+![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.webp)主人公Widget
 ありがとう！
 
-![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.png)主人公Widget
+![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.webp)主人公Widget
 子どもたちの大きさが決まったぞ！
 
 それじゃあ、子1くんは x : 5, y : 5 の位置に
@@ -136,13 +136,13 @@ OK！
 
 高さが60 pixel だな。
 
-![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.png)主人公Widget
+![主人公Widget](/images/wp-content/themes/cocoon-master/images/doctor.webp)主人公Widget
 お父さん、
 自分の大きさは、
 
 幅が250pixel、高さが60 pixel でお願いします！
 
-![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.45.12-1-1024x503.png)
+![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-19.45.12-1-1024x503.webp)
 
 以上が具体例となります！
 
@@ -171,7 +171,7 @@ Flutterのレイアウトエンジンにはいくつか重要な制限があり�
 
 これらの例について、確認できるWEBアプリを用意しました。
 
-![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-18.20.19-1024x797.png)
+![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-18.20.19-1024x797.webp)
 
 https://umigishi-aoi.github.io/constraints_examples/#/
 
@@ -277,4 +277,3 @@ https://github.com/Umigishi-Aoi/constraints_examples
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

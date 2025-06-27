@@ -52,7 +52,7 @@ https://youtu.be/xpZS8wvOn5g
 
 ### 第1位：ぶらりとスタンプラリー BURALLY
 
-![](/images/wp-content/uploads/2022/12/WordPress-素材-18.png)
+![](/images/wp-content/uploads/2022/12/WordPress-素材-18.webp)
 
 第1位はスタンプラリーアプリ、BURALLYでした。
 
@@ -70,7 +70,7 @@ Riverpod 2.0 を用いたアプリのアーキテクチャの構築、
 
 ### 第2位：日常を切り取るSNS LifeSnap
 
-![](/images/wp-content/uploads/2022/12/WordPress-素材-19.png)
+![](/images/wp-content/uploads/2022/12/WordPress-素材-19.webp)
 
 第2位は日常を切り取るSNS、LifeSnapでした。
 
@@ -87,7 +87,7 @@ AR機能という難しい機能をちゃんとアプリで動く形で
 
 ### 第3位：保育ギグワークアプリ hoiqoo
 
-![](/images/wp-content/uploads/2022/12/WordPress-素材-20.png)
+![](/images/wp-content/uploads/2022/12/WordPress-素材-20.webp)
 
 第3位は保育ギグワークアプリ、hoiqooでした。
 
@@ -100,7 +100,7 @@ AR機能という難しい機能をちゃんとアプリで動く形で
 
 ### 第4位：偏愛マップを使ったマッチングアプリ　偏愛コミュニケーション
 
-![](/images/wp-content/uploads/2022/12/WordPress-素材-22.png)
+![](/images/wp-content/uploads/2022/12/WordPress-素材-22.webp)
 
 第4位は偏愛マップからつながるマッチングアプリ、偏愛コミュニケーションでした。
 
@@ -115,7 +115,7 @@ AR機能という難しい機能をちゃんとアプリで動く形で
 
 ### 第5位：NEWCASTLEに住む人のための情報共有コミュニティアプリ new castle
 
-![](/images/wp-content/uploads/2022/12/WordPress-素材-21.png)
+![](/images/wp-content/uploads/2022/12/WordPress-素材-21.webp)
 
 第5位はNEWCASTLEに住む人のための情報共有コミュニティアプリ、newcastleでした。
 
@@ -183,4 +183,3 @@ Flutter大学のSlackを見る限りですが、
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

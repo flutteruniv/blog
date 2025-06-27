@@ -19,7 +19,7 @@ https://twitter.com/FlutterUniv/status/1663114917346709505?s=20
 
 ## 変更①質問zoomが週7になる
 
-![](/images/wp-content/uploads/2023/05/zoom_schedule-1024x305.png)
+![](/images/wp-content/uploads/2023/05/zoom_schedule-1024x305.webp)
 
 質問zoomは上記のような時間割になります。
 
@@ -41,7 +41,7 @@ Flutter大学が始まって3年が経ち、初期の方からFlutterをやっ�
 
 ## 変更②希望者には毎月学習コーチが付く
 
-![](/images/wp-content/uploads/2023/05/coach_kboy-1024x431.png)
+![](/images/wp-content/uploads/2023/05/coach_kboy-1024x431.webp)
 
 Flutter大学創設者でもある、私kboyがコーチをやります！
 
@@ -49,13 +49,13 @@ Flutter大学創設者でもある、私kboyがコーチをやります！
 
 ## 変更③7人限定
 
-![](/images/wp-content/uploads/2023/05/凡才サムネ-1024x576.png)
+![](/images/wp-content/uploads/2023/05/凡才サムネ-1024x576.webp)
 
 コミュニティプランと課題学習プランには人数制限がありませんが、Flutter修行プランのサポートを熱くするために人数は月7人に限定することにしました。この人数は今後変動する可能性があります。
 
 ## 変更④提携企業への推薦を導入
 
-![](/images/wp-content/uploads/2023/05/修行プランのリニューアルのお知らせ-7-1024x576.png)
+![](/images/wp-content/uploads/2023/05/修行プランのリニューアルのお知らせ-7-1024x576.webp)
 
 かねてから私kboyがお世話になっているリツアンSTCという**OpenWorkで【親友や家族に勧めたい転職先企業 口コミ ランキング全国3位】**にもなっているIT企業とのコラボが決まりました！
 
@@ -75,7 +75,7 @@ Flutter大学創設者でもある、私kboyがコーチをやります！
 
 ## 注意：今までのプランの人はそのままでも値上がりしません
 
-![](/images/wp-content/uploads/2023/05/修行プランのリニューアルのお知らせ-3-1024x576.png)
+![](/images/wp-content/uploads/2023/05/修行プランのリニューアルのお知らせ-3-1024x576.webp)
 
 2020年4月29~2023年5月31日のFlutter修行プランの方は、そのままにしておいても値上がりすることなく、そのままの価格で週７の質問zoomに出れます。
 
@@ -91,4 +91,3 @@ Flutter大学創設者でもある、私kboyがコーチをやります！
 
 では。Flutter大学は以下から。（5/31 23:30~24:00の間メンテナンスによりLPが見れない可能性があります）
 
-[https://flutteruniv.com/](https://flutteruniv.com/)

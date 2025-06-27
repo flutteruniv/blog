@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/man.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -165,7 +165,7 @@ https://zenn.dev/joo_hashi/articles/fcc29035cb6835
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/新聞-1024x683.webp)
 
 本記事ではFlutterニュースとして、
 2022年8月第3週に話題になったFlutter関連の情報や、
@@ -199,4 +199,3 @@ Flutter大学メンバーが参加し、最優秀賞を見事獲得していま�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

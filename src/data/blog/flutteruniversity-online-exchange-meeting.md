@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -25,7 +25,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -46,7 +46,7 @@ Flutter大学のコミュニティのコンテンツである、
 
 ## オンライン交流会 とは？
 
-![](/images/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting2-1024x683.webp)
 
 ### Flutter大学とは?
 
@@ -78,7 +78,7 @@ Flutterの話はもちろん、仕事の話だったり、プライベートの�
 
 ## オンライン交流会の良いポイント
 
-![](/images/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/Meeting-1024x683.webp)
 
 オンライン交流会に参加していて良いポイントを厳選して３つお伝えします。
 
@@ -130,7 +130,7 @@ Flutter大学内のさらに小さいコミュニティに参加することに�
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting3-1024x683.webp)
 
 本記事では、Flutter大学のコミュニティのコンテンツである、
 オンライン交流会 について解説しました。
@@ -174,4 +174,3 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

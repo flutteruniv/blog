@@ -17,11 +17,11 @@ layout: "../../layouts/BlogPost.astro"
 
 以下の画像のようなUIが、`Shimmer`パッケージを使うと、
 
-<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-29-15.28.49-621x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-29-15.28.49-621x1024.webp" alt="" width="300">
 
 以下のGIFのようになります。
 
-![](/images/wp-content/uploads/2022/09/20220929_shimmer.gif)
+![](/images/wp-content/uploads/2022/09/20220929_shimmer.webp)
 
 このようなUIが簡単に実装可能です！
 ぜひ読んで使ってみてください！
@@ -228,4 +228,3 @@ https://github.com/Umigishi-Aoi/go_router_sample_fn
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

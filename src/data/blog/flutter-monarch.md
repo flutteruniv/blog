@@ -11,7 +11,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -23,7 +23,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -44,7 +44,7 @@ Monarch (モナーク)について紹介します。
 
 Monarch を使うと、こんなことができます。
 
-![](/images/wp-content/uploads/2022/06/20220622_monarch_demo.gif)
+![](/images/wp-content/uploads/2022/06/20220622_monarch_demo.webp)
 
 Flutter 3 への対応もなされており、
 最近はオープンソース化も発表された、
@@ -63,7 +63,7 @@ Monarch がどのようにして解決するのかを解説します。
 
 ### 解決したい課題
 
-![](/images/wp-content/uploads/2022/06/20220622_monarch_problem.png)
+![](/images/wp-content/uploads/2022/06/20220622_monarch_problem.webp)
 
 Flutter でのアプリを作成して、いざレイアウトチェックを行おうとした時、
 確認項目は多岐に渡ります。
@@ -89,7 +89,7 @@ Flutter でのアプリを作成して、いざレイアウトチェックを行
 
 Monarch は上記の手間や工数を削減してくれるツールとなっています。
 
-![](/images/wp-content/uploads/2022/06/20220622_monarch_demo.gif)
+![](/images/wp-content/uploads/2022/06/20220622_monarch_demo.webp)
 
 左側のコントロールパネル上で、機種やテーマ、言語、テキストスケールを選択することで、
 即座に右のUIに反映することが可能となります。
@@ -211,7 +211,7 @@ Monarch を実行したときに確認が可能となります。
 
 stories フォルダに main_stories.dartを用意します。
 
-<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-17.48.22.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-17.48.22.webp" alt="" width="300">
 
 main_stories.dartに以下のようにWidget を返すメソッドを用意します。
 
@@ -226,7 +226,7 @@ Widget myHomePage() => const MyHomePage(title: 'Monarch Demo');
 
 以下の画像のように、複数のStoryを一つのファイルに用意することも可能です。
 
-![](/images/wp-content/uploads/2022/06/20220622_stories_sample.png)
+![](/images/wp-content/uploads/2022/06/20220622_stories_sample.webp)
 
 準備は以上です！簡単ですね！
 
@@ -241,7 +241,7 @@ monarch run
 実行した後、左側のコントロールパネル下半分に
 先程設定した*_stories.dart、storyが表示されるのでこれを選択します。
 
-<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-17.59.00-874x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-17.59.00-874x1024.webp" alt="" width="300">
 
 おめでとうございます！
 Story に設定したWidgetが表示されました！
@@ -258,29 +258,29 @@ Monarch のコントロールパネルを設定することで確認できる項
 
 Device の項目にて実行する機種の変更ができます。
 
-<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.17.52-867x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.17.52-867x1024.webp" alt="" width="300">
 
 iPadのようなタブレット端末も確認可能です。
 
-![](/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.17.17-1024x951.png)
+![](/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.17.17-1024x951.webp)
 
 #### テーマの変更
 
 Theme の項目で、Light Theme, Dark Theme の切り替えが可能です。
 
-<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.27.07-868x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.27.07-868x1024.webp" alt="" width="300">
 
 #### Locale の変更
 
 Locale の項目にて、地域設定（言語設定等）を変更することが可能です。
 
-<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.29.45-864x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.29.45-864x1024.webp" alt="" width="300">
 
 #### Text Scale の変更
 
 Text Scale Factor の項目にて 、テキストの大きさの基準値を変更することが可能です。
 
-<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.32.15-864x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-22-18.32.15-864x1024.webp" alt="" width="300">
 
 ## まとめ
 
@@ -322,4 +322,3 @@ Flutterのアプリは、一本指でスクロールするのに対し、
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

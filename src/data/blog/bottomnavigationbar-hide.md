@@ -11,7 +11,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -28,7 +28,7 @@ layout: "../../layouts/BlogPost.astro"
 
 本記事を読めば以下のGIFの動作をする`BottomNavigationBar`を実装できます。
 
-![](/images/wp-content/uploads/2022/07/20220722_bnb_hide.gif)
+![](/images/wp-content/uploads/2022/07/20220722_bnb_hide.webp)
 
 特別なパッケージや`StatefulWidget`以外の状態管理手法無しで実装が可能です。
 
@@ -572,4 +572,3 @@ https://itnext.io/everything-about-the-bottomnavigationbar-in-flutter-e99e5470dd
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

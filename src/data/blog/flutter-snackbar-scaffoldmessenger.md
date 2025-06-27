@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -38,7 +38,7 @@ layout: "../../layouts/BlogPost.astro"
 
 本記事を読めば以下のgifのように、一時的にメッセージを出すことが可能となります。
 
-![](/images/wp-content/uploads/2022/03/SnackBar.gif)
+![](/images/wp-content/uploads/2022/03/SnackBar.webp)
 
 `BuildContext`を使う方法と使わない方法、２つを紹介します。
 
@@ -46,7 +46,7 @@ layout: "../../layouts/BlogPost.astro"
 
 ## BuildContextを使う方法
 
-![](/images/wp-content/uploads/2022/03/パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/パソコン.webp)
 
 `BuildContext`を使って`SnackBar`を表示する方法を紹介します。
 
@@ -156,7 +156,7 @@ class MySecondPage extends StatelessWidget {
 
 ## BuildContextを使わない方法
 
-![](/images/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+![](/images/wp-content/uploads/2022/02/プログラミング画像.webp)
 
 `View`とロジックを完全に切り離したい時など、
 `BuildContext`を使わないで`SnackBar`を表示させたい時があると思います。
@@ -284,7 +284,7 @@ class MySecondPage extends StatelessWidget {
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 アプリでエラーメッセージなど、一時的にメッセージを表示したい時に使用する、
 `SnackBar`の表示方法について解説しました。
@@ -329,4 +329,3 @@ Cloud版のリリースに向けて開発推進中らしいので、
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

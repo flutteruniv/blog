@@ -2,7 +2,7 @@
 title: "【Flutter/Dart】 finalとconst の違いって何？"
 slug: "flutter-dart-final-const"
 author: "Aoi"
-description: ""
+description: "Dart言語のfinalとconstの違いを基礎から解説。コンパイル時定数と実行時定数の違い、使い分け方法をサンプルコード付きで学べます。Flutter開発者必須の知識です。"
 pubDatetime: "2022-05-25"
 tags: ["Dart"]
 layout: "../../layouts/BlogPost.astro"
@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -31,7 +31,7 @@ Flutter/ Dart でコードを書いていて出てくる`final`と`const`の違�
 
 ## finalとconst の違い
 
-![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.webp)
 
 ### final とconst を使う時
 
@@ -71,7 +71,7 @@ https://dartpad.dev/?id=16f51b01853e1cfbb2f9c5f9895455e4
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -101,7 +101,7 @@ https://dartpad.dev/?id=16f51b01853e1cfbb2f9c5f9895455e4
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -175,7 +175,7 @@ https://dartpad.dev/?id=7edc7e1eb3193cee9ed1e0fff1cce50e
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 本記事では、Flutter/ Dart でコードを書いていて出てくる`final`と`const`の違いについて、
 基礎の基礎から解説しました！
@@ -217,4 +217,3 @@ finalはクラスの中で、一度しか代入しない変数に設定するこ
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

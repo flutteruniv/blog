@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -110,7 +110,7 @@ brew install mason
 とコマンドを実行しましょう。
 以下の画像のようにヘルプが現れたら、無事Mason のインストールは完了です。
 
-<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.03.48.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.03.48.webp" alt="" width="300">
 
 ### Mason での初めてのコード生成
 
@@ -125,11 +125,11 @@ mason init
 
 すると以下の画像のようにMasonで使用するファイルが自動生成されます。
 
-<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.05.49.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.05.49.webp" alt="" width="300">
 
 mason.yaml を見ると、hello というファイルが登録されていることがわかります。
 
-![](/images/wp-content/uploads/2022/06/20220624_mason_init-1024x709.png)
+![](/images/wp-content/uploads/2022/06/20220624_mason_init-1024x709.webp)
 
 続いて、以下のコマンドで、
 mason.yaml に登録されているテンプレート(bricks)をすべて取得します。
@@ -152,7 +152,7 @@ mason make hello
 
 すると、以下の画像のようにフォルダ内にHELLO.md が自動生成されます。
 
-<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.19.27.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.19.27.webp" alt="" width="300">
 
 `mason make <<テンプレートの名前>> -o <<フォルダのパス>>`
 
@@ -165,7 +165,7 @@ mason make hello
 
 テンプレートを保存するフォルダとしてbricksフォルダを新規作成し、ターミナルで移動します。
 
-<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.38.29.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-18.38.29.webp" alt="" width="300">
 
 以下のコマンドを打ち、my_stateless_widget という名前のテンプレートを作成します。
 
@@ -177,7 +177,7 @@ mason new ~ のコマンドが、新規テンプレート作成のコマンド�
 
 すると、以下の画像のようにファイルが追加されます。
 
-<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-19.01.16.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-19.01.16.webp" alt="" width="300">
 
 重要なファイルだけ解説します。
 
@@ -186,7 +186,7 @@ mason new ~ のコマンドが、新規テンプレート作成のコマンド�
 
 早速brick.yaml を見てみましょう。
 
-<img src="/images/wp-content/uploads/2022/06/20220624_mason_brick_yaml-992x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/06/20220624_mason_brick_yaml-992x1024.webp" alt="" width="300">
 
 ポイントは23行目 ~ 28行目のvars です。
 
@@ -243,7 +243,7 @@ mason add -g my_stateless_widget --path my_stateless_widget
 任意のフォルダで、`mason make my_stateless_widget` を実行してみて下さい。
 名前の入力後、入力された名前の`StatelessWidget`が生成されれば成功です。
 
-![](/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-20.24.36-1024x745.png)
+![](/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-20.24.36-1024x745.webp)
 
 以上が基本的な使い方となります！
 
@@ -274,7 +274,7 @@ mason_sample という単語が使われているファイルを検索します�
 検索して出てきたファイルに対し、
 適宜シンタックスを使いながらmason_sampleという単語を`{{name}}`に書き換えていきます。
 
-![](/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-20.45.29-1024x716.png)
+![](/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-20.45.29-1024x716.webp)
 
 gitignore されるファイルは対応不要です。
 
@@ -304,12 +304,12 @@ mason make my_flutter_template
 
 入力が終わると、、、
 
-![](/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-22.22.23-1024x932.png)
+![](/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-22.22.23-1024x932.webp)
 
 ファイルが生成されました！
 `flutter pub get` をすれば、自由にFlutterプロジェクトとして扱えます！
 
-![](/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-22.18.05-1024x852.png)
+![](/images/wp-content/uploads/2022/06/スクリーンショット-2022-06-24-22.18.05-1024x852.webp)
 
 今回作成したテンプレートはこの章で紹介した、`mason add ~ `のコマンドを実行すれば、
 誰でも実行可能となります。
@@ -367,4 +367,3 @@ Flutterの文法ルールに則ったコードを書きたい際には
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。
