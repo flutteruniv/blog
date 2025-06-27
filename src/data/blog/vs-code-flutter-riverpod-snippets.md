@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -39,7 +39,7 @@ VS code の拡張機能である、**[Flutter Riverpod Snippets](https://marketp
 
 以下のGIF のような形でコードを書くのを楽にしてくれます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220713_riverpod_snippets.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220713_riverpod_snippets.gif)
 
 導入方法から、基本的な使い方まで解説していきます。
 
@@ -50,7 +50,7 @@ VS code の拡張機能である、**[Flutter Riverpod Snippets](https://marketp
 Visual Studio Code のExtensions の検索バーにて、
 **"Flutter Riverpod Snippets"**を検索します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/スクリーンショット-2022-07-13-17.14.55-1024x562.png)
+![](http://34.145.4.125/wp-content/uploads/2022/07/スクリーンショット-2022-07-13-17.14.55-1024x562.png)
 
 検索して出てきたFlutter Riverpod Snippetsを選択します。
 
@@ -63,7 +63,7 @@ Visual Studio Code のExtensions の検索バーにて、
 
 選択後、自動でコードが生成されます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220713_riverpod_snippets.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220713_riverpod_snippets.gif)
 
 このSnippetsの打ち込むコマンドと、作られるものの内容を以下の表にまとめました！
 （公式ページの表を日本語訳したものとなります。）

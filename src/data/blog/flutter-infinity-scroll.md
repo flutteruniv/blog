@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -30,7 +30,7 @@ ogImage: ""
 
 本記事を読めば、以下のgifのような無限スクロールが実装可能となります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220330_infinity_scroll.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/03/20220330_infinity_scroll.gif)
 
 無限スクロールの実装方法は色々とありますが、
 今回は`ScrollController`を使った方法を解説します。

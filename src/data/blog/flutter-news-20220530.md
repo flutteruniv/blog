@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -55,7 +55,7 @@ https://blog.flutteruniv.com/flutter-casual-game-toolkit/
 
 ### CI/CD ツールを使用しているかについてのアンケート
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-23-16.22.12-1024x642.png)
+![](http://34.145.4.125/wp-content/uploads/2022/05/スクリーンショット-2022-05-23-16.22.12-1024x642.png)
 
 [https://www.reddit.com/r/FlutterDev/comments/us74r2/are_you_using_a_cicd_tool_for_your_flutter_project/](https://www.reddit.com/r/FlutterDev/comments/us74r2/are_you_using_a_cicd_tool_for_your_flutter_project/)
 
@@ -73,7 +73,7 @@ https://flutteruniv.com/
 
 ### FlutterでiPod を再現したアプリのリポジトリ
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-23-8.53.15-505x1024.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/05/スクリーンショット-2022-05-23-8.53.15-505x1024.png" alt="" width="300">
 
 [https://github.com/retromp3/retro](https://github.com/retromp3/retro)
 

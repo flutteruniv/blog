@@ -19,7 +19,7 @@ ogImage: ""
 
 ## テラコヤテックとは
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/10/terakoya-1024x538.jpg)
+![](http://34.145.4.125/wp-content/uploads/2023/10/terakoya-1024x538.jpg)
 
 リツアンSTCさんとFlutter大学、AWS学習のクラウドテックがコラボして、立ち上げた無料のエンジニア養成講座です。
 
@@ -45,15 +45,15 @@ https://twitter.com/FlutterUniv/status/1725856349136007419
 
 その後、12月1日か実際に学習をスタート。Flutterコースの場合は以下のような感じの流れで行いました。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2024/06/CleanShot-2024-06-08-at-14.39.15@2x-898x1024.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2024/06/CleanShot-2024-06-08-at-14.39.15@2x-898x1024.png" alt="" width="300">
 
 基本的に毎月オンラインで1on1と交流会を実施し、3月にはオフラインで中間発表会、6月頭にオフラインで最終発表会を行いました！Flutterコースの方はFlutter大学コミュニティをベースにしていることから、オフラインも含めた交流を機にモチベーションを高めるというスタイルを取っています。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2024/06/CleanShot-2024-02-27-at-22.04.49@2x-1024x504.png)
+![](http://34.145.4.125/wp-content/uploads/2024/06/CleanShot-2024-02-27-at-22.04.49@2x-1024x504.png)
 
 学習する時は一人で頑張る必要もありますが、そのモチベーションをキープするためにもオフラインを含めた交流は重要であると考えております。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2024/06/IMG_2480-1024x769.jpg)
+![](http://34.145.4.125/wp-content/uploads/2024/06/IMG_2480-1024x769.jpg)
 
 ## 最終発表会
 
@@ -61,7 +61,7 @@ https://twitter.com/FlutterUniv/status/1725856349136007419
 
 ### ともさん：シフト管理アプリをリリース
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2024/06/tera1-1024x683.jpeg)
+![](http://34.145.4.125/wp-content/uploads/2024/06/tera1-1024x683.jpeg)
 
 [https://apps.apple.com/jp/app/shift-management/id6502449436?platform=iphone](https://apps.apple.com/jp/app/shift-management/id6502449436?platform=iphone)
 
@@ -69,7 +69,7 @@ https://twitter.com/FlutterUniv/status/1725856349136007419
 
 ### 134（イサジ）さん：4つのアプリをリリース
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2024/06/tera2-1024x683.jpeg)
+![](http://34.145.4.125/wp-content/uploads/2024/06/tera2-1024x683.jpeg)
 
 [https://apps.apple.com/jp/developer/shogo-isaji/id1720113915](https://apps.apple.com/jp/developer/shogo-isaji/id1720113915)
 
@@ -79,7 +79,7 @@ https://twitter.com/_isaji134/status/1797175731669389723
 
 ### hiromuさん：買い物忘れ防止アプリリリース
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2024/06/tera4-1024x683.jpeg)
+![](http://34.145.4.125/wp-content/uploads/2024/06/tera4-1024x683.jpeg)
 
 [https://apps.apple.com/jp/app/memoplace/id6479640629](https://apps.apple.com/jp/app/memoplace/id6479640629)
 
@@ -87,7 +87,7 @@ https://twitter.com/_isaji134/status/1797175731669389723
 
 ### ささいさん：全OFFできるアラームアプリをリリース
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2024/06/tera3-1024x683.jpeg)
+![](http://34.145.4.125/wp-content/uploads/2024/06/tera3-1024x683.jpeg)
 
 [https://apps.apple.com/jp/app/dayoff-alarm/id6503338419](https://apps.apple.com/jp/app/dayoff-alarm/id6503338419)
 
@@ -95,7 +95,7 @@ https://twitter.com/_isaji134/status/1797175731669389723
 
 ## 主催者としての感想
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2024/06/tera5-1024x576.jpeg)
+![](http://34.145.4.125/wp-content/uploads/2024/06/tera5-1024x576.jpeg)
 
 私自身も常に挑戦をし続けているつもりではありますが、今回はアプリ開発、エンジニアとして目立つ、という私の原点のアウトプットを思い出させてくれる良い機会になりました。
 

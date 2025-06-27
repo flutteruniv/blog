@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -59,7 +59,7 @@ Flutter大学のコミュニティプラン以上の方なら、
 
 ## 個人開発発表会の良いポイント
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220423_personal_development.png)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220423_personal_development.png)
 
 個人開発発表会に参加していて良いポイントを３つ、厳選してお伝えします。
 

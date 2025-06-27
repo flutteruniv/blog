@@ -27,7 +27,7 @@ ogImage: ""
 
 プロジェクト内の、pubspeck.yamlという場所に直接書く方法もありますが、今回はターミナルから追加する方法をやってみようと思います！[flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) のサイトから、Installingを選んでいただきます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/03/スクリーンショット-2023-03-15-17.12.53-1024x765.png)
+![](http://34.145.4.125/wp-content/uploads/2023/03/スクリーンショット-2023-03-15-17.12.53-1024x765.png)
 
 With Flutterに書いてあるこちらのコマンドをターミナルで実行してください。
 
@@ -41,7 +41,7 @@ flutter pub add flutter_launcher_icon
 
 プロジェクト直下にassets/imagesを作っていきます
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/03/スクリーンショット-2023-03-15-17.30.04.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2023/03/スクリーンショット-2023-03-15-17.30.04.png" alt="" width="300">
 
 作成できましたら、使いたい画像をドラッグ&ドロップでimagesの中に追加していきましょう！
 
@@ -65,7 +65,7 @@ flutter pub run flutter_launcher_icons:main
 
 うまくいけばアイコンが変わっていると思います！
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/03/IMG_4885-1024x732.jpg)
+![](http://34.145.4.125/wp-content/uploads/2023/03/IMG_4885-1024x732.jpg)
 
 ### その他細かな設定
 

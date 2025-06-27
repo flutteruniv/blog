@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -218,7 +218,7 @@ Flutter SidekickはFlutterプロジェクトをUI上で管理できるアプリ�
 
 以下の画像のようにFlutteプロジェクトをパネルにて管理できます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-15-9.31.04-1024x645.png)
+![](http://34.145.4.125/wp-content/uploads/2022/05/スクリーンショット-2022-05-15-9.31.04-1024x645.png)
 
 注目すべきは使用しているFlutterのバージョンが表示されること、
 IDEマークからIDEにてプロジェクトを直接開けることの2点です。

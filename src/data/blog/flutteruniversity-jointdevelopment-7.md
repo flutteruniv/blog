@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -104,14 +104,14 @@ Flutter大学内外問わず、とても興味深い内容だと思います。
 
 #### アプリの概要
 
-![どんぐりさん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)どんぐりさん
+![どんぐりさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/woman.png)どんぐりさん
 五感を研ぎ澄ましてリアルの世界を感じとり、記録するノート。
 五感全部に言及しないと、一日の日誌としてコンプリートできない。
 （シェアもできるようにするか検討中）
 
 #### 最終発表会に向けた意気込み
 
-![どんぐりさん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)どんぐりさん
+![どんぐりさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/woman.png)どんぐりさん
 　この企画では、初心者でも参加しやすいように、
 リリース済みのアプリを下敷きにしながら、
 UI の選択、状態管理、保存まで、各自のレベルに応じて作業を進めています。
@@ -121,7 +121,7 @@ UI の選択、状態管理、保存まで、各自のレベルに応じて作�
 
 #### アプリの概要
 
-![Hirotoさん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)Hirotoさん
+![Hirotoさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png)Hirotoさん
 　miitripは旅先での偶然の出会いを提供します。
 旅の情報やご飯屋さんの情報を交換し、新しい世界を体験しましょう。
 　「人」が軸の旅。解放的な旅先で偶然「人」に会うことで、
@@ -130,7 +130,7 @@ UI の選択、状態管理、保存まで、各自のレベルに応じて作�
 
 #### 最終発表会に向けた意気込み
 
-![Hirotoさん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)Hirotoさん
+![Hirotoさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png)Hirotoさん
 ４月リリースに向けて、ラストスパート！！
 近日中にサービスページも公開予定です！ぜひDLいただき、ご意見お願いします！！
 

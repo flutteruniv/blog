@@ -12,7 +12,7 @@ Flutter大学には３つのプランがあり、最上位のFlutter修行プラ
 
 ## 質問zoomの時間割
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/07/zoom_schedule-1024x299.png)
+![](http://34.145.4.125/wp-content/uploads/2023/07/zoom_schedule-1024x299.png)
 
 時間割は上図のようになっています。
 
@@ -54,7 +54,7 @@ Flutter大学には３つのプランがあり、最上位のFlutter修行プラ
 
 ### 月曜18時、ganちゃん
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-11.59.58@2x-1024x294.png)
+![](http://34.145.4.125/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-11.59.58@2x-1024x294.png)
 
 #### プロフィール
 
@@ -79,7 +79,7 @@ ganちゃんは、2021年4月にエイドル開発のプロジェクトに初め
 
 ### 火曜20時、minnさん
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.00.12@2x-1024x338.png)
+![](http://34.145.4.125/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.00.12@2x-1024x338.png)
 
 #### プロフィール
 
@@ -97,7 +97,7 @@ minnさんは、Flutter大学で学び始めた当初は一般事務の仕事を
 
 ### 水曜20時、ダイゴさん
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.00.27@2x-1024x318.png)
+![](http://34.145.4.125/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.00.27@2x-1024x318.png)
 
 #### プロフィール
 
@@ -117,7 +117,7 @@ CodeBoyやFlutter大学アプリの開発を手伝ってもらいながら成長
 
 ### 木曜20時、coboさん
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.00.46@2x-1024x314.png)
+![](http://34.145.4.125/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.00.46@2x-1024x314.png)
 
 #### プロフィール
 
@@ -137,7 +137,7 @@ Spajamというハッカソンに一緒に参加したのですが、プロジ�
 
 ### 金曜20時、龍之介さん
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.01.00@2x-1024x282.png)
+![](http://34.145.4.125/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.01.00@2x-1024x282.png)
 
 #### プロフィール
 
@@ -155,7 +155,7 @@ Spajamというハッカソンに一緒に参加したのですが、プロジ�
 
 ### 土曜10時、Kosukeさん
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.01.12@2x-1024x388.png)
+![](http://34.145.4.125/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.01.12@2x-1024x388.png)
 
 #### プロフィール
 
@@ -173,7 +173,7 @@ Kosukeさんは、最近は外部勉強会での登壇も多く、凄すぎる�
 
 ### 日曜10時、heyheyさん
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.01.24@2x-1024x303.png)
+![](http://34.145.4.125/wp-content/uploads/2023/07/CleanShot-2023-07-07-at-12.01.24@2x-1024x303.png)
 
 #### プロフィール
 

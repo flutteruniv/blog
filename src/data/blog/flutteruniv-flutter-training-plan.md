@@ -11,7 +11,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -23,7 +23,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -46,7 +46,7 @@ layout: "../../layouts/BlogPost.astro"
 
 ## Flutter大学とは ？
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](http://34.145.4.125/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
 
 Flutter大学とは、**Flutterエンジニアに特化した学習コミュニティ**です。
 
@@ -54,7 +54,7 @@ Flutter大学とは、**Flutterエンジニアに特化した学習コミュニ�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -82,7 +82,7 @@ Flutterについては、[Flutterって何？ アプリ開発の常識を壊す�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -103,7 +103,7 @@ Flutter大学の様々なコンテンツにより、
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -164,7 +164,7 @@ Flutter大学では週4回、現役のFlutterエンジニアによる質問相�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -176,7 +176,7 @@ Flutter大学では週4回、現役のFlutterエンジニアによる質問相�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -196,7 +196,7 @@ Flutter大学では週4回、現役のFlutterエンジニアによる質問相�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -208,7 +208,7 @@ Flutter大学では週4回、現役のFlutterエンジニアによる質問相�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -291,7 +291,7 @@ Flutter大学でコミュニケーションを始めるきっかけとなる、�
 
 料金プランと、利用できるコンテンツは以下のようになっています。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/09/スクリーンショット-2022-09-06-19.11.27-1024x815.png)
+![](http://34.145.4.125/wp-content/uploads/2022/09/スクリーンショット-2022-09-06-19.11.27-1024x815.png)
 
 イメージとしてはトレーニングジムが近いと思います。
 それぞれのプランを見ていきます。

@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -23,7 +23,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -74,7 +74,7 @@ Flutterのコードを書くことにある程度慣れてくると、
 Widget の build メソッドの中にWidgetを何度も追加して、
 Widgetの依存関係がどんどん深くなって行くかと思います。（以下の図）
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.09.06-793x1024.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.09.06-793x1024.png" alt="" width="300">
 
 課題になるのは、最下層のWidget(水色)で最上部のWidgetが
 持つデータ(黄色)を参照したい時です。
@@ -125,7 +125,7 @@ class MyWidget extends StatelessWidget {
 
 可能であれば以下のように直接参照したいです。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.27.50-853x1024.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.27.50-853x1024.png" alt="" width="300">
 
 これを可能にするのが`Inherited Widget`です。
 
@@ -133,7 +133,7 @@ class MyWidget extends StatelessWidget {
 依存関係が`InheritedWidget`の下にある`Widget`ならどこからでも
 データを参照できるようになります。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.37.42-884x1024.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/06/スクリーンショット-2022-06-17-20.37.42-884x1024.png" alt="" width="300">
 
 `InheritedWidget` はFlutterのSDK の中の`Widget`なので、
 特別にパッケージをインストール必要はありません。
@@ -270,7 +270,7 @@ class MySecondPage extends StatelessWidget {
 }
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/20220618_inherited_base.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/06/20220618_inherited_base.gif)
 
 今回のコードはFlutter 3.0.4 にて記載します。
 
@@ -796,7 +796,7 @@ class MySecondPage extends StatelessWidget {
 }
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/20220618_inherited_complete.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/06/20220618_inherited_complete.gif)
 
 ### 改良点
 
@@ -832,7 +832,7 @@ Flutter Performance で+ボタンを押した時のリビルドの状況を見�
 `MyCounter.of(context).〜`で引数に使用した`context`は`Builder Widget` の`context`となるため、
 リビルドされる`Widget`を`Builder`以下に制限することができます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220706_builder-1024x664.png)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220706_builder-1024x664.png)
 
 #### `Floating Action Button` にて『`InheritedWidget`を監視しているものリスト』に
 登録されないようにする
@@ -1058,7 +1058,7 @@ class MySecondPage extends StatelessWidget {
 
 結果、カウントアップした際のリビルドの対象を少なくすることができました。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220618_inherited_performance_after.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220618_inherited_performance_after.gif)
 
 以上がInherited Widgetの概要でした。
 次は具体的にInherited Widgetがどんなことをしているのか、内部の仕組みを追っていきます。
@@ -1223,7 +1223,7 @@ class InheritedElement extends ProxyElement {
 
 ## まとめ
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](http://34.145.4.125/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
 本記事では`InheritedWidget`の基本的な使い方を始めとして、
 内部でどんなことが行われているのかについて解説していきました。

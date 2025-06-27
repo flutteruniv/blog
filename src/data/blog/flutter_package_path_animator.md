@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -29,7 +29,7 @@ https://pub.dev/packages/path_animator
 
 このパッケージを導入すると、このようなアニメーションが実現可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/path_animator_sample.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/04/path_animator_sample.gif)
 
 ぜひ読んでみてください！
 

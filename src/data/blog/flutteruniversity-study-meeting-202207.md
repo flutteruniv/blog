@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -58,7 +58,7 @@ Flutter大学の有志のメンバーが発表者となり知見の共有が行�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -88,7 +88,7 @@ Flutter大学への参加は以下の画像リンクから。
 
 ### **Firebase Functions入門**
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/20220812_cloud_functions.png)
+![](http://34.145.4.125/wp-content/uploads/2022/08/20220812_cloud_functions.png)
 
 サーバーレスで関数を実行できるCloud Functions についての
 勉強会が開かれました。
@@ -96,7 +96,7 @@ Flutter大学への参加は以下の画像リンクから。
 Cloud Functions とは何かという基礎的な内容から、
 実際のファイル構成や設定等の紹介など実戦的な内容まで解説いただきました！
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 とても勉強になる勉強会でした！
 
 内容がとても充実しているので、Cloud Functions を使って困った際には、
@@ -104,7 +104,7 @@ Cloud Functions とは何かという基礎的な内容から、
 
 ### **Flutter RiverpodのDIを活用してLayered Architectureを構築してみた**
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/20220812_riverpod.png)
+![](http://34.145.4.125/wp-content/uploads/2022/08/20220812_riverpod.png)
 
 Riverpod のDI (依存性注入)機能を使用したLayered Architectureでの
 アプリの構築方法について、勉強会が開かれました。
@@ -112,7 +112,7 @@ Riverpod のDI (依存性注入)機能を使用したLayered Architectureでの
 サンプルとなるアプリをベースに、DI の方法、メリット等について、
 詳細に解説いただきました！
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 Riverpod を用いたDI の方法の紹介では、
 「なるほど、そうすればいいのか！」と、
 目から鱗が落ちるような方法も紹介いただき、

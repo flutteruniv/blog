@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 まずはこちらのGIFを御覧ください。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/20221228_demo.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/12/20221228_demo.gif)
 
 こちらのアニメーション実装部分のコードが以下です。
 
@@ -203,13 +203,13 @@ Image.asset('assets/flutter_univ_logo.png', width: 200)
   .slideX(duration: 1.seconds),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/20221228_slide.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/12/20221228_slide.gif)
 
 ## アニメーションの種類
 
 flutter_animateに用意されているアニメーションエフェクトを紹介します。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/20221228_catalog.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/12/20221228_catalog.gif)
 
 上記は公式のExampleアプリを実行して撮ったGIFでの紹介となります。
 
@@ -243,7 +243,7 @@ flutter_animate の紹介記事でした。
 このパッケージを触るのが楽しくて、
 Flutter大学ロゴにいろいろなアニメーションを付けて遊んでいました。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/12/flutter_univ_logo_2.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/12/flutter_univ_logo_2.gif)
 
 こちらのアニメーションはFlutter 大学のSlack のスタンプとして使用可能となっています。
 

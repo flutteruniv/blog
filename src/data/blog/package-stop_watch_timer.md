@@ -16,7 +16,7 @@ layout: "../../layouts/BlogPost.astro"
 
 このパッケージを利用すると以下のようなストップウォッチが実装可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/11/20221106_count_up_timer_sample.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/11/20221106_count_up_timer_sample.gif)
 
 パッケージの基本的な使い方から、用意されているメソッド等の詳細まで解説します。
 

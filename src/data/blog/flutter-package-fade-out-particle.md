@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -31,7 +31,7 @@ Flutter にておしゃれなフェードアウトアニメーションを実装
 このパッケージを使用すると、アイコンやテキストのWidgetに対し、
 以下のようなアニメーションを付けることが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/06/fade_out_particle_sample.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/06/fade_out_particle_sample.gif)
 
 このパッケージ、海外の技術情報等が集まる掲示板サイト、Redditにて、
 投稿されて１日足らずで70以上のUpvoteを集めています！

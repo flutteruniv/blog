@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -39,7 +39,7 @@ Flutterのパッケージである [animated_text_kit](https://pub.dev/packages/
 
 以下のようなアニメーションを設定することが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220720_show.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220720_show.gif)
 
 本記事を読めばテキストに様々なアニメーションを設定することができるようになります。
 ぜひ読んでみて下さい！
@@ -99,7 +99,7 @@ AnimatedTextKit(
 
 この実装だけで、以下のようなアニメーションが。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220720_base.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220720_base.gif)
 
 サンプルコード全体
 ```dart
@@ -159,7 +159,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220720_rotate.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220720_rotate.gif)
 
 ### Fade
 
@@ -176,7 +176,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220720_fade.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220720_fade.gif)
 
 ### Typer
 
@@ -192,7 +192,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220720_typer.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220720_typer.gif)
 
 ### Typewriter
 
@@ -209,7 +209,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220720_typewriter.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220720_typewriter.gif)
 
 ### Scale
 
@@ -226,7 +226,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220720_scale.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220720_scale.gif)
 
 ### Colorize
 
@@ -271,7 +271,7 @@ const colorizeColors = [
 ];
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220720_colorize.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220720_colorize.gif)
 
 ### Wavy
 
@@ -287,7 +287,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220720_wavy.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220720_wavy.gif)
 
 ### Flicker
 
@@ -303,7 +303,7 @@ AnimatedTextKit(
         ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220720_flicker.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220720_flicker.gif)
 
 ### TextLiquidFill
 
@@ -325,7 +325,7 @@ TextLiquidFill(
 ※textStyleは必須プロパティではありませんが、
 デフォルトの`fontSize`が140で設定されているため、設定しています。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/07/20220720_liquid.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/07/20220720_liquid.gif)
 
 ## まとめ
 

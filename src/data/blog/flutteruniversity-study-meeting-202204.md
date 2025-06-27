@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -58,7 +58,7 @@ Flutter大学の有志のメンバーが発表者となり知見の共有が行�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -90,7 +90,7 @@ https://flutteruniv.com/
 
 ### GoogleMap + カードのUI、神パッケージgeoflutterfireの紹介
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220430_map.png)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220430_map.png)
 
 Flutter で GoogleMap を使いやすくするパッケージ、geoflutterfireパッケージについて、
 勉強会が開かれました。
@@ -100,21 +100,21 @@ Flutter で GoogleMap を使いやすくするパッケージ、geoflutterfire�
 地図上で指定の範囲の情報を取得する方法まで、
 地図周りの情報をたくさん解説いただきました。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 自作アプリで地図を使いこなしていることもあり、とてもわかりやすい発表でした！
 
 実戦的な情報が多く、学んだ内容を応用すれば色々なアプリが作れそうです！
 
 ### Flutter×OpenApiでお手軽api開発を体験しよう！
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220430_open_api.png)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220430_open_api.png)
 
 バックエンドのapi定義を簡単にするOpenApiについて勉強会が開かれました。
 
 APIについての基礎の基礎の説明から、
 その場で実践するハンズオンまで行っていただきました。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 Open Api についてはほとんど知識がなかったため、
 基礎から解説いただきとても助かりました！
 
@@ -124,14 +124,14 @@ Open Api についてはほとんど知識がなかったため、
 
 ### FlutterエンジニアのためのWeb3入門
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220430_web3.png)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220430_web3.png)
 
 Flutter エンジニアに向けた、Web3についての勉強会が開かれました。
 
 基礎的な説明から、
 MetaMaskと連携したアプリケーションの作成方法についても実践いただきました。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 最近話題のWeb3について知ることができる、とても良い機会でした！
 
 今後Web3と関連したサービスやアプリが開発されるきっかけになるかもと、

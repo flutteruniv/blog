@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -25,7 +25,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -115,7 +115,7 @@ Flutter大学のオンライン作業部屋は、24時間、いつでも開か�
 あなたの作業を集中して取り組めるようになること、
 これがオンライン作業部屋の2つ目の良いポイントです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/coworking1.png)
+![](http://34.145.4.125/wp-content/uploads/2022/05/coworking1.png)
 
 ### 誰かと一緒に作業をしている感覚を味わえる
 
@@ -138,7 +138,7 @@ Flutter大学のオンライン作業部屋では、
 オンラインながらも周りに人がいることで、寂しさを軽減できること、
 これが3つ目の良いポイントです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/coworking3.png)
+![](http://34.145.4.125/wp-content/uploads/2022/05/coworking3.png)
 
 ## まとめ
 

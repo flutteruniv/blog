@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -41,7 +41,7 @@ Flutter のエラーハンドリングを楽にしてくれる、`Either`型に�
 
 `Either`を使って記述すると、以下の画像のように短いコードで端的に表すことができます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/20220818_compare.png)
+![](http://34.145.4.125/wp-content/uploads/2022/08/20220818_compare.png)
 
 ぜひ読んでみてください！
 

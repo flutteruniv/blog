@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -50,11 +50,11 @@ Skeleton テンプレートについて、徹底解説します。
 Skeletonテンプレートとは、Flutter v2.5によって追加されたFlutterのテンプレートです。
 リストビューとアイテムの詳細ページ、設定ページが用意されています。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_スクリーンショット1.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/03/20220316_スクリーンショット1.png" alt="" width="300">
 
 設定ページでテーマを選択することで、アプリ全体をダークモードにすることが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_ダークテーマ.png)
+![](http://34.145.4.125/wp-content/uploads/2022/03/20220316_ダークテーマ.png)
 
 ### 作成方法
 
@@ -81,7 +81,7 @@ flutter create -t skeleton skeleton_sample
 
 Flutter関連部分は以下のようなフォルダ構成でテンプレートが作成されているはずです。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/22020316_フォルダ構成-711x1024.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/03/22020316_フォルダ構成-711x1024.png" alt="" width="300">
 
 最初はコマンドラインからのアプリ作成は慣れないかもしれませんが、
 慣れてしまえばとても簡単に作成できます。
@@ -202,7 +202,7 @@ onGenerateTitle: (BuildContext context) =>
 アプリをchromeで開いてみてください。
 chromeのタブ部分のアプリタイトルが「skeletonサンプル」と日本語に変わっていれば成功です。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_日本語化-959x1024.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/03/20220316_日本語化-959x1024.png" alt="" width="300">
 
 chromeの設定→詳細設定→言語で言語を英語に変えると、「skeleton_sample」と英語になるのが確認できます。
 
@@ -255,7 +255,7 @@ case SettingsView.routeName:
                     return SettingsView(controller: settingsController);
 ```
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_theme1.png)
+![](http://34.145.4.125/wp-content/uploads/2022/03/20220316_theme1.png)
 
 `AnimatedBuilder`は`SettingController`の変化をチェックしています。
 変更を検知すると、子をリビルドします。
@@ -296,7 +296,7 @@ Future updateThemeMode(ThemeMode? newThemeMode) async {
 
 まとめると、以下の図のようになります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/20220316_theme2.png)
+![](http://34.145.4.125/wp-content/uploads/2022/03/20220316_theme2.png)
 
 `ChangeNotifier` や`notifyListners`はよく使うので、
 テンプレートで使い方が確認できるのはとても良いですね。

@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -40,7 +40,7 @@ Material Icon にないアイコンを使用可能にするパッケージ、
 簡単に、様々なアイコンを実装可能です。
 例えば以下のようにTwitterのアイコンも実装できます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.42.57-508x1024.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.42.57-508x1024.png" alt="" width="300">
 
 ぜひ本記事を読んで使い方を学んでみてください！
 
@@ -88,7 +88,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 FaIcon(FontAwesomeIcons.solidAddressBook),
 ```
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.37.50.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.37.50.png" alt="" width="300">
 
 ### 色と大きさの設定
 
@@ -103,7 +103,7 @@ FaIcon(
         ),
 ```
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.40.12.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.40.12.png" alt="" width="300">
 
 ## まとめ
 
