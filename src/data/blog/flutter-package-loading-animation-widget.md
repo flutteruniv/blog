@@ -11,11 +11,29 @@ tags: ["Package", "Flutter"]
 ogImage: ""
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-ローディング のアニメーション、なんかつまんないんだよなぁ。
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      ローディング のアニメーション、なんかつまんないんだよなぁ。
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-もっとおしゃれなものにする方法はないかしら？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      もっとおしゃれなものにする方法はないかしら？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 本記事では、そんな悩みにお答えします。
 

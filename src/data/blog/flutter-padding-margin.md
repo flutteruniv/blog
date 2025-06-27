@@ -9,11 +9,29 @@ imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-`Widget`に 余白 をつけるには、一体どうしたら良いんだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      `Widget`に 余白 をつけるには、一体どうしたら良いんだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-`padding `とか `margin` とか、違いがわからないわ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      `padding `とか `margin` とか、違いがわからないわ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 本記事ではそんな疑問にお答えします。
 
@@ -96,8 +114,17 @@ Container(
                 ),
 ```
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
-`margin`は外側に、`padding`は内側に余白がつく、と覚えておきましょう！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      `margin`は外側に、`padding`は内側に余白がつく、と覚えておきましょう！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 ### `Padding Widget` の`padding`
 

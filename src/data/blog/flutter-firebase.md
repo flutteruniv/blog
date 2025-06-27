@@ -9,8 +9,17 @@ imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-複数人でデータを共有するアプリを作りたいんだけれど、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      複数人でデータを共有するアプリを作りたいんだけれど、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 サーバーの用意とか大変そう、、、良い方法ないかな？
 
 本記事ではそんな疑問、要望にお答えします！

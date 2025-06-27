@@ -11,11 +11,29 @@ tags: ["初心者向け", "Flutter"]
 ogImage: ""
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-Flutter、最近話題だけど、どうやって始めたらいいんだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutter、最近話題だけど、どうやって始めたらいいんだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-Flutterの初心者向けの勉強の方法を知りたいわ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutterの初心者向けの勉強の方法を知りたいわ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 本記事ではそんな疑問、要望にお答えします。
 
@@ -49,11 +67,29 @@ https://www.youtube.com/watch?v=-G7nW26N7_4&t=4s
 
 ### Flutter の始め方
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-アプリケーション作ってみたいけど、何から始めれば良いの？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      アプリケーション作ってみたいけど、何から始めれば良いの？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
-まずはあなたのお使いのPCでFlutterが使えるようにする、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      まずはあなたのお使いのPCでFlutterが使えるようにする、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 Flutterの**環境構築**をしましょう！
 
@@ -550,13 +586,31 @@ Android のエミュレータでもアプリの実行ができました！
 
 ### 最初に学ぶこと ~ UI の組み方 ~
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-Flutterの環境構築はできたけれど、何から手をつけて良いのかわからないわ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutterの環境構築はできたけれど、何から手をつけて良いのかわからないわ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 どうやったらFlutterでアプリケーションが作れるようになるのかしら？
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
-Flutterの初心者向け学習教材として、**Flutter大学のYouTube**があります！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutterの初心者向け学習教材として、**Flutter大学のYouTube**があります！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 **無料**公開されていて、**誰でも**学ぶことができるんです！
 

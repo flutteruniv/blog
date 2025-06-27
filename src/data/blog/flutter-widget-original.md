@@ -8,11 +8,29 @@ tags: ["初心者向け"]
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-Widget を 自作 してみたいけれど、どうやったら良いんだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Widget を 自作 してみたいけれど、どうやったら良いんだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-コードが長くなって読みにくくなってしまったわ。
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      コードが長くなって読みにくくなってしまったわ。
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 どうしたら良いのかしら？
 
 本記事ではそんな疑問にお答えします。

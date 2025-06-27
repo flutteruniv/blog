@@ -8,11 +8,29 @@ tags: ["Widget"]
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-アプリで一時的にメッセージを表示したいんだけど、いい方法ないかな？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      アプリで一時的にメッセージを表示したいんだけど、いい方法ないかな？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-`BuildContext`を使わないで`SnackBar`を表示する方法はないかしら？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      `BuildContext`を使わないで`SnackBar`を表示する方法はないかしら？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 本記事ではこのような悩み、疑問に答えます。
 アプリでエラーメッセージなど、一時的にメッセージを表示したい時に使用する、

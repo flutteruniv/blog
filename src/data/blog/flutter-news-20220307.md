@@ -9,8 +9,17 @@ imgUrl: ""
 layout: "../../layouts/BlogPost.astro"
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-Flutterの最新情報をキャッチアップしたい！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutterの最新情報をキャッチアップしたい！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 そんなあなたに送る、Flutterニュース。
 

@@ -11,8 +11,17 @@ tags: ["Flutter"]
 ogImage: ""
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-Flutterで 無限スクロール を実装したいけれど、どうすればいいのだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutterで 無限スクロール を実装したいけれど、どうすればいいのだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 そんな悩みにお答えするのが本記事です。
 

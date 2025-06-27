@@ -10,11 +10,29 @@ layout: "../../layouts/BlogPost.astro"
 
 本記事では badges というパッケージの紹介を行います。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-未読の件数をアイコンの右上に丸と数字で表示させたいけど、どうすれば良いんだろう？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      未読の件数をアイコンの右上に丸と数字で表示させたいけど、どうすれば良いんだろう？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-Stackでやってもいいけれど、面倒だわ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Stackでやってもいいけれど、面倒だわ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 上記のような疑問や悩みに答えてくれるパッケージこそが badgesです。
 以下のようなUIが簡単に作成可能です。

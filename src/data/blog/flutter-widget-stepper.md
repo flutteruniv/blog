@@ -10,8 +10,17 @@ layout: "../../layouts/BlogPost.astro"
 
 本記事では `Stepper` `Widget`の紹介を行います。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-ステップ毎にユーザーに作業してもらうUIを作りたいんだけど、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      ステップ毎にユーザーに作業してもらうUIを作りたいんだけど、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 ゼロから作るの大変そう、、、
 
 そんな悩みに応えるのが`Stepper` `Widget`です！

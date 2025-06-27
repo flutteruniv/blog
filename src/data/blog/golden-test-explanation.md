@@ -10,8 +10,17 @@ layout: "../../layouts/BlogPost.astro"
 
 あなたはFlutterでテスト、書いていますか？
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-テスト書くのって面倒臭いんだよなぁ
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      テスト書くのって面倒臭いんだよなぁ
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 そう思ってなかなか手をつけられないでいる方、多いと思います。
 
@@ -26,8 +35,17 @@ layout: "../../layouts/BlogPost.astro"
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/パソコン.jpeg)
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-そもそもテストって何のために書くのかしら？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      そもそもテストって何のために書くのかしら？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 テスト、書いた方がいいのはわかるけれど、何のために書くのかわからない、
 そんな方いらっしゃると思います。
@@ -50,8 +68,17 @@ layout: "../../layouts/BlogPost.astro"
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-テストを書いた方がいいのはわかったけれど、難しそうなんだよなぁ
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      テストを書いた方がいいのはわかったけれど、難しそうなんだよなぁ
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 確かに、複雑なテストを書いていこうとすると難しくなってきます。
 
@@ -319,12 +346,30 @@ Golden生成時は、第２引数の`String`の名前がGoldenの名前となり
 
 あなたは、こんな経験はありませんか？
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-小さい端末だったり、大きい端末だったり、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      小さい端末だったり、大きい端末だったり、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 色々な端末でレイアウトチェックしなければいけないのが面倒臭い！
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-画面遷移を何回もしないと辿り着けない画面をレイアウトチェックするのって、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      画面遷移を何回もしないと辿り着けない画面をレイアウトチェックするのって、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 ものすごい手間だわ。
 
 これらの開発体験の悪さ、Golden Testをうまく使えば、解消できるんです。

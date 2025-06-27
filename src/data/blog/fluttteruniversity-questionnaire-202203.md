@@ -11,11 +11,29 @@ tags: ["Flutter"]
 ogImage: ""
 ---
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png)
-Flutter大学ってよく聞くけど、実際のところ 評判 は良いの？
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutter大学ってよく聞くけど、実際のところ 評判 は良いの？
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png)
-入った後、満足できるか気になるわ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      入った後、満足できるか気になるわ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 そんな疑問に答えるのが本記事です。
 
@@ -70,8 +88,17 @@ https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 90%の方に満足いただけており、40%の方にはかなり満足、との評価を受けています。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)
-たくさんの人がFlutter大学に入って満足しているんだ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      たくさんの人がFlutter大学に入って満足しているんだ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 ### 他社の提供する同様のサービスと比べた場合、Flutter大学の質はどのように感じますか？
 
@@ -84,8 +111,17 @@ Flutter大学のサービスの質が他のサービスと比べて優れてい�
 結果、80%の方が「優れていると感じる」という回答でした。
 「劣っていると感じる」という回答をした方はいらっしゃいませんでした。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-woman.png)
-みんなサービスの質は良いと思っているのね！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-woman.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      みんなサービスの質は良いと思っているのね！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 ### 他社の提供する同様のサービスと比べた場合、Flutter大学の料金はどのように感じますか？
 
@@ -98,21 +134,57 @@ Flutter大学の値段設定が他のサービスと比べてどのように感�
 結果、約43.3%の方々に安いと感じていただき、
 30%の方々に適正価格と感じていただいています。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctress.png)
-お金払うの不安だったけれど、相等以上のサービスを受けられるのは安心だわ！
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctress.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      お金払うの不安だったけれど、相等以上のサービスを受けられるのは安心だわ！
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 ### Flutter大学について、満足した点はどんな事ですか？
 
 最後に、Flutter大学利用者の満足の声を紹介します。
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)
-勉強会、交流会といったイベントが豊富。 共同開発など、モチベーション維持に使える点で満足しています。
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      勉強会、交流会といったイベントが豊富。 共同開発など、モチベーション維持に使える点で満足しています。
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)
-活動の自由度が高い。レベルに応じてさまざまな活動の仕方ができる。発言や提案を好意ベースで受け入れられ、心理安全性が高い。レベルの高いエンジニアが多い一方、初級者にも配慮がなされている。
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      活動の自由度が高い。レベルに応じてさまざまな活動の仕方ができる。発言や提案を好意ベースで受け入れられ、心理安全性が高い。レベルの高いエンジニアが多い一方、初級者にも配慮がなされている。
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
-![](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png)
-Flutter大学のおかげで生活出来ているので、とても助かっています。 今後注力していく人材紹介がまさにそうだと思いますが、プログラミング未経験から入学してプログラミングで生活出来るようになるフローが出来たらとても素敵だなーと思います。
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      Flutter大学のおかげで生活出来ているので、とても助かっています。 今後注力していく人材紹介がまさにそうだと思いますが、プログラミング未経験から入学してプログラミングで生活出来るようになるフローが出来たらとても素敵だなーと思います。
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
 
 ## まとめ
 
