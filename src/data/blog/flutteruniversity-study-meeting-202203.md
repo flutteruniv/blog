@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -58,7 +58,7 @@ Flutter大学の有志のメンバーが発表者となり知見の共有が行�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -89,49 +89,49 @@ https://flutteruniv.com/
 
 ### 【コピペでできる】Golden Testで開発体験を向上させよう
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220402_golden.png)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220402_golden.png)
 
 Flutterのテスト手法であるGolden Testがテーマの勉強会が行われました。
 
 コピペでできる方法の実演と、
 Golden Testを使った開発体験の向上のさせ方について解説されていました。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 勉強会後は「ゴールデン」がFlutter大学内でミームになるくらい、
 盛り上がっていたのが印象的でした！
 
 ### Firebase Cloud Messaging で通知機能を実装しよう【ライブコーディング】
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220402_push.png)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220402_push.png)
 
 Firebase Cloud Messaging を使った通知機能の実装について勉強会が行われました。
 
 Fluttter、iOSでの通知機能の実装をライブコーディングで行っていただきました。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 途中エラーで詰まる部分があったのですが、
 そこをFlutter大学メンバーと協力して乗り越えたのがとても印象的でした！
 
 ### DeepLinkを実装してみよう
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220402_deeplink.png)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220402_deeplink.png)
 
 URLからアプリへと遷移する、DeepLinkの実装方法についての勉強会が行われました。
 
 DeepLinkの種類の解説から、実演まで、丁寧に解説いただきました。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 資料がとてもわかりやすく、初心者に向けて基本的なところから解説されていました！
 
 ### RiverpodのStreamProviderでFirestoreを使用したチャットのリアルタイム表示
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220402_stream.png)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220402_stream.png)
 
 Riverpod のStreamProviderでFirestoreを使用したチャットのリアルタイム表示についての勉強会が行われました。
 
 とても丁寧に作り込まれた資料をベースに、実装方法を中心に解説いただきました。
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 発表いただいた後、参加者の中で積極的に質問や議論がなされていました！
 
 ## まとめ

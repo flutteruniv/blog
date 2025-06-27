@@ -56,13 +56,13 @@ Flutter大学内外問わず、とても興味深い内容だと思います。
 
 #### アプリの概要
 
-![near108さん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)near108さん
+![near108さん](http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png)near108さん
 IT技術に関する発表や勉強会、
 セミナーなどの動画を閲覧することができる動画ポータルアプリです。
 
 #### 成果発表会に向けた意気込み
 
-![near108さん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)near108さん
+![near108さん](http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png)near108さん
 トラブル等もありだいぶ遅延が発生してますが、
 メンバー総出で追い込みをかけて成果発表会までには動くものが出せるように頑張ります。
 
@@ -70,7 +70,7 @@ IT技術に関する発表や勉強会、
 
 #### アプリの概要
 
-![こんぶさん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)こんぶさん
+![こんぶさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png)こんぶさん
 常夜灯では場所に対して投稿を行います。
 自分が今いる場所にのみ投稿することができます。
 その投稿データは場所に刻まれるで時間が経過しても、
@@ -82,7 +82,7 @@ IT技術に関する発表や勉強会、
 
 #### 成果発表会に向けた意気込み
 
-![こんぶさん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png)こんぶさん
+![こんぶさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png)こんぶさん
 こんぶの弟子たちがラストスパートしています！
 暖かく見守ってください。
 
@@ -90,7 +90,7 @@ IT技術に関する発表や勉強会、
 
 #### アプリの概要
 
-![やまさん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)やまさん
+![やまさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/woman.png)やまさん
 「もっと絵本を読みたい！」
 そう思えるようなきっかけを作りたいという想いから
 構想がはじまりました。
@@ -100,7 +100,7 @@ IT技術に関する発表や勉強会、
 
 #### 成果発表会に向けた意気込み
 
-![やまさん](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png)やまさん
+![やまさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/woman.png)やまさん
 「HELP！」
 そんな気持ちから始めた共同開発。
 長いような短いような濃密な3ヶ月でした。

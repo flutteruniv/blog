@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -25,7 +25,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -42,7 +42,7 @@ ogImage: ""
 
 例えば、こんなローディングが実装できます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220406_inkdrop.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220406_inkdrop.gif)
 
 あなたのアプリの出来栄えをワンランク上げること間違いなしです！
 
@@ -156,7 +156,7 @@ LoadingAnimationWidget.inkDrop(
 
 #### staggeredDotsWaveパターン
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220406_staggerd_dots_wave.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220406_staggerd_dots_wave.gif)
 
 ```
 LoadingAnimationWidget.staggeredDotsWave(
@@ -167,7 +167,7 @@ LoadingAnimationWidget.staggeredDotsWave(
 
 #### flickrパターン
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220406_flickr.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220406_flickr.gif)
 
 ```
 LoadingAnimationWidget.flickr(

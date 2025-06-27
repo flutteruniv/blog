@@ -11,7 +11,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -23,7 +23,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -81,7 +81,7 @@ Riverpod とは、上記のような状態管理に関する問題を解決す�
 このプロバイダを必要な時にViewで呼び出すことで、
 ツリーのどの位置でも値の呼び出し、参照を可能にします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-28-0.55.27-1024x578.png)
+![](http://34.145.4.125/wp-content/uploads/2022/05/スクリーンショット-2022-05-28-0.55.27-1024x578.png)
 
 `main.dart`から値を受け渡していた時と比べて、
 ずっとシンプルにできていますよね。
@@ -497,13 +497,13 @@ class MySecondPage extends ConsumerWidget {
 
 上記コードを実行した結果がこちらです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/20220528_riverpod_complete.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/05/20220528_riverpod_complete.gif)
 
 状態の共有ができており、更新がどちらの画面でもできています。
 
 ## Flutter大学のサンプルリポジトリ
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/20220528_riverpod_repo.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/05/20220528_riverpod_repo.gif)
 
 Flutter大学で用意しているFlutter × Riverpod のサンプルリポジトリはこちらです。
 

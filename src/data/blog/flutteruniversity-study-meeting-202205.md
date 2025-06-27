@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -58,7 +58,7 @@ Flutter大学の有志のメンバーが発表者となり知見の共有が行�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -90,14 +90,14 @@ https://flutteruniv.com/
 
 ### 明日から構築できる Flutter CI 入門
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/20220528_ci.png)
+![](http://34.145.4.125/wp-content/uploads/2022/05/20220528_ci.png)
 
 Fluttterでの自動でテストやフォーマットチェックを行う、
 CIの利点や実装方法について勉強会が開かれました。
 
 GitHub Actions を使ったCI の構築方法を、初心者にわかりやすく、丁寧に解説いただきました！
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 CI の便利さをこれでもかというくらいに紹介いただいた勉強会でした！
 
 動画で実際に動いている様子を見せていただいたりと、
@@ -105,7 +105,7 @@ CI のイメージもしやすかったです！
 
 ### Notionを使って個人開発のタスク管理をしよう
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/05/20220528_notion.png)
+![](http://34.145.4.125/wp-content/uploads/2022/05/20220528_notion.png)
 
 情報を一括で管理できるドキュメントツール、Notionについて、
 利用方法の解説の勉強会が開かれました。
@@ -113,7 +113,7 @@ CI のイメージもしやすかったです！
 発表者自作のテンプレートをベースに、
 Notionでできることを事細かに紹介いただきました！
 
-![Aoi](https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 日々のタスク管理の手法には悩まされている自分だったので、
 この勉強会はとても勉強になりました！
 

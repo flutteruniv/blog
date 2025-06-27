@@ -34,9 +34,9 @@ Flutterはこのタブの状態管理あたりが、iOSネイティブ（Swift�
 
 Flutter大学内でもDart3.0が話題になってきました！
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-07.52.05@2x-1024x196.png)
+![](http://34.145.4.125/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-07.52.05@2x-1024x196.png)
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-07.53.03@2x-1024x289.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-07.53.03@2x-1024x289.png" alt="" width="300">
 
 ちなみにヤマタツさんの紹介してた記事はこちら。
 

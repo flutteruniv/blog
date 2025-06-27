@@ -64,7 +64,7 @@ Flutter大学への参加は以下の画像リンクから。
 
 ### 【すさ】リファレンスアプリで実践的なスキルを身につける方法
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/01/WordPress-素材-24.png)
+![](http://34.145.4.125/wp-content/uploads/2023/01/WordPress-素材-24.png)
 
 基本的な技術、最新のパッケージを利用した、
 リファレンスアプリの作成についての勉強会が開かれました。
@@ -77,7 +77,7 @@ Aoi「2022年で何ヶ月もかけてブラッシュアップを重ねていっ�
 
 ### 【Flutter女子部】共同開発レコメンだー報告
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2023/01/WordPress-素材-23.png)
+![](http://34.145.4.125/wp-content/uploads/2023/01/WordPress-素材-23.png)
 
 Flutter大学のFlutter女子部が共同開発で作成したアプリ、レコメンだーの、
 作成経緯、ポイントを紹介いただく勉強会が開かれました。

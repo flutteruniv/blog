@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -25,7 +25,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -53,7 +53,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doya-man.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/doya-man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -70,7 +70,7 @@ ogImage: ""
 
 ## Flutter とは何か？
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](http://34.145.4.125/wp-content/uploads/2022/02/コーディング女性.jpeg)
 
 ### Flutter とは
 
@@ -91,7 +91,7 @@ Flutterでコードを書く際に使うプログラミング言語を**Dart**(�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doya-woman.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/doya-woman.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -135,7 +135,7 @@ Flutterでは上記を**全て作ることができます**。
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -149,7 +149,7 @@ Flutterでは上記を**全て作ることができます**。
 
 ## Flutter を使う利点って？
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](http://34.145.4.125/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
 Flutterを使う利点はたくさんあります。
 
@@ -168,7 +168,7 @@ Flutterの利点、１つ目は開発体験が良いことです。
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -197,7 +197,7 @@ Flutterの**ホットリロード**という機能がこの待ち時間を解決
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -221,7 +221,7 @@ Flutterを動かすのに必要なソフトウェアは完全に無料となっ�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -258,7 +258,7 @@ https://www.youtube.com/watch?v=EJOA0plae_s
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/woman.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -276,7 +276,7 @@ iOSとAndroidのモバイルアプリ開発を例に時間のコストと雇う�
 
 #### 時間のコスト
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/スクリーンショット-2022-02-25-11.59.48-1024x731.png)
+![](http://34.145.4.125/wp-content/uploads/2022/02/スクリーンショット-2022-02-25-11.59.48-1024x731.png)
 
 この図はアプリ開発にかかる合計時間を表した図です。
 
@@ -298,7 +298,7 @@ Flutterでの開発ではFlutterの開発技術を持った開発者を雇いま
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -310,7 +310,7 @@ Flutterでの開発ではFlutterの開発技術を持った開発者を雇いま
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -322,11 +322,11 @@ Flutterでの開発ではFlutterの開発技術を持った開発者を雇いま
 
 ## Flutter の将来性は？
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+![](http://34.145.4.125/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">

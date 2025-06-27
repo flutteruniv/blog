@@ -27,7 +27,7 @@ Flutterでボタンや装飾として用いる記号のウィジェット、Icon
 Flutter create で作成したアプリの状態では、`IconData`として、
 マテリアルデザインの`Icons.~`と、iOSのデザインの`CupertinoIcons.~`が使えます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-16.46.32.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-16.46.32.png" alt="" width="300">
 
 ```dart
 Column(
@@ -93,7 +93,7 @@ class MyWidget extends StatelessWidget {
 
 `size`プロパティでアイコンのサイズを設定することができます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.15.14.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.15.14.png" alt="" width="300">
 
 ```
 Column(
@@ -117,7 +117,7 @@ Column(
 
 colorプロパティにでアイコンの色を設定することができます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.17.05.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.17.05.png" alt="" width="300">
 
 ```dart
 Icon(
@@ -131,7 +131,7 @@ Icon(
 `shadows`プロパティに`Shadow`インスタンスを設定することで、
 アイコンに影をつけることができます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.11.59.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.11.59.png" alt="" width="300">
 
 ```dart
 Icon(
@@ -151,7 +151,7 @@ Icon(
 （文字が左から右に書くか、アラビア文字のように右から左に書くか）
 に応じた表示を設定することができます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.01.15.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/11/スクリーンショット-2022-11-25-17.01.15.png" alt="" width="300">
 
 ```dart
 Column(

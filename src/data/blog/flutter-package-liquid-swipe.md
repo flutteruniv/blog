@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -39,7 +39,7 @@ layout: "../../layouts/BlogPost.astro"
 
 このパッケージを使うと、以下のような画面遷移アニメーションが実装可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220408_liquid_swipe_sample.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220408_liquid_swipe_sample.gif)
 
 ちょっとアプリに個性を出したい、
 そんなあなたにぴったりのパッケージとなっています。
@@ -156,7 +156,7 @@ class LiquidSwipeSample extends StatelessWidget {
 
 実行結果は以下のようになります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220408_liquid_swipe_normal.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220408_liquid_swipe_normal.gif)
 
 右から左へスワイプすることで、
 液体が揺れたようなアニメーションで画面を遷移させることができます。
@@ -197,7 +197,7 @@ class LiquidSwipeSample extends StatelessWidget {
 
 #### 実行結果
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220408_liquid_swipe_circle.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220408_liquid_swipe_circle.gif)
 
 ### アイコンの追加
 
@@ -415,7 +415,7 @@ class _LiquidSwipeSampleState extends State {
 
 実行結果は以下のようになります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/20220408_liquid_swipe_controller.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/04/20220408_liquid_swipe_controller.gif)
 
 アイコンタップで次の画面へと遷移していきます。
 

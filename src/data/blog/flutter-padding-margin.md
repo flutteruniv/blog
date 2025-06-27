@@ -11,7 +11,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -23,7 +23,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -43,7 +43,7 @@ Flutterでの`Widget`の間の余白の付け方を解説します。
 
 ## 余白の付け方
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-08-17.26.03.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/06/スクリーンショット-2022-06-08-17.26.03.png" alt="" width="300">
 
 上の画像をご覧ください。
 
@@ -57,7 +57,7 @@ Flutterでの`Widget`の間の余白の付け方を解説します。
 １つ目の方法は、`Containe`rの`margin`(マージン)で余白を付ける方法です。
 この方法では、以下の画像のように`margin`を設定した`Container`の周りに余白が付きます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-08-17.32.27.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/06/スクリーンショット-2022-06-08-17.32.27.png" alt="" width="300">
 
 コードは以下のようになります。
 
@@ -90,7 +90,7 @@ EdgeInsets.all(50)は長方形の各辺4方向に50の余白を与える、と�
 この方法では、
 以下の画像のようにpaddingを設定した`Container`の内部に余白が設定されます。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-08-17.40.40.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/06/スクリーンショット-2022-06-08-17.40.40.png" alt="" width="300">
 
 コードはこちらです。
 
@@ -116,7 +116,7 @@ Container(
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">

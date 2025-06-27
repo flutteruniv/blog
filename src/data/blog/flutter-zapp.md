@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -65,14 +65,14 @@ https://zapp.run/
 
 UIは以下の画像のようになっています。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-13.49.03-1024x563.png)
+![](http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-13.49.03-1024x563.png)
 
 UIは VS Code のような見た目をしています。
 画面右側に実行中のアプリが表示されるようになっています。
 
 画面左下の☀︎のアイコンをクリックすることにより、テーマの切り替えが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-13.52.51-1024x561.png)
+![](http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-13.52.51-1024x561.png)
 
 ## 特徴
 
@@ -90,7 +90,7 @@ Zapp!はこの問題を解決します。
 Zapp! はアプリのコードのファイル分け、フォルダ分割が可能となっています。
 そのため一つ一つのコードを短く記述することが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-14.00.58-1024x661.png)
+![](http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-14.00.58-1024x661.png)
 
 ### 多様なパッケージの利用が可能
 
@@ -105,7 +105,7 @@ Zapp!で作られるFlutter Projectにはpubspec.yaml ファイルが含まれ�
 flutter pub get することで、
 [Pub.dev](https://pub.dev/)のパッケージをインストールすることが可能です。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-14.25.34-1024x558.png)
+![](http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-27-14.25.34-1024x558.png)
 
 ### 作成したコードの共有が容易
 

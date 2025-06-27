@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -62,7 +62,7 @@ SQLの知識が無くともDartのみでデータの追加や更新ができる�
 
 データベースとは、以下の例のように整理された情報の集まりです。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/database_sample-1024x405.png)
+![](http://34.145.4.125/wp-content/uploads/2022/04/database_sample-1024x405.png)
 
 Firebaseのように外部サーバーに用意されたデータベースを外部データベースと呼ぶのに対し、
 スマートフォンなどの記憶領域に用意するデータベースを内部データベースと呼びます。
@@ -86,7 +86,7 @@ https://products.sint.co.jp/topsic/blog/sql
 
 簡単なアプリの作成を通し、基本的な使い方を解説していきます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/drift_sample.gif)
+![](http://34.145.4.125/wp-content/uploads/2022/04/drift_sample.gif)
 
 上のgifで紹介しているようなアプリを作成します。
 
@@ -203,7 +203,7 @@ https://minpro.net/drift-flutter_test-from-sdk-is-forbidden
 
 今回のデータベースはシンプルにIDと内容のみをもったデータベースとします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.27.23-1024x802.png)
+![](http://34.145.4.125/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.27.23-1024x802.png)
 
 このデータベースを構築するために、2段階の方法を行います。
 
@@ -214,7 +214,7 @@ https://minpro.net/drift-flutter_test-from-sdk-is-forbidden
 
 以下のようにフォルダを構成し、`todos.dart`ファイルを作成しましょう。
 
-<img src="https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.36.33.png" alt="" width="300">
+<img src="http://34.145.4.125/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.36.33.png" alt="" width="300">
 
 この`todos.dart` ファイルにデータベースの構成や処理等を記載していきます。
 
@@ -253,7 +253,7 @@ class MyDatabase extends _$MyDatabase {}
 `IntColumn`で`int`の値を、`TextColumn`で`String`の値を保持する列を生成します。
 `autoIncrement()`を設定しておくと、データ追加時に`id`を自動で生成してくれます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.49.01-1024x618.png)
+![](http://34.145.4.125/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.49.01-1024x618.png)
 
 //3
 データベースクラスの定義です。

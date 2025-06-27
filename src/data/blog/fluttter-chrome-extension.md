@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="https://blog.flutteruniv.com/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -26,7 +26,7 @@ layout: "../../layouts/BlogPost.astro"
 
 以下の画像のような形で、Chromeの拡張機能としてアプリを立ち上げることが可能となります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の実行例-1-1024x937.png)
+![](http://34.145.4.125/wp-content/uploads/2022/03/拡張機能の実行例-1-1024x937.png)
 
 ぜひ本記事を読んで挑戦してみてください！
 
@@ -54,7 +54,7 @@ flutter run -d chrome
 
 Flutterプロジェクトのwebディレクトリ内にある、index.htmlを書き換えます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/ファイル位置1-1024x846.png)
+![](http://34.145.4.125/wp-content/uploads/2022/03/ファイル位置1-1024x846.png)
 
 2行目にある`<html>`を以下のコードに書き換えてください。
 
@@ -136,31 +136,31 @@ chrome://extensions/
 
 拡張機能のページが開いたら、右上のデベロッパーモードをオンにします。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/デベロッパーモード-1024x938.png)
+![](http://34.145.4.125/wp-content/uploads/2022/03/デベロッパーモード-1024x938.png)
 
 オンにすると、拡張機能の検索バーの下に、3つボタンが出てきます。
 その中の「パッケージ化されていない拡張機能を読み込む」を押してください。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の読み込み-1024x936.png)
+![](http://34.145.4.125/wp-content/uploads/2022/03/拡張機能の読み込み-1024x936.png)
 
 ファイル選択のポップアップが出てくるので、
 作成したFluttterプロジェクトのbuildディレクトリにある、
 webフォルダを選択して決定してください。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/フォルダ選択-1024x595.png)
+![](http://34.145.4.125/wp-content/uploads/2022/03/フォルダ選択-1024x595.png)
 
 以上で追加は完了です。
 
 ブラウザ右上のパズルのピースのアイコンをクリックすると、
 作成した拡張機能が候補として出てきます。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の位置-1024x934.png)
+![](http://34.145.4.125/wp-content/uploads/2022/03/拡張機能の位置-1024x934.png)
 
 作成した拡張機能の横のピンマークをクリックすると、ブラウザに常時表示されるようになります。
 
 表示されたアイコンをクリックすると作成したアプリが立ち上がります。
 
-![](https://blog.flutteruniv.com/wp-content/uploads/2022/03/拡張機能の実行例-1024x937.png)
+![](http://34.145.4.125/wp-content/uploads/2022/03/拡張機能の実行例-1024x937.png)
 
 おめでとうございます！
 以上が一連の手順となります。
