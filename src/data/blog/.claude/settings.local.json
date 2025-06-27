@@ -22,7 +22,9 @@
       "Bash(curl:*)",
       "Bash(pkill:*)",
       "Bash(mv:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(git --git-dir=../../../.git --work-tree=../../.. status)",
+      "Bash(git --git-dir=../../../.git --work-tree=../../.. add .)"
     ],
     "deny": []
   }
