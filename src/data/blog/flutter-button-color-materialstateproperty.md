@@ -254,7 +254,7 @@ class ButtonBackgroundColor implements MaterialStateProperty {
 本記事で初回したサンプルコードは以下のDartPadに用意されています。
 ぜひ触ってみてください。
 
-https://dartpad.dartlang.org/?id=6f5ed0b9889edfaa290d4b87e93f64e0
+https://dartpad.dev/?id=6f5ed0b9889edfaa290d4b87e93f64e0
 
 ## まとめ
 

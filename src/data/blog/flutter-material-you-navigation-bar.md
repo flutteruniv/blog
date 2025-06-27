@@ -84,7 +84,7 @@ Navigation Barの実装方法について解説していきます。
 
 ぜひ併せてご確認ください。
 
-https://dartpad.dartlang.org/?id=6219ca84ee203efa23c18e6b8025a009
+https://dartpad.dev/?id=6219ca84ee203efa23c18e6b8025a009
 
 ### 準備
 

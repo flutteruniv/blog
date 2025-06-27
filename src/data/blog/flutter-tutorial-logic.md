@@ -42,7 +42,7 @@ Flutterで UIが組めるようになった人のためのチュートリアル�
 
 完成系はこちらです。
 
-https://dartpad.dartlang.org/?id=a2bd77692fee9e5368365a56e57c0c60
+https://dartpad.dev/?id=a2bd77692fee9e5368365a56e57c0c60
 
 三目並べゲームをプレイでき、右側のボタンを押すと、
 その手番まで戻るタイムトラベル機能が付いています。
@@ -58,7 +58,7 @@ https://ja.reactjs.org/tutorial/tutorial.html
 
 ![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
-本記事では、[こちら](https://dartpad.dartlang.org/?id=602a2d6dd8323d9e5e0bbc2fb74e3c43)のDartPadのコードをベースとして解説していきます。
+本記事では、[こちら](https://dartpad.dev/?id=602a2d6dd8323d9e5e0bbc2fb74e3c43)のDartPadのコードをベースとして解説していきます。
 
 DartPadでも進めることができますが、
 おすすめはAndroid Studio もしくは VScodeを使うことです。
@@ -238,12 +238,12 @@ Mac端末でVScodeの場合は、赤線にカーソルを合わせ、"⌘ + . " 
 
 以上が親`Widget`から子`Widget`へとデータを受け渡す方法となります。
 
-ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=1959a019aef7ed01084cd6329b40b953)。
+ここまでの全体のコードは[こちら](https://dartpad.dev/?id=1959a019aef7ed01084cd6329b40b953)。
 
 ### Step_a.タップに反応するようにしよう
 
 この章では、startプロジェクトをベースにコードを書き換えていきます。
-startプロジェクトは[こちら](https://dartpad.dartlang.org/?id=602a2d6dd8323d9e5e0bbc2fb74e3c43)
+startプロジェクトは[こちら](https://dartpad.dev/?id=602a2d6dd8323d9e5e0bbc2fb74e3c43)
 
 三目並べのゲームではマス目へのタップへの反応が不可欠です。
 練習として、各マス目をタップすると表示が変わるように、コードを書き換えてみましょう。
@@ -364,7 +364,7 @@ class _SquareState extends State {
 
 以上がタップに反応するようにする方法でした。
 
-ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=4903c53291abb7c0a2bd07c81335c3dd)。
+ここまでの全体のコードは[こちら](https://dartpad.dev/?id=4903c53291abb7c0a2bd07c81335c3dd)。
 
 ## ３目並べ基本ロジックの作成
 
@@ -397,7 +397,7 @@ class _SquareState extends State {
 親が9つのマス目の値の情報を持つことで、これを精査すれば勝敗を決めることができます。
 
 ここでは、"Step1.データの受け渡しの練習"で作成したコードをベースに作成していきます。
-"Step1.データの受け渡しの練習"で作成したコードは[こちら](https://dartpad.dartlang.org/?id=1959a019aef7ed01084cd6329b40b953)。
+"Step1.データの受け渡しの練習"で作成したコードは[こちら](https://dartpad.dev/?id=1959a019aef7ed01084cd6329b40b953)。
 
 実際にコードで見てみましょう。
 
@@ -522,7 +522,7 @@ class Square extends StatelessWidget {
 
 以上で、親である`Board `から子である`Square`に状態を渡すことができました。
 
-ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=8350272b0b5bc03310bebbc85d4059bb)。
+ここまでの全体のコードは[こちら](https://dartpad.dev/?id=8350272b0b5bc03310bebbc85d4059bb)。
 
 ### Step3.親から子にメソッドを渡そう
 
@@ -606,7 +606,7 @@ class _BoardState extends State {
 
 先ほどと同様にXが表示されるはずです。
 
-ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=b3bb1466f6b4c7b8fbcf4ae232e33de1)。
+ここまでの全体のコードは[こちら](https://dartpad.dev/?id=b3bb1466f6b4c7b8fbcf4ae232e33de1)。
 
 ### Step4.XとOを交互に表示しよう
 
@@ -663,7 +663,7 @@ Next Playerの表示も変わるようにしましょう。
 
 これで、XとOの手番の変化を実装できました。
 
-ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=352e7db93e73865d99f28b7a7de5ecbc)。
+ここまでの全体のコードは[こちら](https://dartpad.dev/?id=352e7db93e73865d99f28b7a7de5ecbc)。
 
 ### Step5.ゲーム勝者の判定をしよう
 
@@ -1059,7 +1059,7 @@ class _GameState extends State {
 
 導入まで後ちょっとです、頑張りましょう！
 
-ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=a978eb8be3f367e68bf523bc46c9de30)。
+ここまでの全体のコードは[こちら](https://dartpad.dev/?id=a978eb8be3f367e68bf523bc46c9de30)。
 
 ### Step7.過去の着順を表示する
 
@@ -1141,7 +1141,7 @@ class _GameState extends State {
 ただ、ボタンを押しても何も起きません。
 次の章でボタンを押してタイムトラベルできるようにしましょう。
 
-ここまでの全体のコードは[こちら](https://dartpad.dartlang.org/?id=e210422fe8f00fa58188dc040853e6d3)。
+ここまでの全体のコードは[こちら](https://dartpad.dev/?id=e210422fe8f00fa58188dc040853e6d3)。
 
 ### Step8. タイムトラベル機能の実装
 
@@ -1254,7 +1254,7 @@ void handleClick(int i) {
 
 その着手の盤面が表示される、タイムトラベルが可能となっていることがわかります。
 
-完成したコードは[こちら](https://dartpad.dartlang.org/?id=a2bd77692fee9e5368365a56e57c0c60)。
+完成したコードは[こちら](https://dartpad.dev/?id=a2bd77692fee9e5368365a56e57c0c60)。
 
 ## まとめ
 

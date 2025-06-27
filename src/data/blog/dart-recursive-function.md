@@ -91,7 +91,7 @@ int iterativeSum(int n) {
 ２つ目は、`for`で行った時に比べ、パフォーマンスが良くないことです。
 以下のDartPadで`for`ループで行う場合と、再帰的に行う場合の実行時間を比較しています。
 
-https://dartpad.dartlang.org/?id=1de5c64bc31178eda4b0e6391263ddf0
+https://dartpad.dev/?id=1de5c64bc31178eda4b0e6391263ddf0
 
 何回か実行してみると、再帰的に行う場合の方が時間がかかることがわかると思います。
 このように、パフォーマンスが悪くなってしまうことが弱点の２つ目です。

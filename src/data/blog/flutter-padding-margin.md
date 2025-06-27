@@ -173,7 +173,7 @@ Container(
 
 こちらでぜひ3つの方法をマスターしてみてください！
 
-https://dartpad.dartlang.org/?id=a832253046c11eaefaf62248ae2e516b
+https://dartpad.dev/?id=a832253046c11eaefaf62248ae2e516b
 
 ## `EdgeInsets`について
 

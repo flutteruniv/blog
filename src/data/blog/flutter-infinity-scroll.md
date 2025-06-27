@@ -428,7 +428,7 @@ itemCountの値をデータ長+1しています。
 本記事で紹介した実装コードのDartPadは以下となります。
 実際に触ってみて、挙動を確かめて見てください。
 
-https://dartpad.dartlang.org/?id=f7ea0956e942edc6f1c62927f77ed5f0
+https://dartpad.dev/?id=f7ea0956e942edc6f1c62927f77ed5f0
 
 ## まとめ
 

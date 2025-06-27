@@ -84,7 +84,7 @@ Column(
 各プロパティについて、実際に変更すると、どうレイアウトが変わるのか、
 触って確かめることのできるDartPadを作成しました。
 
-https://dartpad.dartlang.org/?id=ff1435be00d292eaa5cc1712982ed830
+https://dartpad.dev/?id=ff1435be00d292eaa5cc1712982ed830
 
 本記事を読みながら、自分でもぜひ触って検証してみてください。
 
