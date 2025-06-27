@@ -18,7 +18,7 @@ Fluttter 3.3 で更新が告知された、Material 3 に対応したMedium とL
 
 以下のような`AppBar`を簡単に実装可能です。
 
-![](http://34.145.4.125/wp-content/uploads/2022/09/20220921_large_app_bar.gif)
+![](/images/wp-content/uploads/2022/09/20220921_large_app_bar.gif)
 
 ぜひ読んでみてください！
 
@@ -137,7 +137,7 @@ slivers: [
 
 これだけで、以下のGIFのような挙動をする`AppBar`となります。
 
-![](http://34.145.4.125/wp-content/uploads/2022/09/20220921_large_app_bar.gif)
+![](/images/wp-content/uploads/2022/09/20220921_large_app_bar.gif)
 
 実装方法については以上となります。
 

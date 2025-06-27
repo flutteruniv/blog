@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -39,7 +39,7 @@ layout: "../../layouts/BlogPost.astro"
 
 このパッケージを使うと、以下のような画面遷移アニメーションが実装可能です。
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220408_liquid_swipe_sample.gif)
+![](/images/wp-content/uploads/2022/04/20220408_liquid_swipe_sample.gif)
 
 ちょっとアプリに個性を出したい、
 そんなあなたにぴったりのパッケージとなっています。
@@ -48,7 +48,7 @@ layout: "../../layouts/BlogPost.astro"
 
 ## 基本的な使い方
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/パソコン.jpeg)
 
 https://pub.dev/packages/liquid_swipe
 
@@ -156,7 +156,7 @@ class LiquidSwipeSample extends StatelessWidget {
 
 実行結果は以下のようになります。
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220408_liquid_swipe_normal.gif)
+![](/images/wp-content/uploads/2022/04/20220408_liquid_swipe_normal.gif)
 
 右から左へスワイプすることで、
 液体が揺れたようなアニメーションで画面を遷移させることができます。
@@ -165,7 +165,7 @@ class LiquidSwipeSample extends StatelessWidget {
 
 ## カスタマイズ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+![](/images/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
 `LiquidSwipe` `Widget`にはさまざまな設定要素が用意されており、
 カスタマイズが可能となっています。
@@ -197,7 +197,7 @@ class LiquidSwipeSample extends StatelessWidget {
 
 #### 実行結果
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220408_liquid_swipe_circle.gif)
+![](/images/wp-content/uploads/2022/04/20220408_liquid_swipe_circle.gif)
 
 ### アイコンの追加
 
@@ -230,7 +230,7 @@ class LiquidSwipeSample extends StatelessWidget {
 
 #### 実行結果
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/04/20220408_liquid_swipe_sample.gif)
+![](/images/wp-content/uploads/2022/04/20220408_liquid_swipe_sample.gif)
 
 ### LiquidSwipe.builderを使った実装
 
@@ -273,7 +273,7 @@ class LiquidSwipeSample extends StatelessWidget {
 
 ## LiquidSwipeController
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
 liquid_swipeパッケージには`LiquidSwipeController`が用意されており、
 特定ページへの移動や、現在のページインデックスの取得などが可能です。
@@ -415,7 +415,7 @@ class _LiquidSwipeSampleState extends State {
 
 実行結果は以下のようになります。
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220408_liquid_swipe_controller.gif)
+![](/images/wp-content/uploads/2022/04/20220408_liquid_swipe_controller.gif)
 
 アイコンタップで次の画面へと遷移していきます。
 
@@ -423,7 +423,7 @@ class _LiquidSwipeSampleState extends State {
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
 本記事では、かわいい画面遷移アニメーションの実装方法として、
 [liquid_swipe](https://pub.dev/packages/liquid_swipe)パッケージを使った方法を紹介しました。

@@ -13,7 +13,7 @@ Flutter大学は初心者向けの動画を出しているのもあり、**初�
 
 以下がFlutter大学内で行ったメンバーのエンジニア経験のアンケートの結果です。160人が回答してくださいました。
 
-![](http://34.145.4.125/wp-content/uploads/2024/09/chart.png)
+![](/images/wp-content/uploads/2024/09/chart.png)
 
 見てわかるように、まず、**75%の方はエンジニア経験があり**、3年以上の方も30%を超えています。ほとんどが実際にエンジニアを行なっている方なのです。（Flutterではない経験も含んでいます。）
 
@@ -23,7 +23,7 @@ Flutter大学では、こういった優秀で意欲的なエンジニアの方�
 
 ## Flutter大学の人材紹介の特徴
 
-![](http://34.145.4.125/wp-content/uploads/2024/07/flutterninjas2024_wide-1024x379.jpeg)
+![](/images/wp-content/uploads/2024/07/flutterninjas2024_wide-1024x379.jpeg)
 
 - **エンジニアによるエンジニア紹介**
 
@@ -37,7 +37,7 @@ Flutter大学では、こういった優秀で意欲的なエンジニアの方�
 
 ## 仕組み
 
-![](http://34.145.4.125/wp-content/uploads/2024/09/CleanShot-2024-01-22-at-15.50.38@2x-1024x530.png)
+![](/images/wp-content/uploads/2024/09/CleanShot-2024-01-22-at-15.50.38@2x-1024x530.png)
 
 Flutterアプリ開発を行う企業さんからのお問いわせを受け、300人以上所属するFlutterエンジニアの学習コミュニティ「Flutter大学」メンバーに対して、Slack等を用いて求人を公開します。
 

@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -130,7 +130,7 @@ String toString() => "The $name water is $tempInFahrenheit F.";
 これら2つのアプローチの完成した例は以下の画像のようになります。
 Dart 2.17の方がより簡単に読め、メンテナンスしやすいことがわかります。
 
-![](http://34.145.4.125/wp-content/uploads/2022/05/enum_compare_2-1024x439.png)
+![](/images/wp-content/uploads/2022/05/enum_compare_2-1024x439.png)
 
 ### super での初期化
 
@@ -154,7 +154,7 @@ Dart 2.17の方がより簡単に読め、メンテナンスしやすいこと�
 実際、この新機能をFlutter フレームワークに適用したところ、
 [合計で約2000行近くのコードが削減されました！](https://github.com/flutter/flutter/pull/100905/files)
 
-![](http://34.145.4.125/wp-content/uploads/2022/05/super_sample_compare-1024x618.png)
+![](/images/wp-content/uploads/2022/05/super_sample_compare-1024x618.png)
 
 ### 名前付き引数がどこでも宣言可能に
 
@@ -171,7 +171,7 @@ Dart 2.17の方がより簡単に読め、メンテナンスしやすいこと�
 小さな名前付き引数を最初に配置し、
 ジェネレーターを最後に配置することが可能となります。
 
-![](http://34.145.4.125/wp-content/uploads/2022/05/named_arg_compare-1024x537.png)
+![](/images/wp-content/uploads/2022/05/named_arg_compare-1024x537.png)
 
 これら3つの機能のさらなる例として、
 以下の公式のサンプルを御覧ください。

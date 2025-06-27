@@ -64,7 +64,7 @@ Flutter大学への参加は以下の画像リンクから。
 
 ### 【Aoi】【Flame 入門】30分でゲームを作ろう！
 
-![](http://34.145.4.125/wp-content/uploads/2022/12/WordPress-素材.jpg)
+![](/images/wp-content/uploads/2022/12/WordPress-素材.jpg)
 
 FlutterのゲームエンジンであるFlameについての勉強会が開かれました。
 
@@ -75,7 +75,7 @@ Aoi「ライブコーディング中の参加者の質問や反応がとても�
 
 ### 【heyhey1028】アニメーション初心者から抜け出そう
 
-![](http://34.145.4.125/wp-content/uploads/2022/12/WordPress-素材-1.jpg)
+![](/images/wp-content/uploads/2022/12/WordPress-素材-1.jpg)
 
 Flutterでのアニメーションの実装方法について解説する勉強会が開かれました。
 
@@ -87,7 +87,7 @@ Aoi「複数のパターンに対し、そのそれぞれにサンプルアプ�
 
 ### 【みやジック】FirebaseのFirestoreとFunctionsでポイントシステムを作ってみた
 
-![](http://34.145.4.125/wp-content/uploads/2022/12/WordPress-素材-2.jpg)
+![](/images/wp-content/uploads/2022/12/WordPress-素材-2.jpg)
 
 Firebase のFirestore 、Cloud Functions を用いたポイントシステムの実装方法について
 解説する勉強会が開かれました。

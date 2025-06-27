@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -30,7 +30,7 @@ Flutter大学にどんな知見が集まっているかわかる記事となっ�
 
 ## Flutter大学の共同勉強会って？
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
 
 Flutter大学の共同勉強会について解説します。
 
@@ -58,7 +58,7 @@ Flutter大学の有志のメンバーが発表者となり知見の共有が行�
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -81,7 +81,7 @@ https://flutteruniv.com/
 
 ## 3月の勉強会の紹介
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
 
 3月は全4回勉強会が開催されました。
 
@@ -89,54 +89,54 @@ https://flutteruniv.com/
 
 ### 【コピペでできる】Golden Testで開発体験を向上させよう
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220402_golden.png)
+![](/images/wp-content/uploads/2022/04/20220402_golden.png)
 
 Flutterのテスト手法であるGolden Testがテーマの勉強会が行われました。
 
 コピペでできる方法の実演と、
 Golden Testを使った開発体験の向上のさせ方について解説されていました。
 
-![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](/images/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 勉強会後は「ゴールデン」がFlutter大学内でミームになるくらい、
 盛り上がっていたのが印象的でした！
 
 ### Firebase Cloud Messaging で通知機能を実装しよう【ライブコーディング】
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220402_push.png)
+![](/images/wp-content/uploads/2022/04/20220402_push.png)
 
 Firebase Cloud Messaging を使った通知機能の実装について勉強会が行われました。
 
 Fluttter、iOSでの通知機能の実装をライブコーディングで行っていただきました。
 
-![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](/images/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 途中エラーで詰まる部分があったのですが、
 そこをFlutter大学メンバーと協力して乗り越えたのがとても印象的でした！
 
 ### DeepLinkを実装してみよう
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220402_deeplink.png)
+![](/images/wp-content/uploads/2022/04/20220402_deeplink.png)
 
 URLからアプリへと遷移する、DeepLinkの実装方法についての勉強会が行われました。
 
 DeepLinkの種類の解説から、実演まで、丁寧に解説いただきました。
 
-![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](/images/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 資料がとてもわかりやすく、初心者に向けて基本的なところから解説されていました！
 
 ### RiverpodのStreamProviderでFirestoreを使用したチャットのリアルタイム表示
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220402_stream.png)
+![](/images/wp-content/uploads/2022/04/20220402_stream.png)
 
 Riverpod のStreamProviderでFirestoreを使用したチャットのリアルタイム表示についての勉強会が行われました。
 
 とても丁寧に作り込まれた資料をベースに、実装方法を中心に解説いただきました。
 
-![Aoi](http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png)Aoi
+![Aoi](/images/wp-content/themes/cocoon-master/images/b-man.png)Aoi
 発表いただいた後、参加者の中で積極的に質問や議論がなされていました！
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
 
 本記事では2022年3月に行われた全4回の共同勉強会の概要をそれぞれお伝えしました。
 

@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -25,7 +25,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -42,7 +42,7 @@ ogImage: ""
 
 例えば、こんなローディングが実装できます。
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220406_inkdrop.gif)
+![](/images/wp-content/uploads/2022/04/20220406_inkdrop.gif)
 
 あなたのアプリの出来栄えをワンランク上げること間違いなしです！
 
@@ -50,7 +50,7 @@ ogImage: ""
 
 ## loading_animation_widget パッケージ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
 [loading_animation_widget](https://pub.dev/packages/loading_animation_widget) パッケージは、
 さまざまなローディングのアニメーションを提供してくれるパッケージです。
@@ -145,7 +145,7 @@ class MyHomePage extends StatelessWidget {
 
 #### inkDropパターン
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/04/20220406_inkdrop.gif)
+![](/images/wp-content/uploads/2022/04/20220406_inkdrop.gif)
 
 ```
 LoadingAnimationWidget.inkDrop(
@@ -156,7 +156,7 @@ LoadingAnimationWidget.inkDrop(
 
 #### staggeredDotsWaveパターン
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220406_staggerd_dots_wave.gif)
+![](/images/wp-content/uploads/2022/04/20220406_staggerd_dots_wave.gif)
 
 ```
 LoadingAnimationWidget.staggeredDotsWave(
@@ -167,7 +167,7 @@ LoadingAnimationWidget.staggeredDotsWave(
 
 #### flickrパターン
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220406_flickr.gif)
+![](/images/wp-content/uploads/2022/04/20220406_flickr.gif)
 
 ```
 LoadingAnimationWidget.flickr(
@@ -186,7 +186,7 @@ https://pub.dev/packages/loading_animation_widget
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
 
 本記事では一味違うローディングのアニメーションの実装方法として、
 [loading_animation_widget](https://pub.dev/packages/loading_animation_widget)パッケージを使った方法を紹介しました。

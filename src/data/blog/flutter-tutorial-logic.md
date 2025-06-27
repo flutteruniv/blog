@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -25,7 +25,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -56,7 +56,7 @@ https://ja.reactjs.org/tutorial/tutorial.html
 
 ## 準備
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+![](/images/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
 本記事では、[こちら](https://dartpad.dev/?id=602a2d6dd8323d9e5e0bbc2fb74e3c43)のDartPadのコードをベースとして解説していきます。
 
@@ -98,7 +98,7 @@ startプロジェクトの`main.dart` (DartPadの場合は表示されている�
 
 各`Widget`とUIの関係性は次の図の通りです。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/04/20220401_architecture-964x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/20220401_architecture-964x1024.png" alt="" width="300">
 
 コードを見ると、
 `Game`が`Board`を呼び出し、`Board`が`GridView`で`Square`を9つ並べているのが分かると思います。
@@ -232,7 +232,7 @@ Mac端末でVScodeの場合は、赤線にカーソルを合わせ、"⌘ + . " 
 
 /
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220401_value-1024x534.png)
+![](/images/wp-content/uploads/2022/04/20220401_value-1024x534.png)
 
 できましたでしょうか？
 
@@ -368,7 +368,7 @@ class _SquareState extends State {
 
 ## ３目並べ基本ロジックの作成
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
 基本はわかりましたでしょうか？
 ここからいよいよ三目並べの作成に入っていきます。
@@ -392,7 +392,7 @@ class _SquareState extends State {
 親Widget(`Board`)が９つのマス目の値の情報を状態として持ち、
 子Widget(`Square`)に渡して表示します。
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220401_squares-1024x753.png)
+![](/images/wp-content/uploads/2022/04/20220401_squares-1024x753.png)
 
 親が9つのマス目の値の情報を持つことで、これを精査すれば勝敗を決めることができます。
 
@@ -1258,7 +1258,7 @@ void handleClick(int i) {
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
 Flutterで UIが組めるようになった人のためのチュートリアルとして、
 本記事では三目並べゲームの作成方法を通し、基本的なロジックの組み方について解説しました。

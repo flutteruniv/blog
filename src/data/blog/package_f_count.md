@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -40,7 +40,7 @@ Flutterで、自動カウントするログ出力を使えるようにするパ�
 
 以下使用例のGIFとなります。
 
-![](http://34.145.4.125/wp-content/uploads/2022/08/f_count_sample-1.gif)
+![](/images/wp-content/uploads/2022/08/f_count_sample-1.gif)
 
 本記事では使い方から使用例の紹介までを行います。
 
@@ -87,7 +87,7 @@ import 'package:f_count/f_count.dart';
 
 これにより、以下の画像のようなログが出力されます。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-03-15.46.04.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-03-15.46.04.png" alt="" width="300">
 
 カウントはラベルごとに行われます。
 
@@ -99,7 +99,7 @@ import 'package:f_count/f_count.dart';
     return Scaffold(
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-03-15.49.01.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-03-15.49.01.png" alt="" width="300">
 
 基本的な使い方は以上です！
 
@@ -219,7 +219,7 @@ class _GoodCounterState extends State {
 Goodのボタンを押した時にBadのログが表示されないので、
 描画範囲を抑えられていることがわかります。
 
-![](http://34.145.4.125/wp-content/uploads/2022/08/f_count_sample.gif)
+![](/images/wp-content/uploads/2022/08/f_count_sample.gif)
 
 ## まとめ
 

@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -195,7 +195,7 @@ https://blog.flutteruniv.com/dart-2-17-summary/
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
 本記事ではFlutterニュースとして、
 2022年5月第2週に話題になったFlutter関連の情報や、
@@ -218,7 +218,7 @@ Flutter SidekickはFlutterプロジェクトをUI上で管理できるアプリ�
 
 以下の画像のようにFlutteプロジェクトをパネルにて管理できます。
 
-![](http://34.145.4.125/wp-content/uploads/2022/05/スクリーンショット-2022-05-15-9.31.04-1024x645.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-15-9.31.04-1024x645.png)
 
 注目すべきは使用しているFlutterのバージョンが表示されること、
 IDEマークからIDEにてプロジェクトを直接開けることの2点です。
