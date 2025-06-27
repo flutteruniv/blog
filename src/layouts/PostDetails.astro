@@ -128,7 +128,7 @@ const nextPost =
         const categoryConfig = categoryKey ? getCategoryConfig(categoryKey) : null;
         
         if (categoryConfig) {
-          return <Category categoryKey={categoryKey} displayName={categoryConfig.displayName} />;
+          return <Category categoryKey={categoryKey!} displayName={categoryConfig.displayName} />;
         } else {
           // Fallback to original tag display if no category mapping found
           return <Category categoryKey={`uncategorized`} displayName={tag} />;

@@ -82,7 +82,7 @@ const { parent, child } = Astro.params;
     </h1>
     
     <ul class="mt-8">
-      {page.data.map(data => <Card {...data} />)}
+      {page.data.map((data: any) => <Card {...data} />)}
     </ul>
   </Main>
 
