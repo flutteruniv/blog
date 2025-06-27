@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -165,7 +165,7 @@ https://zenn.dev/joo_hashi/articles/fcc29035cb6835
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
 
 本記事ではFlutterニュースとして、
 2022年8月第3週に話題になったFlutter関連の情報や、

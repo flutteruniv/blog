@@ -64,7 +64,7 @@ Flutter大学への参加は以下の画像リンクから。
 
 ### **【どんぐり】世界初サンプルアプリをつくって英語で発信する話**
 
-![](http://34.145.4.125/wp-content/uploads/2022/10/20221009_mysql.png)
+![](/images/wp-content/uploads/2022/10/20221009_mysql.png)
 
 MySQL x Flutter のアプリの作成方法と発信に関する勉強会が開かれました。
 
@@ -77,7 +77,7 @@ Aoi「MySQL とFlutterの組み合わせについては素直に勉強になり�
 
 ### **【kboy】flutterエンジニアのためのswift入門**
 
-![](http://34.145.4.125/wp-content/uploads/2022/10/20221009_swift.png)
+![](/images/wp-content/uploads/2022/10/20221009_swift.png)
 
 Swift の書き方やデモアプリの作成を通したチュートリアルの勉強会が開かれました。
 
@@ -88,7 +88,7 @@ Xcodeがかなり直感的に扱えるのだな、ということがわかりま
 
 ### **【cobo】UIパッケージ活用入門**
 
-![](http://34.145.4.125/wp-content/uploads/2022/10/20221009_ui.png)
+![](/images/wp-content/uploads/2022/10/20221009_ui.png)
 
 Flutter でパッケージを活用してUIを作成する方法についての勉強会が開かれました。
 

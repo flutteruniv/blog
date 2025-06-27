@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -39,7 +39,7 @@ edge_detection パッケージを紹介します。
 
 edge_detection パッケージを使うと、以下のgifのような動作が実装可能です。
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/20220422_edge_detection_sample.gif)
+![](/images/wp-content/uploads/2022/04/20220422_edge_detection_sample.gif)
 
 しかも、実装はとても簡単です！
 
@@ -47,7 +47,7 @@ edge_detection パッケージを使うと、以下のgifのような動作が�
 
 ## edge_detection パッケージ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+![](/images/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
 edge_detection パッケージはその名の通り、
 Flutterでカメラを起動し、
@@ -59,7 +59,7 @@ https://pub.dev/packages/edge_detection
 
 ## 基本的な使い方
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/パソコン.jpeg)
 
 基本的な使い方とサンプルコードについて解説します。
 
@@ -261,7 +261,7 @@ class _EdgeDetectionSampleState extends State {
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
 本記事では、カメラで物の端を検出し、切り取って写真を撮ることのできるパッケージ、
 edge_detection パッケージを紹介しました。

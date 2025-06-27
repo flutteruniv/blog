@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -42,7 +42,7 @@ Flutter大学の生の声が聞ける記事となっています、ぜひ読ん�
 
 ## 共同開発 とは
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
 
 Flutter大学の共同開発について解説します。
 
@@ -91,7 +91,7 @@ Flutter大学メンバーはこのプレゼンを見て投票を行い、
 
 ## 第7期共同開発について
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
 
 少しでもあなたに共同開発についてイメージを掴んでもらうため、
 現在最終発表に向けてラストスパートをかけている第7期の共同開発について、
@@ -104,14 +104,14 @@ Flutter大学内外問わず、とても興味深い内容だと思います。
 
 #### アプリの概要
 
-![どんぐりさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/woman.png)どんぐりさん
+![どんぐりさん](/images/wp-content/themes/cocoon-master/images/woman.png)どんぐりさん
 五感を研ぎ澄ましてリアルの世界を感じとり、記録するノート。
 五感全部に言及しないと、一日の日誌としてコンプリートできない。
 （シェアもできるようにするか検討中）
 
 #### 最終発表会に向けた意気込み
 
-![どんぐりさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/woman.png)どんぐりさん
+![どんぐりさん](/images/wp-content/themes/cocoon-master/images/woman.png)どんぐりさん
 　この企画では、初心者でも参加しやすいように、
 リリース済みのアプリを下敷きにしながら、
 UI の選択、状態管理、保存まで、各自のレベルに応じて作業を進めています。
@@ -121,7 +121,7 @@ UI の選択、状態管理、保存まで、各自のレベルに応じて作�
 
 #### アプリの概要
 
-![Hirotoさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png)Hirotoさん
+![Hirotoさん](/images/wp-content/themes/cocoon-master/images/man.png)Hirotoさん
 　miitripは旅先での偶然の出会いを提供します。
 旅の情報やご飯屋さんの情報を交換し、新しい世界を体験しましょう。
 　「人」が軸の旅。解放的な旅先で偶然「人」に会うことで、
@@ -130,7 +130,7 @@ UI の選択、状態管理、保存まで、各自のレベルに応じて作�
 
 #### 最終発表会に向けた意気込み
 
-![Hirotoさん](http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png)Hirotoさん
+![Hirotoさん](/images/wp-content/themes/cocoon-master/images/man.png)Hirotoさん
 ４月リリースに向けて、ラストスパート！！
 近日中にサービスページも公開予定です！ぜひDLいただき、ご意見お願いします！！
 
@@ -148,7 +148,7 @@ https://www.youtube.com/channel/UCReuARgZI-BFjioA8KBpjsw/featured
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting4-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting4-1024x683.jpeg)
 
 本記事では、Flutter大学の重要なコンテンツである、共同開発について解説しました。
 

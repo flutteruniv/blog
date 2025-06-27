@@ -17,7 +17,7 @@ Flutterで 点線の枠線を実装できるパッケージ、
 
 本記事を読めば、以下の画像のようなUIを実装可能です。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.17.10.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.17.10.png" alt="" width="300">
 
 基本的な使い方から、カスタマイズ方法まで解説します。
 
@@ -123,7 +123,7 @@ DottedBorder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.26.19.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.26.19.png" alt="" width="300">
 
 ### 枠線の外形
 
@@ -144,7 +144,7 @@ DottedBorder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.29.02.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.29.02.png" alt="" width="300">
 
 #### BorderType.Circle
 
@@ -160,7 +160,7 @@ DottedBorder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.34.17.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.34.17.png" alt="" width="300">
 
 #### BorderType.Circle
 
@@ -176,7 +176,7 @@ DottedBorder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.34.33.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.34.33.png" alt="" width="300">
 
 ### 線の太さ
 
@@ -192,7 +192,7 @@ DottedBorder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.36.19.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.36.19.png" alt="" width="300">
 
 ### 点線の間隔
 
@@ -209,7 +209,7 @@ DottedBorder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.40.54.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-30-22.40.54.png" alt="" width="300">
 
 ## まとめ
 

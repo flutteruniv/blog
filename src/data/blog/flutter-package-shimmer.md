@@ -17,11 +17,11 @@ layout: "../../layouts/BlogPost.astro"
 
 以下の画像のようなUIが、`Shimmer`パッケージを使うと、
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/09/スクリーンショット-2022-09-29-15.28.49-621x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-29-15.28.49-621x1024.png" alt="" width="300">
 
 以下のGIFのようになります。
 
-![](http://34.145.4.125/wp-content/uploads/2022/09/20220929_shimmer.gif)
+![](/images/wp-content/uploads/2022/09/20220929_shimmer.gif)
 
 このようなUIが簡単に実装可能です！
 ぜひ読んで使ってみてください！

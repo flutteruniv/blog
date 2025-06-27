@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -43,7 +43,7 @@ SlackをFlutter大学でどのような活用をしたら良いのかについ�
 
 ## Slack とは
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
 
 [Slack](https://slack.com/intl/ja-jp/)とは、チャンネルベースのメッセージプラットフォームです。
 
@@ -59,7 +59,7 @@ Flutter大学では、このSlackを使って日々のコミュニケーショ�
 
 ## Flutter大学での Slack の活用法
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
 
 Flutter大学でのSlackの活用法について解説します。
 
@@ -167,7 +167,7 @@ Flutter大学のメンバーに認知され、有益な情報を得ることが�
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
 
 本記事ではFlutter大学で使われているコミュニケーションツール、Slackの紹介と、
 SlackをFlutter大学でどのような活用をしたら良いのかについて解説しました。

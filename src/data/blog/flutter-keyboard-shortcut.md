@@ -22,7 +22,7 @@ Control + C キーなど、キーボードの特定のキーを押下するこ�
 以下のGIFは今回紹介するサンプルアプリの実行動画です。
 control + R , contorol + B でそれぞれ文字色が変わる、そんなアプリとなっています。
 
-![](http://34.145.4.125/wp-content/uploads/2022/11/20221117_keyboard_shortcut_demo.gif)
+![](/images/wp-content/uploads/2022/11/20221117_keyboard_shortcut_demo.gif)
 
 基礎的な部分から丁寧に解説していきます。
 ぜひ読んでみてください！

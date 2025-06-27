@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -41,7 +41,7 @@ Flutter で 5つ星評価などを行う評価バーを実装するのに役立�
 
 以下のようなUIを簡単に作成することが可能です。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.25.56-1.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.25.56-1.png" alt="" width="300">
 
 ぜひ読んでみてください！
 
@@ -87,7 +87,7 @@ RatingBar.builder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-17.23.53.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-17.23.53.png" alt="" width="300">
 
 以上が基本的な使い方となります！
 
@@ -111,7 +111,7 @@ RatingBar.builder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.17.18.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.17.18.png" alt="" width="300">
 
 #### 方向
 
@@ -127,7 +127,7 @@ RatingBar.builder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.19.23.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.19.23.png" alt="" width="300">
 
 #### アイコンサイズとPadding
 
@@ -154,7 +154,7 @@ RatingBar.builder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.25.56.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.25.56.png" alt="" width="300">
 
 #### 評価外の数を表すアイコンの色
 
@@ -170,7 +170,7 @@ RatingBar.builder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.32.41.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.32.41.png" alt="" width="300">
 
 ### 動作のカスタマイズ
 
@@ -188,7 +188,7 @@ RatingBar.builder(
         ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.43.55.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.43.55.png" alt="" width="300">
 
 #### 初期値の設定
 
@@ -211,7 +211,7 @@ RatingBar.builder(
 
 `glow:true`時の画像
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.36.04.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-19-18.36.04.png" alt="" width="300">
 
 また、`glowColor`プロパティにてエフェクトの色を設定可能です。
 `glowRadius`プロパティにてエフェクトの大きさを設定可能です。

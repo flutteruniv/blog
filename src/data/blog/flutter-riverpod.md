@@ -11,7 +11,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -23,7 +23,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -57,7 +57,7 @@ Riverpodについて解説する前に、まず背景として解決したい問
 以下の図のように `main.dart`でインスタンス(Instance)を定義し、
 Widget ツリーの下層にインスタンスを受け渡して使用する方法です。
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/05/スクリーンショット-2022-05-27-23.54.58-1024x600.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-27-23.54.58-1024x600.png)
 
 これだと、
 
@@ -81,7 +81,7 @@ Riverpod とは、上記のような状態管理に関する問題を解決す�
 このプロバイダを必要な時にViewで呼び出すことで、
 ツリーのどの位置でも値の呼び出し、参照を可能にします。
 
-![](http://34.145.4.125/wp-content/uploads/2022/05/スクリーンショット-2022-05-28-0.55.27-1024x578.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-28-0.55.27-1024x578.png)
 
 `main.dart`から値を受け渡していた時と比べて、
 ずっとシンプルにできていますよね。
@@ -97,7 +97,7 @@ flutter_riverpod 1.0.4
 
 今回は少し改造したカウンターアプリでRiverpodの基本的な使い方を学びましょう。
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/05/20220528_riverpod_base.gif)
+![](/images/wp-content/uploads/2022/05/20220528_riverpod_base.gif)
 
 基本的なカウンターアプリに、画面遷移を追加したサンプルです。
 
@@ -497,13 +497,13 @@ class MySecondPage extends ConsumerWidget {
 
 上記コードを実行した結果がこちらです。
 
-![](http://34.145.4.125/wp-content/uploads/2022/05/20220528_riverpod_complete.gif)
+![](/images/wp-content/uploads/2022/05/20220528_riverpod_complete.gif)
 
 状態の共有ができており、更新がどちらの画面でもできています。
 
 ## Flutter大学のサンプルリポジトリ
 
-![](http://34.145.4.125/wp-content/uploads/2022/05/20220528_riverpod_repo.gif)
+![](/images/wp-content/uploads/2022/05/20220528_riverpod_repo.gif)
 
 Flutter大学で用意しているFlutter × Riverpod のサンプルリポジトリはこちらです。
 
@@ -531,7 +531,7 @@ Flutter と Riverpodの組み合わせをさらに学ぶのに良い教材とな
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
 本記事では、Flutter × Riverpodの基本的な使い方の解説しました。
 サンプルアプリを基にRiverpodにおける状態の共有、参照、更新の方法を解説しました。

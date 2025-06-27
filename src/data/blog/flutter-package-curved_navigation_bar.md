@@ -18,7 +18,7 @@ curved_navigation_bar パッケージを使った、
 
 以下のようなUI が実装可能です。
 
-![](http://34.145.4.125/wp-content/uploads/2022/10/20221021_curved_navigation_bar_sample.gif)
+![](/images/wp-content/uploads/2022/10/20221021_curved_navigation_bar_sample.gif)
 
 基本的な使い方からカスタマイズ方法まで、詳しく解説します。
 
@@ -155,7 +155,7 @@ class _MyWidgetState extends State {
 
 上記コードで以下のようにアニメーションがついた`Navigation Bar`が作成できます。
 
-![](http://34.145.4.125/wp-content/uploads/2022/10/20221021_curved_navigation_bar_sample.gif)
+![](/images/wp-content/uploads/2022/10/20221021_curved_navigation_bar_sample.gif)
 
 基本的な使い方は以上となります！
 
@@ -179,7 +179,7 @@ CurvedNavigationBar(
       ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/10/スクリーンショット-2022-10-21-18.11.39.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-21-18.11.39.png" alt="" width="300">
 
 ### 高さの設定
 

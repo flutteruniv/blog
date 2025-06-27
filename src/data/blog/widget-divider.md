@@ -19,7 +19,7 @@ layout: "../../layouts/BlogPost.astro"
 
 以下のような区切り線を実装することが可能です。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/11/スクリーンショット-2022-11-24-20.49.46.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/11/スクリーンショット-2022-11-24-20.49.46.png" alt="" width="300">
 
 ぜひ読んでみてください！
 
@@ -83,7 +83,7 @@ class MyWidget extends StatelessWidget {
 
 `Divider`の空白を含めた高さを`height`で設定できます。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/11/スクリーンショット-2022-11-24-21.16.55.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/11/スクリーンショット-2022-11-24-21.16.55.png" alt="" width="300">
 
 ```dart
 Column(
@@ -109,7 +109,7 @@ Column(
 
 区切り線の色を`color`にて設定可能です。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/11/スクリーンショット-2022-11-24-21.18.50.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/11/スクリーンショット-2022-11-24-21.18.50.png" alt="" width="300">
 
 ```dart
 Column(
@@ -135,7 +135,7 @@ Column(
 
 線の太さを`thickness`で設定可能です。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/11/スクリーンショット-2022-11-24-21.20.43.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/11/スクリーンショット-2022-11-24-21.20.43.png" alt="" width="300">
 
 ```dart
 Column(
@@ -161,7 +161,7 @@ Column(
 
 前後の余白を`indent`、`endIndent`にて設定可能です。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/11/スクリーンショット-2022-11-24-21.23.11.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/11/スクリーンショット-2022-11-24-21.23.11.png" alt="" width="300">
 
 ```dart
 Column(

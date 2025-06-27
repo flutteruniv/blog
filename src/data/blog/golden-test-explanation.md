@@ -12,7 +12,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -33,11 +33,11 @@ layout: "../../layouts/BlogPost.astro"
 
 ## テストを書く目的
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/パソコン.jpeg)
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -66,11 +66,11 @@ layout: "../../layouts/BlogPost.astro"
 
 ## Golden Test の紹介
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+![](/images/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -97,7 +97,7 @@ Golden Test について以下の内容を解説していきます。
 
 Golden Test はFlutterのテスト分類でいうと、Widget Testにあたります。
 
-![](http://34.145.4.125/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-12.05.40-1024x475.png)
+![](/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-12.05.40-1024x475.png)
 
 Flutterのテストの分類については以下の公式ドキュメントをご覧ください。
 [Testing Flutter apps](https://docs.flutter.dev/testing)
@@ -113,7 +113,7 @@ Golden Test は以下のようなテストです。
 
 以下の図をご覧ください。
 
-![](http://34.145.4.125/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-12.14.13-1024x502.png)
+![](/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-12.14.13-1024x502.png)
 
 コードの修正がおき、修正したコードがUIに影響していないことを確かめたい、そんな例を考えます。
 
@@ -258,7 +258,7 @@ flutter test
 
 テストが失敗し、failureフォルダが作成されて中に差分画像等が生成されるはずです。
 
-![](http://34.145.4.125/wp-content/uploads/2022/03/golden_test_diff.png)
+![](/images/wp-content/uploads/2022/03/golden_test_diff.png)
 
 Widgetのコードを元に戻し、もう一度`flutter test` を実行してみましょう。
 
@@ -342,13 +342,13 @@ Golden生成時は、第２引数の`String`の名前がGoldenの名前となり
 
 ## Golden Test を利用した開発体験の向上させ方
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
 あなたは、こんな経験はありませんか？
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -361,7 +361,7 @@ Golden生成時は、第２引数の`String`の名前がGoldenの名前となり
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -428,14 +428,14 @@ Goldenでレイアウトチェックすることにより、
 
 最後にエミュレータの代わりにGoldenを使ってレイアウトチェックする開発の流れを画像で紹介します。
 
-![](http://34.145.4.125/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-14.26.50-1024x495.png)
+![](/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-02-14.26.50-1024x495.png)
 
 以上、エミュレータの代わりにGoldenを使ってレイアウトチェックすることで、
 開発体験を向上させることが可能となります。
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
 
 本記事ではコピペ（コピー&ペースト）でできるとても簡単なテスト、Golden Testを紹介しました。
 

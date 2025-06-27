@@ -18,7 +18,7 @@ layout: "../../layouts/BlogPost.astro"
 
 このパッケージを利用すると、以下のような磨りガラスの見た目のUIが実装できます。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/10/スクリーンショット-2022-10-28-12.35.57-505x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-28-12.35.57-505x1024.png" alt="" width="300">
 
 基本的な基本的な使い方を詳細に解説します。
 
@@ -216,7 +216,7 @@ GlassmorphicContainer(
             ),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/10/スクリーンショット-2022-10-28-13.21.52-517x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-28-13.21.52-517x1024.png" alt="" width="300">
 
 ## まとめ
 

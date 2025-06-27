@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -31,7 +31,7 @@ Flutter/ Dart でコードを書いていて出てくる`final`と`const`の違�
 
 ## finalとconst の違い
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
 
 ### final とconst を使う時
 
@@ -71,7 +71,7 @@ https://dartpad.dev/?id=16f51b01853e1cfbb2f9c5f9895455e4
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -101,7 +101,7 @@ https://dartpad.dev/?id=16f51b01853e1cfbb2f9c5f9895455e4
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -175,7 +175,7 @@ https://dartpad.dev/?id=7edc7e1eb3193cee9ed1e0fff1cce50e
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
 
 本記事では、Flutter/ Dart でコードを書いていて出てくる`final`と`const`の違いについて、
 基礎の基礎から解説しました！

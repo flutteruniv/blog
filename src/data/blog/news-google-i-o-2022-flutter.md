@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/b-man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/b-man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -151,7 +151,7 @@ Flutter Casual Game Kitが発表されました。
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
 本記事では、2022年 Google I/O で行われた Flutterの基調講演の内容について、
 まとめてお伝えしました。

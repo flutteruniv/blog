@@ -43,7 +43,7 @@ Flutter 3.3 にて、`SelectionArea` ウィジェットが追加されました�
 
 詳しくは[こちら](https://api.flutter.dev/flutter/material/SelectionArea-class.html)
 
-![](http://34.145.4.125/wp-content/uploads/2022/08/20220831_selection_area.gif)
+![](/images/wp-content/uploads/2022/08/20220831_selection_area.gif)
 
 サンプルコード
 ```dart

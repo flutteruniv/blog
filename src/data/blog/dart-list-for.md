@@ -60,7 +60,7 @@ final list = [for (int i = 1; i < 51; i++) Text('${i * i}')];
 
 この`Text`Widget の`List`を使ったアプリの実行結果が以下になります。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/12/スクリーンショット-2022-12-07-16.30.48.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-07-16.30.48.png" alt="" width="300">
 
 サンプルコード全体は以下になります。
 

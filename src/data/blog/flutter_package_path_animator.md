@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="http://34.145.4.125/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -29,13 +29,13 @@ https://pub.dev/packages/path_animator
 
 このパッケージを導入すると、このようなアニメーションが実現可能です。
 
-![](http://34.145.4.125/wp-content/uploads/2022/04/path_animator_sample.gif)
+![](/images/wp-content/uploads/2022/04/path_animator_sample.gif)
 
 ぜひ読んでみてください！
 
 ## path_animator パッケージ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+![](/images/wp-content/uploads/2022/02/プログラミング画像.jpeg)
 
 path_animator パッケージは `CustomPainter`で描いた線を、
 アニメーションで表示させるパッケージです。
@@ -68,7 +68,7 @@ canvas.drawPath(animatedPath, ・・・);
 
 ## 実装例
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/パソコン.jpeg)
 
 ただ図形が表示された状態から、アニメーションを設定するまでを実装していきます。
 
@@ -522,11 +522,11 @@ class _MyCustomPainter extends CustomPainter {
 
 以下のgifのように表示されるはずです。
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/04/path_animator_sample.gif)
+![](/images/wp-content/uploads/2022/04/path_animator_sample.gif)
 
 ## まとめ
 
-![](http://blog.flutteruniv.com/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
 
 本記事では、線の軌跡をアニメーションすることのできるパッケージ、
 path_animatorパッケージを紹介しました。

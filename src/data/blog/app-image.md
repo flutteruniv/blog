@@ -17,7 +17,7 @@ ogImage: ""
 
 MShareというアプリを作る際に調べたので、やり方を解説したいと思います！
 
-<img src="http://34.145.4.125/wp-content/uploads/2023/03/IMG_4915-473x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/03/IMG_4915-473x1024.png" alt="" width="300">
 
 とても、簡単に作ることができますので、実装して良いアプリを作成していきましょう！
 
@@ -31,7 +31,7 @@ MShareというアプリを作る際に調べたので、やり方を解説し�
 
 プロジェクト直下にassets/imagesを作っていきます
 
-<img src="http://34.145.4.125/wp-content/uploads/2023/03/スクリーンショット-2023-03-24-13.22.24.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/03/スクリーンショット-2023-03-24-13.22.24.png" alt="" width="300">
 
 作成できましたら、使いたい画像をドラッグ&ドロップでimagesの中に追加していきましょう！
 
@@ -63,7 +63,7 @@ Container(
                   child: Image.asset('assets/images/transparent_icon.png')),
 ```
 
-<img src="http://34.145.4.125/wp-content/uploads/2023/03/IMG_4959-473x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/03/IMG_4959-473x1024.png" alt="" width="300">
 
 するとこのように画像を表示することができます！
 

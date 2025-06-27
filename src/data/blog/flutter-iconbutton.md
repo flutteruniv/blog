@@ -91,7 +91,7 @@ Material 3では標準とcontainedの2種類のボタンが存在します。
 
 下記画像で、一番上が標準、下3つがcontainedです。
 
-<img src="http://34.145.4.125/wp-content/uploads/2022/09/スクリーンショット-2022-09-07-8.38.00.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-07-8.38.00.png" alt="" width="300">
 
 containedの`IconButton`を実装するために設定するのが、
 `style`プロパティです。
@@ -207,7 +207,7 @@ class _MyHomePageState extends State {
 }
 ```
 
-![](http://34.145.4.125/wp-content/uploads/2022/09/20220907_toggle2.gif)
+![](/images/wp-content/uploads/2022/09/20220907_toggle2.gif)
 
 `isSelected`と`selectedIcon`プロパティは前述の`useMaterial3`を有効化した際にのみ設定が反映されます。
 
