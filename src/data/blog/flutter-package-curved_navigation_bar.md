@@ -18,7 +18,7 @@ curved_navigation_bar パッケージを使った、
 
 以下のようなUI が実装可能です。
 
-![](/images/wp-content/uploads/2022/10/20221021_curved_navigation_bar_sample.gif)
+![](/images/wp-content/uploads/2022/10/20221021_curved_navigation_bar_sample.webp)
 
 基本的な使い方からカスタマイズ方法まで、詳しく解説します。
 
@@ -155,7 +155,7 @@ class _MyWidgetState extends State {
 
 上記コードで以下のようにアニメーションがついた`Navigation Bar`が作成できます。
 
-![](/images/wp-content/uploads/2022/10/20221021_curved_navigation_bar_sample.gif)
+![](/images/wp-content/uploads/2022/10/20221021_curved_navigation_bar_sample.webp)
 
 基本的な使い方は以上となります！
 
@@ -179,7 +179,7 @@ CurvedNavigationBar(
       ),
 ```
 
-<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-21-18.11.39.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-21-18.11.39.webp" alt="" width="300">
 
 ### 高さの設定
 
@@ -246,4 +246,3 @@ Flutterでのゲーム作成は自分も2作品ほどリリースしているこ
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

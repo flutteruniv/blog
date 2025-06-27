@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -29,7 +29,7 @@ ogImage: ""
 
 本記事を読むと、以下のようなUIが作成できます。
 
-<img src="/images/wp-content/uploads/2022/03/DropdownButton_Sample-1013x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/DropdownButton_Sample-1013x1024.webp" alt="" width="300">
 
 基本的な使い方から、詳細設定まで解説していきます！
 
@@ -209,7 +209,7 @@ SizedBox(
             ),
 ```
 
-<img src="/images/wp-content/uploads/2022/03/DropdownButton_width-473x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/DropdownButton_width-473x1024.webp" alt="" width="300">
 
 ### テキストスタイルの変更
 
@@ -234,7 +234,7 @@ DropdownButton(
             ),
 ```
 
-<img src="/images/wp-content/uploads/2022/03/DropdownButton_blue-473x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/DropdownButton_blue-473x1024.webp" alt="" width="300">
 
 ### アイコンの変更
 
@@ -273,7 +273,7 @@ DropdownButton(
             ),
 ```
 
-<img src="/images/wp-content/uploads/2022/03/DropdownButton_icon-473x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/DropdownButton_icon-473x1024.webp" alt="" width="300">
 
 ### アンダーラインをつける
 
@@ -297,7 +297,7 @@ DropdownButton(
             ),
 ```
 
-<img src="/images/wp-content/uploads/2022/03/DropdownButton_underline-473x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/DropdownButton_underline-473x1024.webp" alt="" width="300">
 
 ### リストに影をつける
 
@@ -320,7 +320,7 @@ DropdownButton(
 
 `elevation` の値、0とデフォルト（=8）と16の比較
 
-![](/images/wp-content/uploads/2022/03/DropdownButton_elevation.png)
+![](/images/wp-content/uploads/2022/03/DropdownButton_elevation.webp)
 
 ### ボタンを押せなくする
 
@@ -339,7 +339,7 @@ DropdownButton(
             ),
 ```
 
-<img src="/images/wp-content/uploads/2022/03/DropdownButton_deactive-473x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/DropdownButton_deactive-473x1024.webp" alt="" width="300">
 
 ## まとめ
 
@@ -382,4 +382,3 @@ Widgetの知識は大事です。
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

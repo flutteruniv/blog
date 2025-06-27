@@ -18,7 +18,7 @@ Flutter 3.3で追加された、子孫のウィジェットを選択可能にす
 
 この`Widget`によって、以下のようにテキストが選択可能となります。
 
-![](/images/wp-content/uploads/2022/09/20220914_selection_area_sample.gif)
+![](/images/wp-content/uploads/2022/09/20220914_selection_area_sample.webp)
 
 とても便利な`Widget`となっています。
 ぜひ本記事で学んでみて下さい！
@@ -57,7 +57,7 @@ SelectionArea(
   }
 ```
 
-![](/images/wp-content/uploads/2022/09/20220914_selection_area_sample.gif)
+![](/images/wp-content/uploads/2022/09/20220914_selection_area_sample.webp)
 
 ## まとめ
 
@@ -94,4 +94,3 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

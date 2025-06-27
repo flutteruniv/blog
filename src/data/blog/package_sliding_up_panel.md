@@ -18,7 +18,7 @@ layout: "../../layouts/BlogPost.astro"
 
 以下のようなUIを簡単に実装することが可能です。
 
-![](/images/wp-content/uploads/2022/10/20221012_top.gif)
+![](/images/wp-content/uploads/2022/10/20221012_top.webp)
 
 ぜひ読んでみて実装してみてください！
 
@@ -65,7 +65,7 @@ SlidingUpPanel(
 ),
 ```
 
-![](/images/wp-content/uploads/2022/10/20221012_base.gif)
+![](/images/wp-content/uploads/2022/10/20221012_base.webp)
 
 GIFの実装コード全体
 ```dart
@@ -130,7 +130,7 @@ SlidingUpPanel(
       ),
 ```
 
-<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.25.15-511x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.25.15-511x1024.webp" alt="" width="300">
 
 `collapsed`に何も設定しない場合、
 `pannel`に設定したウィジェットの最上部部分が表示されます。
@@ -155,7 +155,7 @@ SlidingUpPanel(
         ),
 ```
 
-<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.33.48.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.33.48.webp" alt="" width="300">
 
 ### 枠線
 
@@ -178,7 +178,7 @@ SlidingUpPanel(
         ),
 ```
 
-<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.51.21-516x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.51.21-516x1024.webp" alt="" width="300">
 
 また、`borderRadius`プロパティにて、パネルの角を角丸にすることが可能です。
 
@@ -197,7 +197,7 @@ SlidingUpPanel(
         ),
 ```
 
-<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.53.20-510x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.53.20-510x1024.webp" alt="" width="300">
 
 現状、border とborderRaidus の同時設定はできない模様です。
 
@@ -217,7 +217,7 @@ SlidingUpPanel(
         ),
 ```
 
-<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.55.50-507x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/10/スクリーンショット-2022-10-12-17.55.50-507x1024.webp" alt="" width="300">
 
 他にもさまざまなカスタマイズが可能です！
 詳しくは、[こちら](https://pub.dev/packages/sliding_up_panel#custom-usage)をご確認ください。
@@ -266,4 +266,3 @@ https://github.com/Umigishi-Aoi/block_breaker
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/man.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -215,7 +215,7 @@ https://blog.flutteruniv.com/flutteruniv-task-learning-plan/
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/新聞-1024x683.webp)
 
 本記事ではFlutterニュースとして、
 2022年7月第5週に話題になったFlutter関連の情報や、
@@ -251,4 +251,3 @@ Android 13対応は素直にこんな機能があるんだ、と勉強になり�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

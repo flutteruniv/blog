@@ -64,7 +64,7 @@ Flutter大学への参加は以下の画像リンクから。
 
 ### **【Aoi】年間100記事書いたエンジニアによる記事作成のススメ**
 
-![](/images/wp-content/uploads/2022/09/20220902_article.png)
+![](/images/wp-content/uploads/2022/09/20220902_article.webp)
 
 エンジニアによる記事作成のメリットについてを伝える勉強会が開かれました。
 
@@ -75,7 +75,7 @@ Aoi「私が発表した勉強会となります。
 
 ### **【ダイゴ】はじめての MethodChannel**
 
-![](/images/wp-content/uploads/2022/09/20220902_method_channel.png)
+![](/images/wp-content/uploads/2022/09/20220902_method_channel.webp)
 
 Flutterでネイティブ連携を行うための、
 MethodChannelについての勉強会が開かれました。
@@ -88,7 +88,7 @@ Aoi「発表内ではバッテリー残量の取得を例に、
 
 ### **【すさ】日本モバイル史の繁栄と衰退**
 
-![](/images/wp-content/uploads/2022/09/20220902_mobile_history.png)
+![](/images/wp-content/uploads/2022/09/20220902_mobile_history.webp)
 
 日本のモバイルに関連する出来事について学ぶ勉強会が開かれました。
 
@@ -129,4 +129,3 @@ https://blog.flutteruniv.com/flutter-3-3-dart-2-18/#toc20
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

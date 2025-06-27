@@ -12,7 +12,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -27,7 +27,7 @@ layout: "../../layouts/BlogPost.astro"
 
 `Stepper` `Widget` を使えば、以下のgifのようなUIが簡単に作れちゃいます！
 
-![](/images/wp-content/uploads/2022/03/画面収録_2022-03-17_21_28_51_AdobeCreativeCloudExpress.gif)
+![](/images/wp-content/uploads/2022/03/画面収録_2022-03-17_21_28_51_AdobeCreativeCloudExpress.webp)
 
 本記事では`Stepper Widget`の基本的な使い方から、
 細かい設定まで徹底的に解説していきます。
@@ -36,7 +36,7 @@ layout: "../../layouts/BlogPost.astro"
 
 ## 基本的な使い方
 
-![](/images/wp-content/uploads/2022/03/stepper_simple.png)
+![](/images/wp-content/uploads/2022/03/stepper_simple.webp)
 
 基本的な使い方をサンプルコードをベースに解説します。
 
@@ -196,7 +196,7 @@ Stepperの実装部分です。
 
 ## 詳細設定
 
-![](/images/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+![](/images/wp-content/uploads/2022/02/プログラミング画像.webp)
 
 `Stepper`では様々な設定が用意されています。
 一つ一つの設定について解説していきます。
@@ -212,7 +212,7 @@ CONTINUEとCANCELが表示されていたコントロール部分のWidgetを変
 以下の例は、CONTINUEのボタンを「次へ」のTextButtonに、
 CANCELのボタンを「戻る」のTextButtonに変更した例です。
 
-<img src="/images/wp-content/uploads/2022/03/controlsBuilder-509x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/controlsBuilder-509x1024.webp" alt="" width="300">
 
 ```dart
 @override
@@ -258,7 +258,7 @@ CANCELのボタンを「戻る」のTextButtonに変更した例です。
 
 `type `プロパティを設定することで`Stepper`を水平方向に表示することができます。
 
-<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-18-11.31.46-782x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-18-11.31.46-782x1024.webp" alt="" width="300">
 
 ```dart
 Stepper(
@@ -283,7 +283,7 @@ Stepのタイトルの下にサブタイトルを設定可能です。
 
 subtitleプロパティにWidgetを設定することで、タイトルの下に表示させることができます。
 
-<img src="/images/wp-content/uploads/2022/03/subtitle-501x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/subtitle-501x1024.webp" alt="" width="300">
 
 ```dart
 Stepper(
@@ -307,7 +307,7 @@ Stepper(
 
 StepのStepStateを設定することでアイコンの変更が可能となります。
 
-<img src="/images/wp-content/uploads/2022/03/step_state-505x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/step_state-505x1024.webp" alt="" width="300">
 
 ```dart
 Stepper(
@@ -360,7 +360,7 @@ Stepper(
 `Step`のプロパティである`isActive`を`true`にすることで、
 アイコンの色を`Theme`の`PrimaryColor`に変更可能です。
 
-<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-18-12.03.33-505x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/スクリーンショット-2022-03-18-12.03.33-505x1024.webp" alt="" width="300">
 
 ```dart
 Stepper(
@@ -382,7 +382,7 @@ Stepper(
 以上が詳細設定となります。
 最後に、今回紹介した詳細設定を入れ込んだ、サンプルコードを紹介します。
 
-![](/images/wp-content/uploads/2022/03/画面収録_2022-03-17_21_28_51_AdobeCreativeCloudExpress.gif)
+![](/images/wp-content/uploads/2022/03/画面収録_2022-03-17_21_28_51_AdobeCreativeCloudExpress.webp)
 
 ```dart
 import 'package:flutter/material.dart';
@@ -528,4 +528,3 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

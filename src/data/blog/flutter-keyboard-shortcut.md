@@ -22,7 +22,7 @@ Control + C キーなど、キーボードの特定のキーを押下するこ�
 以下のGIFは今回紹介するサンプルアプリの実行動画です。
 control + R , contorol + B でそれぞれ文字色が変わる、そんなアプリとなっています。
 
-![](/images/wp-content/uploads/2022/11/20221117_keyboard_shortcut_demo.gif)
+![](/images/wp-content/uploads/2022/11/20221117_keyboard_shortcut_demo.webp)
 
 基礎的な部分から丁寧に解説していきます。
 ぜひ読んでみてください！
@@ -364,4 +364,3 @@ https://twitter.com/FlutterDev/status/1592593528390963200
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

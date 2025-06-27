@@ -91,7 +91,7 @@ Material 3では標準とcontainedの2種類のボタンが存在します。
 
 下記画像で、一番上が標準、下3つがcontainedです。
 
-<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-07-8.38.00.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/09/スクリーンショット-2022-09-07-8.38.00.webp" alt="" width="300">
 
 containedの`IconButton`を実装するために設定するのが、
 `style`プロパティです。
@@ -207,7 +207,7 @@ class _MyHomePageState extends State {
 }
 ```
 
-![](/images/wp-content/uploads/2022/09/20220907_toggle2.gif)
+![](/images/wp-content/uploads/2022/09/20220907_toggle2.webp)
 
 `isSelected`と`selectedIcon`プロパティは前述の`useMaterial3`を有効化した際にのみ設定が反映されます。
 
@@ -250,4 +250,3 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

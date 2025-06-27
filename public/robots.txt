@@ -1,0 +1,53 @@
+# robots.txt for Flutter University Blog
+# Optimized for search engine crawling and indexing
+
+User-agent: *
+Allow: /
+
+# Allow important pages
+Allow: /posts/
+Allow: /category/
+Allow: /search/
+Allow: /tags/
+Allow: /about/
+
+# Block unnecessary paths
+Disallow: /api/
+Disallow: /_astro/
+Disallow: /.well-known/
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /draft/
+
+# Allow image indexing for better SEO
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Block duplicate content (if any)
+Disallow: /*?*
+Disallow: /*#
+
+# Sitemap location
+Sitemap: https://blog.flutteruniv.com/sitemap-index.xml
+Sitemap: https://blog.flutteruniv.com/rss.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Special instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2

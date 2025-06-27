@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -25,7 +25,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -46,7 +46,7 @@ Flutter大学でのいつでも使えるコワーキングスペース、
 
 ## オンライン作業 とは？
 
-![](/images/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/Meeting-1024x683.webp)
 
 ### Flutter大学とは?
 
@@ -81,7 +81,7 @@ Flutter大学では好きな時間、用途でこのアプリケーションを�
 
 ## オンライン作業部屋の良いポイント
 
-![](/images/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting2-1024x683.webp)
 
 Flutter大学のオンライン作業部屋の良いポイントを厳選して3つ紹介します！
 
@@ -115,7 +115,7 @@ Flutter大学のオンライン作業部屋は、24時間、いつでも開か�
 あなたの作業を集中して取り組めるようになること、
 これがオンライン作業部屋の2つ目の良いポイントです。
 
-![](/images/wp-content/uploads/2022/05/coworking1.png)
+![](/images/wp-content/uploads/2022/05/coworking1.webp)
 
 ### 誰かと一緒に作業をしている感覚を味わえる
 
@@ -138,11 +138,11 @@ Flutter大学のオンライン作業部屋では、
 オンラインながらも周りに人がいることで、寂しさを軽減できること、
 これが3つ目の良いポイントです。
 
-![](/images/wp-content/uploads/2022/05/coworking3.png)
+![](/images/wp-content/uploads/2022/05/coworking3.webp)
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting3-1024x683.webp)
 
 本記事ではFlutter大学でのいつでも使えるコワーキングスペース、
 オンライン作業部屋について紹介しました。
@@ -171,4 +171,3 @@ Gatherの場合、とても広く、ゲームを遊ぶことのできる場や�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

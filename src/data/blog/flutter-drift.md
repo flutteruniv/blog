@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -46,7 +46,7 @@ Driftを紹介します。
 
 ## Drift とは
 
-![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.webp)
 
 「アプリを落としたらデータが消えてしまった！」
 
@@ -62,7 +62,7 @@ SQLの知識が無くともDartのみでデータの追加や更新ができる�
 
 データベースとは、以下の例のように整理された情報の集まりです。
 
-![](/images/wp-content/uploads/2022/04/database_sample-1024x405.png)
+![](/images/wp-content/uploads/2022/04/database_sample-1024x405.webp)
 
 Firebaseのように外部サーバーに用意されたデータベースを外部データベースと呼ぶのに対し、
 スマートフォンなどの記憶領域に用意するデータベースを内部データベースと呼びます。
@@ -82,11 +82,11 @@ https://products.sint.co.jp/topsic/blog/sql
 
 ## 基本的な使い方
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 簡単なアプリの作成を通し、基本的な使い方を解説していきます。
 
-![](/images/wp-content/uploads/2022/04/drift_sample.gif)
+![](/images/wp-content/uploads/2022/04/drift_sample.webp)
 
 上のgifで紹介しているようなアプリを作成します。
 
@@ -203,7 +203,7 @@ https://minpro.net/drift-flutter_test-from-sdk-is-forbidden
 
 今回のデータベースはシンプルにIDと内容のみをもったデータベースとします。
 
-![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.27.23-1024x802.png)
+![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.27.23-1024x802.webp)
 
 このデータベースを構築するために、2段階の方法を行います。
 
@@ -214,7 +214,7 @@ https://minpro.net/drift-flutter_test-from-sdk-is-forbidden
 
 以下のようにフォルダを構成し、`todos.dart`ファイルを作成しましょう。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.36.33.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.36.33.webp" alt="" width="300">
 
 この`todos.dart` ファイルにデータベースの構成や処理等を記載していきます。
 
@@ -253,7 +253,7 @@ class MyDatabase extends _$MyDatabase {}
 `IntColumn`で`int`の値を、`TextColumn`で`String`の値を保持する列を生成します。
 `autoIncrement()`を設定しておくと、データ追加時に`id`を自動で生成してくれます。
 
-![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.49.01-1024x618.png)
+![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-13-16.49.01-1024x618.webp)
 
 //3
 データベースクラスの定義です。
@@ -909,4 +909,3 @@ Flutterで内部データベースを扱いやすくするパッケージとし�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

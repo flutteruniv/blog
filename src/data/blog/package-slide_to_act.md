@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -39,7 +39,7 @@ layout: "../../layouts/BlogPost.astro"
 
 このパッケージによって以下のGIFのようなUIを簡単に実装することが可能です。
 
-![](/images/wp-content/uploads/2022/07/20220722_slide_to_act_top-1024x169.gif)
+![](/images/wp-content/uploads/2022/07/20220722_slide_to_act_top-1024x169.webp)
 
 ぜひ読んでみて下さい！
 
@@ -84,7 +84,7 @@ SlideAction(
               ),
 ```
 
-![](/images/wp-content/uploads/2022/07/20220722_slide_to_act_base_sin.gif)
+![](/images/wp-content/uploads/2022/07/20220722_slide_to_act_base_sin.webp)
 
 基本的な使い方は以上です！
 
@@ -110,7 +110,7 @@ SlideAction(
               ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-27-23.22.10.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-27-23.22.10.webp" alt="" width="300">
 
 `alignment`プロパティで`Widget`全体の位置を調整できます。
 
@@ -129,7 +129,7 @@ SlideAction(
               ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-27-22.52.34.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-27-22.52.34.webp" alt="" width="300">
 
 `elevation` プロパティで周囲につく影の大きさを変更できます。
 
@@ -142,7 +142,7 @@ SlideAction(
               ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-27-23.27.24.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-27-23.27.24.webp" alt="" width="300">
 
 ### アイコン関連
 
@@ -161,7 +161,7 @@ SlideAction(
               ),
 ```
 
-![](/images/wp-content/uploads/2022/07/20220722_slide_to_act_icon.gif)
+![](/images/wp-content/uploads/2022/07/20220722_slide_to_act_icon.webp)
 
 `sliderButtonIcon`を設定せずに`sliderButtonIconSize`を設定すると、
 スライドするボタン内のアイコンのサイズを変更することができます。
@@ -175,7 +175,7 @@ SlideAction(
               ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-27-23.06.36.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-27-23.06.36.webp" alt="" width="300">
 
 ### 動き関連
 
@@ -194,7 +194,7 @@ SlideAction(
               ),
 ```
 
-![](/images/wp-content/uploads/2022/07/20220722_slide_to_act_base_reverse.gif)
+![](/images/wp-content/uploads/2022/07/20220722_slide_to_act_base_reverse.webp)
 
 ### 表示する文字関連
 
@@ -211,7 +211,7 @@ SlideAction(
               ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-27-23.39.01.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-27-23.39.01.webp" alt="" width="300">
 
 また、`child`プロパティで表示する文字列の代わりに自分の好きな`Widget`を設定できます。
 
@@ -243,4 +243,3 @@ https://youtu.be/B6f5tayCtUU
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

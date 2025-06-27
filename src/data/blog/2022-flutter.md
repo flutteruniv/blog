@@ -39,7 +39,7 @@ https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 4月、Flutter大学のHPが現在の形にリニューアルされました！
 
-![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-21.42.26-1024x453.png)
+![](/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-27-21.42.26-1024x453.webp)
 
 よりスタイリッシュに、情報がわかりやすく進化しました。
 
@@ -218,4 +218,3 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

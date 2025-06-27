@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/man.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -55,7 +55,7 @@ https://blog.flutteruniv.com/flutter-casual-game-toolkit/
 
 ### CI/CD ツールを使用しているかについてのアンケート
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-23-16.22.12-1024x642.png)
+![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-23-16.22.12-1024x642.webp)
 
 [https://www.reddit.com/r/FlutterDev/comments/us74r2/are_you_using_a_cicd_tool_for_your_flutter_project/](https://www.reddit.com/r/FlutterDev/comments/us74r2/are_you_using_a_cicd_tool_for_your_flutter_project/)
 
@@ -73,7 +73,7 @@ https://flutteruniv.com/
 
 ### FlutterでiPod を再現したアプリのリポジトリ
 
-<img src="/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-23-8.53.15-505x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-23-8.53.15-505x1024.webp" alt="" width="300">
 
 [https://github.com/retromp3/retro](https://github.com/retromp3/retro)
 
@@ -278,7 +278,7 @@ https://blog.flutteruniv.com/flutteruniversity-coworking-space/
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/新聞-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/新聞-1024x683.webp)
 
 本記事ではFlutterニュースとして、
 2022年5月第3週に話題になったFlutter関連の情報や、
@@ -309,4 +309,3 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

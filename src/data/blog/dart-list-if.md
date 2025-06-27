@@ -117,7 +117,7 @@ Flutterでの使用例を解説します。
 3の倍数だけ激しく主張する（カウントの後ろに`'!!!!!!!!'`がつく）
 カウンターアプリを作ってみます。
 
-![](/images/wp-content/uploads/2022/12/20221227_list_if_flutter_sample.gif)
+![](/images/wp-content/uploads/2022/12/20221227_list_if_flutter_sample.webp)
 
 `Row`の`children`プロパティに配置する`List`にて、
 以下のように`if`文を利用して書くことで、
@@ -240,4 +240,3 @@ https://qiita.com/miyakeso/items/ba8b5125828ba5da9407
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

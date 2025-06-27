@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "Flutter入門 ~ 環境構築から初心者向け学習方法まで ~ 【動画付き】"
-description: ""
+description: "Flutter初心者向けの完全ガイド。環境構築から開始手順まで、M1 Mac対応の詳細解説付き。無料でFlutter開発を始める方法を動画とサンプルコードで分かりやすく説明します。"
 pubDatetime: "2022-04-27"
 author: Aoi
 slug: "flutter-entrance"
@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -25,7 +25,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -51,7 +51,7 @@ Flutterの入門の仕方として最初にやるべき環境構築の方法に�
 
 ## Flutterとは
 
-![](/images/wp-content/uploads/2022/03/パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/パソコン.webp)
 
 Flutterとは、「**アプリケーション作成のためのフレームワーク**」です。
 
@@ -69,7 +69,7 @@ https://www.youtube.com/watch?v=-G7nW26N7_4&t=4s
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -81,7 +81,7 @@ https://www.youtube.com/watch?v=-G7nW26N7_4&t=4s
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/doctor.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -102,7 +102,7 @@ Flutterでアプリケーションを作り始めるためには、
 
 ## 環境構築
 
-![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.webp)
 
 Flutterの環境構築の方法について解説していきます。
 
@@ -131,7 +131,7 @@ Download Android Studio と書かれたボタンを押すと、利用規約が�
 利用規約を読んだ上で、文末にある同意のチェックボックスにチェックを入れ、
 **Mac with Apple chip** と書かれたボタンをクリックします。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-15.20.43.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-15.20.43.webp" alt="" width="300">
 
 任意のフォルダを選択し、ダウンロードをしましょう。
 
@@ -150,7 +150,7 @@ Android Studio のダウンロードが終わった後、セットアップを�
 
 ダウンロードしたdmgファイルを開くと、以下の画面がでてきます。
 
-![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.11.36-1024x627.png)
+![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.11.36-1024x627.webp)
 
 このファイル上でAndroid Studio.app をApplicationsにドラッグ＆ドロップし、
 ApplicationsフォルダにAndroid Studio.appを配置しましょう。
@@ -160,14 +160,14 @@ ApplicationsフォルダにAndroid Studio.appを配置しましょう。
 開こうとすると出てくる以下のダイアログでは、
 以前設定したAndroid Studioの設定を再設定するか問われています。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.18.50.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.18.50.webp" alt="" width="300">
 
 初めてAndroid Studio を設定する場合は、
 "Do not import settings"をチェックしてOKを押しましょう。
 
 Android Studio が立ち上がると、以下のダイアログが出てきます。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.22.33.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.22.33.webp" alt="" width="300">
 
 Googleのデータ収集に協力するか、と問われています。
 協力する場合は"Send usage statistics to Google"を、
@@ -175,27 +175,27 @@ Googleのデータ収集に協力するか、と問われています。
 
 次に以下のSetup Wizardの画面が開かれます。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.34.49.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.34.49.webp" alt="" width="300">
 
 上記画面でNextをクリックします。
 すると次の画面になります。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.36.14.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.36.14.webp" alt="" width="300">
 
 インストール方法についての画面です。
 今回はStandardを選択し、Nextをクリックします。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.37.29.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.37.29.webp" alt="" width="300">
 
 UIテーマの選択画面です。
 ダークモードかライトモード、好きな方を選択の上Nextをクリックします。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.39.13_2.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.39.13_2.webp" alt="" width="300">
 
 今までの設定の確認画面です。
 確認の上、Nextをクリックします。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.42.22.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.42.22.webp" alt="" width="300">
 
 Android SDK に関するライセンスの確認画面です。
 内容確認の上、各項目で同意する場合はAcceptにチェックを入れ、
@@ -216,7 +216,7 @@ Finishをクリックします。
 [こちら](https://docs.flutter.dev/get-started/install/macos)からFlutter のSDK (ソフトウェア開発キット)をダウンロードします。
 以下画像赤枠をクリックし必要なファイルをダウンロードします。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.49.27.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-16.49.27.webp" alt="" width="300">
 
 ダウンロードしたファイルをダブルクリックし、解凍します。
 
@@ -333,7 +333,7 @@ flutter doctor
 
 以下のダイアログが表示された場合はインストールを押し、ツールをインストールします。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-17.55.12.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-17.55.12.webp" alt="" width="300">
 
 利用規約のダイアログが表示されるため、内容確認後同意の上、同意するを押します。
 インストール完了後、完了を押します。
@@ -377,7 +377,7 @@ SDK Tools のタブをクリックし、
 Android SDK Command-line Tools(latest)にチェックを入れ、
 右下のOKを押します。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-18.20.26.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-18.20.26.webp" alt="" width="300">
 
 再度、`flutter doctor `を実行し、先程表示された"`cmdline-tools~` "が消えていることを確認します。
 
@@ -419,7 +419,7 @@ Xcodeのインストールが完了していることを確認後、Xcodeを開�
 以下のようにライセンスに関するダイアログが表示されるため、
 内容確認の上、了承の意でAgreeを押します。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-18.49.17.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-18.49.17.webp" alt="" width="300">
 
 PCのパスワードを求められるので、入力し、OKを押します。
 
@@ -458,15 +458,15 @@ Android Studio にFlutterプラグインを導入します。
 
 Android Studio を開き、Plugins から Flutterを探し、インストールを押します。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.01.54.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.01.54.webp" alt="" width="300">
 
 以下のダイアログが表示された場合は、内容確認の上同意の意でAcceptを押します。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.05.00.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.05.00.webp" alt="" width="300">
 
 以下のダイアログでDartプラグインを導入するか問われるため、Installを押します。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.06.34.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.06.34.webp" alt="" width="300">
 
 インストールが完了すると、Restart IDE の表示で、
 Android Studio を再起動するよう求められるため、
@@ -484,15 +484,15 @@ Restart IDE をクリックし再起動を行います。
 Android Studio を開きます。
 以下の画像の、"New Flutter Project"をクリックします。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.09.48.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.09.48.webp" alt="" width="300">
 
 すると、次の画面が開かれます。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.13.53.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.13.53.webp" alt="" width="300">
 
 Nextをクリックします。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.15.14.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.15.14.webp" alt="" width="300">
 
 Project name 等の設定画面となります。
 Project nameに任意の名前を入力し、Finishを押してください。
@@ -502,7 +502,7 @@ Project nameに任意の名前を入力し、Finishを押してください。
 上記完了後、Flutterプロジェクトが作成されます。
 以下の画像のように、左上のAndroidをクリックし、Projectを選択してください。
 
-![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.18.14-1024x552.png)
+![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.18.14-1024x552.webp)
 
 おめでとうございます！
 これで初めてのFlutterプロジェクトができました！
@@ -519,18 +519,18 @@ iOSのシミュレータでアプリを実行してみましょう！
 以下の画像のように、画面真ん中上辺りのデバイス選択欄にて、
 "Open iOS Simulator"を選択します。
 
-![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.44.14-1024x558.png)
+![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.44.14-1024x558.webp)
 
 すると、iOSのデバイスを模したシミュレータが立ち上がります。
 
 デバイス選択欄に起動したデバイスが表示されていることを確認の上、
 デバイス選択欄の少し右にある、緑の三角のボタンをクリックします。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.48.55.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.48.55.webp" alt="" width="300">
 
 しばらく待つと、、、
 
-![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.50.39-1024x555.png)
+![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.50.39-1024x555.webp)
 
 おめでとうございます！
 iOSのシミュレータで初めてのFlutterアプリが立ち上がりました！
@@ -544,20 +544,20 @@ iOSのシミュレータで初めてのFlutterアプリが立ち上がりまし�
 画面右上のDevice Manager ボタン(以下の画像の赤枠)から
 Device Managerを開きます。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.54.21.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.54.21.webp" alt="" width="300">
 
 画面左のDevice Manager内、 Create Deviceから、
 Android エミュレータのデバイスを新規作成します。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.59.38.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-19.59.38.webp" alt="" width="300">
 
 作成するエミュレータのハードウェアを選択しNextを押します。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.02.13.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.02.13.webp" alt="" width="300">
 
 APIレベルを選択し、Nextを押します。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.03.10.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.03.10.webp" alt="" width="300">
 
 必要に応じてエミュレータの名前を変更し、Finishを押します。
 
@@ -565,12 +565,12 @@ APIレベルを選択し、Nextを押します。
 Device Managerに戻り、以下画像赤枠の三角ボタンを押し、
 作成したエミュレータを立ち上げましょう。
 
-<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.05.22.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.05.22.webp" alt="" width="300">
 
 エミュレータが立ち上がったら、
 iOSの時と同様に、画面右上の緑三角ボタンでアプリを実行してみましょう。
 
-![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.08.11-1024x585.png)
+![](/images/wp-content/uploads/2022/04/スクリーンショット-2022-04-27-20.08.11-1024x585.webp)
 
 おめでとうございます！
 Android のエミュレータでもアプリの実行ができました！
@@ -582,13 +582,13 @@ Android のエミュレータでもアプリの実行ができました！
 
 ## 初心者向け学習方法
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 ### 最初に学ぶこと ~ UI の組み方 ~
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -602,7 +602,7 @@ Android のエミュレータでもアプリの実行ができました！
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/doctor.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/doctor.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -720,7 +720,7 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 本記事では、Flutterの入門の仕方として最初にやるべき環境構築の方法について、
 動画付きで解説しました。
@@ -779,4 +779,3 @@ Flutterはこの楽しさを強く支えていると自分は思います。
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

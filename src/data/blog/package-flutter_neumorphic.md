@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -39,13 +39,13 @@ UIを構築するのに有用なパッケージ、[flutter_neumorphic](https://p
 
 以下のようなUI を実装することが簡単に可能です。
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.27.21.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.27.21.webp" alt="" width="300">
 
 ぜひ本記事を読んで実装してみて下さい！
 
 ## 基本的な使い方
 
-![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.webp)
 
 ### パッケージのインストール
 
@@ -121,7 +121,7 @@ class MyWidget extends StatelessWidget {
 }
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.27.21.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.27.21.webp" alt="" width="300">
 
 色や深さ、光の当たり方向は`style`に`NeumorphicStyle`を
 設定することによって調整することが可能です。
@@ -146,7 +146,7 @@ Neumorphic(
         ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.41.41.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.41.41.webp" alt="" width="300">
 
 #### 深さ
 
@@ -171,7 +171,7 @@ Neumorphic(
       ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.46.02.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.46.02.webp" alt="" width="300">
 
 #### 光の方向
 
@@ -196,15 +196,15 @@ Neumorphic(
         ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.48.43.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-17.48.43.webp" alt="" width="300">
 
 ## おまけ ニューモーフィズムなWidgetの作り方
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/man.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/man.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -260,13 +260,13 @@ offsetで左上にずらし、whiteを設定しています。
 
 このコードで以下のような見た目となります。
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-18.11.57.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-01-18.11.57.webp" alt="" width="300">
 
 以上が、パッケージに依存すること無くニューモーフィズムを実装する方法でした！
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 本記事では、ニューモーフィズムで
 UIを構築するのに有用なパッケージ、flutter_neumorphic の使い方を解説しました。
@@ -301,4 +301,3 @@ https://fastcoding.jp/blog/all/info/neumorphism/#:~:text=%E3%83%8B%E3%83%A5%E3%8
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

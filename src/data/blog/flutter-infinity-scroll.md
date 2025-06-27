@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -30,7 +30,7 @@ ogImage: ""
 
 本記事を読めば、以下のgifのような無限スクロールが実装可能となります。
 
-![](/images/wp-content/uploads/2022/03/20220330_infinity_scroll.gif)
+![](/images/wp-content/uploads/2022/03/20220330_infinity_scroll.webp)
 
 無限スクロールの実装方法は色々とありますが、
 今回は`ScrollController`を使った方法を解説します。
@@ -39,7 +39,7 @@ ogImage: ""
 
 ## 準備
 
-![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.webp)
 
 まずは無限スクロールできないリストビューのサンプルコードを紹介します。
 
@@ -178,7 +178,7 @@ https://blog.flutteruniv.com/flutter-future-stream-difference/
 
 ## 無限スクロール の実装
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 ここから、無限スクロールの実装に入ります。
 準備と同様、コードの紹介の後、解説を行います。
@@ -432,7 +432,7 @@ https://dartpad.dev/?id=f7ea0956e942edc6f1c62927f77ed5f0
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 本記事ではリストビューが下端に行った時に自動でデータを読み取り、表示する、
 無限スクロールの実装方法について解説しました。
@@ -470,4 +470,3 @@ https://youtu.be/rj4lWOcMON0
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします

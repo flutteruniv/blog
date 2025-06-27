@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -43,18 +43,18 @@ Skeleton テンプレートについて、徹底解説します。
 
 ## Skeleton テンプレートとは
 
-![](/images/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+![](/images/wp-content/uploads/2022/02/プログラミング画像.webp)
 
 ### 概要
 
 Skeletonテンプレートとは、Flutter v2.5によって追加されたFlutterのテンプレートです。
 リストビューとアイテムの詳細ページ、設定ページが用意されています。
 
-<img src="/images/wp-content/uploads/2022/03/20220316_スクリーンショット1.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/20220316_スクリーンショット1.webp" alt="" width="300">
 
 設定ページでテーマを選択することで、アプリ全体をダークモードにすることが可能です。
 
-![](/images/wp-content/uploads/2022/03/20220316_ダークテーマ.png)
+![](/images/wp-content/uploads/2022/03/20220316_ダークテーマ.webp)
 
 ### 作成方法
 
@@ -81,14 +81,14 @@ flutter create -t skeleton skeleton_sample
 
 Flutter関連部分は以下のようなフォルダ構成でテンプレートが作成されているはずです。
 
-<img src="/images/wp-content/uploads/2022/03/22020316_フォルダ構成-711x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/22020316_フォルダ構成-711x1024.webp" alt="" width="300">
 
 最初はコマンドラインからのアプリ作成は慣れないかもしれませんが、
 慣れてしまえばとても簡単に作成できます。
 
 ## Skeleton テンプレートの機能
 
-![](/images/wp-content/uploads/2022/03/パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/パソコン.webp)
 
 Skeletonテンプレートで実装されたアプリが持つ機能を3つ紹介し、
 その実装コードについて詳しく解説していきます。
@@ -202,7 +202,7 @@ onGenerateTitle: (BuildContext context) =>
 アプリをchromeで開いてみてください。
 chromeのタブ部分のアプリタイトルが「skeletonサンプル」と日本語に変わっていれば成功です。
 
-<img src="/images/wp-content/uploads/2022/03/20220316_日本語化-959x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/03/20220316_日本語化-959x1024.webp" alt="" width="300">
 
 chromeの設定→詳細設定→言語で言語を英語に変えると、「skeleton_sample」と英語になるのが確認できます。
 
@@ -255,7 +255,7 @@ case SettingsView.routeName:
                     return SettingsView(controller: settingsController);
 ```
 
-![](/images/wp-content/uploads/2022/03/20220316_theme1.png)
+![](/images/wp-content/uploads/2022/03/20220316_theme1.webp)
 
 `AnimatedBuilder`は`SettingController`の変化をチェックしています。
 変更を検知すると、子をリビルドします。
@@ -296,14 +296,14 @@ Future updateThemeMode(ThemeMode? newThemeMode) async {
 
 まとめると、以下の図のようになります。
 
-![](/images/wp-content/uploads/2022/03/20220316_theme2.png)
+![](/images/wp-content/uploads/2022/03/20220316_theme2.webp)
 
 `ChangeNotifier` や`notifyListners`はよく使うので、
 テンプレートで使い方が確認できるのはとても良いですね。
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 本記事ではFlutterのテンプレートアプリである
 Skeleton テンプレートについて、解説しました。
@@ -337,4 +337,3 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -41,13 +41,13 @@ layout: "../../layouts/BlogPost.astro"
 以下のgifのようにさまざまな色を持ち、
 ホバーした時、ボタンが押された時に色が変わるボタンが作成可能です。
 
-![](/images/wp-content/uploads/2022/04/20220420_rainbow_buttons.gif)
+![](/images/wp-content/uploads/2022/04/20220420_rainbow_buttons.webp)
 
 初心者の方が悩む部分かと思いますので、ぜひ参考にしてみてください！
 
 ## ElevatedButtonの色の変え方
 
-![](/images/wp-content/uploads/2022/02/プログラミング画像.jpeg)
+![](/images/wp-content/uploads/2022/02/プログラミング画像.webp)
 
 ボタンを定義する、`ElevatedButton`の色は以下のように設定することで変更可能です。
 
@@ -67,7 +67,7 @@ ElevatedButton(
 
 ## ユーザーのアクションに対してボタンの色を変える方法
 
-![](/images/wp-content/uploads/2022/03/パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/パソコン.webp)
 
 ボタンにカーソルをホバーさせた時、ボタンを押下した時など、
 ユーザーのアクションに対してボタンの色を変える方法について解説します。
@@ -258,7 +258,7 @@ https://dartpad.dev/?id=6f5ed0b9889edfaa290d4b87e93f64e0
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 本記事では、基本的なボタンの色の変え方から、
 カーソルがホバーした時、ボタンが押された時、
@@ -294,4 +294,3 @@ Flutterで何ができるのか？の知識を広げるのに有用な動画シ�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

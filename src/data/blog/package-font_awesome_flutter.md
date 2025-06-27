@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -40,7 +40,7 @@ Material Icon にないアイコンを使用可能にするパッケージ、
 簡単に、様々なアイコンを実装可能です。
 例えば以下のようにTwitterのアイコンも実装できます。
 
-<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.42.57-508x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.42.57-508x1024.webp" alt="" width="300">
 
 ぜひ本記事を読んで使い方を学んでみてください！
 
@@ -88,7 +88,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 FaIcon(FontAwesomeIcons.solidAddressBook),
 ```
 
-<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.37.50.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.37.50.webp" alt="" width="300">
 
 ### 色と大きさの設定
 
@@ -103,7 +103,7 @@ FaIcon(
         ),
 ```
 
-<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.40.12.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/08/スクリーンショット-2022-08-25-22.40.12.webp" alt="" width="300">
 
 ## まとめ
 
@@ -137,4 +137,3 @@ font_awesome_flutterで実装できるアイコンの中に、
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

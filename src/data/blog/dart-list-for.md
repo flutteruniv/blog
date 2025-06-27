@@ -60,7 +60,7 @@ final list = [for (int i = 1; i < 51; i++) Text('${i * i}')];
 
 この`Text`Widget の`List`を使ったアプリの実行結果が以下になります。
 
-<img src="/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-07-16.30.48.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/12/スクリーンショット-2022-12-07-16.30.48.webp" alt="" width="300">
 
 サンプルコード全体は以下になります。
 
@@ -146,4 +146,3 @@ Dart言語のコンパイルの仕組みに対してもまだまだ知識が浅�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。  
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。  
-ぜひぜひフォローをお願いいたします。

@@ -14,6 +14,8 @@ export interface Props {
   pubDatetime?: Date;
   modDatetime?: Date | null;
   scrollSmooth?: boolean;
+  tags?: string[];
+  articleType?: 'BlogPosting' | 'Article' | 'TechArticle';
 }
 
 const {
@@ -26,25 +28,71 @@ const {
   pubDatetime,
   modDatetime,
   scrollSmooth = false,
+  tags = [],
+  articleType = 'BlogPosting',
 } = Astro.props;
 
 const socialImageURL = new URL(ogImage, Astro.url);
 
-const structuredData = {
+// Enhanced structured data for better SEO
+const isHomePage = Astro.url.pathname === '/' || Astro.url.pathname === '/index.html';
+
+const organizationSchema = {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  headline: `${title}`,
-  image: `${socialImageURL}`,
-  datePublished: `${pubDatetime?.toISOString()}`,
-  ...(modDatetime && { dateModified: modDatetime.toISOString() }),
-  author: [
-    {
-      "@type": "Person",
-      name: `${author}`,
-      ...(profile && { url: profile }),
-    },
-  ],
+  "@type": "Organization",
+  name: SITE.title,
+  url: SITE.website,
+  logo: {
+    "@type": "ImageObject",
+    url: new URL('/favicon.svg', Astro.url).href
+  },
+  description: SITE.desc,
+  sameAs: [
+    "https://twitter.com/FlutterUniv",
+    "https://github.com/flutteruniv",
+    "https://www.youtube.com/channel/UCReuARgZI-BFjioA8KBpjsw"
+  ]
 };
+
+const articleSchema = pubDatetime ? {
+  "@context": "https://schema.org",
+  "@type": articleType,
+  headline: title,
+  description: description,
+  image: {
+    "@type": "ImageObject",
+    url: socialImageURL.href,
+    width: 1200,
+    height: 630
+  },
+  datePublished: pubDatetime.toISOString(),
+  ...(modDatetime && { dateModified: modDatetime.toISOString() }),
+  author: {
+    "@type": "Person",
+    name: author,
+    ...(profile && { url: profile }),
+  },
+  publisher: organizationSchema,
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": canonicalURL.href
+  },
+  ...(tags.length > 0 && {
+    keywords: tags.join(', '),
+    about: tags.map(tag => ({
+      "@type": "Thing",
+      name: tag
+    }))
+  }),
+  inLanguage: "ja-JP",
+  isPartOf: {
+    "@type": "Blog",
+    name: SITE.title,
+    url: SITE.website
+  }
+} : null;
+
+const structuredData = isHomePage ? organizationSchema : (articleSchema || organizationSchema);
 ---
 
 <!doctype html>
@@ -65,6 +113,11 @@ const structuredData = {
     <meta name="title" content={title} />
     <meta name="description" content={description} />
     <meta name="author" content={author} />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="language" content="Japanese" />
+    <meta name="geo.region" content="JP" />
+    <meta name="geo.country" content="Japan" />
+    {tags.length > 0 && <meta name="keywords" content={tags.join(', ')} />}
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     <!-- Open Graph / Facebook -->
@@ -72,6 +125,14 @@ const structuredData = {
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={socialImageURL} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={title} />
+    <meta property="og:type" content={pubDatetime ? "article" : "website"} />
+    <meta property="og:site_name" content={SITE.title} />
+    <meta property="og:locale" content="ja_JP" />
+    {pubDatetime && <meta property="article:author" content={author} />}
+    {tags.length > 0 && tags.map(tag => <meta property="article:tag" content={tag} />)}
 
     <!-- Article Published/Modified time -->
     {
@@ -92,11 +153,14 @@ const structuredData = {
     }
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={socialImageURL} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@FlutterUniv" />
+    <meta name="twitter:creator" content="@FlutterUniv" />
+    <meta name="twitter:url" content={canonicalURL} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImageURL} />
+    <meta name="twitter:image:alt" content={title} />
 
     <!-- Google JSON-LD Structured data -->
     <script

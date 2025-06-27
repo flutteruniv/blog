@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -43,7 +43,7 @@ Flutter大学で毎月開催されている、個人開発発表会について�
 
 ## 個人開発発表会とは？
 
-![](/images/wp-content/uploads/2022/03/meeting4-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting4-1024x683.webp)
 
 個人開発発表会とは、
 Flutter大学のメンバーが行っている個人開発について、
@@ -59,7 +59,7 @@ Flutter大学のコミュニティプラン以上の方なら、
 
 ## 個人開発発表会の良いポイント
 
-![](/images/wp-content/uploads/2022/04/20220423_personal_development.png)
+![](/images/wp-content/uploads/2022/04/20220423_personal_development.webp)
 
 個人開発発表会に参加していて良いポイントを３つ、厳選してお伝えします。
 
@@ -122,7 +122,7 @@ Flutter大学メンバーみんなで見守る形となります。
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 本記事では、Flutter大学で毎月開催されている、個人開発発表会について紹介しました。
 語っても語り尽くせない個人開発発表会の良いポイントを厳選して3つ紹介しました。
@@ -158,4 +158,3 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

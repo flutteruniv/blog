@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -22,7 +22,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -49,7 +49,7 @@ https://www.youtube.com/channel/UCReuARgZI-BFjioA8KBpjsw/featured
 
 ## 基礎編
 
-![](/images/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/Meeting-1024x683.webp)
 
 Flutterを始めたい人がまず最初に見るべき動画として、
 以下の３つのパターンで紹介します。
@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=EJOA0plae_s&list=PLuLRJz1UnJzEDjRr1XkqyOzFzUi3Df
 
 ## 応用編
 
-![](/images/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting2-1024x683.webp)
 
 基礎編の動画が見終わって、
 もっと凝ったアプリを作成してみたい、基礎知識をもっと深めてみたい、
@@ -163,7 +163,7 @@ https://youtu.be/zGacVtrEjH4
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/meeting3-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting3-1024x683.webp)
 
 本記事では、Flutter大学YouTubeチャンネルから、
 最初にみるべき動画を厳選してお伝えしました。
@@ -203,4 +203,3 @@ Flutterニュースの動画が良い例かと思います。
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

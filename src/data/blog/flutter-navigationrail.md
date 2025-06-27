@@ -11,7 +11,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -28,14 +28,14 @@ layout: "../../layouts/BlogPost.astro"
 
 本記事を読めば以下のようなUIが作れます。
 
-![](/images/wp-content/uploads/2022/07/20220708_navigation_rail_sample.gif)
+![](/images/wp-content/uploads/2022/07/20220708_navigation_rail_sample.webp)
 
 基本的な使い方から様々なプロパティの使い方まで紹介します。
 ぜひ読んでみて下さい！
 
 ## 基本的な使い方
 
-![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.webp)
 
 基本的な使い方は公式のYouTubeチャンネルでも紹介されています。
 こちらもぜひ観てみてください。
@@ -297,7 +297,7 @@ class MainContents extends StatelessWidget {
 
 ## プロパティの使い方
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 `NavigationRail`で設定できる項目(プロパティ)について、
 いくつか紹介します。
@@ -315,7 +315,7 @@ NavigationRail(
           ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.03.12-824x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.03.12-824x1024.webp" alt="" width="300">
 
 #### エレベーション
 
@@ -329,7 +329,7 @@ NavigationRail(
           ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.37.36-824x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.37.36-824x1024.webp" alt="" width="300">
 
 `Row`で`Widget`を並べている場合は`Elevation`での影が反映されません。
 `Row`でなく`Stack`で重ねる、
@@ -348,7 +348,7 @@ NavigationRail(
           ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.57.13-870x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-18.57.13-870x1024.webp" alt="" width="300">
 
 #### 表示位置
 
@@ -363,7 +363,7 @@ NavigationRail(
           ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.00.02-864x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.00.02-864x1024.webp" alt="" width="300">
 
 #### アイコン上下へのWidget の追加
 
@@ -379,7 +379,7 @@ NavigationRail(
           ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.05.05-872x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.05.05-872x1024.webp" alt="" width="300">
 
 #### インディケーターの表示、色の設定
 
@@ -396,7 +396,7 @@ NavigationRail(
           ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.11.07-876x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.11.07-876x1024.webp" alt="" width="300">
 
 ### アイコンとラベル関連
 
@@ -413,7 +413,7 @@ NavigationRail(
           ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.13.58-864x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.13.58-864x1024.webp" alt="" width="300">
 
 #### アイコン下へのラベルの表示
 
@@ -429,7 +429,7 @@ NavigationRail(
           ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.26.20-867x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.26.20-867x1024.webp" alt="" width="300">
 
 #### アイコンとラベルのテーマ
 
@@ -449,11 +449,11 @@ NavigationRail(
           ),
 ```
 
-<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.32.32-866x1024.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2022/07/スクリーンショット-2022-07-08-19.32.32-866x1024.webp" alt="" width="300">
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 本記事では画面横側で画面遷移をコントロールする サイドメニュー を実装する`Widget`、
 `NavigationRail Widget`を紹介しました。
@@ -494,4 +494,3 @@ Flutter エンジニアに特化した学習コミュニティ、Flutter大学�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

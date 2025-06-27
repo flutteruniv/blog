@@ -13,7 +13,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -25,7 +25,7 @@ ogImage: ""
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/obasan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/obasan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -49,7 +49,7 @@ https://youtu.be/MUEAaEw27BM
 
 ## Flutter大学とは
 
-![](/images/wp-content/uploads/2022/03/Meeting-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/Meeting-1024x683.webp)
 
 ### Flutter大学の概要
 
@@ -85,7 +85,7 @@ GitHubを利用した質問等が可能となります。
 
 ## 課題学習プランとは
 
-![](/images/wp-content/uploads/2022/03/meeting2-1024x683.jpeg)
+![](/images/wp-content/uploads/2022/03/meeting2-1024x683.webp)
 
 ### 課題学習プランの概要
 
@@ -149,7 +149,7 @@ Flutter修行プランの方は、
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 本記事ではFlutter大学の新プラン、課題学習プランについて、
 どんなプランなのか、値段はいくらか等、徹底的に解説しました。
@@ -189,4 +189,3 @@ Flutter大学の新プランはこの環境を提供してくれるプランで�
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。

@@ -34,9 +34,9 @@ Flutterはこのタブの状態管理あたりが、iOSネイティブ（Swift�
 
 Flutter大学内でもDart3.0が話題になってきました！
 
-![](/images/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-07.52.05@2x-1024x196.png)
+![](/images/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-07.52.05@2x-1024x196.webp)
 
-<img src="/images/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-07.53.03@2x-1024x289.png" alt="" width="300">
+<img src="/images/wp-content/uploads/2023/05/CleanShot-2023-05-02-at-07.53.03@2x-1024x289.webp" alt="" width="300">
 
 ちなみにヤマタツさんの紹介してた記事はこちら。
 
@@ -80,4 +80,3 @@ https://twitter.com/FlutterUniv/status/1652823689019412480?s=20
 
 GWも頑張っていきましょう！Flutter大学ではプロモーションコード「GW2023」を入れると5月7日まで1100円引きになるキャンペーン中なのでチェックしてみてください。（キャンペーンは気まぐれでたまにしかやらないのでこの機会をお見逃しなく！）
 
-https://twitter.com/FlutterUniv/status/1651377637330399234?s=20

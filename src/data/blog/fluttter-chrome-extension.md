@@ -10,7 +10,7 @@ layout: "../../layouts/BlogPost.astro"
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
-    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.png" alt="Speaker" />
+    <img src="/images/wp-content/themes/cocoon-master/images/ojisan.webp" alt="Speaker" />
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
@@ -26,7 +26,7 @@ layout: "../../layouts/BlogPost.astro"
 
 以下の画像のような形で、Chromeの拡張機能としてアプリを立ち上げることが可能となります。
 
-![](/images/wp-content/uploads/2022/03/拡張機能の実行例-1-1024x937.png)
+![](/images/wp-content/uploads/2022/03/拡張機能の実行例-1-1024x937.webp)
 
 ぜひ本記事を読んで挑戦してみてください！
 
@@ -36,7 +36,7 @@ https://cswithiyush.hashnode.dev/lets-build-a-chrome-extension-using-flutter
 
 ## Chromeの拡張機能を作成する手順
 
-![](/images/wp-content/uploads/2022/02/コーディング男性.jpeg)
+![](/images/wp-content/uploads/2022/02/コーディング男性.webp)
 
 ### 準備
 
@@ -54,7 +54,7 @@ flutter run -d chrome
 
 Flutterプロジェクトのwebディレクトリ内にある、index.htmlを書き換えます。
 
-![](/images/wp-content/uploads/2022/03/ファイル位置1-1024x846.png)
+![](/images/wp-content/uploads/2022/03/ファイル位置1-1024x846.webp)
 
 2行目にある`<html>`を以下のコードに書き換えてください。
 
@@ -136,38 +136,38 @@ chrome://extensions/
 
 拡張機能のページが開いたら、右上のデベロッパーモードをオンにします。
 
-![](/images/wp-content/uploads/2022/03/デベロッパーモード-1024x938.png)
+![](/images/wp-content/uploads/2022/03/デベロッパーモード-1024x938.webp)
 
 オンにすると、拡張機能の検索バーの下に、3つボタンが出てきます。
 その中の「パッケージ化されていない拡張機能を読み込む」を押してください。
 
-![](/images/wp-content/uploads/2022/03/拡張機能の読み込み-1024x936.png)
+![](/images/wp-content/uploads/2022/03/拡張機能の読み込み-1024x936.webp)
 
 ファイル選択のポップアップが出てくるので、
 作成したFluttterプロジェクトのbuildディレクトリにある、
 webフォルダを選択して決定してください。
 
-![](/images/wp-content/uploads/2022/03/フォルダ選択-1024x595.png)
+![](/images/wp-content/uploads/2022/03/フォルダ選択-1024x595.webp)
 
 以上で追加は完了です。
 
 ブラウザ右上のパズルのピースのアイコンをクリックすると、
 作成した拡張機能が候補として出てきます。
 
-![](/images/wp-content/uploads/2022/03/拡張機能の位置-1024x934.png)
+![](/images/wp-content/uploads/2022/03/拡張機能の位置-1024x934.webp)
 
 作成した拡張機能の横のピンマークをクリックすると、ブラウザに常時表示されるようになります。
 
 表示されたアイコンをクリックすると作成したアプリが立ち上がります。
 
-![](/images/wp-content/uploads/2022/03/拡張機能の実行例-1024x937.png)
+![](/images/wp-content/uploads/2022/03/拡張機能の実行例-1024x937.webp)
 
 おめでとうございます！
 以上が一連の手順となります。
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/猫パソコン.jpeg)
+![](/images/wp-content/uploads/2022/03/猫パソコン.webp)
 
 本記事ではChromeの拡張機能をFlutterを使って作る方法について解説しました。
 
@@ -202,4 +202,3 @@ https://www.yayocode.com/2021/07/how-to-create-google-chrome-extension.html
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
-ぜひぜひフォローをお願いいたします。
