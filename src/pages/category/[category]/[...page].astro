@@ -54,7 +54,7 @@ const { category } = Astro.params;
 <Layout 
   title={`${categoryDisplayPath}カテゴリー | ${SITE.title}`}
   description={categoryConfig.description || `${categoryDisplayPath}に関するFlutter技術記事一覧。初心者向けから上級者向けまで、実用的なサンプルコード付きで学べます。`}
-  canonicalURL={new URL(`/category/${category}/`, Astro.site)}
+  canonicalURL={new URL(`/category/${category}/`, Astro.site).href}
 >
   <Header />
   <Main
