@@ -77,14 +77,22 @@ export default async () => {
                           {
                             type: "p",
                             props: {
-                              style: { fontSize: 72, fontWeight: "bold" },
+                              style: { 
+                                fontSize: 64, 
+                                fontWeight: "bold",
+                                fontFamily: "Noto Sans JP",
+                                lineHeight: 1.2
+                              },
                               children: SITE.title,
                             },
                           },
                           {
                             type: "p",
                             props: {
-                              style: { fontSize: 28 },
+                              style: { 
+                                fontSize: 24,
+                                fontFamily: "Noto Sans JP"
+                              },
                               children: SITE.desc,
                             },
                           },
@@ -99,12 +107,17 @@ export default async () => {
                           justifyContent: "flex-end",
                           width: "100%",
                           marginBottom: "8px",
-                          fontSize: 28,
+                          fontSize: 24,
+                          fontFamily: "Noto Sans JP",
                         },
                         children: {
                           type: "span",
                           props: {
-                            style: { overflow: "hidden", fontWeight: "bold" },
+                            style: { 
+                              overflow: "hidden", 
+                              fontWeight: "bold",
+                              fontFamily: "Noto Sans JP"
+                            },
                             children: new URL(SITE.website).hostname,
                           },
                         },
