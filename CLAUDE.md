@@ -14,7 +14,7 @@ The repository now has automated deployment via GitHub Actions:
 - **Process**: Build locally on GitHub runner → Deploy to Netlify with `--no-build`
 - **Secrets Required**:
   - `NETLIFY_AUTH_TOKEN`: Your Netlify personal access token
-  - `NETLIFY_SITE_ID`: Site ID from Netlify (fe81273c-2137-43b8-a171-09998ee818b9)
+  - `NETLIFY_SITE_ID`: Site ID from Netlify (`<YOUR_NETLIFY_SITE_ID>`)
 
 ### Deployment Tips (2024-06-28)
 - **Timeout Issue**: `netlify deploy --dir dist --prod` may timeout during build phase on Netlify
