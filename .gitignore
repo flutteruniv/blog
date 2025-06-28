@@ -32,7 +32,8 @@ public/remark-link-card-plus/
 
 flutter.WordPress.2025-06-25.xml
 
-# Claude settings
+# Claude settings (local configuration files)
 .claude/settings.local.json
+*/.claude/settings.local.json
 # Local Netlify folder
 .netlify
