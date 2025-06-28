@@ -1,6 +1,6 @@
 {
   "permissions": {
-    "defaultMode": "acceptEdits",
+    "defaultMode": "bypassPermissions",
     "allow": [
       "Bash(say \"No WordPress XML file found in the blog data directory\")",
       "Bash(say \"WordPress XML file found at /Users/fujikawakei/app/blog/flutter.WordPress.2025-06-25.xml\")",

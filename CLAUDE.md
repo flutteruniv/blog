@@ -1,9 +1,27 @@
 # Blog Project Instructions
 
 ## Deployment
-When user says "deploy please", run: `npm run build && netlify deploy --dir dist --prod`
+
+### Manual Deployment
+When user says "deploy please", run: `npm run build && netlify deploy --dir dist --prod --no-build`
 
 This command builds the site locally (keeping rich link cards from remark-link-card-plus) and deploys only the built files to Netlify, avoiding build costs while maintaining functionality.
+
+### Automatic Deployment (GitHub Actions)
+The repository now has automated deployment via GitHub Actions:
+- **Trigger**: Pushes to `main` branch
+- **Workflow**: `.github/workflows/deploy.yml`
+- **Process**: Build locally on GitHub runner → Deploy to Netlify with `--no-build`
+- **Secrets Required**:
+  - `NETLIFY_AUTH_TOKEN`: Your Netlify personal access token
+  - `NETLIFY_SITE_ID`: Site ID from Netlify (fe81273c-2137-43b8-a171-09998ee818b9)
+
+### Deployment Tips (2024-06-28)
+- **Timeout Issue**: `netlify deploy --dir dist --prod` may timeout during build phase on Netlify
+- **Solution**: Use `--no-build` flag to skip remote build and deploy pre-built local files
+- **Build Time**: Local build takes ~60s, much faster than remote build with HTTP requests
+- **Cost Savings**: Local build is free, remote builds with remark-link-card-plus are expensive
+- **One-liner**: `npm run build && netlify deploy --dir dist --prod --no-build`
 
 ## Japanese OG Image Support
 The blog now supports Japanese text in dynamic OG images:
