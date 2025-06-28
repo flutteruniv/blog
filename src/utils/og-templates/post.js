@@ -155,10 +155,12 @@ export default async post => {
                       type: "p",
                       props: {
                         style: {
-                          fontSize: 72,
+                          fontSize: 56,
                           fontWeight: "bold",
                           maxHeight: "84%",
                           overflow: "hidden",
+                          fontFamily: "Noto Sans JP",
+                          lineHeight: 1.2,
                         },
                         children: post.data.title,
                       },
@@ -171,7 +173,8 @@ export default async post => {
                           justifyContent: "space-between",
                           width: "100%",
                           marginBottom: "8px",
-                          fontSize: 28,
+                          fontSize: 24,
+                          fontFamily: "Noto Sans JP",
                         },
                         children: [
                           {
@@ -192,6 +195,7 @@ export default async post => {
                                     style: {
                                       overflow: "hidden",
                                       fontWeight: "bold",
+                                      fontFamily: "Noto Sans JP",
                                     },
                                     children: post.data.author,
                                   },
@@ -202,7 +206,11 @@ export default async post => {
                           {
                             type: "span",
                             props: {
-                              style: { overflow: "hidden", fontWeight: "bold" },
+                              style: { 
+                                overflow: "hidden", 
+                                fontWeight: "bold",
+                                fontFamily: "Noto Sans JP"
+                              },
                               children: SITE.title,
                             },
                           },
