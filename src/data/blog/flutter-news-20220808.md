@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Flutter ニュース 【2022年8月第1週】"
+title: "Flutter ニュース 【2022年8月第2週】"
 description: ""
 pubDatetime: "2022-08-08"
 author: Aoi
@@ -25,7 +25,7 @@ ogImage: ""
 
 そんなあなたに送る、 Flutterニュース 。
 
-本記事ではFlutterニュースとして、2022年8月第1週に話題になったFlutter関連の情報や、
+本記事ではFlutterニュースとして、2022年8月第2週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行います。
 
 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
