@@ -47,7 +47,18 @@ layout: "../../layouts/BlogPost.astro"
   </div>
 </div>
 
-テスト、書いた方がいいのはわかるけれど、何のために書くのかわからない、
+<div class="speech-bubble-container">
+  <div class="speech-bubble-avatar">
+    <img src="/images/wp-content/themes/cocoon-master/images/b-man.webp" alt="Speaker" />
+  </div>
+  <div class="speech-bubble">
+    <div class="speech-bubble-content">
+      テスト、書いた方がいいのはわかるけれど、何のために書くのかわからない、
+    </div>
+    <div class="speech-bubble-arrow arrow-left"></div>
+  </div>
+</div>
+
 そんな方いらっしゃると思います。
 
 テストを書く目的は『**安心するため**』です。
@@ -352,12 +363,11 @@ Golden生成時は、第２引数の`String`の名前がGoldenの名前となり
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
-      小さい端末だったり、大きい端末だったり、
+      小さい端末だったり、大きい端末だったり、色々な端末でレイアウトチェックしなければいけないのが面倒臭い！
     </div>
     <div class="speech-bubble-arrow arrow-left"></div>
   </div>
 </div>
-色々な端末でレイアウトチェックしなければいけないのが面倒臭い！
 
 <div class="speech-bubble-container">
   <div class="speech-bubble-avatar">
@@ -365,12 +375,11 @@ Golden生成時は、第２引数の`String`の名前がGoldenの名前となり
   </div>
   <div class="speech-bubble">
     <div class="speech-bubble-content">
-      画面遷移を何回もしないと辿り着けない画面をレイアウトチェックするのって、
+      画面遷移を何回もしないと辿り着けない画面をレイアウトチェックするのって、ものすごい手間だわ。
     </div>
     <div class="speech-bubble-arrow arrow-left"></div>
   </div>
 </div>
-ものすごい手間だわ。
 
 これらの開発体験の悪さ、Golden Testをうまく使えば、解消できるんです。
 
