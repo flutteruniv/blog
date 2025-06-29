@@ -272,7 +272,6 @@ https://blog.flutteruniv.com/flutteruniversity-indie-development-presentation/
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/新聞-1024x683.webp)
 
 本記事ではFlutterニュースとして、
 2022年4月第4週に話題になったFlutter関連の情報や、

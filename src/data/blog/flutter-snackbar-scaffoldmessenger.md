@@ -38,7 +38,6 @@ layout: "../../layouts/BlogPost.astro"
 
 本記事を読めば以下のgifのように、一時的にメッセージを出すことが可能となります。
 
-![](/images/wp-content/uploads/2022/03/SnackBar.webp)
 
 `BuildContext`を使う方法と使わない方法、２つを紹介します。
 

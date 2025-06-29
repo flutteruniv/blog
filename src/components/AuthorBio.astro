@@ -12,7 +12,7 @@ const author = getAuthor(authorName);
 const defaultAuthor: Author = {
   name: authorName,
   bio: "Flutter大学のライター",
-  avatar: "/images/authors/default.jpg",
+  avatar: "/images/authors/default.webp",
   twitterHandle: "FlutterUniv",
   website: "https://flutteruniv.com"
 };
@@ -29,7 +29,7 @@ const authorData = author || defaultAuthor;
         alt={`${authorData.name}のプロフィール画像`}
         class="w-16 h-16 rounded-full object-cover border-2 border-accent/20"
         loading="lazy"
-        onerror="this.src='/images/authors/default.jpg'"
+        onerror="this.src='/images/authors/default.webp'"
       />
     </div>
     

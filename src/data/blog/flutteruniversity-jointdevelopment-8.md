@@ -35,7 +35,6 @@ Flutter大学の共同開発の雰囲気が分かる記事となっています�
 
 ## Flutter大学 の 共同開発 とは？
 
-![](/images/wp-content/uploads/2022/03/meeting4-1024x683.webp)
 
 Flutter大学の共同開発について解説します。
 

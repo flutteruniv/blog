@@ -6,7 +6,7 @@
 set -e
 
 # Configuration
-IMAGE_DIR="/Users/fujikawakei/app/blog/public/images/wp-content"
+IMAGE_DIR="/Users/fujikawakei/app/blog/public/images"
 BLOG_DIR="/Users/fujikawakei/app/blog/src/data/blog"
 WEBP_QUALITY=85
 LOG_FILE="/tmp/webp_conversion.log"
@@ -88,12 +88,12 @@ update_markdown_files() {
         cp "$md_file" "$temp_file"
         
         # Replace image references with WebP versions
-        # Match patterns like: /images/wp-content/uploads/2022/02/image.jpg
+        # Match patterns like: /images/wp-content/uploads/2022/02/image.jpg or /images/authors/image.jpg
         while IFS= read -r line; do
             # Look for image references
-            if echo "$line" | grep -q '/images/wp-content.*\.\(jpg\|jpeg\|png\|gif\)'; then
+            if echo "$line" | grep -q '/images/.*\.\(jpg\|jpeg\|png\|gif\)'; then
                 # Replace extension with .webp
-                new_line=$(echo "$line" | sed -E 's/\/images\/wp-content([^"]*)\.(jpg|jpeg|png|gif)/\/images\/wp-content\1.webp/g')
+                new_line=$(echo "$line" | sed -E 's/\/images\/([^"]*)\.(jpg|jpeg|png|gif)/\/images\/\1.webp/g')
                 if [[ "$new_line" != "$line" ]]; then
                     changes_made=true
                     echo "$new_line"

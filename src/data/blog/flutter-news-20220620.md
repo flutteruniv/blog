@@ -237,7 +237,6 @@ https://blog.flutteruniv.com/flutter-package-fade-out-particle/
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/新聞-1024x683.webp)
 
 本記事ではFlutterニュースとして、
 2022年6月第3週に話題になったFlutter関連の情報や、

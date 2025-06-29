@@ -136,7 +136,6 @@ Riverpod のStreamProviderでFirestoreを使用したチャットのリアルタ
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/meeting3-1024x683.webp)
 
 本記事では2022年3月に行われた全4回の共同勉強会の概要をそれぞれお伝えしました。
 

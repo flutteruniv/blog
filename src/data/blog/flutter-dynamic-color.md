@@ -48,7 +48,6 @@ Material You (Material 3) の目玉機能の一つとなっています。
 
 以下のGifがサンプルアプリによるダイナミックカラーの挙動となります。
 
-![](/images/wp-content/uploads/2022/06/dynamic_color_sample.webp)
 
 壁紙の変更により、アプリ内の色が変わっていることを確認できます。
 
@@ -57,7 +56,6 @@ Material You (Material 3) の目玉機能の一つとなっています。
 
 ## ダイナミックカラーの実装方法
 
-![](/images/wp-content/uploads/2022/02/コーディング女性.webp)
 
 ここからは具体的な実装方法について解説していきます。
 

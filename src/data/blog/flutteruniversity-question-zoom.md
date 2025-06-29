@@ -97,7 +97,6 @@ https://blog.flutteruniv.com/flutteruniversity_explanation/
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/meeting4-1024x683.webp)
 
 本記事では大学の質問Zoomについて、特徴を詳細に解説しました。
 

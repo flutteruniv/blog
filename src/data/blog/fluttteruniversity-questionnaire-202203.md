@@ -46,7 +46,6 @@ Flutte大学に入ろうか悩んでいる人、気になっている人必見�
 
 ## Flutter大学とは？
 
-![](/images/wp-content/uploads/2022/03/meeting3-1024x683.webp)
 
 Flutter大学とは、「Flutterエンジニアに特化した学習コミュニティ」です。
 
@@ -188,7 +187,6 @@ Flutter大学の値段設定が他のサービスと比べてどのように感�
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/新聞-1024x683.webp)
 
 本記事ではFlutter大学の評判として、
 3月末にFlutter大学内で実施した満足度調査結果の一部を公開しました。

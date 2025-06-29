@@ -264,7 +264,6 @@ https://blog.flutteruniv.com/flutteruniversity-slack/
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/新聞-1024x683.webp)
 
 本記事ではFlutterニュースとして、2022年3月第4週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行いました。
