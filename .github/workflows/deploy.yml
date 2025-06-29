@@ -40,7 +40,8 @@ jobs:
       with:
         status: success
         text: '✅ Blog deployment to Netlify completed successfully'
-        webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
         
     - name: Notify Slack on Failure
       if: failure()
@@ -48,4 +49,5 @@ jobs:
       with:
         status: failure
         text: '❌ Blog deployment to Netlify failed'
-        webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
