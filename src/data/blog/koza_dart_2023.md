@@ -26,7 +26,7 @@ layout: "../../layouts/BlogPost.astro"
 
 沖縄といえば那覇市と思う方も多いと思います。コザは那覇市から車で1時間ほど北に向かったところにある沖縄市の中にある地域です。
 
-![](https://www.kozapa-osi.jp/access/images/img_map.png)
+![](https://www.kozapa-osi.jp/access/images/img_map.webp)
 
 厳密にはコザという住所はないのですが、米軍が越来村の胡屋地区をKOZAと呼んだことをきっかけに、一般の人々もコザと呼ぶようになったと言われています。
 

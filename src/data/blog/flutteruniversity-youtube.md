@@ -163,7 +163,6 @@ https://youtu.be/zGacVtrEjH4
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/meeting3-1024x683.webp)
 
 本記事では、Flutter大学YouTubeチャンネルから、
 最初にみるべき動画を厳選してお伝えしました。

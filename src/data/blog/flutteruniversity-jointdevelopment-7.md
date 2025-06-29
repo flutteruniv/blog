@@ -148,7 +148,6 @@ https://www.youtube.com/channel/UCReuARgZI-BFjioA8KBpjsw/featured
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/meeting4-1024x683.webp)
 
 本記事では、Flutter大学の重要なコンテンツである、共同開発について解説しました。
 

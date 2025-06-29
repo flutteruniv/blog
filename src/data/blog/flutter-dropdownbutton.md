@@ -234,7 +234,6 @@ DropdownButton(
             ),
 ```
 
-<img src="/images/wp-content/uploads/2022/03/DropdownButton_blue-473x1024.webp" alt="" width="300">
 
 ### アイコンの変更
 

@@ -167,7 +167,6 @@ Flutter大学のメンバーに認知され、有益な情報を得ることが�
 
 ## まとめ
 
-![](/images/wp-content/uploads/2022/03/meeting3-1024x683.webp)
 
 本記事ではFlutter大学で使われているコミュニケーションツール、Slackの紹介と、
 SlackをFlutter大学でどのような活用をしたら良いのかについて解説しました。

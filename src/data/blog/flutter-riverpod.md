@@ -57,7 +57,6 @@ Riverpodについて解説する前に、まず背景として解決したい問
 以下の図のように `main.dart`でインスタンス(Instance)を定義し、
 Widget ツリーの下層にインスタンスを受け渡して使用する方法です。
 
-![](/images/wp-content/uploads/2022/05/スクリーンショット-2022-05-27-23.54.58-1024x600.webp)
 
 これだと、
 
@@ -97,7 +96,6 @@ flutter_riverpod 1.0.4
 
 今回は少し改造したカウンターアプリでRiverpodの基本的な使い方を学びましょう。
 
-![](/images/wp-content/uploads/2022/05/20220528_riverpod_base.webp)
 
 基本的なカウンターアプリに、画面遷移を追加したサンプルです。
 

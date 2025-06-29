@@ -802,7 +802,6 @@ class MySecondPage extends StatelessWidget {
 
 Flutter Performance で+ボタンを押した時のリビルドの状況を見てみましょう。
 
-![](/images/wp-content/uploads/2022/06/20220618_inherited_performance_before.webp)
 
 画面的に変化している部分はカウンター部分の`Text`だけですが、
 変化していない`Scaffold`などもリビルドされていることがわかります。
