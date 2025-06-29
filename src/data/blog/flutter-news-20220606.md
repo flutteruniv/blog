@@ -1,9 +1,9 @@
 ---
-title: "Flutter ニュース 【2022年5月第4週】"
+title: "Flutter ニュース 【2022年6月第1週】"
 slug: "flutter-news-20220606"
 author: "Aoi"
-description: ""
-pubDatetime: "2022-05-30"
+description: "本記事では Flutter ニュース として、2022年6月第1週に話題になったFlutter関連の情報や、 アップされた記事、YouTube動画の紹介を行います。 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！"
+pubDatetime: "2022-06-06"
 tags: ["ニュース"]
 layout: "../../layouts/BlogPost.astro"
 ---
@@ -22,201 +22,264 @@ layout: "../../layouts/BlogPost.astro"
 
 そんなあなたに送る、 Flutterニュース 。
 
-本記事ではFlutterニュースとして、2022年5月第4週に話題になったFlutter関連の情報や、
+本記事ではFlutterニュースとして、2022年6月第1週に話題になったFlutter関連の情報や、
 アップされた記事、YouTube動画の紹介を行います。
 
 読むだけでFlutterの最新情報がキャッチアップできます。 ぜひ読んでみてください！
 
 ## Flutter公式情報
 
-### Package of the Week shared_prefernces
+### Making generic widgets (The Boring Flutter Development Show, Ep. 58)
 
-https://youtu.be/sa_U0jffQII
+https://youtu.be/Ikg7vHJoZjA
 
-Flutter公式のパッケージを紹介する動画シリーズ、Package of the Week が更新されました。
+Flutter公式の動画シリーズ、The Boring Flutter Development Showが更新されました。
 
-今回はローカルでデータを保存する、shared_preferncesについての動画となります。
+今回はインスタンス生成時にデータ型を指定できるようにできる、
+ジェネリクスについての解説となっています。
+
+### CodeLab 映画推薦アプリの作成
+
+https://codelabs.developers.google.com/tfrecommenders-flutter#0
+
+Flutter 公式により、映画推薦アプリの作成に関するCodeLabが紹介されました。
+
+TensorFlowを使った推薦システムを実装するアプリの作成のチュートリアルとなっています。
+
+### Type Promotion | Decoding Flutter
+
+https://youtu.be/2Cl0C-9dK48
+
+コードの中で型をより限定的な型であると推定し使えるようにするDartの機能、
+Type Promotion についての解説動画です。
+
+例を用いてType Promotion について学ぶことができます。
 
 ### DartPad ワークショップの紹介
 
-今週公式Twitterにて様々なDartPadでのワークショップが紹介されていました。
+今週も公式Twitterにて様々なDartPadでのワークショップが紹介されていました。
 
-#### モバイルからWeb,Desktopへの移行
+#### 優雅にエラーをハンドリングしよう
 
-https://dartpad.dev/workshops.html?webserver=https://mobile2web-workshop.web.app
+https://dartpad.dev/workshops.html?webserver=https://handling-errors-gracefully.web.app
 
-モバイルからWeb,Desktopアプリへの移行するにあたっての、
-マウスホバー時のアクションやキーボード入力に関する設定等を学べるワークショップです。
+`try - catch`を始めとして、エラーのハンドリングの仕方について
+様々なテクニックを学ぶことができるワークショップです。
 
-#### LazyIndexedStack の実装
+#### blocを使った状態管理のセグメント化
 
-https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/AlexV525/dartpad_workshops/main/implement_lazy_indexed_stack
+https://dartpad.dev/workshops.html?webserver=https://dartpad-ws-segmented-state.web.app
 
-`IndexedStack` `Widget`にて遅延読み込みを実現した、
-`LazyIndexedStack` `Widget`の実装方法について学べるワークショップです。
+BloCを使用して、状態を`Data`,`Error`,`Loading`の3状態に分けて管理する方法について、
+学ぶことができるワークショップです。
 
-#### Flutter Themeでの一貫したデザイン
+#### 数学者としてコードを書こう
 
-https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/foxanna/flutter_theme_workshop/main/workshop#Step1
+https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/olexale/mathematician_workshop/main/#Step1
 
-`Theme`や`ThemeData`を用いて、
-ボタンやテキスト等に一貫したデザインを実装する方法を学べるワークショップです。
+ロジックを考えることが得意な数学者のように、
+普段書いているコードを様々なテクニックを使ってリファクタリングしていく
+方法について学部ことができるワークショップです。
 
-#### Extension メソッド
+#### アニメーションの実装
 
-https://dartpad.dev/workshops.html?webserver=https://extension-method-workshop.web.app
+https://dartpad.dev/workshops.html?webserver=https://raw.githubusercontent.com/pszklarska/flutter_animations_workshop/master/
 
-既存のクラスに新しい機能を加える、
-`Extension` メソッドの使い方について学ぶことができるワークショップです。
+様々なアニメーションの方法について学ぶことのできるワークショップです。
+
+#### Flutter Web アプリのポートフォリオ
+
+https://dartpad.dev/workshops.html?webserver=https://dartworkshop-291fb.web.app
+
+Flutter Web でのアプリケーションの作成方法について学ぶことができるワークショップです。
 
 ## Flutterに関する話題
 
-### 仮想マシンでの比較によるM1 マシンでのFlutterビルドの速さについて
+### Frosty
 
-https://www.reddit.com/r/FlutterDev/comments/uxbp8p/flutter_builds_are_way_faster_with_m1_machines_a/
+https://www.frostyapp.io/
 
-CodeMagic でのCI/CD でFlutterアプリをビルドする際に、
-M1 Mac の端末を選択すると、Mac Pro を選択するより50%速い、
-という検証結果についての投稿、記事です。
+Flutter で作られたTwitch のモバイルアプリ、
+FrostyがRedditで話題になっていました。
 
-投稿内のリンクから飛べる記事には比較のグラフが記載されています。
+GitHub上でソースコードが公開されています。
+Providerを用いて作成されているようでした。
 
-### flutter_floating プラグイン
+### Flutter Puzzle : multi platform 部門 第2位
 
-https://github.com/jiusanzhou/flutter_floatwing
+https://www.reddit.com/r/FlutterDev/comments/v4osgs/flutter_puzzle_runner_up_in_category_multi/
 
-Android 端末で他のアプリやホーム画面でオーバーレイで
-Flutterアプリの画面を表示させるプラグインがRedditで話題になっていました。
+Flutter Puzzle Hack のMultiPlatform部門で2位を取得したアプリ紹介の投稿です。
 
-Readmeに使用感のGifが記載されています。
+MultiPlatform部門で2位を取得しているだけあって、
+Webだけでなくデスクトップアプリやモバイルにも対応しているとのことでした。
 
-###  Hacki for Hacker News
+### pod_player プラグイン
 
-https://github.com/Livinglist/Hacki
+https://pub.dev/packages/pod_player
 
-[Hacker News](https://news.ycombinator.com/)をスマホアプリで見れるようにした
-アプリケーションのソースコードが公開されていました。
+Youtube動画やVimeo動画をFlutterアプリ上で再生できるようにするプラグイン、
+pod_playerプラグインがReddit上で話題になっていました。
 
-状態管理手法としてBloCを用いて作成されているとのことです。
+再生だけでなく、再生速度の変更等が行えるとのことです。
+
+### Neat パッケージ
+
+https://pub.dev/packages/neat
+
+Flutterのコードを短く書けるようにするパッケージ、
+NeatがRedditで話題となっていました。
+
+Text Widgetなどのコードをcontext.~の形で簡潔に書くことができます。
 
 ## Flutterに関する記事
 
-### **FlutterFlowのススメ**
+### **Flutter はモバイル開発のオートマになるか？【Flutter】**
 
-https://zenn.dev/sugawara/articles/02e2f119a363fb
+https://zenn.dev/yuuki0206/articles/9de7dc295380e7
 
-FlutterのローコードツールであるFlutterFlowについて紹介された記事です。
+Flutterに関する紹介記事です。
 
-無料版と有料版の違いなど、実務で使用している目線から詳しく解説がされています。
+Flutterの扱いやすさを車の機構のAT(オートマ)に例えて表現されています。
 
-### Dart Frog で サーバー側をDartで書こう
+### **FlutterアプリのPresentation層構成方針**
 
-https://verygood.ventures/blog/dart-frog
+https://zenn.dev/altive/articles/flutter-presentation-directory
 
-VERY GOOD VENTURESによるDart でのバックエンドフレームワーク、
-Dart Frog についての記事です。
+ユーザーが扱う画面部分のフォルダ構成について検討、紹介している記事です。
 
-まだ試験段階のようですが、Dartでバックエンドサーバーの処理を書くことができます。
-セットアップの仕方からテストの仕方まで記載されています。
+この記事内で紹介されているDiscussionにて、
+紹介のフォルダ構成に至った経緯等を知ることができます。
 
-### Dart での高階関数と再帰
+### Flutter アプリでのダイナミックテーマ
 
-https://medium.com/flutter-community/higher-order-functions-recursion-in-dart-functional-programming-part-5-4237bc114005
+https://itnext.io/dynamically-theme-your-flutter-app-59da5037f5df
 
-Dartでの再帰関数や高階関数に関する記事です。
+Android 12 から実装されたMaterial You の機能である、
+[User-generated schemes (UGS)](https://m3.material.io/m3/pages/dynamic-color/user-generated-color)、
+こちらをFlutterにて実装する方法について解説した記事が
+Redditで話題となっていました。
 
-Mapやreduceなどの高階関数が例を用いて紹介されています。
+ユーザーの壁紙からテーマの基盤となるカラーを取得し、
+これをアプリに反映させることができるようになります。
 
-再帰関数については週刊Flutter大学にて記事を出しています。
+こちらについては週刊Flutter大学でも記事にしています。
 併せてご確認ください。
 
-https://blog.flutteruniv.com/dart-recursive-function/
-
-### FVM - Flutter バージョン管理の楽な方法
-
-https://dhruvnakum.xyz/fvm-flutter-version-management-an-easier-way-to-maintain-flutter-versions
-
-FVM (Flutter バージョン管理)について書かれた記事です。
-
-インストール方法から使い方まで記載されています。
+https://blog.flutteruniv.com/flutter-dynamic-color/
 
 ## Flutterに関する動画
 
-### Flutter What's next? Project Structure
+### Flutter 3で Linux のパッケージ検索アプリを作成する5分の動画
 
-https://youtu.be/80-ZIcxnITI
+https://www.youtube.com/watch?v=QExuHkYFMQA
 
-Flutterのプロジェクトの構造について解説している動画です。
+Ubntuのテーマ、yaruの見た目でアプリを構成する、という趣旨の動画です。
 
-前半ではProvider,後半ではGetXを用いたプロジェクトの構造について紹介されています。
+約5分の動画で検索機能をもったアプリの構成方法を学べます。
 
-### Flutter Game Tutorials - Generating Terrain (2022)
+### Dart Frog Demo
 
-https://youtu.be/FwtOUqXZazw
+https://www.youtube.com/watch?v=N7l0b09c6DA
 
-ゲーム作成チュートリアルとして、地形の作り方について解説されている動画です。
+バックエンドをDart で書けるようにする、Dart Frog についてのライブアーカイブ動画です。
 
-再帰関数を用いた、池のオブジェクトの作成方法が解説されています。
+Demoとして実装している様子が動画化されており、
+チュートリアルとして有用です。
 
-### First look at shader command-line tool for Flutter
+## Flutter 大学による動画
 
-https://youtu.be/Yq3B4lpJSKg
+Flutter大学が先週出した動画をまとめて紹介します。
 
-shader パッケージ、並びに shader_cli パッケージの利用方法について解説された動画です。
+https://youtu.be/4b6DuHGcltI
 
-コマンドラインツールを用いてシェーダーのコードを即座に反映させる方法が
-解説されています。
+https://youtu.be/Cpg3otpYG9w
+
+## Flutter大学メンバーがリリースしたアプリ
+
+### つみあげったー ~  その日やった積み上げを楽々ツイート！ ~ 
+
+https://apps.apple.com/jp/app/%E3%81%A4%E3%81%BF%E3%81%82%E3%81%92%E3%81%A3%E3%81%9F%E3%83%BC/id1626830264
+
+https://play.google.com/store/apps/details?id=com.zerokaraapp.tumiagetter
+
+共同開発8、つみあげったーチームにより、
+その日やった積み上げを楽々ツイートできるアプリ、『つみあげったー』がリリースされました。
+
+積み上げ内容を登録し、
+チェックボックスにチェックを入れてツイートボタンを押すだけで、
+ツイート文が自動生成されるアプリとなっています。 
+
+現在機能改善のアップデートに向けて鋭意開発中とのことです。
+楽しみですね！
+
+## Flutter大学メンバーによる記事
+
+### **driftを使ってToDoアプリを作ってみる**
+
+https://zenn.dev/asano369/articles/7efdd3300aa735
+
+Flutterで内部データベースを扱えるようにするdriftを使って、
+ToDoアプリを作成する方法について解説された記事です。
+
+サンプルコードを含め詳細に作成内容が解説されています。
+
+### **FlutterでAndroidのbuildエラーが出た!**
+
+https://zenn.dev/joo_hashi/articles/d24a196cc5b958
+
+Flutterでの開発時のAndroidビルドエラーの対処法について書かれた記事です。
 
 ## 週刊Flutter大学の記事
 
 先週週刊Flutter大学に追加された記事は以下になります。
 
-https://blog.flutteruniv.com/flutter-news-20220523/
+https://blog.flutteruniv.com/flutter-news-20220530/
 
-https://blog.flutteruniv.com/flutter-dart-final-const/
+https://blog.flutteruniv.com/flutter-dynamic-color/
 
-https://blog.flutteruniv.com/dart-recursive-function/
+https://blog.flutteruniv.com/flutteruniversity-study-meeting-202205/
 
-https://blog.flutteruniv.com/flutter-riverpod/
+<div class="flutteruniv-banner">
+  <a href="https://flutteruniv.com" target="_blank" rel="nofollow noopener">
+    <img src="/images/wp-content/uploads/2022/07/Flutter大学バナー.webp" alt="Flutter大学" />
+  </a>
+</div>
 
-## まとめ
+## 編集後記（2022/6/6）
 
+<div class="editorial-note">
 
-本記事ではFlutterニュースとして、
-2022年5月第4週に話題になったFlutter関連の情報や、
-アップされた記事、YouTube動画の紹介を行いました。
+Flutter大学メンバーがリリースしたアプリとして、
+『つみあげったー』を紹介しました。
 
-この記事が、みなさんのFlutterアプリ開発の一助となれば幸いです。
+こちらのアプリには自分も関わっていて、
+ほぼ予定通りにリリースができてホッとしているところです。
 
-Flutterを一緒に学んでみませんか？
-Flutter エンジニアに特化した学習コミュニティ、Flutter大学への入会は、
-以下の画像リンクから。
+こちらのアプリの開発プロジェクトは、
+アプリ開発初心者が少しでもステップアップできるように、
+と考えて企画したプロジェクトになっています。
 
-## 編集後記（2022/5/30）
+まずはコードを書いて、それを実現する、ということを実感してもらう、
+という点でリリースはメンバーの良い経験になったのではないかと思います。
 
-ありがたいことに、自分の仕事は家で完結しています。
+自分としても、コードを書かずにプロジェクトの進捗を管理し、
+人に実装を任せてアプリをリリースするという、
+プロジェクトマネジメントの経験をすることができたので、
+とても体験としてよかったです。
 
-そのため、月に3~4回ほどしか家から出ない生活を送っています。
+このプロジェクトは次のアップデートによる実践まで行って完了となります。
+最終的なアプリについては6月末に開かれる、共同開発最終発表会にて、紹介する予定です。
 
-これは良いことだと思っているのですが、ちょっと困ったというか、
-辛かった出来事があったので紹介します。
+告知は再度週刊Flutter大学にて行いますので、
+最終発表会、ぜひ見に来てください！
 
-先日、某夢の国に遊びに行ったときのことです。
+</div>
 
-最近は入場者数の制限もゆるくなっているからか、
-体感とても多い人数の来場者数でした。
-人数が多くなると長くなるのがアトラクションの待ち時間です。
-
-夢の国の滞在時間の半分くらいがアトラクションの待ち時間で、
-ちょっと進んでは止まる、座ることができない時間を過ごしました。
-
-こうした時に悲鳴をあげるのが普段座り仕事しかしていない自分の足です。
-滞在中から痛くて仕方がなく、帰宅時には泣きそうになりながら帰っていました。
-
-テレワークに喜ぶばかりでなく、
-なにかしらで足腰を鍛えることは必要だなと、改めて感じました。
-
-少しずつ鍛えていくようにします。
+<div class="info-box">
 
 週刊Flutter大学では、Flutterに関する技術記事、Flutter大学についての紹介記事を投稿していきます。
 記事の更新情報は[Flutter大学Twitter](https://twitter.com/FlutterUniv)にて告知します。
+ぜひぜひフォローをお願いいたします。
+
+</div>

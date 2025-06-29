@@ -29,13 +29,13 @@ layout: "../../layouts/BlogPost.astro"
 
 ## Flutter公式情報
 
-### Package of the Week shared_prefernces
+### Package of the Week shared_preferences
 
 https://youtu.be/sa_U0jffQII
 
 Flutter公式のパッケージを紹介する動画シリーズ、Package of the Week が更新されました。
 
-今回はローカルでデータを保存する、shared_preferncesについての動画となります。
+今回はローカルでデータを保存する、shared_preferencesについての動画となります。
 
 ### DartPad ワークショップの紹介
 
