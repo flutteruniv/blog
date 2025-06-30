@@ -26,6 +26,8 @@ def fetch_recent_articles():
         feed = feedparser.parse(url)
         for entry in feed.entries:
             # 記事の公開日をdatetimeオブジェクトに変換
+            if entry.published_parsed is None:
+                continue  # 日付が取得できない記事はスキップ
             published_date = datetime.datetime(*entry.published_parsed[:6])
             # 公開日が指定された日付よりも新しいかチェック
             if published_date >= since_date:
