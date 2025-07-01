@@ -96,10 +96,8 @@ https://blog.flutteruniv.com/flutter_besso/
 Flutterに集中して取り組むFlutter合宿が9月に開催されました！
 
 山梨県の貸し切りの宿にて、
-Flutter の開発をもくもくとしたり、技術論について語り合ったりする、
-５日間の合宿です。
+Flutter の開発をもくもくとしたり、技術論について語り合ったりする、５日間の合宿です。
 
-参加者のcoboさんがこの合宿の感想の記事を書いてくださいました！
 
 ### Flutter大学を飛び出したカンファレンス、Flutter Gakkai 実施！
 
