@@ -161,8 +161,6 @@ Pubspecのファイルのネスト化など、
 
 ### Hash ~大学生限定コミュニティ~
 
-https://apps.apple.com/jp/app/hash/id1614642150
-
 ひろたかさんにより、
 大学生限定コミュニティアプリ、『Hash』がリリースされました！
 
@@ -173,10 +171,6 @@ Flutter大学の質問相談会、質問Zoomにたくさん参加し、
 アプリの改善をしていたのがとても印象的でした。
 
 ### MinimalCoord ~ミニマリスト向けファンションShareアプリ~
-
-https://apps.apple.com/jp/app/minimalcoord/id1609353352
-
-https://play.google.com/store/apps/details?id=com.hikaru.minimal_coord
 
 ひかるさんにより、
 ミニマリスト向けファンションShareアプリ『MinimalCoord』がリリースされました！
@@ -250,8 +244,6 @@ Flutterを触り始めた初心者が最初にやるべきことから、
 
 ### **【Flutter】ButtonやダイアログをPushした際、まとめて閉じたり、戻る方法**
 
-https://zenn.dev/hikaru24/articles/5cb12e712c0dc0
-
 Flutterでダイアログ等から画面を戻る際、
 ダイアログを表示した画面よりさらに前の画面に戻る方法について書かれた記事です。
 
@@ -293,7 +285,7 @@ https://zenn.dev/pressedkonbu/books/flutter-reverse-lookup-dictionary
 
 先週週刊Flutter大学に追加された記事は以下になります。
 
-https://blog.flutteruniv.com/flutternews-20220328/
+https://blog.flutteruniv.com/flutter-news-20220328/
 
 https://blog.flutteruniv.com/report_fukuoka_meeting_202203/
 

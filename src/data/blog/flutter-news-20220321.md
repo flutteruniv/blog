@@ -178,8 +178,6 @@ Flutterを組み合わせて使ってみた動画が話題になっていまし�
 
 ### Thanxtory 感謝のサードプレイス
 
-https://apps.apple.com/jp/app/thanxtory/id1613315043
-
 [ヒロシュー](https://twitter.com/hiroshu_diary)さんにより、
 感謝のサードプレイスアプリ『Thanxtory』がリリースされました！
 
@@ -190,10 +188,6 @@ https://apps.apple.com/jp/app/thanxtory/id1613315043
 積極的に参加されているのが印象的でした。
 
 ### Stammpy! ふらり旅行支援アプリ
-
-https://apps.apple.com/jp/app/stammpy/id1612801895
-
-https://play.google.com/store/apps/details?id=jp.asapsoftware.buttercup
 
 kanaiさんにより、
 ふらり旅行支援アプリ、『Stammpy!』がリリースされました！
@@ -239,7 +233,7 @@ Flutterで作成されたアプリを参考にしたい際に有用な記事で�
 
 週刊Flutter大学で先週アップロードした記事を紹介します。
 
-https://blog.flutteruniv.com/flutternews-20220314/
+https://blog.flutteruniv.com/flutter-news-20220314/
 
 https://blog.flutteruniv.com/flutter-skeleton-template/
 

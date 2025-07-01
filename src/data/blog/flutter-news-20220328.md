@@ -210,8 +210,6 @@ ViewModelとViewの分離をしっかり行い、
 
 ### **【Flutter×Firebase】ユーザーのブロック機能の実装**
 
-https://zenn.dev/hikaru24/articles/ebc647a169cbfe
-
 Flutter × Firebaseでのユーザーのブロック機能の実装方法についての解説記事です。
 
 コードベースで実装方法を解説されています。
@@ -220,8 +218,6 @@ Flutter × Firebaseでのユーザーのブロック機能の実装方法につ�
 この実装例を提示してもらえるのは助かりますね。
 
 ### **flutter_native_splash エラーで１日無くなった話・・・**
-
-https://zenn.dev/hikaru24/articles/0d58c7acc71711
 
 flutter_native_splashを使っていて詰まった点の共有記事です。
 
@@ -254,7 +250,7 @@ FlutterWeb とFirebaseAuthを併用する際に覚えておきたいです。
 
 週刊Flutter大学で先週アップロードした記事を紹介します。
 
-https://blog.flutteruniv.com/flutternews-20220321/
+https://blog.flutteruniv.com/flutter-news-20220321/
 
 https://blog.flutteruniv.com/fluttter-chrome-extension/
 

@@ -100,9 +100,6 @@ Flutter の開発をもくもくとしたり、技術論について語り合っ
 ５日間の合宿です。
 
 参加者のcoboさんがこの合宿の感想の記事を書いてくださいました！
-ぜひ併せてご覧ください。
-
-https://flutter-square.com/nestled-in-the-bosom-of-a-mountain/
 
 ### Flutter大学を飛び出したカンファレンス、Flutter Gakkai 実施！
 

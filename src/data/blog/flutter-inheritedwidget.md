@@ -1258,10 +1258,6 @@ https://zenn.dev/chooyan/books/934f823764db62
 
 https://medium.com/flutter-jp/inherited-widget-37495200d965
 
-https://ericwindmill.com/articles/inherited_widget/
-
-https://www.didierboelens.com/2018/06/widget-state-context-inheritedwidget/
-
 https://medium.com/flutter/managing-flutter-application-state-with-inheritedwidgets-1140452befe1
 
 ## 編集後記（2022/7/6）
