@@ -10,13 +10,13 @@ jobs:  create-news-pr:    runs-on: ubuntu-latest    permissions:      contents: 
 
       - name: Install Python dependencies        run: |          python -m pip install --upgrade pip          pip install feedparser "google-generativeai"
 
-      - name: Generate article with AI script        id: generate_script        run: python scripts/generate_article.py        env:          # GitHub Secretsに設定したAPIキーをスクリプトに渡す          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Generate article with AI script        run: python scripts/generate_article.py        env:          # GitHub Secretsに設定したAPIキーをスクリプトに渡す          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-      - name: Create Pull Request if new file exists        run: |          # git status -s で変更（新しいファイル）があるか確認          if [[ -z $(git status -s) ]]; then            echo "No changes or new files to commit. Skipping PR creation."            exit 0          fi
+      - name: Check for file changes        id: check_files        run: |          # git status -s で変更（新しいファイル）があるか確認          if [[ -z $(git status -s) ]]; then            echo "No changes detected."            echo "files_changed=false" >> $GITHUB_OUTPUT          else            echo "Changes detected."            echo "files_changed=true" >> $GITHUB_OUTPUT          fi
 
-          # 変更がある場合のみ、PR作成処理に進む          BRANCH_NAME="news/flutter-news-$(date +%Y%m%d)"          COMMIT_MESSAGE="feat: ✨ Add weekly Flutter news for $(date +%Y-%m-%d)"          PR_TITLE="週刊Flutterニュース: $(date +%Y-%m-%d)号"          PR_BODY="AIによって自動生成された週刊Flutterニュースです。内容を確認・修正してマージしてください。"
+      - name: Create Pull Request        if: steps.check_files.outputs.files_changed == 'true'        run: |          BRANCH_NAME="news/flutter-news-$(date +%Y%m%d)"          COMMIT_MESSAGE="feat: ✨ Add weekly Flutter news for $(date +%Y-%m-%d)"          PR_TITLE="週刊Flutterニュース: $(date +%Y-%m-%d)号"          PR_BODY="AIによって自動生成された週刊Flutterニュースです。内容を確認・修正してマージしてください。"
 
           # Gitのユーザー情報を設定          git config --global user.name "AI News Bot"          git config --global user.email "github-actions[bot]@users.noreply.github.com"          
           # 新しいブランチを作成して変更をコミット          git checkout -b $BRANCH_NAME          git add src/content/blog/flutter-news-*.md          git commit -m "$COMMIT_MESSAGE"          git push origin $BRANCH_NAME          
           # プルリクエストを作成          gh pr create \            --title "$PR_TITLE" \            --body "$PR_BODY" \            --base main \            --head $BRANCH_NAME \            --label "news,automated"            
-        env:          # PR作成にはデフォルトで提供されるGITHUB_TOKENを使用          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
