@@ -27,9 +27,9 @@ Flutter / Dart での `extends` の役割について解説します。
 あるクラスに対し、そのクラスの機能を持ちつつ、追加の機能を持つサブクラスを
 作成するのに用います。
 
-クラスとは何かについては、以下の記事をご確認ください。
+クラスとは何かについては、以下の本にもまとまっております。
 
-https://zenn.dev/kboy/books/a5b8b502dcdac4/viewer/0c1405
+https://zenn.dev/flutteruniv/books/dart-textbook
 
 本記事では`extends`を『拡張』と訳します。
 記事によっては『継承』と訳しているものもあります。

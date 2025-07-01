@@ -199,10 +199,6 @@ https://youtu.be/Cpg3otpYG9w
 
 ### つみあげったー ~  その日やった積み上げを楽々ツイート！ ~
 
-https://apps.apple.com/jp/app/%E3%81%A4%E3%81%BF%E3%81%82%E3%81%92%E3%81%A3%E3%81%9F%E3%83%BC/id1626830264
-
-https://play.google.com/store/apps/details?id=com.zerokaraapp.tumiagetter
-
 共同開発8、つみあげったーチームにより、
 その日やった積み上げを楽々ツイートできるアプリ、『つみあげったー』がリリースされました。
 

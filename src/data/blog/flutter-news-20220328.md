@@ -208,26 +208,6 @@ ViewModelとViewの分離をしっかり行い、
 
 基礎を学ぶのに良いプロジェクトだと思います。
 
-### **【Flutter×Firebase】ユーザーのブロック機能の実装**
-
-https://zenn.dev/hikaru24/articles/ebc647a169cbfe
-
-Flutter × Firebaseでのユーザーのブロック機能の実装方法についての解説記事です。
-
-コードベースで実装方法を解説されています。
-
-投稿型アプリでAppleの審査を受ける際に必須となる機能なので、
-この実装例を提示してもらえるのは助かりますね。
-
-### **flutter_native_splash エラーで１日無くなった話・・・**
-
-https://zenn.dev/hikaru24/articles/0d58c7acc71711
-
-flutter_native_splashを使っていて詰まった点の共有記事です。
-
-タイプミスは見つけるのに時間がかかるので、
-このような事例の共有はありがたいです。
-
 ### 【Flutter】AndroidのエミュレータでGoogleMapが表示されない時の解決法
 
 https://zenn.dev/wakanao/articles/9ed5be61d25419
@@ -254,7 +234,7 @@ FlutterWeb とFirebaseAuthを併用する際に覚えておきたいです。
 
 週刊Flutter大学で先週アップロードした記事を紹介します。
 
-https://blog.flutteruniv.com/flutternews-20220321/
+https://blog.flutteruniv.com/flutter-news-20220321/
 
 https://blog.flutteruniv.com/fluttter-chrome-extension/
 

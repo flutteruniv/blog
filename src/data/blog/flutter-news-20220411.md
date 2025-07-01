@@ -102,8 +102,6 @@ Flutterで使われるローカルデータベースを列挙し、
 
 ### FlutterアプリケーションをシームレスにWindowsに統合する方法
 
-https://flutterondesktop.dev/how-to-seamlessly-integrate-flutter-apps-in-windows
-
 FlutterでWindows向けのアプリケーションを作成するのに有用なパッケージを紹介している記事です。
 
 Fluent UI や、window_manager等、UI面に着目しての紹介となっています。
@@ -161,8 +159,6 @@ Flameの紹介と、簡単な使い方について、動画にまとめられて
 ## Flutter大学メンバーがリリースしたアプリ
 
 ### わらびアクセサリー ~個人アクセサリー製品の紹介アプリ~
-
-https://play.google.com/store/apps/details?id=com.kawasumi.hiroyuki_works
 
 [かわ](https://twitter.com/ka_shi_pan)さんによって、
 個人アクセサリー製品の紹介アプリ、『わらびアクセサリー』がリリースされました！

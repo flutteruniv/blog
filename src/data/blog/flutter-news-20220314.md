@@ -278,7 +278,7 @@ Dart Data Classについて解説した記事です。
 
 週刊Flutter大学で先週アップロードした記事を紹介します。
 
-https://blog.flutteruniv.com/flutternews-20220307/
+https://blog.flutteruniv.com/flutter-news-20220307/
 
 https://blog.flutteruniv.com/flutter-future-stream-difference/
 
