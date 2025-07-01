@@ -242,13 +242,6 @@ Flutter初心者がやるべきことについて、
 Flutterを触り始めた初心者が最初にやるべきことから、
 困った時の相談の方法まで、しっかりとまとめられています。
 
-### **【Flutter】ButtonやダイアログをPushした際、まとめて閉じたり、戻る方法**
-
-Flutterでダイアログ等から画面を戻る際、
-ダイアログを表示した画面よりさらに前の画面に戻る方法について書かれた記事です。
-
-戻る方法のコードが端的に紹介されています。
-
 ### **【Flutter】OSやデバイスにあったアプリアイコンをコマンド一発で生成する【flutter_launcher_icons】**
 
 https://zenn.dev/susatthi/articles/20220401-060335-flutter-launcher-icons

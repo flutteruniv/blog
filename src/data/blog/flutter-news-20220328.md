@@ -208,22 +208,6 @@ ViewModelとViewの分離をしっかり行い、
 
 基礎を学ぶのに良いプロジェクトだと思います。
 
-### **【Flutter×Firebase】ユーザーのブロック機能の実装**
-
-Flutter × Firebaseでのユーザーのブロック機能の実装方法についての解説記事です。
-
-コードベースで実装方法を解説されています。
-
-投稿型アプリでAppleの審査を受ける際に必須となる機能なので、
-この実装例を提示してもらえるのは助かりますね。
-
-### **flutter_native_splash エラーで１日無くなった話・・・**
-
-flutter_native_splashを使っていて詰まった点の共有記事です。
-
-タイプミスは見つけるのに時間がかかるので、
-このような事例の共有はありがたいです。
-
 ### 【Flutter】AndroidのエミュレータでGoogleMapが表示されない時の解決法
 
 https://zenn.dev/wakanao/articles/9ed5be61d25419
