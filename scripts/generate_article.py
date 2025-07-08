@@ -109,17 +109,22 @@ def generate_article_with_ai(articles):
 - 読者が興味を持つような、フレンドリーで分かりやすい導入文から始めてください。
 - 収集したニュースを「Flutter・モバイル開発」「AI・機械学習」「開発者向け情報」「その他技術トピック」などの適切なカテゴリに分類してください。
 - 各カテゴリから最も興味深い記事を3-5個程度選んで紹介してください。すべての記事を掲載する必要はありません。
-- 各ニュースについて、タイトルとURLだけでなく、2〜3文程度の詳しい解説や注目ポイント、なぜその記事が重要なのかをあなたの言葉で追記してください。
+- 各ニュースについて、タイトルとURLだけでなく、2〜3文程度の詳しい解説や注目ポイント、なぜその記事が重要なのかをあなたの言葉で追記してください。リンクの次に改行して記すスタイルでお願いします。
 - 全体のまとめや来週への期待などを述べる、ポジティブな締めの一文を入れてください。
 - 必ず日本語で記述してください。
-- リンクの形式は「タイトル: URL」のようにシンプルに記述してください。太字やマークダウンリンクは使用しないでください。
+- リンクの形式は、タイトルを記述してから改行し、次の行にURLのみを記述してください。これによりremark-link-card-plusプラグインがリンクカードを自動生成します。例：
+  タイトル
+  https://example.com
 
 # Markdownのフォーマット
 - Astroのfrontmatterを必ず含めてください。
+- `layout`は「../../layouts/BlogPost.astro」としてください。
 - `title`は「週刊開発者ニュース {today_str}号」としてください。
-- `description`は「今週見つけたFlutter、AI、開発関連のニュースまとめ」としてください。
-- `pubDate`は「{today_str}」としてください。
-- `tags`として`["Flutter", "AI", "Development", "News"]`を入れてください。
+- `slug`は「flutter-news-{today_str.replace('-', '')}」としてください。
+- `description`は今週の主要なトピックを2-3文で要約した内容にしてください。
+- `pubDatetime`は「{today_str}」としてください。
+- `author`は「kboy」としてください。
+- `tags`は以下の既存タグから適切なものを選んで使用してください: ["Flutter", "Widget", "Package", "Dart", "ニュース", "News", "AI", "Development", "開発ツール", "初心者向け", "UI/レイアウト", "ゲーム開発", "データベース", "イベント", "ビジネス", "企業インタビュー", "Flutter大学", "勉強会"]。AIは新しく追加してもかまいません。
 
 # ニュースリスト
 {articles}
@@ -136,7 +141,7 @@ def save_markdown(content):
         
     today_for_filename = datetime.datetime.now().strftime('%Y%m%d')
     # Astroのブログ記事が格納されるパス
-    filepath = f"src/content/blog/flutter-news-{today_for_filename}.md"
+    filepath = f"src/data/blog/flutter-news-{today_for_filename}.md"
     
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as f:
