@@ -3,7 +3,7 @@ name: Generate Weekly Flutter News with AI
 on:
   schedule:
     # 毎週月曜日のUTC 0時0分（= 日本時間の月曜朝9時）に実行
-    - cron: '0 0 * * 1'
+    - cron: "0 0 * * 1"
   # 手動での実行も可能にする
   workflow_dispatch:
 
@@ -11,7 +11,7 @@ jobs:
   create-news-pr:
     runs-on: ubuntu-latest
     permissions:
-      contents: write      # リポジトリへのコード書き込み権限
+      contents: write # リポジトリへのコード書き込み権限
       pull-requests: write # プルリクエスト作成権限
 
     steps:
@@ -21,7 +21,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
       - name: Install Python dependencies
         run: |
@@ -57,13 +57,13 @@ jobs:
           # Gitのユーザー情報を設定
           git config --global user.name "AI News Bot"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
+
           # 新しいブランチを作成して変更をコミット
           git checkout -b $BRANCH_NAME
-          git add src/content/blog/flutter-news-*.md
+          git add src/data/blog/flutter-news-*.md
           git commit -m "$COMMIT_MESSAGE"
           git push origin $BRANCH_NAME
-          
+
           # プルリクエストを作成
           gh pr create \
             --title "$PR_TITLE" \
