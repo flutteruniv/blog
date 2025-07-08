@@ -2,6 +2,7 @@ import os
 import datetime
 import feedparser
 import google.generativeai as genai
+import requests
 
 # --- 設定 ---
 # 取得するニュースの鮮度（何日以内の記事を対象にするか）
@@ -12,8 +13,37 @@ RSS_FEEDS = {
     "Flutter Community": "https://medium.com/feed/flutter-community",
     "Zenn (Flutter)": "https://zenn.dev/topics/flutter/feed",
     "Qiita (Flutter)": "https://qiita.com/tags/flutter/feed",
+    "dev.to": "https://dev.to/feed",
+    "Hacker News": "https://hnrss.org/frontpage",
+    "Reddit Flutter": "https://www.reddit.com/r/FlutterDev/.rss",
+    "Google Developers": "https://developers.googleblog.com/feeds/posts/default",
+    "OpenAI Blog": "https://openai.com/blog/rss.xml",
+    "Reddit Artificial": "https://www.reddit.com/r/artificial/.rss",
+    "Hatena Flutter": "https://b.hatena.ne.jp/q/Flutter?mode=rss",
+    "Flutter YouTube": "https://www.youtube.com/feeds/videos.xml?channel_id=UCwXdFgeE9KYzlDdR7TG9cMw",
+    "Connpass Events": "https://connpass.com/explore/ja.atom",
 }
 # --- ここまで ---
+
+def check_flutter_changelog():
+    """Flutter CHANGELOGから最新の更新をチェックする"""
+    try:
+        # GitHub APIを使用してCHANGELOG.mdの最新コミットを取得
+        api_url = "https://api.github.com/repos/flutter/flutter/commits?path=CHANGELOG.md&per_page=1"
+        response = requests.get(api_url)
+        if response.status_code == 200:
+            commits = response.json()
+            if commits:
+                latest_commit = commits[0]
+                commit_date = datetime.datetime.strptime(latest_commit['commit']['author']['date'], '%Y-%m-%dT%H:%M:%SZ')
+                since_date = datetime.datetime.now() - datetime.timedelta(days=DAYS_AGO)
+                
+                if commit_date >= since_date:
+                    changelog_url = "https://github.com/flutter/flutter/blob/stable/CHANGELOG.md"
+                    return f"- Title: Flutter CHANGELOG Updated\n  URL: {changelog_url}\n  Source: Flutter Official\n\n"
+    except Exception as e:
+        print(f"Error checking Flutter changelog: {e}")
+    return ""
 
 def fetch_recent_articles():
     """RSSフィードから指定された日数以内の記事を収集する"""
@@ -21,6 +51,9 @@ def fetch_recent_articles():
     print("Fetching recent articles...")
     # 今日の日付から指定された日数を引いた日付を計算
     since_date = datetime.datetime.now() - datetime.timedelta(days=DAYS_AGO)
+    
+    # Flutter CHANGELOGの更新をチェック
+    articles_text += check_flutter_changelog()
     
     for name, url in RSS_FEEDS.items():
         feed = feedparser.parse(url)
@@ -31,6 +64,10 @@ def fetch_recent_articles():
             published_date = datetime.datetime(*entry.published_parsed[:6])
             # 公開日が指定された日付よりも新しいかチェック
             if published_date >= since_date:
+                # Connpassイベントの場合はFlutter関連のみフィルタリング
+                if name == "Connpass Events":
+                    if "flutter" not in entry.title.lower() and "flutter" not in entry.get('summary', '').lower():
+                        continue
                 articles_text += f"- Title: {entry.title}\n  URL: {entry.link}\n  Source: {name}\n\n"
     
     if not articles_text:
@@ -56,21 +93,23 @@ def generate_article_with_ai(articles):
     # AIへの指示（プロンプト）
     prompt = f"""
 あなたは日本の優秀なFlutterエンジニア兼テクニカルライターです。
-以下のFlutter関連のニュースリストを元に、Astroブログで使えるMarkdown形式の記事を生成してください。
+以下のFlutter、開発、AI関連のニュースリストを元に、Astroブログで使えるMarkdown形式の記事を生成してください。
 
 # 依頼事項
 - 読者が興味を持つような、フレンドリーで分かりやすい導入文から始めてください。
-- 収集したニュースを「公式情報」「技術記事」「パッケージ」などの適切なカテゴリに分類してください。
-- 各ニュースについて、タイトルとURLだけでなく、1〜2文程度の簡単な解説や注目ポイントをあなたの言葉で追記してください。
+- 収集したニュースを「Flutter・モバイル開発」「AI・機械学習」「開発者向け情報」「その他技術トピック」などの適切なカテゴリに分類してください。
+- 各カテゴリから最も興味深い記事を3-5個程度選んで紹介してください。すべての記事を掲載する必要はありません。
+- 各ニュースについて、タイトルとURLだけでなく、2〜3文程度の詳しい解説や注目ポイント、なぜその記事が重要なのかをあなたの言葉で追記してください。
 - 全体のまとめや来週への期待などを述べる、ポジティブな締めの一文を入れてください。
 - 必ず日本語で記述してください。
+- リンクの形式は「タイトル: URL」のようにシンプルに記述してください。太字やマークダウンリンクは使用しないでください。
 
 # Markdownのフォーマット
 - Astroのfrontmatterを必ず含めてください。
-- `title`は「週刊Flutterニュース {today_str}号」としてください。
-- `description`は「今週見つけたFlutter関連のニュースまとめ」としてください。
+- `title`は「週刊開発者ニュース {today_str}号」としてください。
+- `description`は「今週見つけたFlutter、AI、開発関連のニュースまとめ」としてください。
 - `pubDate`は「{today_str}」としてください。
-- `tags`として`["Flutter", "News"]`を入れてください。
+- `tags`として`["Flutter", "AI", "Development", "News"]`を入れてください。
 
 # ニュースリスト
 {articles}
@@ -87,7 +126,7 @@ def save_markdown(content):
         
     today_for_filename = datetime.datetime.now().strftime('%Y%m%d')
     # Astroのブログ記事が格納されるパス
-    filepath = f"src/content/blog/flutter-news-{today_for_filename}.md"
+    filepath = f"src/content/blog/dev-news-{today_for_filename}.md"
     
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as f:
