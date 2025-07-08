@@ -136,7 +136,7 @@ def save_markdown(content):
         
     today_for_filename = datetime.datetime.now().strftime('%Y%m%d')
     # Astroのブログ記事が格納されるパス
-    filepath = f"src/content/blog/dev-news-{today_for_filename}.md"
+    filepath = f"src/content/blog/flutter-news-{today_for_filename}.md"
     
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as f:
