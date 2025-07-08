@@ -59,9 +59,19 @@ def fetch_recent_articles():
         feed = feedparser.parse(url)
         for entry in feed.entries:
             # 記事の公開日をdatetimeオブジェクトに変換
-            if entry.published_parsed is None:
-                continue  # 日付が取得できない記事はスキップ
-            published_date = datetime.datetime(*entry.published_parsed[:6])
+            published_date = None
+            try:
+                if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                    published_date = datetime.datetime(*entry.published_parsed[:6])
+                elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
+                    published_date = datetime.datetime(*entry.updated_parsed[:6])
+                else:
+                    # 日付が取得できない場合は現在の日付を使用（最新として扱う）
+                    published_date = datetime.datetime.now()
+            except Exception:
+                # 日付の変換に失敗した場合は現在の日付を使用
+                published_date = datetime.datetime.now()
+            
             # 公開日が指定された日付よりも新しいかチェック
             if published_date >= since_date:
                 # Connpassイベントの場合はFlutter関連のみフィルタリング
