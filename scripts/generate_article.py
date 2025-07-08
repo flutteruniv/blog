@@ -11,7 +11,7 @@ DAYS_AGO = 7
 RSS_FEEDS = {
     "Flutter 公式": "https://medium.com/feed/flutter",
     "Flutter Community": "https://medium.com/feed/flutter-community",
-    "Zenn (Flutter)": "https://zenn.dev/topics/flutter/feed",
+    "Zenn": "https://zenn.dev/feed",
     "Qiita (Flutter)": "https://qiita.com/tags/flutter/feed",
     "dev.to": "https://dev.to/feed",
     "Hacker News": "https://hnrss.org/frontpage",
@@ -44,6 +44,7 @@ def check_flutter_changelog():
     except Exception as e:
         print(f"Error checking Flutter changelog: {e}")
     return ""
+
 
 def fetch_recent_articles():
     """RSSフィードから指定された日数以内の記事を収集する"""
@@ -78,6 +79,8 @@ def fetch_recent_articles():
                 if name == "Connpass Events":
                     if "flutter" not in entry.title.lower() and "flutter" not in entry.get('summary', '').lower():
                         continue
+                
+                
                 articles_text += f"- Title: {entry.title}\n  URL: {entry.link}\n  Source: {name}\n\n"
     
     if not articles_text:
@@ -105,28 +108,47 @@ def generate_article_with_ai(articles):
 あなたは日本の優秀なFlutterエンジニア兼テクニカルライターです。
 以下のFlutter、開発、AI関連のニュースリストを元に、Astroブログで使えるMarkdown形式の記事を生成してください。
 
-# 依頼事項
-- 読者が興味を持つような、フレンドリーで分かりやすい導入文から始めてください。
-- 収集したニュースを「Flutter・モバイル開発」「AI・機械学習」「開発者向け情報」「その他技術トピック」などの適切なカテゴリに分類してください。
-- 各カテゴリから最も興味深い記事を3-5個程度選んで紹介してください。すべての記事を掲載する必要はありません。
-- 各ニュースについて、タイトルとURLだけでなく、2〜3文程度の詳しい解説や注目ポイント、なぜその記事が重要なのかをあなたの言葉で追記してください。リンクの次に改行して記すスタイルでお願いします。
-- 全体のまとめや来週への期待などを述べる、ポジティブな締めの一文を入れてください。
-- 必ず日本語で記述してください。
-- リンクの形式は、タイトルを記述してから改行し、次の行にURLのみを記述してください。これによりremark-link-card-plusプラグインがリンクカードを自動生成します。例：
-  タイトル
-  https://example.com
+## 記事構成の要件
+1. **導入文**: 読者が興味を持つような、フレンドリーで分かりやすい導入文から始める
+2. **カテゴリ分類**: ニュースを「Flutter・モバイル開発」「AI・機械学習」「開発者向け情報」「その他技術トピック」などに分類
+3. **記事選定**: 各カテゴリから最も価値の高い記事を3-5個程度選んで紹介（すべて掲載する必要なし）
+   - **Flutter エンジニア向け**: モバイル開発、UI/UX、パフォーマンス最適化、状態管理、アーキテクチャ設計
+   - **開発効率向上**: CI/CD、テスト、デバッグ、開発ツール、IDE拡張
+   - **技術トレンド**: 新しいフレームワーク、ライブラリ、開発手法、クロスプラットフォーム開発
+   - **チーム開発**: コードレビュー、設計パターン、プロジェクト管理、チームワーク
+   - **キャリア**: 技術選択、学習方法、業界動向、エンジニアとしての成長
+   - 新機能や重要なアップデート情報を優先
+   - ベストプラクティスやアーキテクチャに関する記事を重視
+   - 個人的な体験談や基本的なチュートリアルは避ける
+4. **記事解説**: 各ニュースについて2〜3文程度の詳しい解説や注目ポイント、重要性を追記
+5. **締めの文**: 全体のまとめや来週への期待を述べるポジティブな締めの一文
+6. **言語**: 必ず日本語で記述
 
-# Markdownのフォーマット
-- Astroのfrontmatterを必ず含めてください。
-- `layout`は「../../layouts/BlogPost.astro」としてください。
-- `title`は「週刊開発者ニュース {today_str}号」としてください。
-- `slug`は「flutter-news-{today_str.replace('-', '')}」としてください。
-- `description`は今週の主要なトピックを2-3文で要約した内容にしてください。
-- `pubDatetime`は「{today_str}」としてください。
-- `author`は「kboy」としてください。
-- `tags`は以下の既存タグから適切なものを選んで使用してください: ["Flutter", "Widget", "Package", "Dart", "ニュース", "News", "AI", "Development", "開発ツール", "初心者向け", "UI/レイアウト", "ゲーム開発", "データベース", "イベント", "ビジネス", "企業インタビュー", "Flutter大学", "勉強会"]。AIは新しく追加してもかまいません。
+## リンクの形式
+記事タイトルを「###」で始めて、改行し、空行を入れてからURLのみを記述し、その後も空行を入れてください。
+これによりremark-link-card-plusプラグインがリンクカードを自動生成します。
 
-# ニュースリスト
+例：
+### タイトル
+
+https://example.com
+
+解説文...
+
+## Frontmatter設定
+```yaml
+layout: ../../layouts/BlogPost.astro
+title: 週刊開発者ニュース {today_str}号
+slug: flutter-news-{today_str.replace('-', '')}
+description: [今週の主要なトピックを2-3文で要約]
+pubDatetime: {today_str}
+author: kboy
+tags: ["ニュース"]
+```
+
+注意: タイトルは既にfrontmatterで設定されるため、記事本文では「# タイトル」は不要です。
+
+## ニュースリスト
 {articles}
 """
     
