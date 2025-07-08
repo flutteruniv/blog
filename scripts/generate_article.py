@@ -137,16 +137,18 @@ https://example.com
 
 ## Frontmatter設定
 ```yaml
-layout: ../../layouts/BlogPost.astro
-title: 週刊開発者ニュース {today_str}号
-slug: flutter-news-{today_str.replace('-', '')}
-description: [今週の主要なトピックを2-3文で要約]
-pubDatetime: {today_str}
-author: kboy
+---
+title: "週刊ニュース {today_str}号"
+slug: "flutter-news-{today_str.replace('-', '')}"
+author: "kboy"
+description: "[今週の主要なトピックを2-3文で要約]"
+pubDatetime: "{today_str}"
 tags: ["ニュース"]
+layout: "../../layouts/BlogPost.astro"
+---
 ```
 
-注意: タイトルは既にfrontmatterで設定されるため、記事本文では「# タイトル」は不要です。
+**重要**: タイトルは既にfrontmatterで設定されるため、記事本文では「# 週刊開発者ニュース」などのメインタイトルは一切不要です。導入文から直接始めてください。
 
 ## ニュースリスト
 {articles}
