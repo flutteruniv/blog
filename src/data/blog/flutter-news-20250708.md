@@ -4,7 +4,7 @@ slug: "flutter-news-20250708"
 author: "kboy"
 description: "今週はFlutterの最新アップデート情報から、AI開発の革新的な事例、そして開発効率を向上させる様々なツールや手法に関するニュースが目白押しです。特に注目すべきは、Gemini APIのアップデートとFlutterにおける状態管理の進化です。"
 pubDatetime: "2025-07-08"
-tags: ["ニュース", "Flutter", "AI", "開発"]
+tags: ["ニュース", "Flutter", "AI"]
 layout: "../../layouts/BlogPost.astro"
 ---
 
