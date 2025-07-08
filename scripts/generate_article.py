@@ -137,7 +137,7 @@ https://example.com
 
 ## Frontmatter設定
 ---
-title: "週刊ニュース {today_str}号"
+title: "週刊Flutterニュース {today_str}号"
 slug: "flutter-news-{today_str.replace('-', '')}"
 author: "kboy"
 description: "[今週の主要なトピックを2-3文で要約]"
