@@ -55,7 +55,7 @@ RSS_FEEDS = {
 # --- ここまで ---
 
 def check_flutter_changelog():
-    """Flutter CHANGELOGから最新の更新をチェックする"""
+    """Flutter CHANGELOGから最新の更新をチェックし、内容を要約する"""
     try:
         # GitHub APIを使用してCHANGELOG.mdの最新コミットを取得
         api_url = "https://api.github.com/repos/flutter/flutter/commits?path=CHANGELOG.md&per_page=1"
@@ -68,8 +68,38 @@ def check_flutter_changelog():
                 since_date = datetime.datetime.now() - datetime.timedelta(days=DAYS_AGO)
                 
                 if commit_date >= since_date:
-                    changelog_url = "https://github.com/flutter/flutter/blob/stable/CHANGELOG.md"
-                    return f"- Title: Flutter CHANGELOG Updated\n  URL: {changelog_url}\n  Source: Flutter Official\n\n"
+                    # CHANGELOGの内容を取得
+                    changelog_content_url = "https://raw.githubusercontent.com/flutter/flutter/stable/CHANGELOG.md"
+                    changelog_response = requests.get(changelog_content_url)
+                    
+                    if changelog_response.status_code == 200:
+                        changelog_content = changelog_response.text
+                        
+                        # 最新バージョンセクションを抽出（最初の##から次の##まで）
+                        lines = changelog_content.split('\n')
+                        latest_section = []
+                        in_latest_section = False
+                        section_count = 0
+                        
+                        for line in lines:
+                            if line.startswith('## '):
+                                if in_latest_section:
+                                    break
+                                in_latest_section = True
+                                section_count += 1
+                                if section_count > 1:
+                                    break
+                            elif in_latest_section:
+                                latest_section.append(line)
+                        
+                        # 最新の変更内容を要約
+                        latest_changes = '\n'.join(latest_section)
+                        
+                        changelog_url = "https://github.com/flutter/flutter/blob/stable/CHANGELOG.md"
+                        return f"- Title: Flutter CHANGELOG Updated\n  URL: {changelog_url}\n  Source: Flutter Official\n  Changes: {latest_changes[:500]}...\n\n"
+                    else:
+                        changelog_url = "https://github.com/flutter/flutter/blob/stable/CHANGELOG.md"
+                        return f"- Title: Flutter CHANGELOG Updated\n  URL: {changelog_url}\n  Source: Flutter Official\n\n"
     except Exception as e:
         print(f"Error checking Flutter changelog: {e}")
     return ""
@@ -154,7 +184,13 @@ def generate_article_with_ai(articles):
    - 新機能や重要なアップデート情報を優先
    - ベストプラクティスやアーキテクチャに関する記事を重視
    - 個人的な体験談や基本的なチュートリアルは避ける
-4. **記事解説**: 各ニュースについて2〜3文程度の詳しい解説や注目ポイント、重要性を追記（「解説:」というプレフィックスは不要）
+4. **記事解説**: 各ニュースについて4〜6文程度の詳しい解説を必ず追記する。以下の要素を含める：
+   - **技術的な詳細**: 何がどのように変更・改善されたのか（CHANGELOGなど実際の内容がある場合は具体的に要約）
+   - **開発者への影響**: 実際の開発にどう影響するのか
+   - **注目ポイント**: なぜこのニュースが重要なのか
+   - **具体的な活用方法**: どのように活用できるのか
+   - **今後の展望**: 今後どのような発展が期待できるのか
+   （「解説:」というプレフィックスは不要。「Changes:」フィールドがある場合は、その内容を活用して具体的な変更点を説明する）
 5. **まとめセクション**: 最後に「## まとめ」セクションを追加し、全体のまとめや来週への期待を述べるポジティブな締めの文を記述
 6. **編集後記セクション**: まとめの後に「## 編集後記」セクションを追加し、「（ここは人間が手動で編集します）」というプレースホルダーテキストのみを記述
 7. **言語**: 必ず日本語で記述
