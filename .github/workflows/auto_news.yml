@@ -1,4 +1,4 @@
-name: Generate Weekly Flutter News with AI
+name: Generate Weekly Mobile Development News with AI
 
 on:
   schedule:
@@ -49,10 +49,10 @@ jobs:
       - name: Create Pull Request
         if: steps.check_files.outputs.files_changed == 'true'
         run: |
-          BRANCH_NAME="news/flutter-news-$(date +%Y%m%d)"
-          COMMIT_MESSAGE="feat: ✨ Add weekly Flutter news for $(date +%Y-%m-%d)"
-          PR_TITLE="週刊Flutterニュース: $(date +%Y-%m-%d)号"
-          PR_BODY="AIによって自動生成された週刊Flutterニュースです。内容を確認・修正してマージしてください。"
+          BRANCH_NAME="news/mobile-news-$(date +%Y%m%d)"
+          COMMIT_MESSAGE="feat: ✨ Add weekly mobile development news for $(date +%Y-%m-%d)"
+          PR_TITLE="週刊モバイル開発ニュース: $(date +%Y-%m-%d)号"
+          PR_BODY="AIによって自動生成された週刊モバイル開発ニュースです。Flutter、React Native、Swift/iOS、Kotlin/Android関連の最新情報を含んでいます。内容を確認・修正してマージしてください。"
 
           # Gitのユーザー情報を設定
           git config --global user.name "AI News Bot"
@@ -60,7 +60,7 @@ jobs:
 
           # 新しいブランチを作成して変更をコミット
           git checkout -b $BRANCH_NAME
-          git add src/data/blog/flutter-news-*.md
+          git add src/data/blog/mobile-news-*.md
           git commit -m "$COMMIT_MESSAGE"
           git push origin $BRANCH_NAME
 
@@ -70,6 +70,6 @@ jobs:
             --body "$PR_BODY" \
             --base main \
             --head $BRANCH_NAME \
-            --label "news,automated"
+            --label "news,automated,mobile"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
