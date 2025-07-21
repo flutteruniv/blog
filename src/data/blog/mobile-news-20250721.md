@@ -103,7 +103,7 @@ https://www.reddit.com/r/androiddev/comments/1m4krzu/the_state_of_the_art_in_and
 Android開発の現状と課題に関する議論が活発に行われています。Jetpack Compose、Kotlin、アーキテクチャ設計など、様々な観点から意見交換が行われており、Android開発の複雑さや課題が改めて浮き彫りになっています。このスレッドは、Android開発者にとって、現状の問題点と今後の展望を理解する上で非常に貴重な情報源となります。今後のAndroid開発では、開発効率の向上や、ツールの改善が期待されます。
 
 
-## AI・機械学習
+## 生成AI
 
 ### Build with Veo 3, now available in the Gemini API
 
@@ -125,6 +125,25 @@ https://openai.com/index/50-million-fund-to-build-with-communities
 
 OpenAIが、コミュニティ主導のAI開発を支援するための5000万ドルのファンドを発表しました。このファンドは、安全で責任あるAI開発を促進する上で重要な役割を果たすでしょう。開発者は、このファンドを活用して、革新的なAIアプリケーションを開発できます。今後のAI開発コミュニティの成長と発展に期待しましょう。
 
+## Flutter大学で話題になっていた記事
+
+Claude Codeから安野さんの参院選出馬まで様々なニュースが話題になっていました。また、コンテクストエンジニアリングに関するPodCastもみんなよく聞いていたようです。
+
+https://open.spotify.com/episode/3stjhOzfg5ZJc6VsKcqEos?si=b2a7af3654fa425d
+
+https://podcasts.apple.com/jp/podcast/fukabori-fm/id1388826609?i=1000717172095
+
+https://speakerdeck.com/oukayuka/react-haci-no10nian-wosheng-kican-reruka-3tunotorendokarakao-eru
+
+https://x.com/sama/status/1946569252296929727
+
+https://hiragram.app/posts/3a1zdIWU
+
+https://speakerdeck.com/yokawasa/ai-ready-api-designing-mcp-and-apis-in-the-ai-era
+
+https://kiro.dev/
+
+https://type.jp/et/feature/28357/
 
 ## まとめ
 
@@ -133,4 +152,4 @@ OpenAIが、コミュニティ主導のAI開発を支援するための5000万�
 
 ## 編集後記
 
-（ここは人間が手動で編集します）
+今週からFlutterだけではなく、モバイルも含めて最新情報を追うようにしてみました！また、Flutter大学のslackで話題になっていた記事やpodcastも紹介してみました。この取り組みはいい感じな気がするので、今後も続けていきたいです。
