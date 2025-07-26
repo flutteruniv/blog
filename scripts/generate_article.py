@@ -3,6 +3,7 @@ import datetime
 import feedparser
 import google.generativeai as genai
 import requests
+from slack_popular_links import get_popular_slack_links
 
 # --- 設定 ---
 # 取得するニュースの鮮度（何日以内の記事を対象にするか）
@@ -152,7 +153,36 @@ def fetch_recent_articles():
         
     return articles_text
 
-def generate_article_with_ai(articles):
+def fetch_slack_popular_links():
+    """Slackから人気のリンクを取得する"""
+    try:
+        print("Fetching popular links from Slack...")
+        popular_links = get_popular_slack_links()
+        
+        if not popular_links:
+            return ""
+        
+        slack_section = "## Flutter大学で話題になっていた記事\n\n"
+        
+        for link in popular_links[:5]:  # 上位5件のみ
+            url = link['url']
+            score = link['score']
+            mention_count = link['mention_count']
+            reactions = link['reactions']
+            channels = ', '.join([f"#{ch}" for ch in link['channels']])
+            
+            slack_section += f"- Title: Slack Community Popular Link\n"
+            slack_section += f"  URL: {url}\n"
+            slack_section += f"  Source: Flutter大学 Slack (score: {score}, mentions: {mention_count}, reactions: {reactions})\n"
+            slack_section += f"  Channels: {channels}\n\n"
+        
+        return slack_section
+        
+    except Exception as e:
+        print(f"Error fetching Slack popular links: {e}")
+        return ""
+
+def generate_article_with_ai(articles, slack_links=""):
     """AIを使って収集した記事リストからブログ記事を生成する"""
     print("Generating article with AI...")
     
@@ -184,6 +214,7 @@ def generate_article_with_ai(articles):
    - 新機能や重要なアップデート情報を優先
    - ベストプラクティスやアーキテクチャに関する記事を重視
    - 個人的な体験談や基本的なチュートリアルは避ける
+   - **Flutter大学Slackコミュニティセクション**: Slackで話題になった記事がある場合、「## Flutter大学で話題になっていた記事」セクションを追加し、各記事について2-3文で簡潔に説明する
 4. **記事解説**: 各ニュースについて4〜6文程度の詳しい解説を必ず追記する。以下の要素を含める：
    - **技術的な詳細**: 何がどのように変更・改善されたのか（CHANGELOGなど実際の内容がある場合は具体的に要約）
    - **開発者への影響**: 実際の開発にどう影響するのか
@@ -221,6 +252,8 @@ layout: "../../layouts/BlogPost.astro"
 
 ## ニュースリスト
 {articles}
+
+{slack_links if slack_links else ""}
 """
     
     response = model.generate_content(prompt)
@@ -244,8 +277,10 @@ def save_markdown(content):
 
 if __name__ == "__main__":
     article_list = fetch_recent_articles()
+    slack_links = fetch_slack_popular_links()
+    
     if article_list:
-        generated_content = generate_article_with_ai(article_list)
+        generated_content = generate_article_with_ai(article_list, slack_links)
         save_markdown(generated_content)
     else:
         # 新しい記事がなくても処理を正常終了させる（GitHub Actionsのエラーを防ぐため）
