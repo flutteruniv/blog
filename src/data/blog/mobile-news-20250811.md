@@ -1,5 +1,5 @@
 ---
-title: "【週刊ニュース】GPT-5、Claude Opus 4.1、codex CLIはClaude Codeとなるか？"
+title: "【週刊ニュース】GPT-5、Claude Opus 4.1、codex CLIはClaude Codeに勝てるか？"
 slug: "mobile-news-20250811"
 author: "kboy"
 description: "今週注目のモバイル開発トレンド速報！"
