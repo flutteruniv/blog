@@ -122,6 +122,7 @@ def fetch_recent_articles():
     articles_text += check_flutter_changelog()
     
     for name, url in RSS_FEEDS.items():
+        print(f"Processing {name}...")
         feed = feedparser.parse(url)
         for entry in feed.entries:
             # 記事の公開日をdatetimeオブジェクトに変換
@@ -132,14 +133,17 @@ def fetch_recent_articles():
                 elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
                     published_date = datetime.datetime(*entry.updated_parsed[:6])
                 else:
-                    # 日付が取得できない場合は現在の日付を使用（最新として扱う）
-                    published_date = datetime.datetime.now()
-            except Exception:
-                # 日付の変換に失敗した場合は現在の日付を使用
-                published_date = datetime.datetime.now()
+                    # 日付が取得できない場合はスキップ（古い記事の可能性が高い）
+                    print(f"Warning: No date found for article '{entry.title}' from {name}, skipping")
+                    continue
+            except Exception as e:
+                # 日付の変換に失敗した場合はスキップ
+                print(f"Warning: Date parsing failed for article '{entry.title}' from {name}: {e}, skipping")
+                continue
             
             # 公開日が指定された日付よりも新しいかチェック
             if published_date >= since_date:
+                print(f"Including article: '{entry.title}' from {name} (published: {published_date.strftime('%Y-%m-%d')})")
                 # Connpassイベントの場合はモバイル開発関連のみフィルタリング
                 if name == "Connpass Events":
                     mobile_keywords = ["flutter", "react native", "swift", "ios", "android", "kotlin", "mobile", "モバイル"]
