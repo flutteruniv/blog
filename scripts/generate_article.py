@@ -20,6 +20,10 @@ RSS_FEEDS = {
     # React Native関連
     "React Native Blog": "https://reactnative.dev/blog/rss.xml",
     "React Native Community": "https://medium.com/feed/react-native-community",
+    "Expo Blog": "https://expo.dev/blog.rss",
+    "Callstack Blog": "https://www.callstack.com/blog/rss.xml",
+    "Infinite Red": "https://infinite.red/feed.xml",
+    "Aman Mittal": "https://amanhimself.dev/rss.xml",
     "Reddit React Native": "https://www.reddit.com/r/reactnative/.rss",
     "Qiita (React Native)": "https://qiita.com/tags/react-native/feed",
     "React Native YouTube": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMYS7PYW8T9lHVtNXbLvR3w",
@@ -49,9 +53,14 @@ RSS_FEEDS = {
     "dev.to": "https://dev.to/feed",
     "Hacker News": "https://hnrss.org/frontpage",
     "Google Developers": "https://developers.googleblog.com/feeds/posts/default",
-    "OpenAI Blog": "https://openai.com/blog/rss.xml",
-    "Reddit Artificial": "https://www.reddit.com/r/artificial/.rss",
     "Connpass Events": "https://connpass.com/explore/ja.atom",
+    
+    # AI・機械学習
+    "OpenAI Blog": "https://openai.com/blog/rss.xml",
+    "Anthropic News": "https://www.anthropic.com/news/rss",
+    "GitHub Blog": "https://github.blog/feed.xml",
+    "Reddit Artificial": "https://www.reddit.com/r/artificial/.rss",
+    "Reddit Machine Learning": "https://www.reddit.com/r/MachineLearning/.rss",
 }
 # --- ここまで ---
 
@@ -117,6 +126,7 @@ def fetch_recent_articles():
     articles_text += check_flutter_changelog()
     
     for name, url in RSS_FEEDS.items():
+        print(f"Processing {name}...")
         feed = feedparser.parse(url)
         for entry in feed.entries:
             # 記事の公開日をdatetimeオブジェクトに変換
@@ -127,14 +137,17 @@ def fetch_recent_articles():
                 elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
                     published_date = datetime.datetime(*entry.updated_parsed[:6])
                 else:
-                    # 日付が取得できない場合は現在の日付を使用（最新として扱う）
-                    published_date = datetime.datetime.now()
-            except Exception:
-                # 日付の変換に失敗した場合は現在の日付を使用
-                published_date = datetime.datetime.now()
+                    # 日付が取得できない場合はスキップ（古い記事の可能性が高い）
+                    print(f"Warning: No date found for article '{entry.title}' from {name}, skipping")
+                    continue
+            except Exception as e:
+                # 日付の変換に失敗した場合はスキップ
+                print(f"Warning: Date parsing failed for article '{entry.title}' from {name}: {e}, skipping")
+                continue
             
             # 公開日が指定された日付よりも新しいかチェック
             if published_date >= since_date:
+                print(f"Including article: '{entry.title}' from {name} (published: {published_date.strftime('%Y-%m-%d')})")
                 # Connpassイベントの場合はモバイル開発関連のみフィルタリング
                 if name == "Connpass Events":
                     mobile_keywords = ["flutter", "react native", "swift", "ios", "android", "kotlin", "mobile", "モバイル"]
@@ -212,6 +225,7 @@ def generate_article_with_ai(articles, slack_links=""):
    - **チーム開発**: コードレビュー、設計パターン、プロジェクト管理、チームワーク
    - **キャリア**: 技術選択、学習方法、業界動向、エンジニアとしての成長
    - 新機能や重要なアップデート情報を優先
+   - **AI関連の重要リリース**: OpenAI、Anthropic（Claude）、Google（Gemini）などの主要AI企業の新モデルリリースやAPI更新は必須で含める
    - ベストプラクティスやアーキテクチャに関する記事を重視
    - 個人的な体験談や基本的なチュートリアルは避ける
    - **Flutter大学Slackコミュニティセクション**: Slackで話題になった記事がある場合、「## Flutter大学で話題になっていた記事」セクションを追加し、各記事について2-3文で簡潔に説明する
@@ -245,12 +259,17 @@ https://example.com
 ## Frontmatter設定
 以下の指示に従ってfrontmatterを生成する：
 
-**title**: 必ず「【週刊ニュース】」で始まり、今週の最も重要な2-3つのトピックを具体的に列挙し、「ほか」で終わるタイトルを作成する：
-- "【週刊ニュース】Flutter 3.32.8、Firebase AI機能、React Native SwiftUI統合ほか"
-- "【週刊ニュース】Swift 6.2 Actor最適化、Kotlin オフラインAR、Jetpack Composeナビゲーションほか"
-- "【週刊ニュース】watchOS 64bit要件、Gemini 2.5 Flash安定版、TanStack Query最適化ほか"
+**title**: 必ず「【週刊ニュース】」で始まり、今週の記事リストに実際に含まれている最も重要な2-3つのトピックを正確に列挙し、「ほか」で終わるタイトルを作成する。
 
-具体的なバージョン番号、機能名、技術名を使用し、読者が一目で今週の主要トピックを把握できるようにする。
+重要：
+- 実際の記事リストに含まれていない情報（架空のバージョン番号や機能名）は絶対に使用しない
+- 提供されたニュースリストの内容のみから具体的なトピックを抽出する
+- 実際の記事タイトルや内容から主要なキーワードを正確に抜き出す
+
+例：
+- 実際にFlutterのCHANGELOG更新があれば「【週刊ニュース】Flutter CHANGELOG更新、Material/Cupertino分離議論、React Native Hapticsライブラリほか」
+- Gemini関連の記事があれば「【週刊ニュース】Gemini 2.5 Flash-Lite安定版、React Native WiFi Vault、SwiftUI PencilKit統合ほか」
+- 記事リストの内容に基づいて正確にタイトルを生成する
 
 **description**: 長い要約文ではなく、SNSでシェアしたくなるような短くてキャッチーな一文を作成する。以下を参考に：
 - "今週注目の技術革新をピックアップ"
