@@ -49,9 +49,14 @@ RSS_FEEDS = {
     "dev.to": "https://dev.to/feed",
     "Hacker News": "https://hnrss.org/frontpage",
     "Google Developers": "https://developers.googleblog.com/feeds/posts/default",
-    "OpenAI Blog": "https://openai.com/blog/rss.xml",
-    "Reddit Artificial": "https://www.reddit.com/r/artificial/.rss",
     "Connpass Events": "https://connpass.com/explore/ja.atom",
+    
+    # AI・機械学習
+    "OpenAI Blog": "https://openai.com/blog/rss.xml",
+    "Anthropic News": "https://www.anthropic.com/news/rss",
+    "GitHub Blog": "https://github.blog/feed.xml",
+    "Reddit Artificial": "https://www.reddit.com/r/artificial/.rss",
+    "Reddit Machine Learning": "https://www.reddit.com/r/MachineLearning/.rss",
 }
 # --- ここまで ---
 
@@ -212,6 +217,7 @@ def generate_article_with_ai(articles, slack_links=""):
    - **チーム開発**: コードレビュー、設計パターン、プロジェクト管理、チームワーク
    - **キャリア**: 技術選択、学習方法、業界動向、エンジニアとしての成長
    - 新機能や重要なアップデート情報を優先
+   - **AI関連の重要リリース**: OpenAI、Anthropic（Claude）、Google（Gemini）などの主要AI企業の新モデルリリースやAPI更新は必須で含める
    - ベストプラクティスやアーキテクチャに関する記事を重視
    - 個人的な体験談や基本的なチュートリアルは避ける
    - **Flutter大学Slackコミュニティセクション**: Slackで話題になった記事がある場合、「## Flutter大学で話題になっていた記事」セクションを追加し、各記事について2-3文で簡潔に説明する
