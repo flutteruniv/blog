@@ -20,6 +20,10 @@ RSS_FEEDS = {
     # React Native関連
     "React Native Blog": "https://reactnative.dev/blog/rss.xml",
     "React Native Community": "https://medium.com/feed/react-native-community",
+    "Expo Blog": "https://expo.dev/blog.rss",
+    "Callstack Blog": "https://www.callstack.com/blog/rss.xml",
+    "Infinite Red": "https://infinite.red/feed.xml",
+    "Aman Mittal": "https://amanhimself.dev/rss.xml",
     "Reddit React Native": "https://www.reddit.com/r/reactnative/.rss",
     "Qiita (React Native)": "https://qiita.com/tags/react-native/feed",
     "React Native YouTube": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMYS7PYW8T9lHVtNXbLvR3w",
