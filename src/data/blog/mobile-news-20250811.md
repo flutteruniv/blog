@@ -1,5 +1,5 @@
 ---
-title: "【週刊ニュース】Flutter 3.32.8 Material/Cupertino分離、React Native Hapticsライブラリ、SwiftUI PencilKit統合ほか"
+title: "【週刊ニュース】GPT-5、Claude Opus 4.1、codex CLIはClaude Codeとなるか？"
 slug: "mobile-news-20250811"
 author: "kboy"
 description: "今週注目のモバイル開発トレンド速報！"
@@ -9,7 +9,6 @@ layout: "../../layouts/BlogPost.astro"
 ---
 
 今週もモバイル開発界隈のホットなニュースをピックアップしました！Flutter、React Native、Swift/iOS、Kotlin/Android、そして生成AI関連の話題まで、開発者にとって見逃せない情報が満載です。
-
 
 ## Flutter・クロスプラットフォーム開発
 
@@ -42,20 +41,11 @@ https://www.reddit.com/r/reactnative/comments/1mmq4kw/react_native_haptics_a_hig
 
 高性能なReact Nativeライブラリ「React Native Haptics」が登場しました。iOSのHapticsとAndroidのバイブレーションを効率的に制御できます。UI/UXの向上に直結するこのライブラリは、ユーザー体験をより豊かにする上で重要な役割を果たします。  特に、フィードバックの精度が向上することで、より自然で直感的なインタラクションを実現できます。
 
-
-### [Showoff] I built and launched "WiFi Vault," a privacy-focused utility app, using React Native
-
-https://www.reddit.com/r/reactnative/comments/1mm9fr2/showoff_i_built_and_launched_wifi_vault_a/
-
-React Nativeを用いたプライバシー重視のユーティリティアプリ「WiFi Vault」がリリースされました。この事例は、React Nativeを用いた実用的なアプリ開発の成功例として参考になります。開発者コミュニティへの公開によって、他の開発者も学び、自身の開発に役立てることができます。
-
-
 ### React Native Upgrade issue
 
 https://www.reddit.com/r/reactnative/comments/1mmuomr/react_native_upgrade_issue/
 
 React Nativeのバージョンアップに伴う問題に関するスレッドです。バージョンアップ時のトラブルシューティングや解決策に関する情報が得られます。React Native開発者は、バージョンアップに伴う潜在的な問題への対応策を事前に検討する必要があります。
-
 
 ## Swift・iOS開発
 
@@ -105,32 +95,28 @@ AdMobのポリシー違反に関する問題解決を求めるスレッドです
 
 ## 生成AI
 
-### Gemini 2.5 Flash-Lite is now stable and generally available
-
-https://developers.googleblog.com/en/gemini-25-flash-lite-is-now-stable-and-generally-available/
-
-Google Gemini 2.5 Flash-Liteが安定版として一般公開されました。軽量で高速なGeminiモデルは、様々なアプリケーションへの組み込みを容易にします。  これは、生成AI技術のモバイルアプリへの応用を加速させる重要なマイルストーンとなります。
-
-
-### Introducing LangExtract: A Gemini powered information extraction library
-
-https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/
-
-Geminiを活用した情報抽出ライブラリ「LangExtract」が発表されました。このライブラリは、テキストデータからの情報の効率的な抽出を支援します。様々なアプリケーションでデータ処理の効率化が期待されます。
-
-
 ### GPT-5 and the new era of work
 
 https://openai.com/index/gpt-5-new-era-of-work
 
 OpenAIがGPT-5を発表し、業務における変革の可能性を示唆しました。GPT-5の能力向上は、生産性向上や業務効率化に貢献する可能性を示しています。  しかし、同時に倫理的な課題やセキュリティに関する懸念も考慮する必要があります。
 
+同時にCodex CLIがサブスクで使えるようになったので、以下の記事もバズってましたね！
+
+https://zenn.dev/rimon/articles/be34c4ee9fd4bf
+
+### Claude Opus 4.1
+
+https://www.anthropic.com/news/claude-opus-4-1
+
+Claudeの一番優秀なモデルClaude Opusの最新バージョン4.1が出ました。Opus4.0よりさらに優秀になったと言われています。
 
 ## まとめ
 
-今週最も重要なトレンドは、間違いなく**Google Gemini 2.5の安定版リリース**です。軽量で高速なGeminiモデルの一般公開は、モバイルアプリ開発において生成AIの活用を大きく促進するでしょう。リアルタイム翻訳、画像認識、自然言語処理といった機能が、より容易に、そしてより多くのアプリに実装されるようになることで、モバイルアプリの体験は劇的に変化していくと考えられます。
-
+今週最も重要なトレンドは、間違いなく**GPT-5** と **Claude Opus 4.1** です。大手AIモデルの競争が激しいですね！
 
 ## 編集後記
 
-（ここは人間が手動で編集します）
+今週はGPT-5が発表され、Codex CLIがサブスクで使えるようになったのがデカかったですね。私は最近Claudeしか課金してなかったのですが、久しぶりにChatGPTに課金して、Codex CLIを試してみました。
+
+ちょっと使った感想としては、**Claude Code > Codex CLI > Gemini CLI** といったところです。Codex CLIは全然使えるレベルではありますが、交互に使ってみた感じだとやっぱりClaude Codeの方がなんかいいなーっていう感想です。
