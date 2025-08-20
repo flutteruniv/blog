@@ -26,6 +26,13 @@ https://medium.com/flutter/whats-new-in-flutter-3-35-c58ef72e3766?source=rss----
 
 Flutter 3.35の新機能を紹介する公式ブログ記事です。CHANGELOGに記載されている内容をより詳細に解説しており、開発者にとって有用な情報が豊富に含まれています。特に、パフォーマンス改善や新機能の利用方法について、具体的なコード例などを交えた解説が参考になります。
 
+### Dart/Flutter MCP
+
+https://dart.dev/tools/mcp-server
+
+https://dev.classmethod.jp/articles/dart-mcp-server/
+
+3.35.0のリリースでDart/Flutter MCPが発表されました！生成AIはたまにエラーで溢れる動かないコードを書いてくることがありますが、このMCPを入れると、ちゃんと動くコードが生成されたそうです！
 
 ### A production-ready Flutter + Supabase SaaS boilerplate (auth, payments, CI/CD, etc.)
 
@@ -147,32 +154,14 @@ Git LFSの将来性に関する記事です。大規模ファイルの管理に�
 
 ## Flutter大学で話題になっていた記事
 
-### Slack Community Popular Link
-
 https://zenn.dev/flutteruniv/books/flutter-monetization
 
 Flutter大学Slackコミュニティで、Flutterアプリの収益化に関するZennの記事が話題になっていました。Flutterを用いたアプリ開発における収益化戦略や、具体的な実装方法について議論が活発に行われていたようです。
-
-
-### Slack Community Popular Link
-
-https://flutteruniv.com/zenn
-
-Flutter大学のZennページへのリンクが、多くのメンションとリアクションを集めていました。Flutter大学の情報収集や学習に役立つリソースとして、コミュニティ内で高い評価を受けているようです。
-
-
-### Slack Community Popular Link
-
-https://flutteruniv.com/morning_gather
-
-Flutter大学のモーニングギャザーへのリンクも話題になっていました。日々の学習や情報交換の場として、コミュニティメンバーから高く評価されているようです。
-
 
 ## まとめ
 
 今週最も重要なトレンドは、生成AIのAPIへの統合の進展です。GoogleのImagen 4の一般公開とGemini APIとの統合は、モバイルアプリ開発において、高品質な画像生成機能を容易に利用可能にするという大きな変化をもたらします。これにより、アプリ開発者は、より洗練されたユーザーインターフェースや、今まで実現が難しかった機能を実装できるようになるでしょう。
 
-
 ## 編集後記
 
-（ここは人間が手動で編集します）
+Flutterの最新が出て、Dart/Flutter MCPが公開されたようです！React Nativeに追い風が来ている最近ですが、これを機にAI時代でもFlutter頑張ってください！というお気持ちです。
