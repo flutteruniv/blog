@@ -93,24 +93,32 @@ class SlackPopularLinksAnalyzer:
             total_count += reaction.get('count', 0)
         return total_count
     
-    def analyze_popular_links(self, days_ago: int = 7, min_reactions: int = 2):
+    def analyze_popular_links(self, days_ago: int = 7, min_reactions: int = 2, max_channels: int = None):
         """人気のリンクを分析"""
         print("Fetching channels...")
         channels = self.get_channels()
         
-        # 関連性の高いチャンネルをフィルタリング
-        relevant_channels = []
-        for channel in channels:
-            name = channel.get('name', '').lower()
-            # Flutter、React Native、モバイル開発関連のチャンネルを対象
-            if any(keyword in name for keyword in ['flutter', 'react', 'mobile', 'ios', 'android', 'general', 'dev', 'tech', 'news']):
-                relevant_channels.append(channel)
+        # すべてのチャンネルを対象にする
+        relevant_channels = channels
         
-        print(f"Found {len(relevant_channels)} relevant channels")
+        # アクティブなチャンネル順にソート（メンバー数が多い順）
+        relevant_channels.sort(key=lambda x: x.get('num_members', 0), reverse=True)
+        
+        # オプションでチャンネル数を制限
+        if max_channels:
+            relevant_channels = relevant_channels[:max_channels]
+            print(f"Limited to top {max_channels} channels by member count")
+        
+        print(f"Found {len(relevant_channels)} channels to process")
         
         all_links = []
         
-        for channel in relevant_channels[:10]:  # 最初の10チャンネルのみ処理
+        for i, channel in enumerate(relevant_channels):  # すべてのチャンネルを処理
+            # Rate limiting: 簡単な遅延を追加
+            if i > 0 and i % 10 == 0:
+                print(f"Processed {i} channels, pausing briefly...")
+                import time
+                time.sleep(2)
             channel_id = channel['id']
             channel_name = channel['name']
             print(f"Processing channel: #{channel_name}")
@@ -169,7 +177,7 @@ def get_popular_slack_links():
     
     try:
         analyzer = SlackPopularLinksAnalyzer(slack_token)
-        popular_links = analyzer.analyze_popular_links(days_ago=7, min_reactions=1)
+        popular_links = analyzer.analyze_popular_links(days_ago=7, min_reactions=1, max_channels=50)
         
         print(f"Found {len(popular_links)} popular links")
         for link in popular_links:
