@@ -1,5 +1,5 @@
 ---
-title: 【週刊ニュース】Flutter 3.35.2更新、Material/Cupertino分離議論、React Native Hapticsライブラリほか
+title: 【週刊ニュース】Flutter 3.35.2更新、Re.Pack 5.2、KMPロードマップ、nano-bananaほか
 slug: mobile-news-20250901
 author: kboy
 description: 今週注目の技術革新をピックアップ
@@ -83,6 +83,15 @@ https://openai.com/global-affairs/learning-accelerator
 OpenAIが新たなラーニングアクセラレータプログラムを発表しました。これは、AIの倫理的な開発と社会への影響に関する教育・研究を促進するプログラムであり、AI開発の未来を考える上で重要な取り組みです。
 
 
+### Introducing Gemini 2.5 Flash Image（Google公式）
+
+https://developers.googleblog.com/en/introducing-gemini-2-5-flash-image/
+
+Googleは、最新の画像生成・編集モデル「Gemini 2.5 Flash Image」(a.k.a nano-banana)を発表しました。複数画像のブレンド、キャラクターの一貫性維持、自然言語によるターゲット変換など、創造的制御性に優れた機能が特徴です。Geminiの世界知識をいかした指示理解を行い、Gemini API、Google AI Studio、Vertex AIから利用可能。テキストからの生成に加えて編集ワークフローも重視され、Flash系らしい実用的な速度と品質バランスを提供します。
+
+モバイルの観点では、バックエンドにGemini 2.5 Flash Imageを据えることで、アバター/サムネ作成、差分編集、マルチ画像合成といったユースケースの試作から本番までの移行がスムーズになります。Google提供のAPIサーフェスを使えるため、将来的な運用やガバナンス面でも扱いやすいのが利点です。
+
+
 ## 開発者向け情報
 
 ### Code Is Debt
@@ -96,7 +105,11 @@ https://tornikeo.com/code-is-debt/
 
 今週最も重要なトレンドは、Kotlin MultiplatformとCompose Multiplatformのロードマップ更新です。これは、クロスプラットフォーム開発においてKotlinがますます重要な位置を占めることを示唆しており、今後多くのモバイルアプリ開発者がKotlin Multiplatformを採用する可能性が高まります。これにより、iOSとAndroid両方の開発を効率的に行うことができるようになり、開発コスト削減と迅速なリリースに繋がることが期待されます。
 
+同時に、Google公式の「Gemini 2.5 Flash Image」は、生成と編集の両輪でマルチモーダル体験のプロトタイピングを加速します。Gemini API／AI Studio／Vertex AIという一貫した提供面により、UX検証やプロンプト設計を高速に回しやすく、KMPによる土台づくりと組み合わせることで、学習コストと実験コストの双方を下げられるのが今週の示唆です。
+
 
 ## 編集後記
 
-（ここは人間が手動で編集します）
+界隈はnano-bananaで話題になっていたように思います。これにより、今までCanvaで手動でやっていた作業がいくつか自動化できそうな気配を感じています。（YouTubeのサムネ作成とかFlutter大学の諸々の画像の作成など。）
+
+また、最近モバイルアプリのフレームワークのアプデも速くなってきているような気がしています。みんなバイブコーディングでフレームワークそのものの開発も加速させているんですかね🤔
