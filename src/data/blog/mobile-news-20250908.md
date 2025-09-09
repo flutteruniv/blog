@@ -10,7 +10,6 @@ layout: "../../layouts/BlogPost.astro"
 
 今週もモバイル開発界隈は活気に満ち溢れていました！ React Nativeのアップデート、Android開発におけるAI支援ツールの進化、そしてSwiftUIの機能強化など、開発者にとって見逃せない情報が満載です。早速、注目ニュースを見ていきましょう。
 
-
 ## React Native開発
 
 ### New in Re.Pack 5.2: Faster Babel Transforms, Support for RN 0.80 & 0.81, Typed Configs & Rozenite compatibility
@@ -58,40 +57,13 @@ https://android-developers.googleblog.com/2025/09/unfold-new-possibilities-with-
 
 Compose Adaptive Layouts 1.2 betaがリリースされました。異なる画面サイズやオリエンテーションへの対応が容易になり、開発者は様々なデバイスにおけるUIの一貫性を保ちやすくなります。
 
-
-## 生成AI
-
-複数の記事でGoogle GeminiのAndroid Studioへの統合や、Geminiを活用した開発効率向上について言及されています。GeminiはUI開発を効率化し、アプリ開発のスピードアップに貢献します。Android Studioへの統合は、開発環境の進化を示す重要な一歩です。
-
-
 ## Flutter大学で話題になっていた記事
 
-### Slack Community Popular Link
+### アトラシアンがAIブラウザのArcやDiaを買収
 
 https://www.publickey1.jp/blog/25/aithe_browser_companyarcdia.html
-
-Flutter大学Slackコミュニティで話題になった記事です。AI技術とブラウザの未来に関する興味深い内容でした。
-
-
-### Slack Community Popular Link
-
-https://byojihoiku.florence.or.jp/cp/friends/
-
-Flutter大学Slackコミュニティで話題になった記事です。子育てに関する話題がエンジニアの間でも注目されているようです。
-
-
-### Slack Community Popular Link
-
-https://flutteruniv.com/morning_gather
-
-Flutter大学Slackコミュニティのモーニングギャザーに関する情報です。
 
 
 ## まとめ
 
 今週最も重要なトレンドは、Android StudioにおけるGeminiの統合と、それに伴うAI支援機能の強化です。これにより、Androidアプリ開発におけるUI設計、コード記述、デバッグといった工程が大幅に効率化され、開発期間の短縮や開発コストの削減に繋がるでしょう。今後、AIによるコード生成や自動テストなどの機能がさらに発展していくことで、開発者の負担軽減と生産性向上はますます加速すると予想されます。
-
-
-## 編集後記
-
-（ここは人間が手動で編集します）
